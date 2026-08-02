@@ -1,0 +1,42 @@
+[
+  {
+    "name": "ChatBridge",
+    "slug": "chatbridge",
+    "tagline": "Seamlessly migrate WhatsApp chats between Android and iPhone without data loss",
+    "theme": "Cross-platform WhatsApp backup loss",
+    "build_estimate_days": 45,
+    "pricing_model": "$49 one-time license (lifetime updates, 3 devices), free trial migrates 50 messages per chat. No subscription."
+  },
+  {
+    "name": "ChromaClear",
+    "slug": "chromaclear",
+    "tagline": "Eliminate color fringing on OLED monitors with subpixel-aware text rendering",
+    "theme": "OLED subpixel text rendering",
+    "build_estimate_days": 18,
+    "pricing_model": "Free for personal use; $19 one-time commercial license (per seat); optional $5/yr for auto-updates & profile cloud sync"
+  },
+  {
+    "name": "Focus Central",
+    "slug": "focus-central",
+    "tagline": "Stop switching. Start doing.",
+    "theme": "Context switching kills productivity",
+    "build_estimate_days": 12,
+    "pricing_model": "$15/mo per user, 14-day free trial"
+  },
+  {
+    "name": "TimeBridge",
+    "slug": "timebridge",
+    "tagline": "Book cross-timezone meetings without the back-and-forth.",
+    "theme": "Cross-calendar time zone scheduling is painful",
+    "build_estimate_days": 18,
+    "pricing_model": "SaaS freemium — free up to 10 bookings/month; Pro at $19/user/month with unlimited bookings and AI suggestions."
+  },
+  {
+    "name": "WhatsApp Guardian",
+    "slug": "whatsapp-guardian",
+    "tagline": "Prevent suspensions. Backup instantly. Appeal effectively.",
+    "theme": "WhatsApp business account suspension without recourse",
+    "build_estimate_days": 14,
+    "pricing_model": "$29/mo per Business Account (Pro), freemium with 1-group limit, annual discount 20%"
+  }
+]
