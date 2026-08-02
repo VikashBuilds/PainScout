@@ -66,6 +66,19 @@ def test_dashboard_page_has_core_ui():
     assert "/api/report" in _PAGE
 
 
+def test_static_dashboard_is_fetch_based():
+    from painscout.static_dashboard import render_static_dashboard
+
+    html = render_static_dashboard()
+    # Static version must not depend on the local server API
+    assert "/api/report" not in html
+    assert "fetch('reports/latest.json')" in html
+    assert "fetch('reports/briefs/index.json')" in html
+    assert "Launch-ready project briefs" in html
+    assert "Opportunities" in html
+    assert "exportCsv" in html
+
+
 def _start_server(tmp_path: Path) -> tuple[ThreadingHTTPServer, str]:
     server = ThreadingHTTPServer(("127.0.0.1", 0), _make_handler(tmp_path))
     thread = threading.Thread(target=server.serve_forever, daemon=True)

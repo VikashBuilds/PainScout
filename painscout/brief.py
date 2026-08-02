@@ -274,5 +274,25 @@ def save_brief(brief: ProjectBrief, out_dir: Path) -> Path:
     return path
 
 
+def save_briefs_index(briefs: list[ProjectBrief], out_dir: Path) -> Path:
+    """Write briefs/index.json so the static dashboard can list briefs client-side."""
+    briefs_dir = out_dir / "briefs"
+    briefs_dir.mkdir(parents=True, exist_ok=True)
+    index = [
+        {
+            "name": b.name,
+            "slug": b.slug,
+            "tagline": b.tagline,
+            "theme": b.opportunity_theme,
+            "build_estimate_days": b.build_estimate_days,
+            "pricing_model": b.pricing_model,
+        }
+        for b in briefs
+    ]
+    path = briefs_dir / "index.json"
+    path.write_text(json.dumps(index, indent=2, ensure_ascii=False), encoding="utf-8")
+    return path
+
+
 def last_brief_error() -> str:
     return last_ai_error()

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PainScout Dashboard</title>
+<style>
+:root{--bg:#0b0f1a;--card:#131a2b;--line:#1e2a45;--acc:#6c5ce7;--acc2:#00cec9;--txt:#e8ecf4;--mut:#9aa5b8;--good:#2ecc71;--bad:#e74c3c}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:system-ui,sans-serif;background:var(--bg);color:var(--txt);min-height:100vh}
+header{padding:28px 24px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+header h1{font-size:1.5rem}header h1 span{color:var(--acc2)}
+.meta{color:var(--mut);font-size:.85rem}
+.controls{display:flex;gap:10px;padding:18px 24px;flex-wrap:wrap;align-items:center;border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--bg);z-index:5}
+input,select,button{background:var(--card);border:1px solid var(--line);color:var(--txt);padding:9px 14px;border-radius:10px;font-size:.9rem}
+input[type=text]{flex:1;min-width:220px}
+button{cursor:pointer;border-color:var(--acc)}
+button:hover{border-color:var(--acc2)}
+main{max-width:1100px;margin:0 auto;padding:24px}
+.opp{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;margin-bottom:14px}
+.opp-top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap}
+.opp h2{font-size:1.15rem;margin-bottom:6px}
+.score{font-size:1.4rem;font-weight:800;color:var(--acc2)}
+.pain{color:var(--mut);margin:8px 0}
+.sol{background:rgba(0,206,201,.07);border-left:3px solid var(--acc2);padding:10px 14px;border-radius:0 8px 8px 0;margin:10px 0}
+.mono{color:var(--acc2);font-weight:600}
+.buy{display:inline-block;background:rgba(46,204,113,.12);color:var(--good);border:1px solid rgba(46,204,113,.35);padding:3px 10px;border-radius:999px;font-size:.75rem;font-weight:700;margin-left:8px;vertical-align:middle}
+.src{display:inline-block;background:rgba(108,92,231,.12);color:#b3a8ff;border-radius:999px;padding:3px 10px;font-size:.75rem;margin-right:6px}
+.ev{margin-top:10px;font-size:.85rem;color:var(--mut)}
+.ev li{margin-left:20px;margin-top:4px}
+a{color:var(--acc2)}
+.brief{display:inline-block;margin-top:10px;font-size:.85rem;border:1px solid var(--line);padding:6px 12px;border-radius:8px;text-decoration:none}
+.empty{text-align:center;color:var(--mut);padding:60px 0}
+footer{padding:24px;text-align:center;color:var(--mut);font-size:.8rem}
+</style>
+</head>
+<body>
+<header>
+  <h1>🔍 PainScout <span>Dashboard</span></h1>
+  <div class="meta" id="meta">loading…</div>
+</header>
+<div class="controls">
+  <input type="text" id="q" placeholder="Search pain points, themes, solutions…">
+  <select id="src"><option value="">All sources</option></select>
+  <select id="buy"><option value="">Buy intent: all</option><option value="1">💰 Only buy-intent</option></select>
+  <select id="sort"><option value="score">Sort: score</option><option value="pain">Sort: pain (asc)</option><option value="evidence">Sort: evidence count</option></select>
+  <button onclick="applyFilters()">Filter</button>
+  <button onclick="exportCsv()">⬇ CSV</button>
+</div>
+<h2 style="margin:28px 0 12px">🚀 Launch-ready project briefs</h2><div id="briefs"></div><h2 style="margin:28px 0 12px">🎯 Opportunities</h2><main id="list"></main>
+<footer>PainScout — complaints → validated, launch-ready AI products</footer>
+<script>
+let data = {opportunities: [], pain_points: []};
+let briefs = [];
+async function load() {
+  const [r1, r2] = await Promise.all([
+    fetch('reports/latest.json').then(r => r.ok ? r.json() : null).catch(() => null),
+    fetch('reports/briefs/index.json').then(r => r.ok ? r.json() : null).catch(() => null),
+  ]);
+  if (r1) data = r1;
+  if (r2) briefs = r2;
+  const srcs = [...new Set(data.pain_points.map(p => p.source))].sort();
+  const sel = document.getElementById('src');
+  srcs.forEach(s => { const o = document.createElement('option'); o.value = s; o.textContent = s; sel.appendChild(o); });
+  document.getElementById('meta').textContent =
+    (data.generated_at ? 'Last scan: ' + new Date(data.generated_at).toLocaleString() : 'No report yet') +
+    ' · ' + data.opportunities.length + ' opportunities · ' + data.pain_points.length + ' pain points';
+  renderBriefs();
+  applyFilters();
+}
+function renderBriefs() {
+  const el = document.getElementById('briefs');
+  if (!briefs.length) { el.innerHTML = '<p class="empty">No briefs yet — run the nightly scan.</p>'; return; }
+  el.innerHTML = briefs.map(b =>
+    `<div class="opp"><h2>🚀 ${esc(b.name)}</h2>
+     <p class="pain">${esc(b.tagline)}</p>
+     <p class="mono">MVP ~${b.build_estimate_days} days · ${esc(b.pricing_model || '')}</p>
+     <a class="brief" href="reports/briefs/${esc(b.slug)}.md" target="_blank">📄 brief (markdown)</a>
+     <a class="brief" href="reports/landing/${esc(b.slug)}.html" target="_blank">🌐 landing page</a>
+     <a class="brief" href="reports/briefs/${esc(b.slug)}.json" target="_blank">📦 JSON</a></div>`).join('');
+}
+function applyFilters() {
+  const q = document.getElementById('q').value.toLowerCase();
+  const src = document.getElementById('src').value;
+  const buyOnly = document.getElementById('buy').value === '1';
+  const sort = document.getElementById('sort').value;
+  const srcCounts = {};
+  data.pain_points.forEach(p => srcCounts[p.source] = (srcCounts[p.source]||0)+1);
+  let opps = data.opportunities.filter(o => {
+    if (src && !o.sources.includes(src)) return false;
+    if (buyOnly && !o.buy_intent) return false;
+    if (q) {
+      const hay = (o.theme + ' ' + o.pain + ' ' + o.suggested_solution + ' ' + o.evidence.join(' ')).toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  });
+  if (sort === 'pain') opps.sort((a,b) => a.pain.length - b.pain.length);
+  else if (sort === 'evidence') opps.sort((a,b) => b.evidence.length - a.evidence.length);
+  else opps.sort((a,b) => b.score - a.score);
+  const list = document.getElementById('list');
+  if (!opps.length) { list.innerHTML = '<div class="empty">No opportunities match your filters 🕵️</div>'; return; }
+  list.innerHTML = opps.map(o => `
+    <div class="opp">
+      <div class="opp-top">
+        <div>
+          <h2>${o.buy_intent ? '<span class="buy">💰 BUY INTENT</span>' : ''} ${esc(o.theme)}</h2>
+          <div>${o.sources.map(s => `<span class="src">${esc(s)} · ${srcCounts[s]||0}</span>`).join('')}</div>
+        </div>
+        <div class="score">${o.score}</div>
+      </div>
+      <p class="pain">${esc(o.pain)}</p>
+      <div class="sol"><span class="mono">💡 Build:</span> ${esc(o.suggested_solution)}</div>
+      <div><span class="mono">💳</span> ${esc(o.monetization)}</div>
+      <ul class="ev">${o.evidence.slice(0,3).map(e => `<li>“${esc(e)}”</li>`).join('')}</ul>
+      ${o.url ? `<a href="${esc(o.url)}" target="_blank">evidence link ↗</a>` : ''}
+    </div>`).join('');
+}
+function esc(s){return (s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+function exportCsv() {
+  const rows = [['theme','score','buy_intent','sources','pain','suggested_solution','monetization','url']];
+  data.opportunities.forEach(o => rows.push([o.theme, o.score, o.buy_intent, o.sources.join('|'), o.pain.replace(/\n/g,' '), o.suggested_solution.replace(/\n/g,' '), o.monetization.replace(/\n/g,' '), o.url]));
+  const csv = rows.map(r => r.map(c => '"' + String(c).replace(/"/g,'""') + '"').join(',')).join('\n');
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([csv], {type:'text/csv'}));
+  a.download = 'painscout-opportunities.csv';
+  a.click();
+}
+load();
+</script>
+</body>
+</html>

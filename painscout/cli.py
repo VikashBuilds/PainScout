@@ -32,9 +32,11 @@ def _make_parser() -> argparse.ArgumentParser:
     p.add_argument("--brief", action="store_true", help="Also generate launch-ready project briefs + landing pages")
     p.add_argument("--brief-top", type=int, default=3, help="How many opportunities to expand into briefs")
     sub = p.add_subparsers(dest="command")
-    dash = sub.add_parser("dashboard", help="Serve the web dashboard")
+    dash = sub.add_parser("dashboard", help="Serve the web dashboard (local)")
     dash.add_argument("--port", type=int, default=8791)
     dash.add_argument("--no-browser", action="store_true")
+    stat = sub.add_parser("static", help="Generate a static dashboard for GitHub Pages / Netlify")
+    stat.add_argument("--output", default="docs/index.html", help="Output HTML file")
     return p
 
 
@@ -47,6 +49,14 @@ def main(argv: list[str] | None = None) -> int:
 
         print(f"📊 Serving PainScout dashboard from {settings.out_dir} …")
         serve(settings.out_dir, port=args.port, open_browser=not args.no_browser)
+        return 0
+
+    if getattr(args, "command", None) == "static":
+        from painscout.static_dashboard import save_static_dashboard
+
+        out = save_static_dashboard(settings.out_dir, Path(args.output))
+        print(f"📄 Static dashboard written to {out}")
+        print("   Host it anywhere: GitHub Pages, Netlify, Vercel, S3…")
         return 0
 
     if args.query:
@@ -113,16 +123,21 @@ def main(argv: list[str] | None = None) -> int:
 
 def _generate_briefs(opportunities, settings) -> None:
     """Expand top opportunities into launch-ready briefs + landing pages."""
-    from painscout.brief import generate_brief, save_brief
+    from painscout.brief import generate_brief, save_brief, save_briefs_index
     from painscout.landing import save_landing_page
 
+    briefs = []
     for i, opp in enumerate(opportunities, 1):
         print(f"   🚀 Brief {i}/{len(opportunities)}: {opp.theme}")
         brief, mode = generate_brief(opp, settings)
         bpath = save_brief(brief, settings.out_dir)
         lpath = save_landing_page(brief, settings.out_dir)
+        briefs.append(brief)
         status = "AI" if mode == "ai" else "template"
         print(f"      [{status}] {bpath.name} + landing/{lpath.name}")
+    if briefs:
+        save_briefs_index(briefs, settings.out_dir)
+        print(f"      📇 briefs/index.json ({len(briefs)} briefs)")
 
 
 if __name__ == "__main__":
