@@ -1,0 +1,66 @@
+name: Nightly scan
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # every day 06:00 UTC
+  workflow_dispatch:      # manual trigger from the Actions tab
+    inputs:
+      query:
+        description: "Search query"
+        required: false
+        default: "wish there was a way to automate"
+      telegram:
+        description: "Send report to Telegram"
+        required: false
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    name: Scan pain points
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        run: |
+          pip install -e "."
+
+      - name: Run PainScout scan
+        env:
+          OPENCODE_ZEN_API_KEY: ${{ secrets.OPENCODE_ZEN_API_KEY }}
+          NIM_API_KEY: ${{ secrets.NIM_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          PAINSCOUT_QUERY: ${{ inputs.query || 'wish there was a way to automate' }}
+        run: |
+          painscout scan --telegram || echo "scan failed" >&2
+
+      - name: Commit report
+        if: always()
+        run: |
+          git config user.name "PainScout Bot"
+          git config user.email "painscout-bot@users.noreply.github.com"
+          git add reports/
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "🤖 Nightly pain point scan $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Upload report artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: painscout-report
+          path: reports/

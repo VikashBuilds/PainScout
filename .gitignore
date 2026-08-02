@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Env & secrets
+.env
+
+# Reports are generated artifacts; keep latest in-repo for landing page
+reports/pain-report_*.md
+reports/pain-report_*.json
