@@ -1,184 +1,46 @@
 {
-  "query": "customer support is terrible and slow",
-  "generated_at": "2026-08-02T09:28:44+00:00",
+  "query": "small business owners waste time on manual work",
+  "generated_at": "2026-08-02T09:34:06+00:00",
   "pain_points": [
     {
-      "source": "hackernews",
-      "title": "Launch HN: Metal (YC W23) – Embeddings as a Service",
-      "text": "Hey HN! We’re Taylor, James and Sergio – the founders of Metal (<a href=\"https:&#x2F;&#x2F;www.getmetal.io&#x2F;\">https:&#x2F;&#x2F;www.getmetal.io&#x2F;</a>). You can think of Metal as embeddings as a service. We help developers use embeddings without needing to build out infrastructure, storage, or tooling. Here’s a 2-minute overview: <a href=\"https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;39fb6df7fd73469eaf20b37248ceed0f\" rel=\"nofollow\">https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;39fb6df7fd73469eaf20b37248ceed0f</a><p>If you’re unfamiliar with embeddings, they are representations of real world data expressed as a vector, where the position of the vector can be compared to other vectors – thereby deriving <i>meaning</i> from the data. They can be used to create things like semantic search, recommender systems, clustering analysis, classification, and more.<p>Working at companies like Datadog, Meta, and Spotify, we found it frustrating to build ML apps. Lack of tooling, infrastructure, and proper abstraction made working with ML tedious and slow. To get features out the door we’ve had to build data ingestion pipelines from scratch, manually maintain live customer datasets, build observability to measure drift, manage no-downtime deployments, and the list goes on. It took months to get simple features in front of users and the developer experience was terrible.<p>OpenAI, Hugging Face and others have brought models to the masses, but the developer experience still needs to be improved. To actually use embeddings, hitting APIs like OpenAI is just one piece of the puzzle. You also need to figure out storage, create indexes, maintain data quality through fine-tuning, manage versions, code operations on top of your data, and create APIs to consume it. All of this friction makes it a pain to ship live applications.<p>Metal solves these problems by providing an end-to-end platform for embeddings. Here’s how it works:<p><i>Data In:</i> You send data to our system via our",
-      "url": "https://news.ycombinator.com/item?id=35341514",
-      "created_at": "2023-03-28T14:18:40Z",
-      "meta": {
-        "points": 196,
-        "num_comments": 99
-      }
-    },
-    {
       "source": "stackexchange",
-      "title": "Using iOS Simulator to emulate iPad 1",
+      "title": "Javascript/JQuery Content Filter",
       "text": [
-        "ios",
-        "ios-simulator"
+        "javascript",
+        "jquery",
+        "html"
       ],
-      "url": "https://stackoverflow.com/q/12156200",
-      "created_at": "1346145460",
+      "url": "https://stackoverflow.com/q/34120004",
+      "created_at": "1449420423",
       "meta": {
         "site": "stackoverflow",
-        "score": 3,
+        "score": 0,
         "answers": 1,
         "tags": [
-          "ios",
-          "ios-simulator"
-        ]
-      }
-    },
-    {
-      "source": "stackexchange",
-      "title": "ERP/CRM Systems. Desktop Based? Web based?",
-      "text": [
-        "cloud-computing",
-        "user-interface"
-      ],
-      "url": "https://softwareengineering.com/q/57554",
-      "created_at": "1300028723",
-      "meta": {
-        "site": "softwareengineering",
-        "score": 2,
-        "answers": 5,
-        "tags": [
-          "cloud-computing",
-          "user-interface"
-        ]
-      }
-    },
-    {
-      "source": "stackexchange",
-      "title": "Best way to ask for a raise in my situation? Any advice aside from that also welcome",
-      "text": [
-        "salary",
-        "project-management",
-        "raise"
-      ],
-      "url": "https://workplace.com/q/56080",
-      "created_at": "1445038386",
-      "meta": {
-        "site": "workplace",
-        "score": 2,
-        "answers": 3,
-        "tags": [
-          "salary",
-          "project-management",
-          "raise"
-        ]
-      }
-    },
-    {
-      "source": "stackexchange",
-      "title": "How does Apple Pay work? Why is Apple's intercession necessary?",
-      "text": [
-        "credit-card",
-        "visa",
-        "mastercard",
-        "american-express"
-      ],
-      "url": "https://money.com/q/69354",
-      "created_at": "1470807962",
-      "meta": {
-        "site": "money",
-        "score": 4,
-        "answers": 3,
-        "tags": [
-          "credit-card",
-          "visa",
-          "mastercard",
-          "american-express"
+          "javascript",
+          "jquery",
+          "html"
         ]
       }
     }
   ],
   "opportunities": [
     {
-      "theme": "ML developers need managed embedding infrastructure",
-      "pain": "Engineers waste time on ML plumbing—vector storage, ingestion pipelines, and tooling—instead of shipping features.",
+      "theme": "JavaScript/jQuery content filtering complexity",
+      "pain": "Developers struggle to implement robust content filtering in web pages, especially with modern HTML structures, and lack a simple resource to solve it quickly.",
       "evidence": [
-        "We found it frustrating to build ML apps.",
-        "Lack of tooling, infrastructure, and proper abstraction made working with ML tedious and slow.",
-        "we’ve had to build data ingestion pipelines from scratch",
-        "manually maintain live customer datasets"
-      ],
-      "sources": [
-        "hackernews"
-      ],
-      "url": "https://news.ycombinator.com/item?id=35341514",
-      "suggested_solution": "AI SaaS that abstracts embeddings with a managed vector database, automated ingestion pipelines, and dataset maintenance—developers just call one API.",
-      "monetization": "Usage-based pricing per embedding/query plus a monthly base tier for storage.",
-      "score": 82.0
-    },
-    {
-      "theme": "Salary raise negotiation is stressful and uncertain",
-      "pain": "Employees don't know how to approach a raise or what leverage to use, leading to missed compensation opportunities.",
-      "evidence": [
-        "Best way to ask for a raise in my situation?",
-        "Any advice aside from that also welcome",
-        "salary",
-        "raise"
+        "Javascript/JQuery Content Filter",
+        "javascript",
+        "jquery",
+        "html"
       ],
       "sources": [
         "stackexchange"
       ],
-      "url": "https://workplace.com/q/56080",
-      "suggested_solution": "AI negotiation coach delivered over WhatsApp that benchmarks salary, drafts talking points, and runs mock conversations before the real meeting.",
-      "monetization": "Subscription at $9–$19/month or pay-per-coaching-session.",
-      "score": 60.0
-    },
-    {
-      "theme": "Confusion choosing desktop vs web ERP/CRM",
-      "pain": "Small teams and engineers get stuck choosing between desktop, web, or hybrid ERP/CRM architecture, causing analysis paralysis.",
-      "evidence": [
-        "ERP/CRM Systems. Desktop Based? Web based?",
-        "cloud-computing",
-        "user-interface"
-      ],
-      "sources": [
-        "stackexchange"
-      ],
-      "url": "https://softwareengineering.com/q/57554",
-      "suggested_solution": "AI chatbot that asks about team size, mobility, and offline needs, then recommends a desktop/web/hybrid ERP/CRM stack and migration plan via WhatsApp.",
-      "monetization": "One-time consulting fee or freemium with a paid detailed roadmap.",
-      "score": 50.0
-    },
-    {
-      "theme": "Legacy iOS simulator limitations block testing",
-      "pain": "Developers cannot faithfully emulate old devices like iPad 1, making testing and support for legacy hardware guesswork.",
-      "evidence": [
-        "Using iOS Simulator to emulate iPad 1",
-        "ios",
-        "ios-simulator"
-      ],
-      "sources": [
-        "stackexchange"
-      ],
-      "url": "https://stackoverflow.com/q/12156200",
-      "suggested_solution": "A WhatsApp bot that takes a test build or URL and runs it across a device farm of legacy iOS/Android simulators, returning screenshots and log reports.",
-      "monetization": "Pay-per-test-run credits or monthly device-minute subscription.",
-      "score": 45.0
-    },
-    {
-      "theme": "Consumers don't understand digital payment intermediaries",
-      "pain": "Users are skeptical and confused about why Apple is interposed in card payments, which hurts adoption and trust.",
-      "evidence": [
-        "How does Apple Pay work?",
-        "Why is Apple's intercession necessary?",
-        "credit-card",
-        "visa"
-      ],
-      "sources": [
-        "stackexchange"
-      ],
-      "url": "https://money.com/q/69354",
-      "suggested_solution": "WhatsApp bot that explains payment flows, fees, and security in simple interactive messages for fintech customer support.",
-      "monetization": "Per-message or per-user monthly fee to fintech companies, with white-label trials.",
-      "score": 40.0
+      "url": "https://stackoverflow.com/q/34120004",
+      "suggested_solution": "An AI-powered content filtering SaaS widget that automatically detects and blocks unwanted HTML elements or keywords across pages, with a WhatsApp bot for real-time moderation alerts.",
+      "monetization": "SaaS subscription tiers ($0 free, $9/month pro) or per-request API pricing.",
+      "score": 42.0
     }
   ]
 }
