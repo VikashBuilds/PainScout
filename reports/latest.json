@@ -1,46 +1,498 @@
 {
-  "query": "small business owners waste time on manual work",
-  "generated_at": "2026-08-02T09:34:06+00:00",
+  "query": "people waste time on manual work",
+  "generated_at": "2026-08-02T09:43:56+00:00",
   "pain_points": [
     {
+      "source": "hackernews",
+      "title": "Launch HN: Enso (YC S21) – Visual programming and workflow automation tool",
+      "text": "Hi HN, We are Wojciech and Sylwia, the co-founders of Enso (<a href=\"https:&#x2F;&#x2F;enso.org\" rel=\"nofollow\">https:&#x2F;&#x2F;enso.org</a>). On the tech side, Enso is a visual and textual programming language (you can switch from graph to code and back). On the business side, it&#x27;s a workflow builder that makes it easy for analysts without a programming background to automate data-driven processes simply by connecting visual components together. Our GUI is like an IDE, but with a graph editor alongside the code. Currently, we’re focused on data analysis—data preparation, blending, and analytics (both in-memory and SQL). You can see a video of how it works here: <a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;fQvWMoOjmQk\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;fQvWMoOjmQk</a>.<p>We used to be called Luna and were lucky to have a few big threads on HN over the years [1][2][3][4][5]. Eventually we went into heads-down mode to make a production version based on customer and user feedback. Since then, we&#x27;ve drastically improved the product. It is still rough around the edges, but works much better now. We have also made a few tutorials (<a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;channel&#x2F;UC4oMK7cL1ElfNR_OhS-YQAw\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;channel&#x2F;UC4oMK7cL1ElfNR_OhS-YQAw</a>), and\ndocs (<a href=\"https:&#x2F;&#x2F;enso.org&#x2F;docs&#x2F;syntax\" rel=\"nofollow\">https:&#x2F;&#x2F;enso.org&#x2F;docs&#x2F;syntax</a>). We&#x27;ve added many new libraries, so you can do many more things with it now. Oh, and we changed the name to Enso and got accepted to YC! :)<p>The problem we address is that data analysts still waste up to half of their time on repetitive manual work that can be automated [6]. To give one example, a company we&#x27;re working with hires business users who use Excel to define data quality rules. These get manually translated to SQL, then manually translated to Python. This is not only error prone, it’s so",
+      "url": "https://news.ycombinator.com/item?id=27748738",
+      "created_at": "2021-07-06T14:05:46Z",
+      "meta": {
+        "points": 205,
+        "num_comments": 54
+      }
+    },
+    {
+      "source": "hackernews",
+      "title": "Launch HN: Routine (YC W21) – Tasks, notes and calendar all in one product",
+      "text": "Hi HN! I’m Julien. With my cofounder Quentin, we created Routine (<a href=\"http:&#x2F;&#x2F;routine.co&#x2F;hn\" rel=\"nofollow\">http:&#x2F;&#x2F;routine.co&#x2F;hn</a>), a macOS&#x2F;iOS app that combines todos, notes and calendar for busy professionals not to waste time switching context and as a result losing focus.<p>I became an entrepreneur in 2010 and struggled to maintain control of my work environment which quickly became very chaotic with many email&#x2F;chats to answer, a ton of meetings to schedule and attend, time to find to focus on important tasks and hundreds of thoughts going through my head that I needed to write down somewhere not to forget.<p>Over the years I improved my own workflow, from sending myself emails, to todo apps, to GTD, to programming my own small tools with keyboard shortcuts.<p>Talking with many busy professionals (entrepreneurs, investors, managers etc.) we quickly discovered that everybody had the same problems: they cannot stay in control of their time, they rely on manual &quot;hacks&quot; based on a single product (e.g Gmail, Google Calendar, Notion or else) to do almost everything and they hate context switching between apps.<p>Given how many people are unhappy with their workflow, we decided to build Routine to become a productivity operating system (so to speak) and solve these problems.<p>In particular, we find it super annoying to be forced to switch between todo and notes taking apps. We believe some information is actionable (tasks) while others are not (notes). We see no reason why they should not be stored in the same system. This is why we decided to include notes (daily notes, meeting notes, topic-based pages etc,) and tightly-bound them to tasks. In Routine, tasks can be enhanced with a media-rich description (i.e a note) but notes can also embed checkboxes which are full-fledged tasks that can be scheduled, delegated and more.<p>Another problem with existing tools is that they do not take into account your work pref",
+      "url": "https://news.ycombinator.com/item?id=26565629",
+      "created_at": "2021-03-24T10:59:10Z",
+      "meta": {
+        "points": 90,
+        "num_comments": 92
+      }
+    },
+    {
+      "source": "hackernews",
+      "title": "Awesome email advice from a friend on how to learn programming.",
+      "text": "Let's start with the first and most important rule of learning to code. Read everything and understand what you're reading.<p>Do not skip or skim words or communication of any kind. Don't read something assuming you know what it means; if you don't understand it, look around, ask someone, or google until you understand what you've just read. Then, you can move on.<p>The reason for this is that programming involves comprehension, not knowledge (more on that below).<p>Failure to follow this will make you a sucky programmer. You'll write buggy code. You'll piss yourself off when you think nobody wants to help you. Then, you'll end up really pissed because everything you thought you knew how to do falls apart, and you finally realize you're a bad programmer. This happened to me about 7yrs ago -- so, I'm trying to save you the trouble. After I realized this, and, after I learned how to program, not only did I quickly become very good but everything was 10 times easier and I enjoyed programming far more than I did before. Bad programming is exciting -- good programming is a party.<p>First, I want to tell you that learning a programming language and learning how to program aren't the same thing. A very simple metaphor to this is driving. You can learn how to drive, but, driving an automatic transmission sports car is completely different than driving a manual 18-wheeler. They both move on wheels and function the same, but, are very, very different. Also, if you were getting started, it would be easier to learn with a small automatic car than an 18-wheeler.<p>Programming and driving, however, are very different. Whereas driving is a mechanical task, which uses one part of your brain, programming is comprehension. When you're programming, you're not the driver, you are the mechanical engineer who invented fuel injectors, or the chemical engineer who invented run-flat tires. A programmer uses comprehension to write logic which instructs machines to create something material a",
+      "url": "https://news.ycombinator.com/item?id=2033858",
+      "created_at": "2010-12-23T08:01:02Z",
+      "meta": {
+        "points": 42,
+        "num_comments": 31
+      }
+    },
+    {
       "source": "stackexchange",
-      "title": "Javascript/JQuery Content Filter",
+      "title": "Login through Google SSO using automated browser",
       "text": [
-        "javascript",
-        "jquery",
-        "html"
+        "selenium",
+        "selenium-chromedriver",
+        "single-sign-on"
       ],
-      "url": "https://stackoverflow.com/q/34120004",
-      "created_at": "1449420423",
+      "url": "https://stackoverflow.com/q/71969305",
+      "created_at": "1650632982",
       "meta": {
         "site": "stackoverflow",
         "score": 0,
+        "answers": 2,
+        "tags": [
+          "selenium",
+          "selenium-chromedriver",
+          "single-sign-on"
+        ]
+      }
+    },
+    {
+      "source": "stackexchange",
+      "title": "How does AppBrain's installation app work?",
+      "text": [
+        "android",
+        "security",
+        "installation",
+        "google-talk"
+      ],
+      "url": "https://stackoverflow.com/q/3224507",
+      "created_at": "1278879838",
+      "meta": {
+        "site": "stackoverflow",
+        "score": 7,
         "answers": 1,
         "tags": [
-          "javascript",
-          "jquery",
-          "html"
+          "android",
+          "security",
+          "installation",
+          "google-talk"
         ]
+      }
+    },
+    {
+      "source": "stackexchange",
+      "title": "Best way for synonyms if data is stored outside dialogflow?",
+      "text": [
+        "nlp",
+        "dialogflow-es"
+      ],
+      "url": "https://stackoverflow.com/q/55884661",
+      "created_at": "1556397390",
+      "meta": {
+        "site": "stackoverflow",
+        "score": 1,
+        "answers": 0,
+        "tags": [
+          "nlp",
+          "dialogflow-es"
+        ]
+      }
+    },
+    {
+      "source": "stackexchange",
+      "title": "How to improve this web app testing process?",
+      "text": [
+        "testing",
+        "selenium",
+        "phantomjs"
+      ],
+      "url": "https://softwareengineering.com/q/336016",
+      "created_at": "1479117271",
+      "meta": {
+        "site": "softwareengineering",
+        "score": 1,
+        "answers": 0,
+        "tags": [
+          "testing",
+          "selenium",
+          "phantomjs"
+        ]
+      }
+    },
+    {
+      "source": "stackexchange",
+      "title": "Working with a poorly written piece of software as an entry-level developer with no support or documentation",
+      "text": [
+        "testing",
+        "code-quality",
+        "clean-code",
+        "vb.net",
+        "desktop-application"
+      ],
+      "url": "https://softwareengineering.com/q/446046",
+      "created_at": "1686606707",
+      "meta": {
+        "site": "softwareengineering",
+        "score": 1,
+        "answers": 1,
+        "tags": [
+          "testing",
+          "code-quality",
+          "clean-code",
+          "vb.net",
+          "desktop-application"
+        ]
+      }
+    },
+    {
+      "source": "stackexchange",
+      "title": "How do you adapt to changes to product specifications during development?",
+      "text": [
+        "documentation",
+        "parsing",
+        "specifications",
+        "embedded-systems",
+        "automation"
+      ],
+      "url": "https://softwareengineering.com/q/328036",
+      "created_at": "1470809009",
+      "meta": {
+        "site": "softwareengineering",
+        "score": 4,
+        "answers": 2,
+        "tags": [
+          "documentation",
+          "parsing",
+          "specifications",
+          "embedded-systems",
+          "automation"
+        ]
+      }
+    },
+    {
+      "source": "stackexchange",
+      "title": "How to coordinate meetings across different calendar systems and time zones efficiently?",
+      "text": [
+        "communication",
+        "colleagues",
+        "meetings",
+        "remote-work",
+        "scheduling"
+      ],
+      "url": "https://workplace.com/q/202270",
+      "created_at": "1752633037",
+      "meta": {
+        "site": "workplace",
+        "score": 4,
+        "answers": 5,
+        "tags": [
+          "communication",
+          "colleagues",
+          "meetings",
+          "remote-work",
+          "scheduling"
+        ]
+      }
+    },
+    {
+      "source": "stackexchange",
+      "title": "How to report manager for misconduct?",
+      "text": [
+        "management",
+        "human-resources",
+        "harassment"
+      ],
+      "url": "https://workplace.com/q/62672",
+      "created_at": "1456470243",
+      "meta": {
+        "site": "workplace",
+        "score": 9,
+        "answers": 3,
+        "tags": [
+          "management",
+          "human-resources",
+          "harassment"
+        ]
+      }
+    },
+    {
+      "source": "stackexchange",
+      "title": "How to deal with politically entrenched entities that degrade quality of life?",
+      "text": [
+        "software-industry",
+        "company-culture",
+        "politics"
+      ],
+      "url": "https://workplace.com/q/182334",
+      "created_at": "1643067695",
+      "meta": {
+        "site": "workplace",
+        "score": 3,
+        "answers": 4,
+        "tags": [
+          "software-industry",
+          "company-culture",
+          "politics"
+        ]
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "Por favor",
+      "text": "No me deja poner el usuario",
+      "url": "",
+      "created_at": "2026-07-31T12:50:26-07:00",
+      "meta": {
+        "rating": 5,
+        "author": "Todo me encantó"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "Very good",
+      "text": "So nice, I’m much understandable",
+      "url": "",
+      "created_at": "2026-07-31T12:03:59-07:00",
+      "meta": {
+        "rating": 5,
+        "author": "Nonnoncee"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "Too boring",
+      "text": "I wish there was more people on this app and different chats. You can join make it less boring.",
+      "url": "",
+      "created_at": "2026-07-31T11:21:23-07:00",
+      "meta": {
+        "rating": 3,
+        "author": "That girl underscoreterri"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "Meta is not reliable",
+      "text": "I really don’t like this app. It’s strange how there’s no prompts options and it seems like it’s entirely too easy for phone messages to get intercepted by the app. When I first saw the format, I don’t think I would’ve agreed to the terms and conditions, however you have to click ok to get to the next screen. Just a reminder that I don’t like Meta and I don’t want an app screening my messages. Now I’m not getting my texts and I think someone has hacked my phone number. Why is there no customer service?",
+      "url": "",
+      "created_at": "2026-07-31T10:58:58-07:00",
+      "meta": {
+        "rating": 1,
+        "author": "moonflowR"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "Such a blessing!!",
+      "text": "Had this app for a while last year. But, had to delete it because my phone wasn’t working properly. New phone and just in time to download the WhatsApp to be able to keep in contact with my daughter and her husband while they are away in Nigeria. This app is wonderful!! Thank you!!",
+      "url": "",
+      "created_at": "2026-07-31T10:47:50-07:00",
+      "meta": {
+        "rating": 5,
+        "author": "GollielollieJo"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "Watch complication",
+      "text": "Love this app!! Please add the option to add it as a complication on our faces!!!",
+      "url": "",
+      "created_at": "2026-07-31T10:38:14-07:00",
+      "meta": {
+        "rating": 5,
+        "author": "Kevin Christ"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "Hello",
+      "text": "I like WhatsApp",
+      "url": "",
+      "created_at": "2026-07-31T10:13:57-07:00",
+      "meta": {
+        "rating": 4,
+        "author": "Wallo 777"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "It doesn’t let me log in",
+      "text": "I am 11 years old, I am in the US, my dad is in Brazil, I need to talk to him, today it’s his birthday, WhatsApp is stupid, because of age limit.",
+      "url": "",
+      "created_at": "2026-07-31T10:02:26-07:00",
+      "meta": {
+        "rating": 1,
+        "author": "#9Lucca"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "???🤷‍♀️",
+      "text": "I have a question why did you remove avatar from WhatsApp",
+      "url": "",
+      "created_at": "2026-07-31T09:55:33-07:00",
+      "meta": {
+        "rating": 4,
+        "author": "The Avatar is gone"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "LadyQueen01",
+      "text": "I had to keep blocking a number from Nigeria, but it kept coming through!!!f",
+      "url": "",
+      "created_at": "2026-07-31T09:30:51-07:00",
+      "meta": {
+        "rating": 3,
+        "author": "LadyQueen01"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "My group is suspended",
+      "text": "Why is my group suspended this is a business account I start for so long but I wake up today seeing groups is suspended please give me back my group to start my business back",
+      "url": "",
+      "created_at": "2026-07-31T09:11:13-07:00",
+      "meta": {
+        "rating": 1,
+        "author": "Obed Apraku Dankwa"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "واتسابي لايعمل ارجو اصلاحه في اقرب وقت ممكن",
+      "text": "واتسابي لايعمل ارجو اصلاحه في اقرب وقت ممكن",
+      "url": "",
+      "created_at": "2026-07-31T08:10:50-07:00",
+      "meta": {
+        "rating": 1,
+        "author": "ffuipojbvgf"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "Terrible actualización",
+      "text": "La persona que está dando la actualización de WhatsApp, no sé qué se está fumando pero está mal, están haciendo de esta plataforma que sirve para comunicarnos con gente seleccionada lo mismo que las demás app, es horrible la actualización de los estados horizontales cada vez se parece más a Instagram, se supone que cada app debería tener su esencia y esta la está perdiendo, ahora dizque usuario? Ya para eso mejor nos vamos a Instagram y chateamos por ahí, de verdad que es una mierda de actualización. Boten al de la idea 👎🏼",
+      "url": "",
+      "created_at": "2026-07-31T07:37:35-07:00",
+      "meta": {
+        "rating": 1,
+        "author": "Yiimaa"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "Descontento",
+      "text": "La facilidad con la que pierdes la copia de seguridad de chata, cuando cambias de android a iphone es desagradable, se pierde mucha informacion y es necesario que creen un metodo para respaldar esa informacion en whatsapp y no en la plataforma de sistemas operativos",
+      "url": "",
+      "created_at": "2026-07-31T07:29:40-07:00",
+      "meta": {
+        "rating": 3,
+        "author": "Lermith vzla"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "Whatsapp",
+      "text": "Whatsapp",
+      "url": "",
+      "created_at": "2026-07-31T07:14:54-07:00",
+      "meta": {
+        "rating": 5,
+        "author": "Kayes9185"
       }
     }
   ],
   "opportunities": [
     {
-      "theme": "JavaScript/jQuery content filtering complexity",
-      "pain": "Developers struggle to implement robust content filtering in web pages, especially with modern HTML structures, and lack a simple resource to solve it quickly.",
+      "theme": "automation/manual work",
+      "pain": "Customers frequently complain about: automation/manual work.",
       "evidence": [
-        "Javascript/JQuery Content Filter",
-        "javascript",
-        "jquery",
-        "html"
+        "Launch HN: Enso (YC S21) – Visual programming and workflow automation tool\nHi HN, We are Wojciech and Sylwia, the co-founders of Enso (<a href=\"https:&#x2F;&#x2F;enso.org\" rel=\"nofollow\">https:&#x2F;&#x2F;enso.org</a>). ",
+        "Launch HN: Routine (YC W21) – Tasks, notes and calendar all in one product\nHi HN! I’m Julien. With my cofounder Quentin, we created Routine (<a href=\"http:&#x2F;&#x2F;routine.co&#x2F;hn\" rel=\"nofollow\">http:&#x2F;&#x2F;r",
+        "Awesome email advice from a friend on how to learn programming.\nLet's start with the first and most important rule of learning to code. Read everything and understand what you're reading.<p>Do not skip or skim words or c",
+        "Login through Google SSO using automated browser\n['selenium', 'selenium-chromedriver', 'single-sign-on']"
+      ],
+      "sources": [
+        "hackernews",
+        "stackexchange"
+      ],
+      "url": "https://news.ycombinator.com/item?id=27748738",
+      "suggested_solution": "AI workflow automation (Zapier-style, WhatsApp-first)",
+      "monetization": "SaaS subscription ($19-49/mo) or per-lead pricing via a WhatsApp bot",
+      "score": 62
+    },
+    {
+      "theme": "bugs/quality",
+      "pain": "Customers frequently complain about: bugs/quality.",
+      "evidence": [
+        "Launch HN: Enso (YC S21) – Visual programming and workflow automation tool\nHi HN, We are Wojciech and Sylwia, the co-founders of Enso (<a href=\"https:&#x2F;&#x2F;enso.org\" rel=\"nofollow\">https:&#x2F;&#x2F;enso.org</a>). ",
+        "Awesome email advice from a friend on how to learn programming.\nLet's start with the first and most important rule of learning to code. Read everything and understand what you're reading.<p>Do not skip or skim words or c"
+      ],
+      "sources": [
+        "hackernews"
+      ],
+      "url": "https://news.ycombinator.com/item?id=27748738",
+      "suggested_solution": "QA automation / bug triage bot",
+      "monetization": "SaaS subscription ($19-49/mo) or per-lead pricing via a WhatsApp bot",
+      "score": 41
+    },
+    {
+      "theme": "scheduling/booking",
+      "pain": "Customers frequently complain about: scheduling/booking.",
+      "evidence": [
+        "Launch HN: Routine (YC W21) – Tasks, notes and calendar all in one product\nHi HN! I’m Julien. With my cofounder Quentin, we created Routine (<a href=\"http:&#x2F;&#x2F;routine.co&#x2F;hn\" rel=\"nofollow\">http:&#x2F;&#x2F;r",
+        "How to coordinate meetings across different calendar systems and time zones efficiently?\n['communication', 'colleagues', 'meetings', 'remote-work', 'scheduling']"
+      ],
+      "sources": [
+        "hackernews",
+        "stackexchange"
+      ],
+      "url": "https://workplace.com/q/202270",
+      "suggested_solution": "AI scheduling assistant with reminders (WhatsApp)",
+      "monetization": "SaaS subscription ($19-49/mo) or per-lead pricing via a WhatsApp bot",
+      "score": 41
+    },
+    {
+      "theme": "data entry",
+      "pain": "Customers frequently complain about: data entry.",
+      "evidence": [
+        "Launch HN: Enso (YC S21) – Visual programming and workflow automation tool\nHi HN, We are Wojciech and Sylwia, the co-founders of Enso (<a href=\"https:&#x2F;&#x2F;enso.org\" rel=\"nofollow\">https:&#x2F;&#x2F;enso.org</a>). "
+      ],
+      "sources": [
+        "hackernews"
+      ],
+      "url": "https://news.ycombinator.com/item?id=27748738",
+      "suggested_solution": "AI data-entry extractor (docs/screens -> structured data)",
+      "monetization": "SaaS subscription ($19-49/mo) or per-lead pricing via a WhatsApp bot",
+      "score": 33
+    },
+    {
+      "theme": "general frustration",
+      "pain": "Customers frequently complain about: general frustration.",
+      "evidence": [
+        "Terrible actualización\nLa persona que está dando la actualización de WhatsApp, no sé qué se está fumando pero está mal, están haciendo de esta plataforma que sirve para comunicarnos con gente seleccionada lo mismo que la"
+      ],
+      "sources": [
+        "appstore"
+      ],
+      "url": "",
+      "suggested_solution": "AI-powered automation",
+      "monetization": "SaaS subscription ($19-49/mo) or per-lead pricing via a WhatsApp bot",
+      "score": 33
+    },
+    {
+      "theme": "customer support",
+      "pain": "Customers frequently complain about: customer support.",
+      "evidence": [
+        "Working with a poorly written piece of software as an entry-level developer with no support or documentation\n['testing', 'code-quality', 'clean-code', 'vb.net', 'desktop-application']"
       ],
       "sources": [
         "stackexchange"
       ],
-      "url": "https://stackoverflow.com/q/34120004",
-      "suggested_solution": "An AI-powered content filtering SaaS widget that automatically detects and blocks unwanted HTML elements or keywords across pages, with a WhatsApp bot for real-time moderation alerts.",
-      "monetization": "SaaS subscription tiers ($0 free, $9/month pro) or per-request API pricing.",
-      "score": 42.0
+      "url": "https://softwareengineering.com/q/446046",
+      "suggested_solution": "AI support agent / WhatsApp auto-responder",
+      "monetization": "SaaS subscription ($19-49/mo) or per-lead pricing via a WhatsApp bot",
+      "score": 28
     }
   ]
 }

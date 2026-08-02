@@ -1,29 +1,107 @@
 # 🔍 PainScout Report
 
-- **Query:** `small business owners waste time on manual work`
-- **Generated:** 2026-08-02T09:34:06+00:00
-- **Pain points scanned:** 1
-- **Analyzer:** AI (LLM)
+- **Query:** `people waste time on manual work`
+- **Generated:** 2026-08-02T09:43:56+00:00
+- **Pain points scanned:** 27
+- **Analyzer:** heuristic fallback
 
-**Sources:** stackexchange: 1
+**Sources:** appstore: 15, hackernews: 3, stackexchange: 9
 
-## 🎯 Top 1 Opportunities
+## 🎯 Top 6 Opportunities
 
-### 1. [42/100] JavaScript/jQuery content filtering complexity
+### 1. [62/100] automation/manual work
 
-**The pain:** Developers struggle to implement robust content filtering in web pages, especially with modern HTML structures, and lack a simple resource to solve it quickly.
+**The pain:** Customers frequently complain about: automation/manual work.
 
 **Evidence:**
-- “Javascript/JQuery Content Filter”
-- “javascript”
-- “jquery”
-- “html”
+- “Launch HN: Enso (YC S21) – Visual programming and workflow automation tool
+Hi HN, We are Wojciech and Sylwia, the co-founders of Enso (<a href="https:&#x2F;&#x2F;enso.org" rel="nofollow">https:&#x2F;&#x2F;enso.org</a>). ”
+- “Launch HN: Routine (YC W21) – Tasks, notes and calendar all in one product
+Hi HN! I’m Julien. With my cofounder Quentin, we created Routine (<a href="http:&#x2F;&#x2F;routine.co&#x2F;hn" rel="nofollow">http:&#x2F;&#x2F;r”
+- “Awesome email advice from a friend on how to learn programming.
+Let's start with the first and most important rule of learning to code. Read everything and understand what you're reading.<p>Do not skip or skim words or c”
+- “Login through Google SSO using automated browser
+['selenium', 'selenium-chromedriver', 'single-sign-on']”
 
-**Sources:** stackexchange · [best link](https://stackoverflow.com/q/34120004)
+**Sources:** hackernews, stackexchange · [best link](https://news.ycombinator.com/item?id=27748738)
 
-**AI solution to build:** An AI-powered content filtering SaaS widget that automatically detects and blocks unwanted HTML elements or keywords across pages, with a WhatsApp bot for real-time moderation alerts.
+**AI solution to build:** AI workflow automation (Zapier-style, WhatsApp-first)
 
-**How to charge:** SaaS subscription tiers ($0 free, $9/month pro) or per-request API pricing.
+**How to charge:** SaaS subscription ($19-49/mo) or per-lead pricing via a WhatsApp bot
+
+### 2. [41/100] bugs/quality
+
+**The pain:** Customers frequently complain about: bugs/quality.
+
+**Evidence:**
+- “Launch HN: Enso (YC S21) – Visual programming and workflow automation tool
+Hi HN, We are Wojciech and Sylwia, the co-founders of Enso (<a href="https:&#x2F;&#x2F;enso.org" rel="nofollow">https:&#x2F;&#x2F;enso.org</a>). ”
+- “Awesome email advice from a friend on how to learn programming.
+Let's start with the first and most important rule of learning to code. Read everything and understand what you're reading.<p>Do not skip or skim words or c”
+
+**Sources:** hackernews · [best link](https://news.ycombinator.com/item?id=27748738)
+
+**AI solution to build:** QA automation / bug triage bot
+
+**How to charge:** SaaS subscription ($19-49/mo) or per-lead pricing via a WhatsApp bot
+
+### 3. [41/100] scheduling/booking
+
+**The pain:** Customers frequently complain about: scheduling/booking.
+
+**Evidence:**
+- “Launch HN: Routine (YC W21) – Tasks, notes and calendar all in one product
+Hi HN! I’m Julien. With my cofounder Quentin, we created Routine (<a href="http:&#x2F;&#x2F;routine.co&#x2F;hn" rel="nofollow">http:&#x2F;&#x2F;r”
+- “How to coordinate meetings across different calendar systems and time zones efficiently?
+['communication', 'colleagues', 'meetings', 'remote-work', 'scheduling']”
+
+**Sources:** hackernews, stackexchange · [best link](https://workplace.com/q/202270)
+
+**AI solution to build:** AI scheduling assistant with reminders (WhatsApp)
+
+**How to charge:** SaaS subscription ($19-49/mo) or per-lead pricing via a WhatsApp bot
+
+### 4. [33/100] data entry
+
+**The pain:** Customers frequently complain about: data entry.
+
+**Evidence:**
+- “Launch HN: Enso (YC S21) – Visual programming and workflow automation tool
+Hi HN, We are Wojciech and Sylwia, the co-founders of Enso (<a href="https:&#x2F;&#x2F;enso.org" rel="nofollow">https:&#x2F;&#x2F;enso.org</a>). ”
+
+**Sources:** hackernews · [best link](https://news.ycombinator.com/item?id=27748738)
+
+**AI solution to build:** AI data-entry extractor (docs/screens -> structured data)
+
+**How to charge:** SaaS subscription ($19-49/mo) or per-lead pricing via a WhatsApp bot
+
+### 5. [33/100] general frustration
+
+**The pain:** Customers frequently complain about: general frustration.
+
+**Evidence:**
+- “Terrible actualización
+La persona que está dando la actualización de WhatsApp, no sé qué se está fumando pero está mal, están haciendo de esta plataforma que sirve para comunicarnos con gente seleccionada lo mismo que la”
+
+**Sources:** appstore · [best link]()
+
+**AI solution to build:** AI-powered automation
+
+**How to charge:** SaaS subscription ($19-49/mo) or per-lead pricing via a WhatsApp bot
+
+### 6. [28/100] customer support
+
+**The pain:** Customers frequently complain about: customer support.
+
+**Evidence:**
+- “Working with a poorly written piece of software as an entry-level developer with no support or documentation
+['testing', 'code-quality', 'clean-code', 'vb.net', 'desktop-application']”
+
+**Sources:** stackexchange · [best link](https://softwareengineering.com/q/446046)
+
+**AI solution to build:** AI support agent / WhatsApp auto-responder
+
+**How to charge:** SaaS subscription ($19-49/mo) or per-lead pricing via a WhatsApp bot
 
 ---
 *Generated by PainScout — deploy an AI SaaS or WhatsApp automation to fix these.*
