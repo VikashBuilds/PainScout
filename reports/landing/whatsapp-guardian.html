@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WhatsApp Guardian — Prevent suspensions. Backup instantly. Appeal effectively.</title>
+<style>
+:root{--bg:#0b0f1a;--card:#131a2b;--acc:#6c5ce7;--acc2:#00cec9;--txt:#e8ecf4;--mut:#9aa5b8}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--txt);line-height:1.6}
+.hero{padding:72px 20px 48px;text-align:center;background:radial-gradient(ellipse at top,#1a2340 0%,var(--bg) 70%)}
+.badge{display:inline-block;padding:6px 14px;border-radius:999px;background:rgba(108,92,231,.15);color:#b3a8ff;font-size:13px;letter-spacing:.5px;margin-bottom:20px;border:1px solid rgba(108,92,231,.4)}
+h1{font-size:clamp(2rem,5vw,3.4rem);font-weight:800;letter-spacing:-.5px;margin-bottom:14px}
+.tag{font-size:clamp(1.05rem,2.5vw,1.35rem);color:var(--mut);max-width:640px;margin:0 auto 30px}
+.cta{display:inline-block;padding:15px 34px;border-radius:12px;background:linear-gradient(135deg,var(--acc),var(--acc2));color:#fff;font-weight:700;font-size:1.05rem;text-decoration:none;box-shadow:0 8px 30px rgba(108,92,231,.35);transition:transform .15s}
+.cta:hover{transform:translateY(-2px)}
+.container{max-width:960px;margin:0 auto;padding:32px 20px 80px}
+.section{margin-top:48px}
+h2{font-size:1.5rem;margin-bottom:18px;color:#fff}
+.card{background:var(--card);border:1px solid #1e2a45;border-radius:16px;padding:24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.grid .card{padding:18px}
+.grid .card strong{color:var(--acc2);font-size:1.05rem}
+ul{list-style:none}
+li{padding:8px 0 8px 26px;position:relative}
+li:before{content:"✓";position:absolute;left:0;color:var(--acc2)}
+.wa{border-left:4px solid #25d366;padding:20px 24px;border-radius:0 12px 12px 0;background:rgba(37,211,102,.06)}
+code{background:#0d1526;padding:2px 8px;border-radius:6px;font-size:.92em;color:#8be9fd}
+.pricing{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.pricing .price{font-size:2.2rem;font-weight:800;color:var(--acc2)}
+.foot{text-align:center;color:var(--mut);padding:32px;font-size:.85rem}
+@media(max-width:600px){.hero{padding:48px 16px 32px}}
+</style>
+</head>
+<body>
+<div class="hero">
+  <span class="badge">✨ AI-Powered · WhatsApp-First · No-Code</span>
+  <h1>Your WhatsApp Business Group Just Got Banned. Now What?</h1>
+  <p class="tag">Guardian monitors, backs up, and arms you with a policy-cited appeal — all inside WhatsApp. No dashboard. No code. 2-minute setup.</p>
+  <a class="cta" href="#wa">Add Guardian to WhatsApp → Free 14-day trial</a>
+</div>
+<div class="container">
+  <div class="section">
+    <h2>The problem</h2>
+    <div class="card"><p>WhatsApp Business accounts face sudden group suspensions with zero explanation, no official appeal channel, and no support — instantly cutting off revenue and customer communication.</p></div>
+  </div>
+  <div class="section">
+    <h2>The solution</h2>
+    <div class="card"><p>WhatsApp Guardian continuously monitors group health for policy violations, auto-backups all messages/media daily, and generates evidence-based appeal packages with policy citations. It runs entirely inside WhatsApp — no dashboard, no login, just chat.</p></div>
+  </div>
+  <div class="section">
+    <h2>What you get</h2>
+    <div class="card"><ul><li>🔍 Daily policy risk scan — catch violations before Meta does</li><li>☁️ Encrypted auto-backup — every message, photo, file, participant list</li><li>🚨 Instant suspension alert — know the second it happens</li><li>📄 One-tap appeal pack — evidence + policy citations + template ready to send</li><li>✅ Compliance wizard — set up groups the way Meta expects</li><li>📊 Weekly health report — risk score + action items in your chat</li></ul></div>
+  </div>
+  <div class="section">
+    <h2>Features (v1)</h2>
+    <div class="card"><ul><li>Daily automated backup of all group messages, media, and participant lists to encrypted cloud storage</li><li>Real-time policy violation scanner (spam keywords, bulk adds, report rates, link patterns) with risk scoring</li><li>Instant suspension alert via WhatsApp DM the moment a group is restricted or banned</li><li>One-tap appeal package generator: compiles chat logs, business verification docs, and policy-specific defense template</li><li>Compliance checklist wizard: guides setup of group rules, admin controls, and opt-in records to meet WhatsApp Commerce Policy</li><li>Competitor group monitoring: tracks similar groups for suspension patterns and emerging policy enforcement trends</li><li>Admin role audit: flags risky admin actions (mass invites, permission changes) before they trigger bans</li><li>Export-to-legal format: PDF/JSON bundles timestamped for lawyers or Meta escalation</li></ul></div>
+  </div>
+  <div class="section">
+    <h2>Tech stack</h2>
+    <div class="card" style="display:flex;flex-wrap:wrap;gap:8px"><code>Node.js + TypeScript</code> <code>WhatsApp Business API (Meta Cloud API)</code> <code>AWS Lambda + API Gateway (serverless webhook handling)</code> <code>PostgreSQL on RDS (account/group metadata, scan logs)</code> <code>S3 + CloudFront (encrypted backups, signed URLs)</code> <code>OpenAI GPT-4o (appeal template generation, policy interpretation)</code> <code>Terraform (IaC for reproducible deploys)</code> <code>GitHub Actions (CI/CD)</code></div>
+  </div>
+  <div class="section">
+    <h2>Competitors &amp; the gap</h2>
+    <div class="grid"><div class="card"><strong>WhatsApp Business Manager</strong><p style="margin-top:8px;color:var(--mut)">Gap: Official Meta tool; only shows status after suspension, no prevention, no backup, no appeal help</p></div><div class="card"><strong>Wati.io</strong><p style="margin-top:8px;color:var(--mut)">Gap: Focuses on marketing automation; no suspension monitoring, no compliance scanning, no appeal generation</p></div><div class="card"><strong>Respond.io</strong><p style="margin-top:8px;color:var(--mut)">Gap: Omnichannel inbox; treats WhatsApp as one channel, no group health or policy risk features</p></div><div class="card"><strong>Backupify / Spanning</strong><p style="margin-top:8px;color:var(--mut)">Gap: Generic SaaS backup; doesn&#x27;t understand WhatsApp group structure, policy rules, or appeal workflows</p></div></div>
+  </div>
+  <div class="section" id="wa">
+    <h2>Try it on WhatsApp</h2>
+    <div class="card wa">
+      <p><strong>How it works:</strong> User messages &#x27;START&#x27; to Guardian&#x27;s WhatsApp Business number → Bot replies with OAuth link to connect their WhatsApp Business Account → User approves permissions → Bot confirms connection, asks which group to monitor → User shares group invite link or ID → Bot runs first scan, sends risk report + backup confirmation → Daily scans run automatically; alerts and reports delivered via chat. User types &#x27;APPEAL&#x27; anytime to generate package.</p>
+      <p style="margin-top:12px"><strong>Commands:</strong> <code>START — connect account &amp; select group</code> <code>SCAN — run immediate policy risk check</code> <code>BACKUP — trigger manual encrypted backup</code> <code>REPORT — get latest health report</code> <code>APPEAL — generate evidence-based appeal package</code> <code>RULES — view compliance checklist for this group</code> <code>SETTINGS — adjust scan frequency, alert thresholds</code> <code>HELP — command list + support link</code></p>
+    </div>
+  </div>
+  <div class="section">
+    <h2>Pricing</h2>
+    <div class="card pricing"><span class="price">$29/mo per Business Account (Pro), freemium with 1-group limit, annual discount 20%</span></div>
+  </div>
+</div>
+<div class="foot">Generated by PainScout · MVP in ~14 days · Built by a vibe coder for people with real problems</div>
+</body>
+</html>

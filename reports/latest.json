@@ -1,107 +1,7 @@
 {
-  "query": "people waste time on manual work",
-  "generated_at": "2026-08-02T10:20:50+00:00",
+  "query": "small business owners waste time on admin work",
+  "generated_at": "2026-08-02T10:29:38+00:00",
   "pain_points": [
-    {
-      "source": "hackernews",
-      "title": "Launch HN: Enso (YC S21) – Visual programming and workflow automation tool",
-      "text": "Hi HN, We are Wojciech and Sylwia, the co-founders of Enso (<a href=\"https:&#x2F;&#x2F;enso.org\" rel=\"nofollow\">https:&#x2F;&#x2F;enso.org</a>). On the tech side, Enso is a visual and textual programming language (you can switch from graph to code and back). On the business side, it&#x27;s a workflow builder that makes it easy for analysts without a programming background to automate data-driven processes simply by connecting visual components together. Our GUI is like an IDE, but with a graph editor alongside the code. Currently, we’re focused on data analysis—data preparation, blending, and analytics (both in-memory and SQL). You can see a video of how it works here: <a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;fQvWMoOjmQk\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;fQvWMoOjmQk</a>.<p>We used to be called Luna and were lucky to have a few big threads on HN over the years [1][2][3][4][5]. Eventually we went into heads-down mode to make a production version based on customer and user feedback. Since then, we&#x27;ve drastically improved the product. It is still rough around the edges, but works much better now. We have also made a few tutorials (<a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;channel&#x2F;UC4oMK7cL1ElfNR_OhS-YQAw\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;channel&#x2F;UC4oMK7cL1ElfNR_OhS-YQAw</a>), and\ndocs (<a href=\"https:&#x2F;&#x2F;enso.org&#x2F;docs&#x2F;syntax\" rel=\"nofollow\">https:&#x2F;&#x2F;enso.org&#x2F;docs&#x2F;syntax</a>). We&#x27;ve added many new libraries, so you can do many more things with it now. Oh, and we changed the name to Enso and got accepted to YC! :)<p>The problem we address is that data analysts still waste up to half of their time on repetitive manual work that can be automated [6]. To give one example, a company we&#x27;re working with hires business users who use Excel to define data quality rules. These get manually translated to SQL, then manually translated to Python. This is not only error prone, it’s so",
-      "url": "https://news.ycombinator.com/item?id=27748738",
-      "created_at": "2021-07-06T14:05:46Z",
-      "meta": {
-        "points": 205,
-        "num_comments": 54
-      }
-    },
-    {
-      "source": "hackernews",
-      "title": "Launch HN: Routine (YC W21) – Tasks, notes and calendar all in one product",
-      "text": "Hi HN! I’m Julien. With my cofounder Quentin, we created Routine (<a href=\"http:&#x2F;&#x2F;routine.co&#x2F;hn\" rel=\"nofollow\">http:&#x2F;&#x2F;routine.co&#x2F;hn</a>), a macOS&#x2F;iOS app that combines todos, notes and calendar for busy professionals not to waste time switching context and as a result losing focus.<p>I became an entrepreneur in 2010 and struggled to maintain control of my work environment which quickly became very chaotic with many email&#x2F;chats to answer, a ton of meetings to schedule and attend, time to find to focus on important tasks and hundreds of thoughts going through my head that I needed to write down somewhere not to forget.<p>Over the years I improved my own workflow, from sending myself emails, to todo apps, to GTD, to programming my own small tools with keyboard shortcuts.<p>Talking with many busy professionals (entrepreneurs, investors, managers etc.) we quickly discovered that everybody had the same problems: they cannot stay in control of their time, they rely on manual &quot;hacks&quot; based on a single product (e.g Gmail, Google Calendar, Notion or else) to do almost everything and they hate context switching between apps.<p>Given how many people are unhappy with their workflow, we decided to build Routine to become a productivity operating system (so to speak) and solve these problems.<p>In particular, we find it super annoying to be forced to switch between todo and notes taking apps. We believe some information is actionable (tasks) while others are not (notes). We see no reason why they should not be stored in the same system. This is why we decided to include notes (daily notes, meeting notes, topic-based pages etc,) and tightly-bound them to tasks. In Routine, tasks can be enhanced with a media-rich description (i.e a note) but notes can also embed checkboxes which are full-fledged tasks that can be scheduled, delegated and more.<p>Another problem with existing tools is that they do not take into account your work pref",
-      "url": "https://news.ycombinator.com/item?id=26565629",
-      "created_at": "2021-03-24T10:59:10Z",
-      "meta": {
-        "points": 90,
-        "num_comments": 92
-      }
-    },
-    {
-      "source": "hackernews",
-      "title": "Awesome email advice from a friend on how to learn programming.",
-      "text": "Let's start with the first and most important rule of learning to code. Read everything and understand what you're reading.<p>Do not skip or skim words or communication of any kind. Don't read something assuming you know what it means; if you don't understand it, look around, ask someone, or google until you understand what you've just read. Then, you can move on.<p>The reason for this is that programming involves comprehension, not knowledge (more on that below).<p>Failure to follow this will make you a sucky programmer. You'll write buggy code. You'll piss yourself off when you think nobody wants to help you. Then, you'll end up really pissed because everything you thought you knew how to do falls apart, and you finally realize you're a bad programmer. This happened to me about 7yrs ago -- so, I'm trying to save you the trouble. After I realized this, and, after I learned how to program, not only did I quickly become very good but everything was 10 times easier and I enjoyed programming far more than I did before. Bad programming is exciting -- good programming is a party.<p>First, I want to tell you that learning a programming language and learning how to program aren't the same thing. A very simple metaphor to this is driving. You can learn how to drive, but, driving an automatic transmission sports car is completely different than driving a manual 18-wheeler. They both move on wheels and function the same, but, are very, very different. Also, if you were getting started, it would be easier to learn with a small automatic car than an 18-wheeler.<p>Programming and driving, however, are very different. Whereas driving is a mechanical task, which uses one part of your brain, programming is comprehension. When you're programming, you're not the driver, you are the mechanical engineer who invented fuel injectors, or the chemical engineer who invented run-flat tires. A programmer uses comprehension to write logic which instructs machines to create something material a",
-      "url": "https://news.ycombinator.com/item?id=2033858",
-      "created_at": "2010-12-23T08:01:02Z",
-      "meta": {
-        "points": 42,
-        "num_comments": 31
-      }
-    },
-    {
-      "source": "stackexchange",
-      "title": "Login through Google SSO using automated browser",
-      "text": [
-        "selenium",
-        "selenium-chromedriver",
-        "single-sign-on"
-      ],
-      "url": "https://stackoverflow.com/q/71969305",
-      "created_at": "1650632982",
-      "meta": {
-        "site": "stackoverflow",
-        "score": 0,
-        "answers": 2,
-        "tags": [
-          "selenium",
-          "selenium-chromedriver",
-          "single-sign-on"
-        ]
-      }
-    },
-    {
-      "source": "stackexchange",
-      "title": "How to improve this web app testing process?",
-      "text": [
-        "testing",
-        "selenium",
-        "phantomjs"
-      ],
-      "url": "https://softwareengineering.com/q/336016",
-      "created_at": "1479117271",
-      "meta": {
-        "site": "softwareengineering",
-        "score": 1,
-        "answers": 0,
-        "tags": [
-          "testing",
-          "selenium",
-          "phantomjs"
-        ]
-      }
-    },
-    {
-      "source": "stackexchange",
-      "title": "How to coordinate meetings across different calendar systems and time zones efficiently?",
-      "text": [
-        "communication",
-        "colleagues",
-        "meetings",
-        "remote-work",
-        "scheduling"
-      ],
-      "url": "https://workplace.com/q/202270",
-      "created_at": "1752633037",
-      "meta": {
-        "site": "workplace",
-        "score": 4,
-        "answers": 5,
-        "tags": [
-          "communication",
-          "colleagues",
-          "meetings",
-          "remote-work",
-          "scheduling"
-        ]
-      }
-    },
     {
       "source": "github",
       "title": "Improved subpixel text rendering for OLED (WRGB stripe, RGB triangular) -- Unfixable by ClearType Tuner (Over 100 upvotes in Feedback Hub)",
@@ -179,105 +79,183 @@
         "rating": 5,
         "author": "Kevin Christ"
       }
+    },
+    {
+      "source": "appstore",
+      "title": "Hello",
+      "text": "I like WhatsApp",
+      "url": "",
+      "created_at": "2026-07-31T10:13:57-07:00",
+      "meta": {
+        "rating": 4,
+        "author": "Wallo 777"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "It doesn’t let me log in",
+      "text": "I am 11 years old, I am in the US, my dad is in Brazil, I need to talk to him, today it’s his birthday, WhatsApp is stupid, because of age limit.",
+      "url": "",
+      "created_at": "2026-07-31T10:02:26-07:00",
+      "meta": {
+        "rating": 1,
+        "author": "#9Lucca"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "???🤷‍♀️",
+      "text": "I have a question why did you remove avatar from WhatsApp",
+      "url": "",
+      "created_at": "2026-07-31T09:55:33-07:00",
+      "meta": {
+        "rating": 4,
+        "author": "The Avatar is gone"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "LadyQueen01",
+      "text": "I had to keep blocking a number from Nigeria, but it kept coming through!!!f",
+      "url": "",
+      "created_at": "2026-07-31T09:30:51-07:00",
+      "meta": {
+        "rating": 3,
+        "author": "LadyQueen01"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "My group is suspended",
+      "text": "Why is my group suspended this is a business account I start for so long but I wake up today seeing groups is suspended please give me back my group to start my business back",
+      "url": "",
+      "created_at": "2026-07-31T09:11:13-07:00",
+      "meta": {
+        "rating": 1,
+        "author": "Obed Apraku Dankwa"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "واتسابي لايعمل ارجو اصلاحه في اقرب وقت ممكن",
+      "text": "واتسابي لايعمل ارجو اصلاحه في اقرب وقت ممكن",
+      "url": "",
+      "created_at": "2026-07-31T08:10:50-07:00",
+      "meta": {
+        "rating": 1,
+        "author": "ffuipojbvgf"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "Terrible actualización",
+      "text": "La persona que está dando la actualización de WhatsApp, no sé qué se está fumando pero está mal, están haciendo de esta plataforma que sirve para comunicarnos con gente seleccionada lo mismo que las demás app, es horrible la actualización de los estados horizontales cada vez se parece más a Instagram, se supone que cada app debería tener su esencia y esta la está perdiendo, ahora dizque usuario? Ya para eso mejor nos vamos a Instagram y chateamos por ahí, de verdad que es una mierda de actualización. Boten al de la idea 👎🏼",
+      "url": "",
+      "created_at": "2026-07-31T07:37:35-07:00",
+      "meta": {
+        "rating": 1,
+        "author": "Yiimaa"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "Descontento",
+      "text": "La facilidad con la que pierdes la copia de seguridad de chata, cuando cambias de android a iphone es desagradable, se pierde mucha informacion y es necesario que creen un metodo para respaldar esa informacion en whatsapp y no en la plataforma de sistemas operativos",
+      "url": "",
+      "created_at": "2026-07-31T07:29:40-07:00",
+      "meta": {
+        "rating": 3,
+        "author": "Lermith vzla"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "Whatsapp",
+      "text": "Whatsapp",
+      "url": "",
+      "created_at": "2026-07-31T07:14:54-07:00",
+      "meta": {
+        "rating": 5,
+        "author": "Kayes9185"
+      }
     }
   ],
   "opportunities": [
     {
-      "theme": "Cross-calendar time zone scheduling is painful",
-      "pain": "Remote teams struggle to coordinate meetings across different calendar systems and time zones, wasting time on back-and-forth.",
+      "theme": "OLED subpixel text rendering",
+      "pain": "Windows ClearType assumes RGB stripe subpixels, causing color fringing on WOLED (WRGB) and QD-OLED (triangular) monitors, with no built-in correction.",
       "evidence": [
-        "How to coordinate meetings across different calendar systems and time zones efficiently?"
-      ],
-      "sources": [
-        "stackexchange"
-      ],
-      "url": "https://workplace.com/q/202270",
-      "suggested_solution": "A WhatsApp bot that parses natural language like 'free Tuesday 3pm' and finds mutually available slots across Google/Microsoft calendars, then sends invitations.",
-      "monetization": "Per-seat subscription or pay-per-meeting scheduled.",
-      "score": 65.0,
-      "buy_intent": false
-    },
-    {
-      "theme": "Context switching kills productivity",
-      "pain": "Busy professionals waste time juggling tasks, notes, calendars and chat, losing focus and control.",
-      "evidence": [
-        "they hate context switching between apps",
-        "cannot stay in control of their time",
-        "they rely on manual \"hacks\""
-      ],
-      "sources": [
-        "hackernews"
-      ],
-      "url": "https://news.ycombinator.com/item?id=26565629",
-      "suggested_solution": "An AI personal assistant that unifies tasks, notes, calendar and chat into a single conversational WhatsApp interface, automatically organizing context and reducing app switching.",
-      "monetization": "Per-seat monthly subscription (e.g. $10/user/mo) with free trial.",
-      "score": 60.0,
-      "buy_intent": false
-    },
-    {
-      "theme": "Web automation breaks on SSO and dynamic UIs",
-      "pain": "Developers struggle to automate logins and test web apps because selectors and sessions break with SSO and changing interfaces.",
-      "evidence": [
-        "Login through Google SSO using automated browser",
-        "How to improve this web app testing process?"
-      ],
-      "sources": [
-        "stackexchange"
-      ],
-      "url": "https://stackoverflow.com/q/71969305",
-      "suggested_solution": "An AI-powered test automation SaaS that uses computer vision to locate elements and auto-heal broken selectors, including SSO login flows.",
-      "monetization": "Usage-based pricing (per test run) plus a free tier for side projects.",
-      "score": 55.0,
-      "buy_intent": false
-    },
-    {
-      "theme": "App privacy, reliability, and support gaps",
-      "pain": "Users fear their messages are being screened, text delivery breaks, and there is no customer service to resolve it.",
-      "evidence": [
-        "I don’t want an app screening my messages",
-        "Now I’m not getting my texts",
-        "Why is there no customer service?"
-      ],
-      "sources": [
-        "appstore"
-      ],
-      "url": "",
-      "suggested_solution": "A privacy-focused WhatsApp proxy/automation that gives users control over message handling and an AI-powered support bot for instant help.",
-      "monetization": "Freemium: free with ads, premium for privacy and priority support.",
-      "score": 50.0,
-      "buy_intent": false
-    },
-    {
-      "theme": "OLED monitors render text with color fringing",
-      "pain": "Owners of WOLED and QD-OLED displays see chromatic aberration on text because ClearType only supports RGB stripe subpixels.",
-      "evidence": [
-        "ClearType alters anti-aliasing assuming an RGB stripe subpixel configuration",
-        "noticeable chromatic aberration/color fringing on edges of text"
+        "ClearType alters anti-aliasing assuming an RGB stripe subpixel configuration. More WOLED (WRGB stripe) and QD-OLED (RGB triangular) monitors are coming to market and have noticeable chromatic aberration/color fringing on edges of text.",
+        "It would be nice if Windows had a built-in option to alter text rendering based on subpixel configuration of the monitor."
       ],
       "sources": [
         "github"
       ],
       "url": "https://github.com/microsoft/PowerToys/issues/25595",
-      "suggested_solution": "An AI SaaS that analyzes a user's display subpixel layout from a photo and auto-generates custom ClearType settings or shaders.",
-      "monetization": "One-time payment or low-cost subscription (e.g. $5/mo).",
-      "score": 45.0,
+      "suggested_solution": "A Windows utility (PowerToy or standalone) that detects monitor subpixel layout and applies custom display shaders for correct subpixel anti-aliasing on WOLED/QD-OLED.",
+      "monetization": "Freemium: free basic profiles; $15 one-time for advanced per-monitor calibration and auto-switching.",
+      "score": 85.0,
       "buy_intent": false
     },
     {
-      "theme": "Apps miss features and feel empty",
-      "pain": "Users churn when apps lack key features like watch complications, profile setup fails, or communities are too quiet.",
+      "theme": "WhatsApp business account suspension without recourse",
+      "pain": "Business accounts suffer sudden group suspensions with no explanation, no appeal process, and zero customer support, halting revenue.",
       "evidence": [
-        "No me deja poner el usuario",
-        "Please add the option to add it as a complication on our faces!!!",
-        "I wish there was more people on this app and different chats."
+        "Why is my group suspended this is a business account I start for so long but I wake up today seeing groups is suspended please give me back my group to start my business back"
       ],
       "sources": [
         "appstore"
       ],
       "url": "",
-      "suggested_solution": "An AI-powered review analysis tool that clusters app-store complaints into actionable feature requests, plus a WhatsApp engagement bot that sends curated prompts to keep communities lively.",
-      "monetization": "SaaS for indie developers: tiered subscription (e.g. $29/mo).",
-      "score": 35.0,
+      "suggested_solution": "A WhatsApp Business compliance dashboard that monitors policy risk signals, auto-backs up group data, and generates appeal templates via the Business API.",
+      "monetization": "Monthly SaaS $29 per business number with tiered support.",
+      "score": 75.0,
+      "buy_intent": false
+    },
+    {
+      "theme": "Cross-platform WhatsApp backup loss",
+      "pain": "Switching between Android and iPhone loses WhatsApp chat history because backups are locked to Google Drive and iCloud with no official migration path.",
+      "evidence": [
+        "La facilidad con la que pierdes la copia de seguridad de chata, cuando cambias de android a iphone es desagradable, se pierde mucha informacion y es necesario que creen un metodo para respaldar esa informacion en whatsapp y no en la plataforma de sistemas operativos"
+      ],
+      "sources": [
+        "appstore"
+      ],
+      "url": "",
+      "suggested_solution": "A local desktop tool that decrypts WhatsApp backups from Google Drive/iCloud and re-encrypts for the target OS, enabling seamless cross-platform migration.",
+      "monetization": "Per-migration fee $9.99 or $29.99/year for unlimited family migrations.",
+      "score": 70.0,
+      "buy_intent": false
+    },
+    {
+      "theme": "Meta privacy distrust & message interception fears",
+      "pain": "Users believe Meta intercepts private messages, experience unexplained message loss, and have no customer service for security incidents.",
+      "evidence": [
+        "It’s strange how there’s no prompts options and it seems like it’s entirely too easy for phone messages to get intercepted by the app... I don’t want an app screening my messages. Now I’m not getting my texts and I think someone has hacked my phone number. Why is there no customer service?"
+      ],
+      "sources": [
+        "appstore"
+      ],
+      "url": "",
+      "suggested_solution": "An on-device WhatsApp proxy that encrypts message databases, blocks telemetry, and provides audit logs for message delivery verification.",
+      "monetization": "Freemium: free audit logs; $3/month for advanced encryption and telemetry blocking.",
+      "score": 65.0,
+      "buy_intent": false
+    },
+    {
+      "theme": "WhatsApp UI regression & forced Instagram-like changes",
+      "pain": "Updates replace WhatsApp’s distinct UI with Instagram-style horizontal statuses and remove features like avatars, alienating users who want a focused messaging experience.",
+      "evidence": [
+        "Terrible actualización... están haciendo de esta plataforma que sirve para comunicarnos con gente seleccionada lo mismo que las demás app, es horrible la actualización de los estados horizontales cada vez se parece más a Instagram",
+        "I have a question why did you remove avatar from WhatsApp"
+      ],
+      "sources": [
+        "appstore"
+      ],
+      "url": "",
+      "suggested_solution": "A customizable WhatsApp Web wrapper that restores classic status layout, brings back avatars, and lets users toggle UI modules via a settings panel.",
+      "monetization": "One-time license $12 or $2/month for continuous updates.",
+      "score": 60.0,
       "buy_intent": false
     }
   ]

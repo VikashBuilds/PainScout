@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ChromaClear — Eliminate color fringing on OLED monitors with subpixel-aware text rendering</title>
+<style>
+:root{--bg:#0b0f1a;--card:#131a2b;--acc:#6c5ce7;--acc2:#00cec9;--txt:#e8ecf4;--mut:#9aa5b8}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--txt);line-height:1.6}
+.hero{padding:72px 20px 48px;text-align:center;background:radial-gradient(ellipse at top,#1a2340 0%,var(--bg) 70%)}
+.badge{display:inline-block;padding:6px 14px;border-radius:999px;background:rgba(108,92,231,.15);color:#b3a8ff;font-size:13px;letter-spacing:.5px;margin-bottom:20px;border:1px solid rgba(108,92,231,.4)}
+h1{font-size:clamp(2rem,5vw,3.4rem);font-weight:800;letter-spacing:-.5px;margin-bottom:14px}
+.tag{font-size:clamp(1.05rem,2.5vw,1.35rem);color:var(--mut);max-width:640px;margin:0 auto 30px}
+.cta{display:inline-block;padding:15px 34px;border-radius:12px;background:linear-gradient(135deg,var(--acc),var(--acc2));color:#fff;font-weight:700;font-size:1.05rem;text-decoration:none;box-shadow:0 8px 30px rgba(108,92,231,.35);transition:transform .15s}
+.cta:hover{transform:translateY(-2px)}
+.container{max-width:960px;margin:0 auto;padding:32px 20px 80px}
+.section{margin-top:48px}
+h2{font-size:1.5rem;margin-bottom:18px;color:#fff}
+.card{background:var(--card);border:1px solid #1e2a45;border-radius:16px;padding:24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.grid .card{padding:18px}
+.grid .card strong{color:var(--acc2);font-size:1.05rem}
+ul{list-style:none}
+li{padding:8px 0 8px 26px;position:relative}
+li:before{content:"✓";position:absolute;left:0;color:var(--acc2)}
+.wa{border-left:4px solid #25d366;padding:20px 24px;border-radius:0 12px 12px 0;background:rgba(37,211,102,.06)}
+code{background:#0d1526;padding:2px 8px;border-radius:6px;font-size:.92em;color:#8be9fd}
+.pricing{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.pricing .price{font-size:2.2rem;font-weight:800;color:var(--acc2)}
+.foot{text-align:center;color:var(--mut);padding:32px;font-size:.85rem}
+@media(max-width:600px){.hero{padding:48px 16px 32px}}
+</style>
+</head>
+<body>
+<div class="hero">
+  <span class="badge">✨ AI-Powered · WhatsApp-First · No-Code</span>
+  <h1>Sharp Text on Any OLED. Finally.</h1>
+  <p class="tag">Stop color fringing on WOLED and QD-OLED monitors with the only tool that matches Windows ClearType to your actual subpixel layout.</p>
+  <a class="cta" href="#wa">Download for Windows (Free)</a>
+</div>
+<div class="container">
+  <div class="section">
+    <h2>The problem</h2>
+    <div class="card"><p>Windows ClearType assumes RGB stripe subpixels, causing visible color fringing on WOLED (WRGB) and QD-OLED (triangular) displays. No built-in OS option exists to match rendering to actual subpixel layouts.</p></div>
+  </div>
+  <div class="section">
+    <h2>The solution</h2>
+    <div class="card"><p>A system-level utility that detects monitor subpixel geometry and applies custom ClearType-compatible rendering profiles. Users select their panel type (WOLED WRGB, QD-OLED triangular, RGB stripe) and the tool injects corrected gamma, contrast, and subpixel weights via DirectWrite overrides. Works globally across all apps without per-app config.</p></div>
+  </div>
+  <div class="section">
+    <h2>What you get</h2>
+    <div class="card"><ul><li>Auto-detects your panel type via EDID</li><li>Presets for WOLED WRGB, QD-OLED triangular, RGB/BGR stripe</li><li>System-wide — works in every app, no restarts</li><li>Per-monitor profiles for mixed setups</li><li>Open-source core, free forever for personal use</li></ul></div>
+  </div>
+  <div class="section">
+    <h2>Features (v1)</h2>
+    <div class="card"><ul><li>Auto-detect monitor subpixel layout via EDID/panel database</li><li>Preset profiles: WOLED WRGB, QD-OLED triangular, RGB stripe, BGR stripe</li><li>Custom subpixel weight sliders (R/G/B/W intensity per subpixel)</li><li>Real-time preview pane with test strings at multiple sizes</li><li>Per-monitor profiles for multi-monitor mixed setups</li><li>DirectWrite hook for system-wide application (no app restart)</li><li>Gamma/contrast compensation tuned per panel type</li><li>Export/import profile JSON for community sharing</li></ul></div>
+  </div>
+  <div class="section">
+    <h2>Tech stack</h2>
+    <div class="card" style="display:flex;flex-wrap:wrap;gap:8px"><code>C# .NET 8</code> <code>WPF (WinUI 3 optional)</code> <code>DirectWrite via Vortice.Windows</code> <code>WMI/SetupAPI for EDID parsing</code> <code>GitHub Actions CI/CD</code> <code>Winget/Chocolatey distribution</code> <code>DigiCert code signing certificate</code> <code>NSIS installer (optional)</code></div>
+  </div>
+  <div class="section">
+    <h2>Competitors &amp; the gap</h2>
+    <div class="grid"><div class="card"><strong>ClearType Tuner (built-in)</strong><p style="margin-top:8px;color:var(--mut)">Gap: Only offers RGB/BGR stripe tuning; no WRGB or triangular presets</p></div><div class="card"><strong>BetterClearType (GitHub)</strong><p style="margin-top:8px;color:var(--mut)">Gap: Open-source but unmaintained; no auto-detect, no per-monitor profiles</p></div><div class="card"><strong>MacType</strong><p style="margin-top:8px;color:var(--mut)">Gap: Replaces font rasterizer entirely; heavy, breaks some apps, no OLED-specific profiles</p></div><div class="card"><strong>DisplayCAL</strong><p style="margin-top:8px;color:var(--mut)">Gap: Focuses on color calibration, not subpixel text rendering</p></div></div>
+  </div>
+  <div class="section" id="wa">
+    <h2>Try it on WhatsApp</h2>
+    <div class="card wa">
+      <p><strong>How it works:</strong> User messages bot with monitor model → bot replies with recommended profile + download link → user installs → bot sends setup verification checklist → optional: submit anonymous fringing screenshot for community database</p>
+      <p style="margin-top:12px"><strong>Commands:</strong> <code>/detect &lt;model&gt;</code> <code>/profiles</code> <code>/download</code> <code>/verify</code> <code>/submit</code> <code>/help</code></p>
+    </div>
+  </div>
+  <div class="section">
+    <h2>Pricing</h2>
+    <div class="card pricing"><span class="price">Free for personal use; $19 one-time commercial license (per seat); optional $5/yr for auto-updates &amp; profile cloud sync</span></div>
+  </div>
+</div>
+<div class="foot">Generated by PainScout · MVP in ~18 days · Built by a vibe coder for people with real problems</div>
+</body>
+</html>

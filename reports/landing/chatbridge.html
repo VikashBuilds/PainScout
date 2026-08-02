@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ChatBridge — Seamlessly migrate WhatsApp chats between Android and iPhone without data loss</title>
+<style>
+:root{--bg:#0b0f1a;--card:#131a2b;--acc:#6c5ce7;--acc2:#00cec9;--txt:#e8ecf4;--mut:#9aa5b8}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--txt);line-height:1.6}
+.hero{padding:72px 20px 48px;text-align:center;background:radial-gradient(ellipse at top,#1a2340 0%,var(--bg) 70%)}
+.badge{display:inline-block;padding:6px 14px;border-radius:999px;background:rgba(108,92,231,.15);color:#b3a8ff;font-size:13px;letter-spacing:.5px;margin-bottom:20px;border:1px solid rgba(108,92,231,.4)}
+h1{font-size:clamp(2rem,5vw,3.4rem);font-weight:800;letter-spacing:-.5px;margin-bottom:14px}
+.tag{font-size:clamp(1.05rem,2.5vw,1.35rem);color:var(--mut);max-width:640px;margin:0 auto 30px}
+.cta{display:inline-block;padding:15px 34px;border-radius:12px;background:linear-gradient(135deg,var(--acc),var(--acc2));color:#fff;font-weight:700;font-size:1.05rem;text-decoration:none;box-shadow:0 8px 30px rgba(108,92,231,.35);transition:transform .15s}
+.cta:hover{transform:translateY(-2px)}
+.container{max-width:960px;margin:0 auto;padding:32px 20px 80px}
+.section{margin-top:48px}
+h2{font-size:1.5rem;margin-bottom:18px;color:#fff}
+.card{background:var(--card);border:1px solid #1e2a45;border-radius:16px;padding:24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.grid .card{padding:18px}
+.grid .card strong{color:var(--acc2);font-size:1.05rem}
+ul{list-style:none}
+li{padding:8px 0 8px 26px;position:relative}
+li:before{content:"✓";position:absolute;left:0;color:var(--acc2)}
+.wa{border-left:4px solid #25d366;padding:20px 24px;border-radius:0 12px 12px 0;background:rgba(37,211,102,.06)}
+code{background:#0d1526;padding:2px 8px;border-radius:6px;font-size:.92em;color:#8be9fd}
+.pricing{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.pricing .price{font-size:2.2rem;font-weight:800;color:var(--acc2)}
+.foot{text-align:center;color:var(--mut);padding:32px;font-size:.85rem}
+@media(max-width:600px){.hero{padding:48px 16px 32px}}
+</style>
+</head>
+<body>
+<div class="hero">
+  <span class="badge">✨ AI-Powered · WhatsApp-First · No-Code</span>
+  <h1>Switch Phones. Keep Every Chat.</h1>
+  <p class="tag">The only tool that moves your full WhatsApp history — texts, media, voice notes — between Android and iPhone without data loss or cloud exposure.</p>
+  <a class="cta" href="#wa">Download Free Trial (Moves 50 Messages)</a>
+</div>
+<div class="container">
+  <div class="section">
+    <h2>The problem</h2>
+    <div class="card"><p>WhatsApp backups are locked to Google Drive (Android) and iCloud (iPhone) with no official cross-platform migration path. Switching operating systems results in permanent chat history loss.</p></div>
+  </div>
+  <div class="section">
+    <h2>The solution</h2>
+    <div class="card"><p>A desktop app that extracts encrypted WhatsApp backups from both Google Drive and iCloud, decrypts them locally using the user&#x27;s encryption key, and converts them into a universal format for restoration on the target device via WhatsApp&#x27;s official &#x27;Move Chats&#x27; feature. All processing happens offline — chat data never leaves the user&#x27;s machine.</p></div>
+  </div>
+  <div class="section">
+    <h2>What you get</h2>
+    <div class="card"><ul><li>Extract from Google Drive &amp; iCloud — no factory reset needed</li><li>Local-only decryption — your chats never touch our servers</li><li>Selective migration — move only the chats that matter</li><li>Preserves media, timestamps, sender info, and formatting</li><li>Works with WhatsApp&#x27;s official restore flow — no hacks</li><li>One-time purchase, no subscription</li></ul></div>
+  </div>
+  <div class="section">
+    <h2>Features (v1)</h2>
+    <div class="card"><ul><li>OAuth authentication with Google Drive to locate and download encrypted WhatsApp backup (crypt12/crypt14)</li><li>Apple ID authentication via app-specific password to access iCloud WhatsApp backup</li><li>Local decryption using user&#x27;s 64-digit encryption key (derived from phone number + user passphrase)</li><li>Parse decrypted SQLite database into structured JSON with messages, media references, contacts, groups</li><li>Selective migration UI: filter by contact, group, date range, media type; preview before export</li><li>Generate WhatsApp-compatible backup bundle for target OS (Android .crypt14 or iOS .sqlite)</li><li>Media handling: download thumbnails, re-encrypt media keys, preserve voice notes/documents</li><li>Progress tracking with pause/resume, checksum verification, detailed logs</li></ul></div>
+  </div>
+  <div class="section">
+    <h2>Tech stack</h2>
+    <div class="card" style="display:flex;flex-wrap:wrap;gap:8px"><code>Tauri 2.0 (Rust backend, React/TypeScript frontend, WebView2/WebKit)</code> <code>Google Drive API v3 (googledrive Rust crate or Node via sidecar)</code> <code>iCloud access via pyicloud-rs (Rust port) or CloudKit JS via embedded WebView</code> <code>Custom crypt12/crypt14 decryption implementation (AES-256-GCM, PBKDF2-HMAC-SHA512)</code> <code>SQLite (rusqlite) for backup parsing and universal format generation</code> <code>Serde JSON for universal backup schema</code> <code>Vercel for landing page + license API (Edge Functions)</code> <code>LemonSqueezy for licensing, payments, affiliate management</code></div>
+  </div>
+  <div class="section">
+    <h2>Competitors &amp; the gap</h2>
+    <div class="grid"><div class="card"><strong>MobileTrans (Wondershare)</strong><p style="margin-top:8px;color:var(--mut)">Gap: $39.95/year subscription, closed source, uploads data to their servers, bloated with unnecessary features</p></div><div class="card"><strong>Dr.Fone (Wondershare)</strong><p style="margin-top:8px;color:var(--mut)">Gap: Similar subscription model, privacy concerns, forces full toolkit install, no selective migration</p></div><div class="card"><strong>WhatsApp Official &#x27;Move to iOS/Android&#x27;</strong><p style="margin-top:8px;color:var(--mut)">Gap: Only works during initial device setup, requires factory reset, one-directional, no selective chat choice</p></div><div class="card"><strong>iCareFone Transfer (Tenorshare)</strong><p style="margin-top:8px;color:var(--mut)">Gap: Freemium with 20-message limit, requires USB debugging/lightning cable, Windows-only for Android-&gt;iOS</p></div></div>
+  </div>
+  <div class="section" id="wa">
+    <h2>Try it on WhatsApp</h2>
+    <div class="card wa">
+      <p><strong>How it works:</strong> User purchases license → receives key via email → downloads desktop app → authenticates Google Drive/iCloud in app → bot sends real-time progress notifications (download %, decryption status, export complete) and final success/failure alert with log link</p>
+      <p style="margin-top:12px"><strong>Commands:</strong> <code>STATUS - current migration progress percentage</code> <code>LOGS - last 50 lines of operation log</code> <code>RETRY - resume failed migration from checkpoint</code> <code>HELP - setup guide link + video tutorial</code> <code>LICENSE - resend license key to this chat</code></p>
+    </div>
+  </div>
+  <div class="section">
+    <h2>Pricing</h2>
+    <div class="card pricing"><span class="price">$49 one-time license (lifetime updates, 3 devices), free trial migrates 50 messages per chat. No subscription.</span></div>
+  </div>
+</div>
+<div class="foot">Generated by PainScout · MVP in ~45 days · Built by a vibe coder for people with real problems</div>
+</body>
+</html>

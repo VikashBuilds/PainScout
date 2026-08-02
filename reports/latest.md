@@ -1,99 +1,80 @@
 # 🔍 PainScout Report
 
-- **Query:** `people waste time on manual work`
-- **Generated:** 2026-08-02T10:20:50+00:00
-- **Pain points scanned:** 13
+- **Query:** `small business owners waste time on admin work`
+- **Generated:** 2026-08-02T10:29:38+00:00
+- **Pain points scanned:** 16
 - **Analyzer:** AI (LLM)
 
-**Sources:** appstore: 6, github: 1, hackernews: 3, stackexchange: 3
+**Sources:** appstore: 15, github: 1
 
-## 🎯 Top 6 Opportunities
+## 🎯 Top 5 Opportunities
 
-### 1. [65/100] Cross-calendar time zone scheduling is painful
+### 1. [85/100] OLED subpixel text rendering
 
-**The pain:** Remote teams struggle to coordinate meetings across different calendar systems and time zones, wasting time on back-and-forth.
-
-**Evidence:**
-- “How to coordinate meetings across different calendar systems and time zones efficiently?”
-
-**Sources:** stackexchange · [best link](https://workplace.com/q/202270)
-
-**AI solution to build:** A WhatsApp bot that parses natural language like 'free Tuesday 3pm' and finds mutually available slots across Google/Microsoft calendars, then sends invitations.
-
-**How to charge:** Per-seat subscription or pay-per-meeting scheduled.
-
-### 2. [60/100] Context switching kills productivity
-
-**The pain:** Busy professionals waste time juggling tasks, notes, calendars and chat, losing focus and control.
+**The pain:** Windows ClearType assumes RGB stripe subpixels, causing color fringing on WOLED (WRGB) and QD-OLED (triangular) monitors, with no built-in correction.
 
 **Evidence:**
-- “they hate context switching between apps”
-- “cannot stay in control of their time”
-- “they rely on manual "hacks"”
-
-**Sources:** hackernews · [best link](https://news.ycombinator.com/item?id=26565629)
-
-**AI solution to build:** An AI personal assistant that unifies tasks, notes, calendar and chat into a single conversational WhatsApp interface, automatically organizing context and reducing app switching.
-
-**How to charge:** Per-seat monthly subscription (e.g. $10/user/mo) with free trial.
-
-### 3. [55/100] Web automation breaks on SSO and dynamic UIs
-
-**The pain:** Developers struggle to automate logins and test web apps because selectors and sessions break with SSO and changing interfaces.
-
-**Evidence:**
-- “Login through Google SSO using automated browser”
-- “How to improve this web app testing process?”
-
-**Sources:** stackexchange · [best link](https://stackoverflow.com/q/71969305)
-
-**AI solution to build:** An AI-powered test automation SaaS that uses computer vision to locate elements and auto-heal broken selectors, including SSO login flows.
-
-**How to charge:** Usage-based pricing (per test run) plus a free tier for side projects.
-
-### 4. [50/100] App privacy, reliability, and support gaps
-
-**The pain:** Users fear their messages are being screened, text delivery breaks, and there is no customer service to resolve it.
-
-**Evidence:**
-- “I don’t want an app screening my messages”
-- “Now I’m not getting my texts”
-- “Why is there no customer service?”
-
-**Sources:** appstore · [best link]()
-
-**AI solution to build:** A privacy-focused WhatsApp proxy/automation that gives users control over message handling and an AI-powered support bot for instant help.
-
-**How to charge:** Freemium: free with ads, premium for privacy and priority support.
-
-### 5. [45/100] OLED monitors render text with color fringing
-
-**The pain:** Owners of WOLED and QD-OLED displays see chromatic aberration on text because ClearType only supports RGB stripe subpixels.
-
-**Evidence:**
-- “ClearType alters anti-aliasing assuming an RGB stripe subpixel configuration”
-- “noticeable chromatic aberration/color fringing on edges of text”
+- “ClearType alters anti-aliasing assuming an RGB stripe subpixel configuration. More WOLED (WRGB stripe) and QD-OLED (RGB triangular) monitors are coming to market and have noticeable chromatic aberration/color fringing on edges of text.”
+- “It would be nice if Windows had a built-in option to alter text rendering based on subpixel configuration of the monitor.”
 
 **Sources:** github · [best link](https://github.com/microsoft/PowerToys/issues/25595)
 
-**AI solution to build:** An AI SaaS that analyzes a user's display subpixel layout from a photo and auto-generates custom ClearType settings or shaders.
+**AI solution to build:** A Windows utility (PowerToy or standalone) that detects monitor subpixel layout and applies custom display shaders for correct subpixel anti-aliasing on WOLED/QD-OLED.
 
-**How to charge:** One-time payment or low-cost subscription (e.g. $5/mo).
+**How to charge:** Freemium: free basic profiles; $15 one-time for advanced per-monitor calibration and auto-switching.
 
-### 6. [35/100] Apps miss features and feel empty
+### 2. [75/100] WhatsApp business account suspension without recourse
 
-**The pain:** Users churn when apps lack key features like watch complications, profile setup fails, or communities are too quiet.
+**The pain:** Business accounts suffer sudden group suspensions with no explanation, no appeal process, and zero customer support, halting revenue.
 
 **Evidence:**
-- “No me deja poner el usuario”
-- “Please add the option to add it as a complication on our faces!!!”
-- “I wish there was more people on this app and different chats.”
+- “Why is my group suspended this is a business account I start for so long but I wake up today seeing groups is suspended please give me back my group to start my business back”
 
 **Sources:** appstore · [best link]()
 
-**AI solution to build:** An AI-powered review analysis tool that clusters app-store complaints into actionable feature requests, plus a WhatsApp engagement bot that sends curated prompts to keep communities lively.
+**AI solution to build:** A WhatsApp Business compliance dashboard that monitors policy risk signals, auto-backs up group data, and generates appeal templates via the Business API.
 
-**How to charge:** SaaS for indie developers: tiered subscription (e.g. $29/mo).
+**How to charge:** Monthly SaaS $29 per business number with tiered support.
+
+### 3. [70/100] Cross-platform WhatsApp backup loss
+
+**The pain:** Switching between Android and iPhone loses WhatsApp chat history because backups are locked to Google Drive and iCloud with no official migration path.
+
+**Evidence:**
+- “La facilidad con la que pierdes la copia de seguridad de chata, cuando cambias de android a iphone es desagradable, se pierde mucha informacion y es necesario que creen un metodo para respaldar esa informacion en whatsapp y no en la plataforma de sistemas operativos”
+
+**Sources:** appstore · [best link]()
+
+**AI solution to build:** A local desktop tool that decrypts WhatsApp backups from Google Drive/iCloud and re-encrypts for the target OS, enabling seamless cross-platform migration.
+
+**How to charge:** Per-migration fee $9.99 or $29.99/year for unlimited family migrations.
+
+### 4. [65/100] Meta privacy distrust & message interception fears
+
+**The pain:** Users believe Meta intercepts private messages, experience unexplained message loss, and have no customer service for security incidents.
+
+**Evidence:**
+- “It’s strange how there’s no prompts options and it seems like it’s entirely too easy for phone messages to get intercepted by the app... I don’t want an app screening my messages. Now I’m not getting my texts and I think someone has hacked my phone number. Why is there no customer service?”
+
+**Sources:** appstore · [best link]()
+
+**AI solution to build:** An on-device WhatsApp proxy that encrypts message databases, blocks telemetry, and provides audit logs for message delivery verification.
+
+**How to charge:** Freemium: free audit logs; $3/month for advanced encryption and telemetry blocking.
+
+### 5. [60/100] WhatsApp UI regression & forced Instagram-like changes
+
+**The pain:** Updates replace WhatsApp’s distinct UI with Instagram-style horizontal statuses and remove features like avatars, alienating users who want a focused messaging experience.
+
+**Evidence:**
+- “Terrible actualización... están haciendo de esta plataforma que sirve para comunicarnos con gente seleccionada lo mismo que las demás app, es horrible la actualización de los estados horizontales cada vez se parece más a Instagram”
+- “I have a question why did you remove avatar from WhatsApp”
+
+**Sources:** appstore · [best link]()
+
+**AI solution to build:** A customizable WhatsApp Web wrapper that restores classic status layout, brings back avatars, and lets users toggle UI modules via a settings panel.
+
+**How to charge:** One-time license $12 or $2/month for continuous updates.
 
 ---
 *Generated by PainScout — deploy an AI SaaS or WhatsApp automation to fix these.*
