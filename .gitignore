@@ -17,3 +17,4 @@ htmlcov/
 # Reports are generated artifacts; keep latest in-repo for landing page
 reports/pain-report_*.md
 reports/pain-report_*.json
+# Briefs + landing pages are valuable outputs — commit them

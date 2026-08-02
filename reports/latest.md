@@ -1,87 +1,99 @@
 # 🔍 PainScout Report
 
 - **Query:** `people waste time on manual work`
-- **Generated:** 2026-08-02T09:49:18+00:00
-- **Pain points scanned:** 12
+- **Generated:** 2026-08-02T10:20:50+00:00
+- **Pain points scanned:** 13
 - **Analyzer:** AI (LLM)
 
-**Sources:** hackernews: 3, stackexchange: 9
+**Sources:** appstore: 6, github: 1, hackernews: 3, stackexchange: 3
 
-## 🎯 Top 5 Opportunities
+## 🎯 Top 6 Opportunities
 
-### 1. [82/100] Non-technical workflow automation
+### 1. [65/100] Cross-calendar time zone scheduling is painful
 
-**The pain:** Analysts and operations teams cannot automate data processes without engineering help, forcing reliance on brittle spreadsheets or waiting months for IT tickets.
-
-**Evidence:**
-- “Enso is a workflow builder that makes it easy for analysts without a programming background to automate data-driven processes”
-- “Best way for synonyms if data is stored outside dialogflow?”
-- “How to improve this web app testing process?”
-
-**Sources:** hackernews, stackexchange · [best link](https://news.ycombinator.com/item?id=27748738)
-
-**AI solution to build:** A WhatsApp-based no-code automation bot that lets business users describe a data task in plain language, generates the workflow visually, and runs it on a schedule or trigger.
-
-**How to charge:** Freemium: free tier up to 5 workflows/month; Pro $49/mo per seat for unlimited runs, SQL connectors, and WhatsApp alerts.
-
-### 2. [78/100] Context-switching overload
-
-**The pain:** Knowledge workers lose hours daily jumping between calendar, email, chat, notes, and task apps, breaking deep focus and causing missed follow-ups.
-
-**Evidence:**
-- “they hate context switching between apps”
-- “cannot stay in control of their time, they rely on manual "hacks" based on a single product”
-- “How to coordinate meetings across different calendar systems and time zones efficiently?”
-
-**Sources:** hackernews, stackexchange · [best link](https://news.ycombinator.com/item?id=26565629)
-
-**AI solution to build:** A WhatsApp AI assistant that aggregates calendar, tasks, and notes into a single conversational interface—schedule, reschedule, capture notes, and get daily briefings without leaving chat.
-
-**How to charge:** Subscription $15/mo per user; team plan $12/mo with shared calendars and analytics.
-
-### 3. [71/100] Legacy code & spec churn paralysis
-
-**The pain:** Developers inherit undocumented, fragile codebases while requirements shift constantly, leading to fear of deployments and endless rework.
-
-**Evidence:**
-- “Working with a poorly written piece of software as an entry-level developer with no support or documentation”
-- “How do you adapt to changes to product specifications during development?”
-- “Login through Google SSO using automated browser”
-
-**Sources:** stackexchange · [best link](https://softwareengineering.com/q/446046)
-
-**AI solution to build:** An AI code-archaeology tool that ingests a repo, auto-generates living documentation, maps spec changes to affected files, and proposes safe refactor PRs—triggerable via WhatsApp slash commands.
-
-**How to charge:** Per-repo $29/mo; enterprise $299/mo for SSO, on-prem, and compliance reports.
-
-### 4. [68/100] Flaky browser automation & SSO walls
-
-**The pain:** QA and RPA engineers waste days fighting dynamic selectors, CAPTCHAs, and corporate SSO flows just to run reliable end-to-end tests or scrapers.
-
-**Evidence:**
-- “Login through Google SSO using automated browser”
-- “How to improve this web app testing process?”
-- “selenium, selenium-chromedriver, single-sign-on”
-
-**Sources:** stackexchange · [best link](https://stackoverflow.com/q/71969305)
-
-**AI solution to build:** A cloud-based, AI-healed browser automation service exposed as a WhatsApp bot: send a user story, get a resilient Playwright script that auto-updates when UI changes, with built-in SSO handling.
-
-**How to charge:** Pay-per-run $0.05; monthly bundles 10k runs $199; dedicated runners $499/mo.
-
-### 5. [65/100] Cross-platform meeting chaos
-
-**The pain:** Distributed teams drown in back-and-forth messages to align calendars across Google, Outlook, Calendly, and time zones, causing no-shows and double-bookings.
+**The pain:** Remote teams struggle to coordinate meetings across different calendar systems and time zones, wasting time on back-and-forth.
 
 **Evidence:**
 - “How to coordinate meetings across different calendar systems and time zones efficiently?”
-- “communication, colleagues, meetings, remote-work, scheduling”
 
 **Sources:** stackexchange · [best link](https://workplace.com/q/202270)
 
-**AI solution to build:** A WhatsApp scheduling concierge that reads connected calendars, proposes optimal slots in each participant's local time, books instantly, and sends reminders—all via chat.
+**AI solution to build:** A WhatsApp bot that parses natural language like 'free Tuesday 3pm' and finds mutually available slots across Google/Microsoft calendars, then sends invitations.
 
-**How to charge:** Free for 1-on-1s; Team $8/user/mo for group polling, buffer rules, and analytics.
+**How to charge:** Per-seat subscription or pay-per-meeting scheduled.
+
+### 2. [60/100] Context switching kills productivity
+
+**The pain:** Busy professionals waste time juggling tasks, notes, calendars and chat, losing focus and control.
+
+**Evidence:**
+- “they hate context switching between apps”
+- “cannot stay in control of their time”
+- “they rely on manual "hacks"”
+
+**Sources:** hackernews · [best link](https://news.ycombinator.com/item?id=26565629)
+
+**AI solution to build:** An AI personal assistant that unifies tasks, notes, calendar and chat into a single conversational WhatsApp interface, automatically organizing context and reducing app switching.
+
+**How to charge:** Per-seat monthly subscription (e.g. $10/user/mo) with free trial.
+
+### 3. [55/100] Web automation breaks on SSO and dynamic UIs
+
+**The pain:** Developers struggle to automate logins and test web apps because selectors and sessions break with SSO and changing interfaces.
+
+**Evidence:**
+- “Login through Google SSO using automated browser”
+- “How to improve this web app testing process?”
+
+**Sources:** stackexchange · [best link](https://stackoverflow.com/q/71969305)
+
+**AI solution to build:** An AI-powered test automation SaaS that uses computer vision to locate elements and auto-heal broken selectors, including SSO login flows.
+
+**How to charge:** Usage-based pricing (per test run) plus a free tier for side projects.
+
+### 4. [50/100] App privacy, reliability, and support gaps
+
+**The pain:** Users fear their messages are being screened, text delivery breaks, and there is no customer service to resolve it.
+
+**Evidence:**
+- “I don’t want an app screening my messages”
+- “Now I’m not getting my texts”
+- “Why is there no customer service?”
+
+**Sources:** appstore · [best link]()
+
+**AI solution to build:** A privacy-focused WhatsApp proxy/automation that gives users control over message handling and an AI-powered support bot for instant help.
+
+**How to charge:** Freemium: free with ads, premium for privacy and priority support.
+
+### 5. [45/100] OLED monitors render text with color fringing
+
+**The pain:** Owners of WOLED and QD-OLED displays see chromatic aberration on text because ClearType only supports RGB stripe subpixels.
+
+**Evidence:**
+- “ClearType alters anti-aliasing assuming an RGB stripe subpixel configuration”
+- “noticeable chromatic aberration/color fringing on edges of text”
+
+**Sources:** github · [best link](https://github.com/microsoft/PowerToys/issues/25595)
+
+**AI solution to build:** An AI SaaS that analyzes a user's display subpixel layout from a photo and auto-generates custom ClearType settings or shaders.
+
+**How to charge:** One-time payment or low-cost subscription (e.g. $5/mo).
+
+### 6. [35/100] Apps miss features and feel empty
+
+**The pain:** Users churn when apps lack key features like watch complications, profile setup fails, or communities are too quiet.
+
+**Evidence:**
+- “No me deja poner el usuario”
+- “Please add the option to add it as a complication on our faces!!!”
+- “I wish there was more people on this app and different chats.”
+
+**Sources:** appstore · [best link]()
+
+**AI solution to build:** An AI-powered review analysis tool that clusters app-store complaints into actionable feature requests, plus a WhatsApp engagement bot that sends curated prompts to keep communities lively.
+
+**How to charge:** SaaS for indie developers: tiered subscription (e.g. $29/mo).
 
 ---
 *Generated by PainScout — deploy an AI SaaS or WhatsApp automation to fix these.*

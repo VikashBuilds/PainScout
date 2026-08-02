@@ -48,7 +48,35 @@ KEYWORD_REGEXES = {
         re.IGNORECASE,
     ),
     "wish": re.compile(r"\b(wish|if only|would be great if|should be able to|why (can't|cant))\b", re.IGNORECASE),
+    # Buy-intent signals: someone willing to pay = monetizable pain.
+    "buy": re.compile(
+        r"\b(i('d| would| will)? pay|willing to (pay|spend)|take my money|would buy|"
+        r"any (tool|app|bot|service) that|something that (can|could|would)|"
+        r"there should be|someone should|please (make|build|fix|add)|"
+        r"i'd love|i would love|worth (paying|it)|how much|subscription)\b",
+        re.IGNORECASE,
+    ),
 }
+
+
+def buy_intent_hits(text: str) -> int:
+    """Count buy-intent signals in a pain point's text."""
+    low = text.lower()
+    hits = 0
+    for pat in [
+        r"pay",
+        r"willing to (pay|spend)",
+        r"take my money",
+        r"would buy",
+        r"subscription",
+        r"worth paying",
+        r"any tool",
+        r"there should be",
+        r"please (make|build|fix|add)",
+    ]:
+        if re.search(pat, low):
+            hits += 1
+    return hits
 
 
 def _keyword_hits(text: str) -> list[tuple[str, float, list[str], str]]:
@@ -76,7 +104,8 @@ def fallback_analyze(points: list[PainPoint], top_n: int = 8) -> list[Opportunit
         emotion_bonus = sum(
             1 for p in group if KEYWORD_REGEXES["score"].search(p.full_text) or KEYWORD_REGEXES["wish"].search(p.full_text)
         )
-        score = min(98.0, 20 + len(group) * 8 + emotion_bonus * 5)
+        buy_bonus = sum(buy_intent_hits(p.full_text) for p in group)
+        score = min(98.0, 20 + len(group) * 8 + emotion_bonus * 5 + buy_bonus * 6)
         evidence = [p.full_text[:220] for p in group[:4]]
         sources = sorted({p.source for p in group})
         best = max(group, key=lambda p: p.meta.get("score") or 0 if p.source != "appstore" else (p.meta.get("rating") or 0) * -1)
@@ -90,6 +119,7 @@ def fallback_analyze(points: list[PainPoint], top_n: int = 8) -> list[Opportunit
                 suggested_solution=solution,
                 monetization="SaaS subscription ($19-49/mo) or per-lead pricing via a WhatsApp bot",
                 score=score,
+                buy_intent=buy_bonus > 0,
             )
         )
     opportunities.sort(key=lambda o: o.score, reverse=True)
@@ -100,7 +130,7 @@ def fallback_analyze(points: list[PainPoint], top_n: int = 8) -> list[Opportunit
 
 SYSTEM_PROMPT = """You are an AI market-research analyst for a solo developer ("vibe coder") who builds
 AI SaaS products and WhatsApp automations. You are given raw customer complaints scraped from
-Reddit, Hacker News and App Store reviews.
+Reddit, Hacker News, Stack Exchange, GitHub issues and app-store reviews.
 
 Cluster the complaints into 3-6 distinct pain themes. For each theme, return a JSON object with:
 - theme: short label (max 8 words)
@@ -111,6 +141,8 @@ Cluster the complaints into 3-6 distinct pain themes. For each theme, return a J
 - suggested_solution: a concrete AI SaaS or WhatsApp automation that fixes this (1-2 sentences)
 - monetization: how the solo dev could charge for it (pricing model)
 - score: 0-100 opportunity score (frequency + emotion + willingness to pay)
+- buy_intent: true only if customers literally say they'd pay / want to buy a fix
+  ("I'd pay for", "willing to spend", "take my money", "any tool that", "please make")
 
 Respond with ONLY a JSON object: {"opportunities": [ ... ]}."""
 
@@ -204,6 +236,7 @@ def _opportunities_from_json(data: dict, top_n: int) -> list[Opportunity]:
                 suggested_solution=str(it.get("suggested_solution", "")),
                 monetization=str(it.get("monetization", "")),
                 score=float(it.get("score", 50)),
+                buy_intent=bool(it.get("buy_intent", False)),
             )
         )
     opps.sort(key=lambda o: o.score, reverse=True)

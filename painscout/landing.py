@@ -1,0 +1,128 @@
+"""Landing page generator — standalone HTML page per project brief.
+
+Produces a self-contained, mobile-first HTML page (inline CSS, no external
+deps) that the user can host on GitHub Pages / Netlify / Vercel in seconds.
+"""
+
+from __future__ import annotations
+
+import html
+from pathlib import Path
+
+from painscout.brief import ProjectBrief
+
+_CSS = """
+:root{--bg:#0b0f1a;--card:#131a2b;--acc:#6c5ce7;--acc2:#00cec9;--txt:#e8ecf4;--mut:#9aa5b8}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--txt);line-height:1.6}
+.hero{padding:72px 20px 48px;text-align:center;background:radial-gradient(ellipse at top,#1a2340 0%,var(--bg) 70%)}
+.badge{display:inline-block;padding:6px 14px;border-radius:999px;background:rgba(108,92,231,.15);color:#b3a8ff;font-size:13px;letter-spacing:.5px;margin-bottom:20px;border:1px solid rgba(108,92,231,.4)}
+h1{font-size:clamp(2rem,5vw,3.4rem);font-weight:800;letter-spacing:-.5px;margin-bottom:14px}
+.tag{font-size:clamp(1.05rem,2.5vw,1.35rem);color:var(--mut);max-width:640px;margin:0 auto 30px}
+.cta{display:inline-block;padding:15px 34px;border-radius:12px;background:linear-gradient(135deg,var(--acc),var(--acc2));color:#fff;font-weight:700;font-size:1.05rem;text-decoration:none;box-shadow:0 8px 30px rgba(108,92,231,.35);transition:transform .15s}
+.cta:hover{transform:translateY(-2px)}
+.container{max-width:960px;margin:0 auto;padding:32px 20px 80px}
+.section{margin-top:48px}
+h2{font-size:1.5rem;margin-bottom:18px;color:#fff}
+.card{background:var(--card);border:1px solid #1e2a45;border-radius:16px;padding:24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.grid .card{padding:18px}
+.grid .card strong{color:var(--acc2);font-size:1.05rem}
+ul{list-style:none}
+li{padding:8px 0 8px 26px;position:relative}
+li:before{content:"✓";position:absolute;left:0;color:var(--acc2)}
+.wa{border-left:4px solid #25d366;padding:20px 24px;border-radius:0 12px 12px 0;background:rgba(37,211,102,.06)}
+code{background:#0d1526;padding:2px 8px;border-radius:6px;font-size:.92em;color:#8be9fd}
+.pricing{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.pricing .price{font-size:2.2rem;font-weight:800;color:var(--acc2)}
+.foot{text-align:center;color:var(--mut);padding:32px;font-size:.85rem}
+@media(max-width:600px){.hero{padding:48px 16px 32px}}
+"""
+
+
+def render_landing_page(brief: ProjectBrief) -> str:
+    e = html.escape
+    name = e(brief.name)
+    tagline = e(brief.tagline)
+    problem = e(brief.problem)
+    solution = e(brief.solution)
+    lc = brief.landing_copy
+    headline = e(lc.get("headline") or f"Stop suffering from {brief.opportunity_theme.lower()}")
+    sub = e(lc.get("subheadline") or brief.tagline)
+    cta = e(lc.get("cta") or "Start on WhatsApp")
+    bullets = "".join(f"<li>{e(b)}</li>" for b in lc.get("bullets", []))
+    features = "".join(f"<li>{e(f)}</li>" for f in brief.features[:8])
+    stack = " ".join(f"<code>{e(t)}</code>" for t in brief.tech_stack[:8])
+    comps = "".join(
+        f'<div class="card"><strong>{e(c.get("name","?"))}</strong>'
+        f'<p style="margin-top:8px;color:var(--mut)">Gap: {e(c.get("gap","?"))}</p></div>'
+        for c in brief.competitors[:4]
+    )
+    wa = brief.whatsapp_bot
+    wa_flow = e(wa.get("flow", ""))
+    wa_cmds = " ".join(f"<code>{e(c)}</code>" for c in wa.get("commands", []))
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{name} — {tagline}</title>
+<style>{_CSS}</style>
+</head>
+<body>
+<div class="hero">
+  <span class="badge">✨ AI-Powered · WhatsApp-First · No-Code</span>
+  <h1>{headline}</h1>
+  <p class="tag">{sub}</p>
+  <a class="cta" href="#wa">{cta}</a>
+</div>
+<div class="container">
+  <div class="section">
+    <h2>The problem</h2>
+    <div class="card"><p>{problem}</p></div>
+  </div>
+  <div class="section">
+    <h2>The solution</h2>
+    <div class="card"><p>{solution}</p></div>
+  </div>
+  <div class="section">
+    <h2>What you get</h2>
+    <div class="card"><ul>{bullets}</ul></div>
+  </div>
+  <div class="section">
+    <h2>Features (v1)</h2>
+    <div class="card"><ul>{features}</ul></div>
+  </div>
+  <div class="section">
+    <h2>Tech stack</h2>
+    <div class="card" style="display:flex;flex-wrap:wrap;gap:8px">{stack}</div>
+  </div>
+  <div class="section">
+    <h2>Competitors &amp; the gap</h2>
+    <div class="grid">{comps}</div>
+  </div>
+  <div class="section" id="wa">
+    <h2>Try it on WhatsApp</h2>
+    <div class="card wa">
+      <p><strong>How it works:</strong> {wa_flow}</p>
+      <p style="margin-top:12px"><strong>Commands:</strong> {wa_cmds}</p>
+    </div>
+  </div>
+  <div class="section">
+    <h2>Pricing</h2>
+    <div class="card pricing"><span class="price">{e(brief.pricing_model)}</span></div>
+  </div>
+</div>
+<div class="foot">Generated by PainScout · MVP in ~{brief.build_estimate_days} days · Built by a vibe coder for people with real problems</div>
+</body>
+</html>
+"""
+
+
+def save_landing_page(brief: ProjectBrief, out_dir: Path) -> Path:
+    out_dir = out_dir / "landing"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    path = out_dir / f"{brief.slug}.html"
+    path.write_text(render_landing_page(brief), encoding="utf-8")
+    return path

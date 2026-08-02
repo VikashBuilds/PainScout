@@ -1,0 +1,296 @@
+# 🚀 TimeBridge
+
+*Book cross-timezone meetings without the back-and-forth.*
+
+## The problem
+Remote teams lose hours coordinating meeting times across different calendar systems and time zones, dealing with endless email/Slack ping-pong and double bookings.
+
+## The solution
+TimeBridge connects to all participants' Google and Outlook calendars, automatically detecting their time zones and showing overlapping free slots in each person's local time. A single tap books the meeting, sends correct timezone-adjusted .ics invites, and handles rescheduling instantly.
+
+## Features (v1)
+- Multi-calendar sync (Google Calendar, Microsoft Outlook/Exchange)
+- Automatic time zone detection with DST handling for every participant
+- Live availability matrix showing overlapping free slots across all calendars
+- One-click booking that generates and emails .ics invites with local times
+- Working-hours preferences and buffer-time rules per user
+- Smart meeting-time proposals (AI ranks slots by overlap score)
+- Slack and Teams slash-command for scheduling without leaving chat
+- Auto-reschedule suggestions with conflict alerts when a meeting shifts
+
+## MVP scope
+Build a Next.js web app where a user logs in with Google and links their Outlook calendar. The app fetches free/busy data, lets the user input participant emails and duration, and displays a simple time-slot table showing each participant’s local time and availability. Clicking a slot emails .ics invites to all attendees and adds the event to all calendars. No AI or Slack integration initially—just the core timezone-aware availability matrix and invite flow.
+
+## Tech stack
+Next.js (App Router) for full-stack frontend and backend, Supabase (Postgres + Auth + Row Level Security), Google Calendar API, Microsoft Graph API, Luxon (timezone and DST handling), Resend (transactional email and .ics delivery), Vercel (hosting and serverless functions), Anthropic Claude API (for AI meeting-slot suggestions in v1.5)
+
+## Build estimate: 18 days
+
+## Competitors & gaps
+- **Calendly** — gap: Schedules against an individual's availability, not a true multi-participant cross-calendar overlap across teams.
+- **Doodle** — gap: Uses poll-based back-and-forth; no automatic calendar sync or live timezone conversion during booking.
+- **World Time Buddy** — gap: Only visualizes time zones; cannot schedule meetings or send invites.
+- **Reclaim.ai** — gap: Optimizes one user's calendar but is not designed for ad-hoc team coordination across different calendar providers.
+
+## Landing page copy
+- **Headline:** Schedule across time zones in one click
+- **Subheadline:** Sync all calendars, see overlapping free slots, and send timezone-correct invites — without the back-and-forth.
+- Bullet: [
+- Bullet: '
+- Bullet: A
+- Bullet: u
+- Bullet: t
+- Bullet: o
+- Bullet: m
+- Bullet: a
+- Bullet: t
+- Bullet: i
+- Bullet: c
+- Bullet: a
+- Bullet: l
+- Bullet: l
+- Bullet: y
+- Bullet:  
+- Bullet: d
+- Bullet: e
+- Bullet: t
+- Bullet: e
+- Bullet: c
+- Bullet: t
+- Bullet: s
+- Bullet:  
+- Bullet: t
+- Bullet: i
+- Bullet: m
+- Bullet: e
+- Bullet:  
+- Bullet: z
+- Bullet: o
+- Bullet: n
+- Bullet: e
+- Bullet: s
+- Bullet:  
+- Bullet: f
+- Bullet: o
+- Bullet: r
+- Bullet:  
+- Bullet: e
+- Bullet: v
+- Bullet: e
+- Bullet: r
+- Bullet: y
+- Bullet: o
+- Bullet: n
+- Bullet: e
+- Bullet: '
+- Bullet: ,
+- Bullet:  
+- Bullet: '
+- Bullet: L
+- Bullet: i
+- Bullet: v
+- Bullet: e
+- Bullet:  
+- Bullet: a
+- Bullet: v
+- Bullet: a
+- Bullet: i
+- Bullet: l
+- Bullet: a
+- Bullet: b
+- Bullet: i
+- Bullet: l
+- Bullet: i
+- Bullet: t
+- Bullet: y
+- Bullet:  
+- Bullet: m
+- Bullet: a
+- Bullet: t
+- Bullet: r
+- Bullet: i
+- Bullet: x
+- Bullet:  
+- Bullet: a
+- Bullet: c
+- Bullet: r
+- Bullet: o
+- Bullet: s
+- Bullet: s
+- Bullet:  
+- Bullet: G
+- Bullet: o
+- Bullet: o
+- Bullet: g
+- Bullet: l
+- Bullet: e
+- Bullet:  
+- Bullet: a
+- Bullet: n
+- Bullet: d
+- Bullet:  
+- Bullet: O
+- Bullet: u
+- Bullet: t
+- Bullet: l
+- Bullet: o
+- Bullet: o
+- Bullet: k
+- Bullet: '
+- Bullet: ,
+- Bullet:  
+- Bullet: '
+- Bullet: O
+- Bullet: n
+- Bullet: e
+- Bullet:  
+- Bullet: c
+- Bullet: l
+- Bullet: i
+- Bullet: c
+- Bullet: k
+- Bullet:  
+- Bullet: s
+- Bullet: e
+- Bullet: n
+- Bullet: d
+- Bullet: s
+- Bullet:  
+- Bullet: .
+- Bullet: i
+- Bullet: c
+- Bullet: s
+- Bullet:  
+- Bullet: i
+- Bullet: n
+- Bullet: v
+- Bullet: i
+- Bullet: t
+- Bullet: e
+- Bullet: s
+- Bullet:  
+- Bullet: w
+- Bullet: i
+- Bullet: t
+- Bullet: h
+- Bullet:  
+- Bullet: c
+- Bullet: o
+- Bullet: r
+- Bullet: r
+- Bullet: e
+- Bullet: c
+- Bullet: t
+- Bullet:  
+- Bullet: l
+- Bullet: o
+- Bullet: c
+- Bullet: a
+- Bullet: l
+- Bullet:  
+- Bullet: t
+- Bullet: i
+- Bullet: m
+- Bullet: e
+- Bullet: s
+- Bullet: '
+- Bullet: ,
+- Bullet:  
+- Bullet: '
+- Bullet: R
+- Bullet: e
+- Bullet: s
+- Bullet: p
+- Bullet: e
+- Bullet: c
+- Bullet: t
+- Bullet: s
+- Bullet:  
+- Bullet: w
+- Bullet: o
+- Bullet: r
+- Bullet: k
+- Bullet: i
+- Bullet: n
+- Bullet: g
+- Bullet:  
+- Bullet: h
+- Bullet: o
+- Bullet: u
+- Bullet: r
+- Bullet: s
+- Bullet:  
+- Bullet: a
+- Bullet: n
+- Bullet: d
+- Bullet:  
+- Bullet: b
+- Bullet: u
+- Bullet: f
+- Bullet: f
+- Bullet: e
+- Bullet: r
+- Bullet:  
+- Bullet: t
+- Bullet: i
+- Bullet: m
+- Bullet: e
+- Bullet: '
+- Bullet: ,
+- Bullet:  
+- Bullet: '
+- Bullet: S
+- Bullet: l
+- Bullet: a
+- Bullet: c
+- Bullet: k
+- Bullet:  
+- Bullet: /
+- Bullet:  
+- Bullet: T
+- Bullet: e
+- Bullet: a
+- Bullet: m
+- Bullet: s
+- Bullet:  
+- Bullet: c
+- Bullet: o
+- Bullet: m
+- Bullet: m
+- Bullet: a
+- Bullet: n
+- Bullet: d
+- Bullet: s
+- Bullet:  
+- Bullet: t
+- Bullet: o
+- Bullet:  
+- Bullet: s
+- Bullet: c
+- Bullet: h
+- Bullet: e
+- Bullet: d
+- Bullet: u
+- Bullet: l
+- Bullet: e
+- Bullet:  
+- Bullet: o
+- Bullet: n
+- Bullet:  
+- Bullet: t
+- Bullet: h
+- Bullet: e
+- Bullet:  
+- Bullet: f
+- Bullet: l
+- Bullet: y
+- Bullet: '
+- Bullet: ]
+- **CTA:** Start free — no credit card required
+
+## WhatsApp-first bot
+- **Flow:** User texts the bot 'Book meeting with john@acme.com for 30 minutes'. The bot confirms time zone, checks both users' calendars, proposes the top 3 overlapping slots in each user's local time, and asks the user to pick one. Once chosen, the bot creates calendar events and sends invites with a .ics attachment to all attendees.
+- **Commands:** [, ', n, e, w,  , <, e, m, a, i, l, >,  , <, d, u, r, a, t, i, o, n, >,  , —,  , s, t, a, r, t,  , a,  , b, o, o, k, i, n, g, ', ,,  , ', a, v, a, i, l, a, b, i, l, i, t, y,  , <, d, a, y, >,  , —,  , s, h, o, w,  , f, r, e, e,  , s, l, o, t, s, ', ,,  , ', p, i, c, k,  , <, s, l, o, t, >,  , —,  , c, h, o, o, s, e,  , a,  , p, r, o, p, o, s, e, d,  , t, i, m, e, ', ,,  , ', c, a, n, c, e, l,  , <, m, e, e, t, i, n, g, _, i, d, >,  , —,  , c, a, n, c, e, l,  , a, n, d,  , n, o, t, i, f, y,  , a, t, t, e, n, d, e, e, s, ', ,,  , ', h, e, l, p,  , —,  , l, i, s, t,  , c, o, m, m, a, n, d, s, ', ]
+- **Pricing:** Free tier up to 10 bookings/month; Pro $19/month per user for unlimited bookings and AI slot suggestions.
+
+## Pricing model: SaaS freemium — free up to 10 bookings/month; Pro at $19/user/month with unlimited bookings and AI suggestions.

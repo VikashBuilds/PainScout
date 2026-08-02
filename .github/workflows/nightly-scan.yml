@@ -44,7 +44,7 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           PAINSCOUT_QUERY: ${{ inputs.query || 'wish there was a way to automate' }}
         run: |
-          painscout --telegram
+          painscout --telegram --brief --brief-top 3
 
       - name: Commit report
         if: always()

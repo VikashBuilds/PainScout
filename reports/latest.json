@@ -1,6 +1,6 @@
 {
   "query": "people waste time on manual work",
-  "generated_at": "2026-08-02T09:49:18+00:00",
+  "generated_at": "2026-08-02T10:20:50+00:00",
   "pain_points": [
     {
       "source": "hackernews",
@@ -58,48 +58,6 @@
     },
     {
       "source": "stackexchange",
-      "title": "How does AppBrain's installation app work?",
-      "text": [
-        "android",
-        "security",
-        "installation",
-        "google-talk"
-      ],
-      "url": "https://stackoverflow.com/q/3224507",
-      "created_at": "1278879838",
-      "meta": {
-        "site": "stackoverflow",
-        "score": 7,
-        "answers": 1,
-        "tags": [
-          "android",
-          "security",
-          "installation",
-          "google-talk"
-        ]
-      }
-    },
-    {
-      "source": "stackexchange",
-      "title": "Best way for synonyms if data is stored outside dialogflow?",
-      "text": [
-        "nlp",
-        "dialogflow-es"
-      ],
-      "url": "https://stackoverflow.com/q/55884661",
-      "created_at": "1556397390",
-      "meta": {
-        "site": "stackoverflow",
-        "score": 1,
-        "answers": 0,
-        "tags": [
-          "nlp",
-          "dialogflow-es"
-        ]
-      }
-    },
-    {
-      "source": "stackexchange",
       "title": "How to improve this web app testing process?",
       "text": [
         "testing",
@@ -116,56 +74,6 @@
           "testing",
           "selenium",
           "phantomjs"
-        ]
-      }
-    },
-    {
-      "source": "stackexchange",
-      "title": "Working with a poorly written piece of software as an entry-level developer with no support or documentation",
-      "text": [
-        "testing",
-        "code-quality",
-        "clean-code",
-        "vb.net",
-        "desktop-application"
-      ],
-      "url": "https://softwareengineering.com/q/446046",
-      "created_at": "1686606707",
-      "meta": {
-        "site": "softwareengineering",
-        "score": 1,
-        "answers": 1,
-        "tags": [
-          "testing",
-          "code-quality",
-          "clean-code",
-          "vb.net",
-          "desktop-application"
-        ]
-      }
-    },
-    {
-      "source": "stackexchange",
-      "title": "How do you adapt to changes to product specifications during development?",
-      "text": [
-        "documentation",
-        "parsing",
-        "specifications",
-        "embedded-systems",
-        "automation"
-      ],
-      "url": "https://softwareengineering.com/q/328036",
-      "created_at": "1470809009",
-      "meta": {
-        "site": "softwareengineering",
-        "score": 4,
-        "answers": 2,
-        "tags": [
-          "documentation",
-          "parsing",
-          "specifications",
-          "embedded-systems",
-          "automation"
         ]
       }
     },
@@ -195,129 +103,182 @@
       }
     },
     {
-      "source": "stackexchange",
-      "title": "How to report manager for misconduct?",
-      "text": [
-        "management",
-        "human-resources",
-        "harassment"
-      ],
-      "url": "https://workplace.com/q/62672",
-      "created_at": "1456470243",
+      "source": "github",
+      "title": "Improved subpixel text rendering for OLED (WRGB stripe, RGB triangular) -- Unfixable by ClearType Tuner (Over 100 upvotes in Feedback Hub)",
+      "text": "### Description of the new feature / enhancement\n\n# EDIT: January 24th, 2025:\n\n- Proposed: [Alternative PowerToy Method: \"Display Shaders PowerToy\"](https://github.com/microsoft/PowerToys/issues/25595#issuecomment-2571621204)\n- Proposed: [Free Open Source Coding Offer to Microsoft to contribute \"Display Shaders PowerToy\"](https://github.com/microsoft/PowerToys/issues/25595#issuecomment-2611345767)\n- Related: [Blur Busters Open Source Display Shaders v1.0.2 specifcation](https://blurbusters.com/osi#spec)\n(will include WOLED/QDOLED shader)\n\n# NOTE: I do paid work with display manufacturers. \n\nRepost of incorrectly-closed github item that someone else posted:\n\n> ClearType alters anti-aliasing assuming an RGB stripe subpixel configuration. More WOLED (WRGB stripe) and QD-OLED (RGB triangular) monitors are coming to market and have noticeable chromatic aberration/color fringing on edges of text. It would be nice if Windows had a built-in option to alter text rendering based on subpixel configuration of the monitor.\n> \n> ### Scenario when this would be used?\n> When using a WOLED or QD-OLED monitor with WRGB stripe or RGB triangular subpixel configuration to improve text clarity.\n> \n> ### Supporting information\n> https://www.youtube.com/watch?v=52eiLP3Zy-s\n> \n> https://youtu.be/k-6yc1dA--0?t=602\n> \n> https://youtu.be/PR-1tMih0fM?t=442\n\nIt is definitely a real problem caused by unresolvable ClearType limitations.  The earlier github item (#25568) was incorrectly closed by someone who thought it was a feature already built into windows; so creating new GitHub issue.\n\n# EDIT January 24th, 2025\n_____\n\n# Over 100 Upvotes in Feedback Hub for \"ClearType 2\"\n\nOkay, I have audited Feedback Hub, and whoo-boy, this is a `popular complaint by OLED owners`.  \n\nThis issue is so obscure (that the duplicate-item judges do not even understand these are duplicates).  I will flag by copy and pasting some of this comment in Feedback Hub.\n\nSearch Terms: \"`cleartype OLED`\", \"`cleartype WOLED`\", ",
+      "url": "https://github.com/microsoft/PowerToys/issues/25595",
+      "created_at": "2023-04-18T04:07:48Z",
       "meta": {
-        "site": "workplace",
-        "score": 9,
-        "answers": 3,
-        "tags": [
-          "management",
-          "human-resources",
-          "harassment"
-        ]
+        "repo": "microsoft/PowerToys",
+        "comments": 354,
+        "reactions": 819
       }
     },
     {
-      "source": "stackexchange",
-      "title": "How to deal with politically entrenched entities that degrade quality of life?",
-      "text": [
-        "software-industry",
-        "company-culture",
-        "politics"
-      ],
-      "url": "https://workplace.com/q/182334",
-      "created_at": "1643067695",
+      "source": "appstore",
+      "title": "Por favor",
+      "text": "No me deja poner el usuario",
+      "url": "",
+      "created_at": "2026-07-31T12:50:26-07:00",
       "meta": {
-        "site": "workplace",
-        "score": 3,
-        "answers": 4,
-        "tags": [
-          "software-industry",
-          "company-culture",
-          "politics"
-        ]
+        "rating": 5,
+        "author": "Todo me encantó"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "Very good",
+      "text": "So nice, I’m much understandable",
+      "url": "",
+      "created_at": "2026-07-31T12:03:59-07:00",
+      "meta": {
+        "rating": 5,
+        "author": "Nonnoncee"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "Too boring",
+      "text": "I wish there was more people on this app and different chats. You can join make it less boring.",
+      "url": "",
+      "created_at": "2026-07-31T11:21:23-07:00",
+      "meta": {
+        "rating": 3,
+        "author": "That girl underscoreterri"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "Meta is not reliable",
+      "text": "I really don’t like this app. It’s strange how there’s no prompts options and it seems like it’s entirely too easy for phone messages to get intercepted by the app. When I first saw the format, I don’t think I would’ve agreed to the terms and conditions, however you have to click ok to get to the next screen. Just a reminder that I don’t like Meta and I don’t want an app screening my messages. Now I’m not getting my texts and I think someone has hacked my phone number. Why is there no customer service?",
+      "url": "",
+      "created_at": "2026-07-31T10:58:58-07:00",
+      "meta": {
+        "rating": 1,
+        "author": "moonflowR"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "Such a blessing!!",
+      "text": "Had this app for a while last year. But, had to delete it because my phone wasn’t working properly. New phone and just in time to download the WhatsApp to be able to keep in contact with my daughter and her husband while they are away in Nigeria. This app is wonderful!! Thank you!!",
+      "url": "",
+      "created_at": "2026-07-31T10:47:50-07:00",
+      "meta": {
+        "rating": 5,
+        "author": "GollielollieJo"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "Watch complication",
+      "text": "Love this app!! Please add the option to add it as a complication on our faces!!!",
+      "url": "",
+      "created_at": "2026-07-31T10:38:14-07:00",
+      "meta": {
+        "rating": 5,
+        "author": "Kevin Christ"
       }
     }
   ],
   "opportunities": [
     {
-      "theme": "Non-technical workflow automation",
-      "pain": "Analysts and operations teams cannot automate data processes without engineering help, forcing reliance on brittle spreadsheets or waiting months for IT tickets.",
+      "theme": "Cross-calendar time zone scheduling is painful",
+      "pain": "Remote teams struggle to coordinate meetings across different calendar systems and time zones, wasting time on back-and-forth.",
       "evidence": [
-        "Enso is a workflow builder that makes it easy for analysts without a programming background to automate data-driven processes",
-        "Best way for synonyms if data is stored outside dialogflow?",
-        "How to improve this web app testing process?"
-      ],
-      "sources": [
-        "hackernews",
-        "stackexchange"
-      ],
-      "url": "https://news.ycombinator.com/item?id=27748738",
-      "suggested_solution": "A WhatsApp-based no-code automation bot that lets business users describe a data task in plain language, generates the workflow visually, and runs it on a schedule or trigger.",
-      "monetization": "Freemium: free tier up to 5 workflows/month; Pro $49/mo per seat for unlimited runs, SQL connectors, and WhatsApp alerts.",
-      "score": 82.0
-    },
-    {
-      "theme": "Context-switching overload",
-      "pain": "Knowledge workers lose hours daily jumping between calendar, email, chat, notes, and task apps, breaking deep focus and causing missed follow-ups.",
-      "evidence": [
-        "they hate context switching between apps",
-        "cannot stay in control of their time, they rely on manual \"hacks\" based on a single product",
         "How to coordinate meetings across different calendar systems and time zones efficiently?"
-      ],
-      "sources": [
-        "hackernews",
-        "stackexchange"
-      ],
-      "url": "https://news.ycombinator.com/item?id=26565629",
-      "suggested_solution": "A WhatsApp AI assistant that aggregates calendar, tasks, and notes into a single conversational interface—schedule, reschedule, capture notes, and get daily briefings without leaving chat.",
-      "monetization": "Subscription $15/mo per user; team plan $12/mo with shared calendars and analytics.",
-      "score": 78.0
-    },
-    {
-      "theme": "Legacy code & spec churn paralysis",
-      "pain": "Developers inherit undocumented, fragile codebases while requirements shift constantly, leading to fear of deployments and endless rework.",
-      "evidence": [
-        "Working with a poorly written piece of software as an entry-level developer with no support or documentation",
-        "How do you adapt to changes to product specifications during development?",
-        "Login through Google SSO using automated browser"
-      ],
-      "sources": [
-        "stackexchange"
-      ],
-      "url": "https://softwareengineering.com/q/446046",
-      "suggested_solution": "An AI code-archaeology tool that ingests a repo, auto-generates living documentation, maps spec changes to affected files, and proposes safe refactor PRs—triggerable via WhatsApp slash commands.",
-      "monetization": "Per-repo $29/mo; enterprise $299/mo for SSO, on-prem, and compliance reports.",
-      "score": 71.0
-    },
-    {
-      "theme": "Flaky browser automation & SSO walls",
-      "pain": "QA and RPA engineers waste days fighting dynamic selectors, CAPTCHAs, and corporate SSO flows just to run reliable end-to-end tests or scrapers.",
-      "evidence": [
-        "Login through Google SSO using automated browser",
-        "How to improve this web app testing process?",
-        "selenium, selenium-chromedriver, single-sign-on"
-      ],
-      "sources": [
-        "stackexchange"
-      ],
-      "url": "https://stackoverflow.com/q/71969305",
-      "suggested_solution": "A cloud-based, AI-healed browser automation service exposed as a WhatsApp bot: send a user story, get a resilient Playwright script that auto-updates when UI changes, with built-in SSO handling.",
-      "monetization": "Pay-per-run $0.05; monthly bundles 10k runs $199; dedicated runners $499/mo.",
-      "score": 68.0
-    },
-    {
-      "theme": "Cross-platform meeting chaos",
-      "pain": "Distributed teams drown in back-and-forth messages to align calendars across Google, Outlook, Calendly, and time zones, causing no-shows and double-bookings.",
-      "evidence": [
-        "How to coordinate meetings across different calendar systems and time zones efficiently?",
-        "communication, colleagues, meetings, remote-work, scheduling"
       ],
       "sources": [
         "stackexchange"
       ],
       "url": "https://workplace.com/q/202270",
-      "suggested_solution": "A WhatsApp scheduling concierge that reads connected calendars, proposes optimal slots in each participant's local time, books instantly, and sends reminders—all via chat.",
-      "monetization": "Free for 1-on-1s; Team $8/user/mo for group polling, buffer rules, and analytics.",
-      "score": 65.0
+      "suggested_solution": "A WhatsApp bot that parses natural language like 'free Tuesday 3pm' and finds mutually available slots across Google/Microsoft calendars, then sends invitations.",
+      "monetization": "Per-seat subscription or pay-per-meeting scheduled.",
+      "score": 65.0,
+      "buy_intent": false
+    },
+    {
+      "theme": "Context switching kills productivity",
+      "pain": "Busy professionals waste time juggling tasks, notes, calendars and chat, losing focus and control.",
+      "evidence": [
+        "they hate context switching between apps",
+        "cannot stay in control of their time",
+        "they rely on manual \"hacks\""
+      ],
+      "sources": [
+        "hackernews"
+      ],
+      "url": "https://news.ycombinator.com/item?id=26565629",
+      "suggested_solution": "An AI personal assistant that unifies tasks, notes, calendar and chat into a single conversational WhatsApp interface, automatically organizing context and reducing app switching.",
+      "monetization": "Per-seat monthly subscription (e.g. $10/user/mo) with free trial.",
+      "score": 60.0,
+      "buy_intent": false
+    },
+    {
+      "theme": "Web automation breaks on SSO and dynamic UIs",
+      "pain": "Developers struggle to automate logins and test web apps because selectors and sessions break with SSO and changing interfaces.",
+      "evidence": [
+        "Login through Google SSO using automated browser",
+        "How to improve this web app testing process?"
+      ],
+      "sources": [
+        "stackexchange"
+      ],
+      "url": "https://stackoverflow.com/q/71969305",
+      "suggested_solution": "An AI-powered test automation SaaS that uses computer vision to locate elements and auto-heal broken selectors, including SSO login flows.",
+      "monetization": "Usage-based pricing (per test run) plus a free tier for side projects.",
+      "score": 55.0,
+      "buy_intent": false
+    },
+    {
+      "theme": "App privacy, reliability, and support gaps",
+      "pain": "Users fear their messages are being screened, text delivery breaks, and there is no customer service to resolve it.",
+      "evidence": [
+        "I don’t want an app screening my messages",
+        "Now I’m not getting my texts",
+        "Why is there no customer service?"
+      ],
+      "sources": [
+        "appstore"
+      ],
+      "url": "",
+      "suggested_solution": "A privacy-focused WhatsApp proxy/automation that gives users control over message handling and an AI-powered support bot for instant help.",
+      "monetization": "Freemium: free with ads, premium for privacy and priority support.",
+      "score": 50.0,
+      "buy_intent": false
+    },
+    {
+      "theme": "OLED monitors render text with color fringing",
+      "pain": "Owners of WOLED and QD-OLED displays see chromatic aberration on text because ClearType only supports RGB stripe subpixels.",
+      "evidence": [
+        "ClearType alters anti-aliasing assuming an RGB stripe subpixel configuration",
+        "noticeable chromatic aberration/color fringing on edges of text"
+      ],
+      "sources": [
+        "github"
+      ],
+      "url": "https://github.com/microsoft/PowerToys/issues/25595",
+      "suggested_solution": "An AI SaaS that analyzes a user's display subpixel layout from a photo and auto-generates custom ClearType settings or shaders.",
+      "monetization": "One-time payment or low-cost subscription (e.g. $5/mo).",
+      "score": 45.0,
+      "buy_intent": false
+    },
+    {
+      "theme": "Apps miss features and feel empty",
+      "pain": "Users churn when apps lack key features like watch complications, profile setup fails, or communities are too quiet.",
+      "evidence": [
+        "No me deja poner el usuario",
+        "Please add the option to add it as a complication on our faces!!!",
+        "I wish there was more people on this app and different chats."
+      ],
+      "sources": [
+        "appstore"
+      ],
+      "url": "",
+      "suggested_solution": "An AI-powered review analysis tool that clusters app-store complaints into actionable feature requests, plus a WhatsApp engagement bot that sends curated prompts to keep communities lively.",
+      "monetization": "SaaS for indie developers: tiered subscription (e.g. $29/mo).",
+      "score": 35.0,
+      "buy_intent": false
     }
   ]
 }

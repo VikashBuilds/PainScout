@@ -29,12 +29,25 @@ def _make_parser() -> argparse.ArgumentParser:
     p.add_argument("--telegram", action="store_true", help="Send the report to Telegram")
     p.add_argument("--app-id", default=None, help="App Store app id for reviews (default: WhatsApp)")
     p.add_argument("--provider", choices=["zen", "nim", "openai"], default=None, help="Force AI provider")
+    p.add_argument("--brief", action="store_true", help="Also generate launch-ready project briefs + landing pages")
+    p.add_argument("--brief-top", type=int, default=3, help="How many opportunities to expand into briefs")
+    sub = p.add_subparsers(dest="command")
+    dash = sub.add_parser("dashboard", help="Serve the web dashboard")
+    dash.add_argument("--port", type=int, default=8791)
+    dash.add_argument("--no-browser", action="store_true")
     return p
 
 
 def main(argv: list[str] | None = None) -> int:
     args = _make_parser().parse_args(argv)
     settings = Settings.from_env()
+
+    if getattr(args, "command", None) == "dashboard":
+        from painscout.dashboard import serve
+
+        print(f"📊 Serving PainScout dashboard from {settings.out_dir} …")
+        serve(settings.out_dir, port=args.port, open_browser=not args.no_browser)
+        return 0
 
     if args.query:
         settings.query = args.query
@@ -78,6 +91,9 @@ def main(argv: list[str] | None = None) -> int:
     print(f"✅ Report saved: {md_path}")
     print(f"   JSON: {json_path}")
 
+    if args.brief and opportunities:
+        _generate_briefs(opportunities[: args.brief_top], settings)
+
     if args.telegram:
         summary = (
             f"📊 *PainScout Report*\n\n"
@@ -93,6 +109,20 @@ def main(argv: list[str] | None = None) -> int:
         send_file(md_path, f"PainScout report ({report.generated_at})", settings)
         print("📬 Sent to Telegram")
     return 0
+
+
+def _generate_briefs(opportunities, settings) -> None:
+    """Expand top opportunities into launch-ready briefs + landing pages."""
+    from painscout.brief import generate_brief, save_brief
+    from painscout.landing import save_landing_page
+
+    for i, opp in enumerate(opportunities, 1):
+        print(f"   🚀 Brief {i}/{len(opportunities)}: {opp.theme}")
+        brief, mode = generate_brief(opp, settings)
+        bpath = save_brief(brief, settings.out_dir)
+        lpath = save_landing_page(brief, settings.out_dir)
+        status = "AI" if mode == "ai" else "template"
+        print(f"      [{status}] {bpath.name} + landing/{lpath.name}")
 
 
 if __name__ == "__main__":

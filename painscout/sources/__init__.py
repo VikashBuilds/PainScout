@@ -33,6 +33,8 @@ class Source(ABC):
 def get_sources(settings: Settings, names: str | None = None) -> list[Source]:
     """Instantiate the requested sources (comma-separated names), default: all."""
     from painscout.sources.appstore import AppStoreSource
+    from painscout.sources.github import GitHubIssuesSource
+    from painscout.sources.googleplay import GooglePlaySource
     from painscout.sources.hackernews import HackerNewsSource
     from painscout.sources.reddit import RedditSource
     from painscout.sources.stackexchange import StackExchangeSource
@@ -41,6 +43,8 @@ def get_sources(settings: Settings, names: str | None = None) -> list[Source]:
         "reddit": RedditSource,
         "hn": HackerNewsSource,
         "stackexchange": StackExchangeSource,
+        "github": GitHubIssuesSource,
+        "googleplay": GooglePlaySource,  # Cloudflare-blocked on datacenter IPs; works at home
         "appstore": AppStoreSource,  # optional — Apple's RSS feed is flaky
     }
     if not names:

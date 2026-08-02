@@ -1,0 +1,59 @@
+{
+  "opportunity_theme": "Cross-calendar time zone scheduling is painful",
+  "name": "TimeBridge",
+  "tagline": "Book cross-timezone meetings without the back-and-forth.",
+  "problem": "Remote teams lose hours coordinating meeting times across different calendar systems and time zones, dealing with endless email/Slack ping-pong and double bookings.",
+  "solution": "TimeBridge connects to all participants' Google and Outlook calendars, automatically detecting their time zones and showing overlapping free slots in each person's local time. A single tap books the meeting, sends correct timezone-adjusted .ics invites, and handles rescheduling instantly.",
+  "features": [
+    "Multi-calendar sync (Google Calendar, Microsoft Outlook/Exchange)",
+    "Automatic time zone detection with DST handling for every participant",
+    "Live availability matrix showing overlapping free slots across all calendars",
+    "One-click booking that generates and emails .ics invites with local times",
+    "Working-hours preferences and buffer-time rules per user",
+    "Smart meeting-time proposals (AI ranks slots by overlap score)",
+    "Slack and Teams slash-command for scheduling without leaving chat",
+    "Auto-reschedule suggestions with conflict alerts when a meeting shifts"
+  ],
+  "mvp_scope": "Build a Next.js web app where a user logs in with Google and links their Outlook calendar. The app fetches free/busy data, lets the user input participant emails and duration, and displays a simple time-slot table showing each participant’s local time and availability. Clicking a slot emails .ics invites to all attendees and adds the event to all calendars. No AI or Slack integration initially—just the core timezone-aware availability matrix and invite flow.",
+  "tech_stack": [
+    "Next.js (App Router) for full-stack frontend and backend",
+    "Supabase (Postgres + Auth + Row Level Security)",
+    "Google Calendar API",
+    "Microsoft Graph API",
+    "Luxon (timezone and DST handling)",
+    "Resend (transactional email and .ics delivery)",
+    "Vercel (hosting and serverless functions)",
+    "Anthropic Claude API (for AI meeting-slot suggestions in v1.5)"
+  ],
+  "build_estimate_days": 18,
+  "competitors": [
+    {
+      "name": "Calendly",
+      "gap": "Schedules against an individual's availability, not a true multi-participant cross-calendar overlap across teams."
+    },
+    {
+      "name": "Doodle",
+      "gap": "Uses poll-based back-and-forth; no automatic calendar sync or live timezone conversion during booking."
+    },
+    {
+      "name": "World Time Buddy",
+      "gap": "Only visualizes time zones; cannot schedule meetings or send invites."
+    },
+    {
+      "name": "Reclaim.ai",
+      "gap": "Optimizes one user's calendar but is not designed for ad-hoc team coordination across different calendar providers."
+    }
+  ],
+  "landing_copy": {
+    "headline": "Schedule across time zones in one click",
+    "subheadline": "Sync all calendars, see overlapping free slots, and send timezone-correct invites — without the back-and-forth.",
+    "bullets": "['Automatically detects time zones for everyone', 'Live availability matrix across Google and Outlook', 'One click sends .ics invites with correct local times', 'Respects working hours and buffer time', 'Slack / Teams commands to schedule on the fly']",
+    "cta": "Start free — no credit card required"
+  },
+  "whatsapp_bot": {
+    "flow": "User texts the bot 'Book meeting with john@acme.com for 30 minutes'. The bot confirms time zone, checks both users' calendars, proposes the top 3 overlapping slots in each user's local time, and asks the user to pick one. Once chosen, the bot creates calendar events and sends invites with a .ics attachment to all attendees.",
+    "commands": "['new <email> <duration> — start a booking', 'availability <day> — show free slots', 'pick <slot> — choose a proposed time', 'cancel <meeting_id> — cancel and notify attendees', 'help — list commands']",
+    "pricing": "Free tier up to 10 bookings/month; Pro $19/month per user for unlimited bookings and AI slot suggestions."
+  },
+  "pricing_model": "SaaS freemium — free up to 10 bookings/month; Pro at $19/user/month with unlimited bookings and AI suggestions."
+}

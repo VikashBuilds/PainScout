@@ -1,0 +1,61 @@
+{
+  "opportunity_theme": "Context switching kills productivity",
+  "name": "Focus Central",
+  "tagline": "Stop switching. Start doing.",
+  "problem": "Busy professionals waste hours each day jumping between tasks, notes, calendars, and chat apps, losing focus and control over their workflow.",
+  "solution": "Focus Central unifies all your work streams into one keyboard-driven command palette, letting you capture, schedule, and act without context switching. Its AI parser turns free text into tasks, events, and notes, while a WhatsApp bot lets you manage everything from your pocket.",
+  "features": [
+    "Global command palette (Ctrl/Cmd+K) for instant access to tasks, notes, calendar, and chat",
+    "Natural language input: \"Lunch with Alex tomorrow 12pm\" becomes an event with reminder",
+    "Unified inbox with tabs for Tasks, Notes, Calendar, and Messages",
+    "Google Calendar and Todoist integrations (read/write) to sync existing commitments",
+    "AI auto-categorization of triaged chat messages into action items or reference notes",
+    "Focus timer that auto-blocks deep work slots in your calendar",
+    "Weekly review email: accomplishments, unfinished tasks, and schedule insights",
+    "WhatsApp bot for quick capture and retrieval on the go",
+    "Keyboard-first navigation with vi-style shortcuts for power users",
+    "Local cache and offline mode for uninterrupted access"
+  ],
+  "mvp_scope": "Build a single-page web app with a command palette UI that stores tasks, notes, and events in Supabase. Integrate Google Calendar read-only and WhatsApp Business Cloud API for text-based task/note capture. Use OpenAI API to parse natural language input into structured items. No chat dashboard or offline mode in the first iteration.",
+  "tech_stack": [
+    "Next.js 14 (App Router)",
+    "TypeScript",
+    "Tailwind CSS",
+    "Supabase (Postgres, Auth, Realtime)",
+    "Google Calendar API",
+    "OpenAI API (gpt-4o-mini)",
+    "WhatsApp Business Cloud API",
+    "Vercel (hosting)"
+  ],
+  "build_estimate_days": 12,
+  "competitors": [
+    {
+      "name": "Notion",
+      "gap": "All-in-one workspace but requires heavy setup and still lacks a unified command palette to bridge external tools and chat."
+    },
+    {
+      "name": "Taskade",
+      "gap": "Collaborative task management but no WhatsApp capture and weak cross-app integration for calendar and email."
+    },
+    {
+      "name": "Zapier",
+      "gap": "Automation across apps but overly complex for individuals and doesn't provide a single focused UI for daily work."
+    },
+    {
+      "name": "RescueTime",
+      "gap": "Tracks time after the fact but doesn't help capture and act on tasks in real-time."
+    }
+  ],
+  "landing_copy": {
+    "headline": "Your whole workspace. One keystroke away.",
+    "subheadline": "Stop losing focus between apps — control tasks, notes, calendar, and chat from a single command palette.",
+    "bullets": "['Summon any action with Ctrl/Cmd+K', 'AI parses free text into tasks, events, and notes', 'Works with tools you already use', 'Capture anything via WhatsApp, get reminders in flow']",
+    "cta": "Get early access"
+  },
+  "whatsapp_bot": {
+    "flow": "Users message the bot in natural language. The bot replies with a parsed action (task/note/event) and confirms creation. Users can reply /list to see today's items, or /focus to start a session.",
+    "commands": "['/task', '/note', '/event', '/list', '/today', '/focus']",
+    "pricing": "Free tier: 100 messages/month. Paid: $9/month for unlimited messages and smart reminders."
+  },
+  "pricing_model": "$15/mo per user, 14-day free trial"
+}

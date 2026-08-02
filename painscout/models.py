@@ -38,6 +38,7 @@ class Opportunity:
     suggested_solution: str  # what an AI SaaS / WhatsApp automation could do
     monetization: str  # how to charge for it
     score: float = 0.0  # 0-100 opportunity score
+    buy_intent: bool = False  # customers literally say they'd pay for a fix
 
     def to_dict(self) -> dict:
         return {
@@ -49,6 +50,7 @@ class Opportunity:
             "suggested_solution": self.suggested_solution,
             "monetization": self.monetization,
             "score": round(self.score, 1),
+            "buy_intent": self.buy_intent,
         }
 
 
