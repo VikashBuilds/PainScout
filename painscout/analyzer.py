@@ -116,8 +116,11 @@ Respond with ONLY a JSON object: {"opportunities": [ ... ]}."""
 
 
 def ai_analyze(points: list[PainPoint], settings: Settings, top_n: int = 8) -> list[Opportunity]:
+    """Run the LLM analysis. Returns [] on any failure — callers fall back."""
+    global _last_ai_error
     key, base_url, model = settings._provider_config()
     if not key:
+        _last_ai_error = "no API key configured"
         return []
     user_prompt = json.dumps(
         [
@@ -133,7 +136,7 @@ def ai_analyze(points: list[PainPoint], settings: Settings, top_n: int = 8) -> l
             {"role": "user", "content": user_prompt},
         ],
         "temperature": 0.3,
-        # Reasoning models (deepseek-v4, llama-3.3) burn tokens on
+        # Reasoning models (deepseek-v4, nemotron) burn tokens on
         # reasoning_content BEFORE producing content. 2500 was too small —
         # they'd hit finish_reason=length with an empty answer. 8000 gives
         # room for reasoning + a complete JSON response.
@@ -147,11 +150,29 @@ def ai_analyze(points: list[PainPoint], settings: Settings, top_n: int = 8) -> l
                 json=payload,
             )
             resp.raise_for_status()
-            content = resp.json()["choices"][0]["message"]["content"]
+            body = resp.json()
+            content = body["choices"][0]["message"].get("content") or ""
+            _last_ai_error = (
+                f"empty content (finish_reason={body['choices'][0].get('finish_reason')})"
+                if not content
+                else ""
+            )
         data = json.loads(_extract_json(content))
-        return _opportunities_from_json(data, top_n)
-    except (httpx.HTTPError, KeyError, json.JSONDecodeError, TypeError):
+        opps = _opportunities_from_json(data, top_n)
+        if not opps:
+            _last_ai_error = "LLM returned no opportunities"
+        return opps
+    except (httpx.HTTPError, KeyError, json.JSONDecodeError, TypeError) as exc:
+        _last_ai_error = f"{type(exc).__name__}: {exc}"
         return []
+
+
+def last_ai_error() -> str:
+    """Reason the last AI call failed (for diagnostics)."""
+    return _last_ai_error
+
+
+_last_ai_error = ""
 
 
 def _extract_json(text: str) -> str:
@@ -195,4 +216,5 @@ def analyze(points: list[PainPoint], settings: Settings, top_n: int = 8) -> tupl
         ai_opps = ai_analyze(points, settings, top_n)
         if ai_opps:
             return ai_opps, "ai"
+        print(f"   ⚠️  AI call failed ({last_ai_error()}) — using heuristic fallback")
     return fallback_analyze(points, top_n), "fallback"
