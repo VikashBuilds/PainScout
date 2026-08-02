@@ -1,6 +1,6 @@
 {
   "query": "people waste time on manual work",
-  "generated_at": "2026-08-02T09:43:56+00:00",
+  "generated_at": "2026-08-02T09:49:18+00:00",
   "pain_points": [
     {
       "source": "hackernews",
@@ -235,264 +235,89 @@
           "politics"
         ]
       }
-    },
-    {
-      "source": "appstore",
-      "title": "Por favor",
-      "text": "No me deja poner el usuario",
-      "url": "",
-      "created_at": "2026-07-31T12:50:26-07:00",
-      "meta": {
-        "rating": 5,
-        "author": "Todo me encantó"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "Very good",
-      "text": "So nice, I’m much understandable",
-      "url": "",
-      "created_at": "2026-07-31T12:03:59-07:00",
-      "meta": {
-        "rating": 5,
-        "author": "Nonnoncee"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "Too boring",
-      "text": "I wish there was more people on this app and different chats. You can join make it less boring.",
-      "url": "",
-      "created_at": "2026-07-31T11:21:23-07:00",
-      "meta": {
-        "rating": 3,
-        "author": "That girl underscoreterri"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "Meta is not reliable",
-      "text": "I really don’t like this app. It’s strange how there’s no prompts options and it seems like it’s entirely too easy for phone messages to get intercepted by the app. When I first saw the format, I don’t think I would’ve agreed to the terms and conditions, however you have to click ok to get to the next screen. Just a reminder that I don’t like Meta and I don’t want an app screening my messages. Now I’m not getting my texts and I think someone has hacked my phone number. Why is there no customer service?",
-      "url": "",
-      "created_at": "2026-07-31T10:58:58-07:00",
-      "meta": {
-        "rating": 1,
-        "author": "moonflowR"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "Such a blessing!!",
-      "text": "Had this app for a while last year. But, had to delete it because my phone wasn’t working properly. New phone and just in time to download the WhatsApp to be able to keep in contact with my daughter and her husband while they are away in Nigeria. This app is wonderful!! Thank you!!",
-      "url": "",
-      "created_at": "2026-07-31T10:47:50-07:00",
-      "meta": {
-        "rating": 5,
-        "author": "GollielollieJo"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "Watch complication",
-      "text": "Love this app!! Please add the option to add it as a complication on our faces!!!",
-      "url": "",
-      "created_at": "2026-07-31T10:38:14-07:00",
-      "meta": {
-        "rating": 5,
-        "author": "Kevin Christ"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "Hello",
-      "text": "I like WhatsApp",
-      "url": "",
-      "created_at": "2026-07-31T10:13:57-07:00",
-      "meta": {
-        "rating": 4,
-        "author": "Wallo 777"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "It doesn’t let me log in",
-      "text": "I am 11 years old, I am in the US, my dad is in Brazil, I need to talk to him, today it’s his birthday, WhatsApp is stupid, because of age limit.",
-      "url": "",
-      "created_at": "2026-07-31T10:02:26-07:00",
-      "meta": {
-        "rating": 1,
-        "author": "#9Lucca"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "???🤷‍♀️",
-      "text": "I have a question why did you remove avatar from WhatsApp",
-      "url": "",
-      "created_at": "2026-07-31T09:55:33-07:00",
-      "meta": {
-        "rating": 4,
-        "author": "The Avatar is gone"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "LadyQueen01",
-      "text": "I had to keep blocking a number from Nigeria, but it kept coming through!!!f",
-      "url": "",
-      "created_at": "2026-07-31T09:30:51-07:00",
-      "meta": {
-        "rating": 3,
-        "author": "LadyQueen01"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "My group is suspended",
-      "text": "Why is my group suspended this is a business account I start for so long but I wake up today seeing groups is suspended please give me back my group to start my business back",
-      "url": "",
-      "created_at": "2026-07-31T09:11:13-07:00",
-      "meta": {
-        "rating": 1,
-        "author": "Obed Apraku Dankwa"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "واتسابي لايعمل ارجو اصلاحه في اقرب وقت ممكن",
-      "text": "واتسابي لايعمل ارجو اصلاحه في اقرب وقت ممكن",
-      "url": "",
-      "created_at": "2026-07-31T08:10:50-07:00",
-      "meta": {
-        "rating": 1,
-        "author": "ffuipojbvgf"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "Terrible actualización",
-      "text": "La persona que está dando la actualización de WhatsApp, no sé qué se está fumando pero está mal, están haciendo de esta plataforma que sirve para comunicarnos con gente seleccionada lo mismo que las demás app, es horrible la actualización de los estados horizontales cada vez se parece más a Instagram, se supone que cada app debería tener su esencia y esta la está perdiendo, ahora dizque usuario? Ya para eso mejor nos vamos a Instagram y chateamos por ahí, de verdad que es una mierda de actualización. Boten al de la idea 👎🏼",
-      "url": "",
-      "created_at": "2026-07-31T07:37:35-07:00",
-      "meta": {
-        "rating": 1,
-        "author": "Yiimaa"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "Descontento",
-      "text": "La facilidad con la que pierdes la copia de seguridad de chata, cuando cambias de android a iphone es desagradable, se pierde mucha informacion y es necesario que creen un metodo para respaldar esa informacion en whatsapp y no en la plataforma de sistemas operativos",
-      "url": "",
-      "created_at": "2026-07-31T07:29:40-07:00",
-      "meta": {
-        "rating": 3,
-        "author": "Lermith vzla"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "Whatsapp",
-      "text": "Whatsapp",
-      "url": "",
-      "created_at": "2026-07-31T07:14:54-07:00",
-      "meta": {
-        "rating": 5,
-        "author": "Kayes9185"
-      }
     }
   ],
   "opportunities": [
     {
-      "theme": "automation/manual work",
-      "pain": "Customers frequently complain about: automation/manual work.",
+      "theme": "Non-technical workflow automation",
+      "pain": "Analysts and operations teams cannot automate data processes without engineering help, forcing reliance on brittle spreadsheets or waiting months for IT tickets.",
       "evidence": [
-        "Launch HN: Enso (YC S21) – Visual programming and workflow automation tool\nHi HN, We are Wojciech and Sylwia, the co-founders of Enso (<a href=\"https:&#x2F;&#x2F;enso.org\" rel=\"nofollow\">https:&#x2F;&#x2F;enso.org</a>). ",
-        "Launch HN: Routine (YC W21) – Tasks, notes and calendar all in one product\nHi HN! I’m Julien. With my cofounder Quentin, we created Routine (<a href=\"http:&#x2F;&#x2F;routine.co&#x2F;hn\" rel=\"nofollow\">http:&#x2F;&#x2F;r",
-        "Awesome email advice from a friend on how to learn programming.\nLet's start with the first and most important rule of learning to code. Read everything and understand what you're reading.<p>Do not skip or skim words or c",
-        "Login through Google SSO using automated browser\n['selenium', 'selenium-chromedriver', 'single-sign-on']"
+        "Enso is a workflow builder that makes it easy for analysts without a programming background to automate data-driven processes",
+        "Best way for synonyms if data is stored outside dialogflow?",
+        "How to improve this web app testing process?"
       ],
       "sources": [
         "hackernews",
         "stackexchange"
       ],
       "url": "https://news.ycombinator.com/item?id=27748738",
-      "suggested_solution": "AI workflow automation (Zapier-style, WhatsApp-first)",
-      "monetization": "SaaS subscription ($19-49/mo) or per-lead pricing via a WhatsApp bot",
-      "score": 62
+      "suggested_solution": "A WhatsApp-based no-code automation bot that lets business users describe a data task in plain language, generates the workflow visually, and runs it on a schedule or trigger.",
+      "monetization": "Freemium: free tier up to 5 workflows/month; Pro $49/mo per seat for unlimited runs, SQL connectors, and WhatsApp alerts.",
+      "score": 82.0
     },
     {
-      "theme": "bugs/quality",
-      "pain": "Customers frequently complain about: bugs/quality.",
+      "theme": "Context-switching overload",
+      "pain": "Knowledge workers lose hours daily jumping between calendar, email, chat, notes, and task apps, breaking deep focus and causing missed follow-ups.",
       "evidence": [
-        "Launch HN: Enso (YC S21) – Visual programming and workflow automation tool\nHi HN, We are Wojciech and Sylwia, the co-founders of Enso (<a href=\"https:&#x2F;&#x2F;enso.org\" rel=\"nofollow\">https:&#x2F;&#x2F;enso.org</a>). ",
-        "Awesome email advice from a friend on how to learn programming.\nLet's start with the first and most important rule of learning to code. Read everything and understand what you're reading.<p>Do not skip or skim words or c"
-      ],
-      "sources": [
-        "hackernews"
-      ],
-      "url": "https://news.ycombinator.com/item?id=27748738",
-      "suggested_solution": "QA automation / bug triage bot",
-      "monetization": "SaaS subscription ($19-49/mo) or per-lead pricing via a WhatsApp bot",
-      "score": 41
-    },
-    {
-      "theme": "scheduling/booking",
-      "pain": "Customers frequently complain about: scheduling/booking.",
-      "evidence": [
-        "Launch HN: Routine (YC W21) – Tasks, notes and calendar all in one product\nHi HN! I’m Julien. With my cofounder Quentin, we created Routine (<a href=\"http:&#x2F;&#x2F;routine.co&#x2F;hn\" rel=\"nofollow\">http:&#x2F;&#x2F;r",
-        "How to coordinate meetings across different calendar systems and time zones efficiently?\n['communication', 'colleagues', 'meetings', 'remote-work', 'scheduling']"
+        "they hate context switching between apps",
+        "cannot stay in control of their time, they rely on manual \"hacks\" based on a single product",
+        "How to coordinate meetings across different calendar systems and time zones efficiently?"
       ],
       "sources": [
         "hackernews",
         "stackexchange"
       ],
-      "url": "https://workplace.com/q/202270",
-      "suggested_solution": "AI scheduling assistant with reminders (WhatsApp)",
-      "monetization": "SaaS subscription ($19-49/mo) or per-lead pricing via a WhatsApp bot",
-      "score": 41
+      "url": "https://news.ycombinator.com/item?id=26565629",
+      "suggested_solution": "A WhatsApp AI assistant that aggregates calendar, tasks, and notes into a single conversational interface—schedule, reschedule, capture notes, and get daily briefings without leaving chat.",
+      "monetization": "Subscription $15/mo per user; team plan $12/mo with shared calendars and analytics.",
+      "score": 78.0
     },
     {
-      "theme": "data entry",
-      "pain": "Customers frequently complain about: data entry.",
+      "theme": "Legacy code & spec churn paralysis",
+      "pain": "Developers inherit undocumented, fragile codebases while requirements shift constantly, leading to fear of deployments and endless rework.",
       "evidence": [
-        "Launch HN: Enso (YC S21) – Visual programming and workflow automation tool\nHi HN, We are Wojciech and Sylwia, the co-founders of Enso (<a href=\"https:&#x2F;&#x2F;enso.org\" rel=\"nofollow\">https:&#x2F;&#x2F;enso.org</a>). "
-      ],
-      "sources": [
-        "hackernews"
-      ],
-      "url": "https://news.ycombinator.com/item?id=27748738",
-      "suggested_solution": "AI data-entry extractor (docs/screens -> structured data)",
-      "monetization": "SaaS subscription ($19-49/mo) or per-lead pricing via a WhatsApp bot",
-      "score": 33
-    },
-    {
-      "theme": "general frustration",
-      "pain": "Customers frequently complain about: general frustration.",
-      "evidence": [
-        "Terrible actualización\nLa persona que está dando la actualización de WhatsApp, no sé qué se está fumando pero está mal, están haciendo de esta plataforma que sirve para comunicarnos con gente seleccionada lo mismo que la"
-      ],
-      "sources": [
-        "appstore"
-      ],
-      "url": "",
-      "suggested_solution": "AI-powered automation",
-      "monetization": "SaaS subscription ($19-49/mo) or per-lead pricing via a WhatsApp bot",
-      "score": 33
-    },
-    {
-      "theme": "customer support",
-      "pain": "Customers frequently complain about: customer support.",
-      "evidence": [
-        "Working with a poorly written piece of software as an entry-level developer with no support or documentation\n['testing', 'code-quality', 'clean-code', 'vb.net', 'desktop-application']"
+        "Working with a poorly written piece of software as an entry-level developer with no support or documentation",
+        "How do you adapt to changes to product specifications during development?",
+        "Login through Google SSO using automated browser"
       ],
       "sources": [
         "stackexchange"
       ],
       "url": "https://softwareengineering.com/q/446046",
-      "suggested_solution": "AI support agent / WhatsApp auto-responder",
-      "monetization": "SaaS subscription ($19-49/mo) or per-lead pricing via a WhatsApp bot",
-      "score": 28
+      "suggested_solution": "An AI code-archaeology tool that ingests a repo, auto-generates living documentation, maps spec changes to affected files, and proposes safe refactor PRs—triggerable via WhatsApp slash commands.",
+      "monetization": "Per-repo $29/mo; enterprise $299/mo for SSO, on-prem, and compliance reports.",
+      "score": 71.0
+    },
+    {
+      "theme": "Flaky browser automation & SSO walls",
+      "pain": "QA and RPA engineers waste days fighting dynamic selectors, CAPTCHAs, and corporate SSO flows just to run reliable end-to-end tests or scrapers.",
+      "evidence": [
+        "Login through Google SSO using automated browser",
+        "How to improve this web app testing process?",
+        "selenium, selenium-chromedriver, single-sign-on"
+      ],
+      "sources": [
+        "stackexchange"
+      ],
+      "url": "https://stackoverflow.com/q/71969305",
+      "suggested_solution": "A cloud-based, AI-healed browser automation service exposed as a WhatsApp bot: send a user story, get a resilient Playwright script that auto-updates when UI changes, with built-in SSO handling.",
+      "monetization": "Pay-per-run $0.05; monthly bundles 10k runs $199; dedicated runners $499/mo.",
+      "score": 68.0
+    },
+    {
+      "theme": "Cross-platform meeting chaos",
+      "pain": "Distributed teams drown in back-and-forth messages to align calendars across Google, Outlook, Calendly, and time zones, causing no-shows and double-bookings.",
+      "evidence": [
+        "How to coordinate meetings across different calendar systems and time zones efficiently?",
+        "communication, colleagues, meetings, remote-work, scheduling"
+      ],
+      "sources": [
+        "stackexchange"
+      ],
+      "url": "https://workplace.com/q/202270",
+      "suggested_solution": "A WhatsApp scheduling concierge that reads connected calendars, proposes optimal slots in each participant's local time, books instantly, and sends reminders—all via chat.",
+      "monetization": "Free for 1-on-1s; Team $8/user/mo for group polling, buffer rules, and analytics.",
+      "score": 65.0
     }
   ]
 }

@@ -1,107 +1,87 @@
 # 🔍 PainScout Report
 
 - **Query:** `people waste time on manual work`
-- **Generated:** 2026-08-02T09:43:56+00:00
-- **Pain points scanned:** 27
-- **Analyzer:** heuristic fallback
+- **Generated:** 2026-08-02T09:49:18+00:00
+- **Pain points scanned:** 12
+- **Analyzer:** AI (LLM)
 
-**Sources:** appstore: 15, hackernews: 3, stackexchange: 9
+**Sources:** hackernews: 3, stackexchange: 9
 
-## 🎯 Top 6 Opportunities
+## 🎯 Top 5 Opportunities
 
-### 1. [62/100] automation/manual work
+### 1. [82/100] Non-technical workflow automation
 
-**The pain:** Customers frequently complain about: automation/manual work.
+**The pain:** Analysts and operations teams cannot automate data processes without engineering help, forcing reliance on brittle spreadsheets or waiting months for IT tickets.
 
 **Evidence:**
-- “Launch HN: Enso (YC S21) – Visual programming and workflow automation tool
-Hi HN, We are Wojciech and Sylwia, the co-founders of Enso (<a href="https:&#x2F;&#x2F;enso.org" rel="nofollow">https:&#x2F;&#x2F;enso.org</a>). ”
-- “Launch HN: Routine (YC W21) – Tasks, notes and calendar all in one product
-Hi HN! I’m Julien. With my cofounder Quentin, we created Routine (<a href="http:&#x2F;&#x2F;routine.co&#x2F;hn" rel="nofollow">http:&#x2F;&#x2F;r”
-- “Awesome email advice from a friend on how to learn programming.
-Let's start with the first and most important rule of learning to code. Read everything and understand what you're reading.<p>Do not skip or skim words or c”
-- “Login through Google SSO using automated browser
-['selenium', 'selenium-chromedriver', 'single-sign-on']”
+- “Enso is a workflow builder that makes it easy for analysts without a programming background to automate data-driven processes”
+- “Best way for synonyms if data is stored outside dialogflow?”
+- “How to improve this web app testing process?”
 
 **Sources:** hackernews, stackexchange · [best link](https://news.ycombinator.com/item?id=27748738)
 
-**AI solution to build:** AI workflow automation (Zapier-style, WhatsApp-first)
+**AI solution to build:** A WhatsApp-based no-code automation bot that lets business users describe a data task in plain language, generates the workflow visually, and runs it on a schedule or trigger.
 
-**How to charge:** SaaS subscription ($19-49/mo) or per-lead pricing via a WhatsApp bot
+**How to charge:** Freemium: free tier up to 5 workflows/month; Pro $49/mo per seat for unlimited runs, SQL connectors, and WhatsApp alerts.
 
-### 2. [41/100] bugs/quality
+### 2. [78/100] Context-switching overload
 
-**The pain:** Customers frequently complain about: bugs/quality.
-
-**Evidence:**
-- “Launch HN: Enso (YC S21) – Visual programming and workflow automation tool
-Hi HN, We are Wojciech and Sylwia, the co-founders of Enso (<a href="https:&#x2F;&#x2F;enso.org" rel="nofollow">https:&#x2F;&#x2F;enso.org</a>). ”
-- “Awesome email advice from a friend on how to learn programming.
-Let's start with the first and most important rule of learning to code. Read everything and understand what you're reading.<p>Do not skip or skim words or c”
-
-**Sources:** hackernews · [best link](https://news.ycombinator.com/item?id=27748738)
-
-**AI solution to build:** QA automation / bug triage bot
-
-**How to charge:** SaaS subscription ($19-49/mo) or per-lead pricing via a WhatsApp bot
-
-### 3. [41/100] scheduling/booking
-
-**The pain:** Customers frequently complain about: scheduling/booking.
+**The pain:** Knowledge workers lose hours daily jumping between calendar, email, chat, notes, and task apps, breaking deep focus and causing missed follow-ups.
 
 **Evidence:**
-- “Launch HN: Routine (YC W21) – Tasks, notes and calendar all in one product
-Hi HN! I’m Julien. With my cofounder Quentin, we created Routine (<a href="http:&#x2F;&#x2F;routine.co&#x2F;hn" rel="nofollow">http:&#x2F;&#x2F;r”
-- “How to coordinate meetings across different calendar systems and time zones efficiently?
-['communication', 'colleagues', 'meetings', 'remote-work', 'scheduling']”
+- “they hate context switching between apps”
+- “cannot stay in control of their time, they rely on manual "hacks" based on a single product”
+- “How to coordinate meetings across different calendar systems and time zones efficiently?”
 
-**Sources:** hackernews, stackexchange · [best link](https://workplace.com/q/202270)
+**Sources:** hackernews, stackexchange · [best link](https://news.ycombinator.com/item?id=26565629)
 
-**AI solution to build:** AI scheduling assistant with reminders (WhatsApp)
+**AI solution to build:** A WhatsApp AI assistant that aggregates calendar, tasks, and notes into a single conversational interface—schedule, reschedule, capture notes, and get daily briefings without leaving chat.
 
-**How to charge:** SaaS subscription ($19-49/mo) or per-lead pricing via a WhatsApp bot
+**How to charge:** Subscription $15/mo per user; team plan $12/mo with shared calendars and analytics.
 
-### 4. [33/100] data entry
+### 3. [71/100] Legacy code & spec churn paralysis
 
-**The pain:** Customers frequently complain about: data entry.
-
-**Evidence:**
-- “Launch HN: Enso (YC S21) – Visual programming and workflow automation tool
-Hi HN, We are Wojciech and Sylwia, the co-founders of Enso (<a href="https:&#x2F;&#x2F;enso.org" rel="nofollow">https:&#x2F;&#x2F;enso.org</a>). ”
-
-**Sources:** hackernews · [best link](https://news.ycombinator.com/item?id=27748738)
-
-**AI solution to build:** AI data-entry extractor (docs/screens -> structured data)
-
-**How to charge:** SaaS subscription ($19-49/mo) or per-lead pricing via a WhatsApp bot
-
-### 5. [33/100] general frustration
-
-**The pain:** Customers frequently complain about: general frustration.
+**The pain:** Developers inherit undocumented, fragile codebases while requirements shift constantly, leading to fear of deployments and endless rework.
 
 **Evidence:**
-- “Terrible actualización
-La persona que está dando la actualización de WhatsApp, no sé qué se está fumando pero está mal, están haciendo de esta plataforma que sirve para comunicarnos con gente seleccionada lo mismo que la”
-
-**Sources:** appstore · [best link]()
-
-**AI solution to build:** AI-powered automation
-
-**How to charge:** SaaS subscription ($19-49/mo) or per-lead pricing via a WhatsApp bot
-
-### 6. [28/100] customer support
-
-**The pain:** Customers frequently complain about: customer support.
-
-**Evidence:**
-- “Working with a poorly written piece of software as an entry-level developer with no support or documentation
-['testing', 'code-quality', 'clean-code', 'vb.net', 'desktop-application']”
+- “Working with a poorly written piece of software as an entry-level developer with no support or documentation”
+- “How do you adapt to changes to product specifications during development?”
+- “Login through Google SSO using automated browser”
 
 **Sources:** stackexchange · [best link](https://softwareengineering.com/q/446046)
 
-**AI solution to build:** AI support agent / WhatsApp auto-responder
+**AI solution to build:** An AI code-archaeology tool that ingests a repo, auto-generates living documentation, maps spec changes to affected files, and proposes safe refactor PRs—triggerable via WhatsApp slash commands.
 
-**How to charge:** SaaS subscription ($19-49/mo) or per-lead pricing via a WhatsApp bot
+**How to charge:** Per-repo $29/mo; enterprise $299/mo for SSO, on-prem, and compliance reports.
+
+### 4. [68/100] Flaky browser automation & SSO walls
+
+**The pain:** QA and RPA engineers waste days fighting dynamic selectors, CAPTCHAs, and corporate SSO flows just to run reliable end-to-end tests or scrapers.
+
+**Evidence:**
+- “Login through Google SSO using automated browser”
+- “How to improve this web app testing process?”
+- “selenium, selenium-chromedriver, single-sign-on”
+
+**Sources:** stackexchange · [best link](https://stackoverflow.com/q/71969305)
+
+**AI solution to build:** A cloud-based, AI-healed browser automation service exposed as a WhatsApp bot: send a user story, get a resilient Playwright script that auto-updates when UI changes, with built-in SSO handling.
+
+**How to charge:** Pay-per-run $0.05; monthly bundles 10k runs $199; dedicated runners $499/mo.
+
+### 5. [65/100] Cross-platform meeting chaos
+
+**The pain:** Distributed teams drown in back-and-forth messages to align calendars across Google, Outlook, Calendly, and time zones, causing no-shows and double-bookings.
+
+**Evidence:**
+- “How to coordinate meetings across different calendar systems and time zones efficiently?”
+- “communication, colleagues, meetings, remote-work, scheduling”
+
+**Sources:** stackexchange · [best link](https://workplace.com/q/202270)
+
+**AI solution to build:** A WhatsApp scheduling concierge that reads connected calendars, proposes optimal slots in each participant's local time, books instantly, and sends reminders—all via chat.
+
+**How to charge:** Free for 1-on-1s; Team $8/user/mo for group polling, buffer rules, and analytics.
 
 ---
 *Generated by PainScout — deploy an AI SaaS or WhatsApp automation to fix these.*
