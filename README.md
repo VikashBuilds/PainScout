@@ -39,8 +39,9 @@ painscout scan --query "wish there was a way to automate" --telegram
 
 | Variable | Purpose |
 |---|---|
-| `OPENCODE_ZEN_API_KEY` | opencode zen key (default provider) |
-| `NIM_API_KEY` | NVIDIA NIM key (used if set, or via `--provider nim`) |
+| `OPENCODE_ZEN_API_KEY` | opencode zen key (fallback provider) |
+| `NIM_API_KEY` | NVIDIA NIM key — **used automatically when set** (default provider) |
+| `NIM_MODEL` | NVIDIA NIM model (default: `nvidia/nemotron-3-ultra-550b-a55b`) |
 | `OPENAI_API_KEY` | OpenAI key |
 | `TELEGRAM_BOT_TOKEN` | Telegram bot token |
 | `TELEGRAM_CHAT_ID` | Telegram chat id to deliver reports to |

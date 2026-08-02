@@ -42,7 +42,7 @@ class Settings:
     zen_model: str = "deepseek-v4-flash-free"
     nim_api_key: str = ""
     nim_base_url: str = "https://integrate.api.nvidia.com/v1"
-    nim_model: str = "meta/llama-3.3-70b-instruct"
+    nim_model: str = "nvidia/nemotron-3-ultra-550b-a55b"
     openai_api_key: str = ""
     openai_base_url: str = "https://api.openai.com/v1"
     openai_model: str = "gpt-4o-mini"
@@ -100,7 +100,7 @@ class Settings:
             zen_model=g("OPENCODE_ZEN_MODEL") or "deepseek-v4-flash-free",
             nim_api_key=g("NIM_API_KEY", "NVIDIA_API_KEY"),
             nim_base_url=g("NIM_BASE_URL") or "https://integrate.api.nvidia.com/v1",
-            nim_model=g("NIM_MODEL") or "meta/llama-3.3-70b-instruct",
+            nim_model=g("NIM_MODEL") or "nvidia/nemotron-3-ultra-550b-a55b",
             openai_api_key=g("OPENAI_API_KEY"),
             openai_base_url=g("OPENAI_BASE_URL") or "https://api.openai.com/v1",
             openai_model=g("OPENAI_MODEL") or "gpt-4o-mini",
