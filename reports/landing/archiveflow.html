@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ArchiveFlow — Automate every backup, share anywhere, never lose a memory</title>
+<style>
+:root{--bg:#0b0f1a;--card:#131a2b;--acc:#6c5ce7;--acc2:#00cec9;--txt:#e8ecf4;--mut:#9aa5b8}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--txt);line-height:1.6}
+.hero{padding:72px 20px 48px;text-align:center;background:radial-gradient(ellipse at top,#1a2340 0%,var(--bg) 70%)}
+.badge{display:inline-block;padding:6px 14px;border-radius:999px;background:rgba(108,92,231,.15);color:#b3a8ff;font-size:13px;letter-spacing:.5px;margin-bottom:20px;border:1px solid rgba(108,92,231,.4)}
+h1{font-size:clamp(2rem,5vw,3.4rem);font-weight:800;letter-spacing:-.5px;margin-bottom:14px}
+.tag{font-size:clamp(1.05rem,2.5vw,1.35rem);color:var(--mut);max-width:640px;margin:0 auto 30px}
+.cta{display:inline-block;padding:15px 34px;border-radius:12px;background:linear-gradient(135deg,var(--acc),var(--acc2));color:#fff;font-weight:700;font-size:1.05rem;text-decoration:none;box-shadow:0 8px 30px rgba(108,92,231,.35);transition:transform .15s}
+.cta:hover{transform:translateY(-2px)}
+.container{max-width:960px;margin:0 auto;padding:32px 20px 80px}
+.section{margin-top:48px}
+h2{font-size:1.5rem;margin-bottom:18px;color:#fff}
+.card{background:var(--card);border:1px solid #1e2a45;border-radius:16px;padding:24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.grid .card{padding:18px}
+.grid .card strong{color:var(--acc2);font-size:1.05rem}
+ul{list-style:none}
+li{padding:8px 0 8px 26px;position:relative}
+li:before{content:"✓";position:absolute;left:0;color:var(--acc2)}
+.wa{border-left:4px solid #25d366;padding:20px 24px;border-radius:0 12px 12px 0;background:rgba(37,211,102,.06)}
+code{background:#0d1526;padding:2px 8px;border-radius:6px;font-size:.92em;color:#8be9fd}
+.pricing{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.pricing .price{font-size:2.2rem;font-weight:800;color:var(--acc2)}
+.foot{text-align:center;color:var(--mut);padding:32px;font-size:.85rem}
+@media(max-width:600px){.hero{padding:48px 16px 32px}}
+</style>
+</head>
+<body>
+<div class="hero">
+  <span class="badge">✨ AI-Powered · WhatsApp-First · No-Code</span>
+  <h1>One Pipeline. Every Backup. Zero Effort.</h1>
+  <p class="tag">Connect your cameras, phones, and folders. ArchiveFlow automatically replicates to cloud, NAS, USB, and tape — then serves a beautiful, shareable library on every screen.</p>
+  <a class="cta" href="#wa">Start Free 14-Day Trial</a>
+</div>
+<div class="container">
+  <div class="section">
+    <h2>The problem</h2>
+    <div class="card"><p>Parents and creators manually manage 3-5 disconnected backup silos (local drives, USB, cloud, Flickr, YouTube) with no unified pipeline for offline/tape archival, cross-device viewing, or effortless sharing.</p></div>
+  </div>
+  <div class="section">
+    <h2>The solution</h2>
+    <div class="card"><p>ArchiveFlow connects all your media sources and backup targets into a single automated pipeline. Set rules once — it continuously syncs new photos/videos to cloud, local NAS, USB, and cold storage (tape/LTO), generates shareable albums, and serves a unified library view on every device. Zero ongoing effort after initial setup.</p></div>
+  </div>
+  <div class="section">
+    <h2>What you get</h2>
+    <div class="card"><ul><li>Set rules once → runs forever in the background</li><li>Backs up to Backblaze, S3, NAS, USB, and LTO tape</li><li>Deduplicates, verifies checksums, heals bit-rot</li><li>Auto-generates albums by event, person, place</li><li>Share a link — recipients view without accounts</li><li>Health dashboard + WhatsApp alerts for peace of mind</li></ul></div>
+  </div>
+  <div class="section">
+    <h2>Features (v1)</h2>
+    <div class="card"><ul><li>Multi-source ingestion (phone, camera SD, desktop folders, Google Photos, iCloud)</li><li>Multi-target backup rules (S3/Wasabi/Backblaze B2, local NAS, USB auto-mount, LTO tape via LTFS)</li><li>Automated deduplication &amp; integrity verification (checksums, bit-rot detection)</li><li>Smart album generation (by date, location, faces, events) with shareable links</li><li>Cross-device web viewer with offline sync and progressive loading</li><li>Offline/cold storage workflow (print barcode labels, track tape vault location)</li><li>Health dashboard (backup status, storage usage, failed jobs, SLA compliance)</li><li>One-click restore to any device or target</li></ul></div>
+  </div>
+  <div class="section">
+    <h2>Tech stack</h2>
+    <div class="card" style="display:flex;flex-wrap:wrap;gap:8px"><code>Tauri (Rust + React) for cross-platform desktop agent</code> <code>Node.js/TypeScript + Fastify for API &amp; dashboard backend</code> <code>PostgreSQL + Redis for metadata &amp; job queue</code> <code>Backblaze B2 / S3 API for cloud storage</code> <code>MinIO for S3-compatible local/NAS target</code> <code>React + TailwindCSS for web dashboard</code> <code>Fly.io for hosting (global edge, persistent volumes)</code> <code>WhatsApp Business API via Twilio for bot integration</code></div>
+  </div>
+  <div class="section">
+    <h2>Competitors &amp; the gap</h2>
+    <div class="grid"><div class="card"><strong>Arq Backup</strong><p style="margin-top:8px;color:var(--mut)">Gap: No sharing, album generation, or cross-device viewer — pure backup only</p></div><div class="card"><strong>Google Photos / iCloud</strong><p style="margin-top:8px;color:var(--mut)">Gap: Locked ecosystem, no multi-cloud/offline/tape support, privacy concerns</p></div><div class="card"><strong>Synology/NAS apps</strong><p style="margin-top:8px;color:var(--mut)">Gap: Hardware-bound, no cloud multi-target, poor sharing UX</p></div><div class="card"><strong>Backblaze Personal Backup</strong><p style="margin-top:8px;color:var(--mut)">Gap: Single target only, no local/USB/tape, no album/sharing features</p></div></div>
+  </div>
+  <div class="section" id="wa">
+    <h2>Try it on WhatsApp</h2>
+    <div class="card wa">
+      <p><strong>How it works:</strong> User links phone number in dashboard → receives daily/weekly backup health summary → can reply &#x27;SHARE [album]&#x27; to get a share link → &#x27;RESTORE [date]&#x27; to queue a download → &#x27;STATUS&#x27; for live sync progress → &#x27;PAUSE&#x27;/&#x27;RESUME&#x27; to control the agent.</p>
+      <p style="margin-top:12px"><strong>Commands:</strong> <code>STATUS</code> <code>SHARE &lt;album_name&gt;</code> <code>RESTORE &lt;date_range&gt;</code> <code>PAUSE</code> <code>RESUME</code> <code>HEALTH</code> <code>HELP</code></p>
+    </div>
+  </div>
+  <div class="section">
+    <h2>Pricing</h2>
+    <div class="card pricing"><span class="price">$12/mo Pro (unlimited sources/targets, sharing, WhatsApp bot, health alerts) | $5/mo Lite (2 cloud targets, local only, no sharing) | Self-hosted free (bring your own infra, community support)</span></div>
+  </div>
+</div>
+<div class="foot">Generated by PainScout · MVP in ~60 days · Built by a vibe coder for people with real problems</div>
+</body>
+</html>

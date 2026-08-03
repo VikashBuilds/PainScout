@@ -1,0 +1,80 @@
+{
+  "opportunity_theme": "Personal Photo/Video Archival Automation",
+  "name": "ArchiveFlow",
+  "tagline": "Automate every backup, share anywhere, never lose a memory",
+  "problem": "Parents and creators manually manage 3-5 disconnected backup silos (local drives, USB, cloud, Flickr, YouTube) with no unified pipeline for offline/tape archival, cross-device viewing, or effortless sharing.",
+  "solution": "ArchiveFlow connects all your media sources and backup targets into a single automated pipeline. Set rules once — it continuously syncs new photos/videos to cloud, local NAS, USB, and cold storage (tape/LTO), generates shareable albums, and serves a unified library view on every device. Zero ongoing effort after initial setup.",
+  "features": [
+    "Multi-source ingestion (phone, camera SD, desktop folders, Google Photos, iCloud)",
+    "Multi-target backup rules (S3/Wasabi/Backblaze B2, local NAS, USB auto-mount, LTO tape via LTFS)",
+    "Automated deduplication & integrity verification (checksums, bit-rot detection)",
+    "Smart album generation (by date, location, faces, events) with shareable links",
+    "Cross-device web viewer with offline sync and progressive loading",
+    "Offline/cold storage workflow (print barcode labels, track tape vault location)",
+    "Health dashboard (backup status, storage usage, failed jobs, SLA compliance)",
+    "One-click restore to any device or target",
+    "Privacy-first: end-to-end encryption option, self-hosted mode",
+    "WhatsApp bot for status alerts, quick shares, and restore requests"
+  ],
+  "mvp_scope": "Build a desktop agent (macOS/Windows/Linux) that watches designated folders, deduplicates, and pushes to 2 cloud targets (Backblaze B2 + S3-compatible) + 1 local USB/NAS. Add a simple web dashboard for viewing backup health and generating shareable album links. Skip tape/LTO, face recognition, and mobile apps for v1.",
+  "tech_stack": [
+    "Tauri (Rust + React) for cross-platform desktop agent",
+    "Node.js/TypeScript + Fastify for API & dashboard backend",
+    "PostgreSQL + Redis for metadata & job queue",
+    "Backblaze B2 / S3 API for cloud storage",
+    "MinIO for S3-compatible local/NAS target",
+    "React + TailwindCSS for web dashboard",
+    "Fly.io for hosting (global edge, persistent volumes)",
+    "WhatsApp Business API via Twilio for bot integration"
+  ],
+  "build_estimate_days": 60,
+  "competitors": [
+    {
+      "name": "Arq Backup",
+      "gap": "No sharing, album generation, or cross-device viewer — pure backup only"
+    },
+    {
+      "name": "Google Photos / iCloud",
+      "gap": "Locked ecosystem, no multi-cloud/offline/tape support, privacy concerns"
+    },
+    {
+      "name": "Synology/NAS apps",
+      "gap": "Hardware-bound, no cloud multi-target, poor sharing UX"
+    },
+    {
+      "name": "Backblaze Personal Backup",
+      "gap": "Single target only, no local/USB/tape, no album/sharing features"
+    },
+    {
+      "name": "Immich / PhotoPrism",
+      "gap": "Self-hosted viewers only, no automated multi-target backup pipeline"
+    }
+  ],
+  "landing_copy": {
+    "headline": "One Pipeline. Every Backup. Zero Effort.",
+    "subheadline": "Connect your cameras, phones, and folders. ArchiveFlow automatically replicates to cloud, NAS, USB, and tape — then serves a beautiful, shareable library on every screen.",
+    "bullets": [
+      "Set rules once → runs forever in the background",
+      "Backs up to Backblaze, S3, NAS, USB, and LTO tape",
+      "Deduplicates, verifies checksums, heals bit-rot",
+      "Auto-generates albums by event, person, place",
+      "Share a link — recipients view without accounts",
+      "Health dashboard + WhatsApp alerts for peace of mind"
+    ],
+    "cta": "Start Free 14-Day Trial"
+  },
+  "whatsapp_bot": {
+    "flow": "User links phone number in dashboard → receives daily/weekly backup health summary → can reply 'SHARE [album]' to get a share link → 'RESTORE [date]' to queue a download → 'STATUS' for live sync progress → 'PAUSE'/'RESUME' to control the agent.",
+    "commands": [
+      "STATUS",
+      "SHARE <album_name>",
+      "RESTORE <date_range>",
+      "PAUSE",
+      "RESUME",
+      "HEALTH",
+      "HELP"
+    ],
+    "pricing": "Included in Pro plan ($12/mo). Free tier gets weekly digest only."
+  },
+  "pricing_model": "$12/mo Pro (unlimited sources/targets, sharing, WhatsApp bot, health alerts) | $5/mo Lite (2 cloud targets, local only, no sharing) | Self-hosted free (bring your own infra, community support)"
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WABridge — Never lose WhatsApp access — backup, monitor &amp; recover accounts automatically</title>
+<style>
+:root{--bg:#0b0f1a;--card:#131a2b;--acc:#6c5ce7;--acc2:#00cec9;--txt:#e8ecf4;--mut:#9aa5b8}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--txt);line-height:1.6}
+.hero{padding:72px 20px 48px;text-align:center;background:radial-gradient(ellipse at top,#1a2340 0%,var(--bg) 70%)}
+.badge{display:inline-block;padding:6px 14px;border-radius:999px;background:rgba(108,92,231,.15);color:#b3a8ff;font-size:13px;letter-spacing:.5px;margin-bottom:20px;border:1px solid rgba(108,92,231,.4)}
+h1{font-size:clamp(2rem,5vw,3.4rem);font-weight:800;letter-spacing:-.5px;margin-bottom:14px}
+.tag{font-size:clamp(1.05rem,2.5vw,1.35rem);color:var(--mut);max-width:640px;margin:0 auto 30px}
+.cta{display:inline-block;padding:15px 34px;border-radius:12px;background:linear-gradient(135deg,var(--acc),var(--acc2));color:#fff;font-weight:700;font-size:1.05rem;text-decoration:none;box-shadow:0 8px 30px rgba(108,92,231,.35);transition:transform .15s}
+.cta:hover{transform:translateY(-2px)}
+.container{max-width:960px;margin:0 auto;padding:32px 20px 80px}
+.section{margin-top:48px}
+h2{font-size:1.5rem;margin-bottom:18px;color:#fff}
+.card{background:var(--card);border:1px solid #1e2a45;border-radius:16px;padding:24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.grid .card{padding:18px}
+.grid .card strong{color:var(--acc2);font-size:1.05rem}
+ul{list-style:none}
+li{padding:8px 0 8px 26px;position:relative}
+li:before{content:"✓";position:absolute;left:0;color:var(--acc2)}
+.wa{border-left:4px solid #25d366;padding:20px 24px;border-radius:0 12px 12px 0;background:rgba(37,211,102,.06)}
+code{background:#0d1526;padding:2px 8px;border-radius:6px;font-size:.92em;color:#8be9fd}
+.pricing{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.pricing .price{font-size:2.2rem;font-weight:800;color:var(--acc2)}
+.foot{text-align:center;color:var(--mut);padding:32px;font-size:.85rem}
+@media(max-width:600px){.hero{padding:48px 16px 32px}}
+</style>
+</head>
+<body>
+<div class="hero">
+  <span class="badge">✨ AI-Powered · WhatsApp-First · No-Code</span>
+  <h1>Your WhatsApp Account. Insured.</h1>
+  <p class="tag">Auto-backup. Ban-risk alerts. One-tap recovery. All from a WhatsApp bot you already know.</p>
+  <a class="cta" href="#wa">Connect WhatsApp &amp; Start Free Monitoring</a>
+</div>
+<div class="container">
+  <div class="section">
+    <h2>The problem</h2>
+    <div class="card"><p>WhatsApp accounts get banned, frozen, or force-logged out without warning — especially during heavy media transfers or group activity — cutting off critical personal and business communication with zero human support.</p></div>
+  </div>
+  <div class="section">
+    <h2>The solution</h2>
+    <div class="card"><p>WABridge continuously monitors account health, auto-backups chats/media to encrypted cloud storage, detects ban-risk patterns before bans happen, and provides one-tap recovery workflows — all controllable via a lightweight WhatsApp bot so you never lose access.</p></div>
+  </div>
+  <div class="section">
+    <h2>What you get</h2>
+    <div class="card"><ul><li>📊 Real-time ban-risk score — know before you&#x27;re banned</li><li>☁️ Encrypted daily backups to your cloud — chats, media, contacts</li><li>🚨 Instant alerts on freeze, logout, or review-loop detection</li><li>📋 One-tap appeal template + recovery checklist</li><li>🤖 Control everything via WhatsApp: /health /backup /risk /appeal</li><li>🔐 Your data, your keys — zero-knowledge encryption</li></ul></div>
+  </div>
+  <div class="section">
+    <h2>Features (v1)</h2>
+    <div class="card"><ul><li>Real-time account health monitoring (ban-risk score, freeze detection, logout alerts)</li><li>Encrypted daily auto-backup of chats, media, and contacts to S3/R2 with versioning</li><li>Ban-risk pattern detection: mass media sends, group join spikes, rapid message bursts</li><li>One-tap recovery workflow: guided appeal template, backup restore, device re-link guide</li><li>WhatsApp bot dashboard: /health, /backup, /restore, /risk, /appeal, /export commands</li><li>Multi-account support for agencies/freelancers managing client accounts</li><li>Webhook alerts to Slack/Email/Telegram on risk spikes or bans</li><li>Encrypted local SQLite backup on device for offline recovery</li></ul></div>
+  </div>
+  <div class="section">
+    <h2>Tech stack</h2>
+    <div class="card" style="display:flex;flex-wrap:wrap;gap:8px"><code>Node.js 20 + TypeScript</code> <code>Baileys (WhatsApp Web API library)</code> <code>PostgreSQL (Railway/Neon)</code> <code>S3-compatible storage (Cloudflare R2 / AWS S3)</code> <code>Railway / Render (hosting)</code> <code>BullMQ + Redis (background jobs)</code> <code>Zod (validation)</code> <code>Telegraf (optional: Telegram mirror alerts)</code></div>
+  </div>
+  <div class="section">
+    <h2>Competitors &amp; the gap</h2>
+    <div class="grid"><div class="card"><strong>WhatsApp Business API (Meta)</strong><p style="margin-top:8px;color:var(--mut)">Gap: Requires verified business, expensive, no ban protection for personal accounts</p></div><div class="card"><strong>Chatbase / ManyChat</strong><p style="margin-top:8px;color:var(--mut)">Gap: Chatbot builders only — no account health monitoring or ban recovery</p></div><div class="card"><strong>WA Web Plus / WA Toolkit</strong><p style="margin-top:8px;color:var(--mut)">Gap: Browser extensions only — no backup, no monitoring, no recovery workflows</p></div><div class="card"><strong>Backup apps (Google Drive/iCloud)</strong><p style="margin-top:8px;color:var(--mut)">Gap: Manual, infrequent, no risk detection, no recovery guidance</p></div></div>
+  </div>
+  <div class="section" id="wa">
+    <h2>Try it on WhatsApp</h2>
+    <div class="card wa">
+      <p><strong>How it works:</strong> User sends &#x27;START&#x27; to WABridge number → bot replies with QR code to link account → once linked, bot runs daily health checks &amp; backups → user gets proactive alerts on risk spikes → on ban/freeze, user sends /appeal for guided recovery + /restore to rehydrate chats on new device.</p>
+      <p style="margin-top:12px"><strong>Commands:</strong> <code>/health — account status, last backup, risk score</code> <code>/backup — trigger immediate encrypted backup</code> <code>/risk — top 3 ban-risk factors right now</code> <code>/appeal — pre-filled appeal letter + step-by-step guide</code> <code>/restore [device] — restore guide for new phone/desktop</code> <code>/export [format] — PDF/CSV/JSON chat export</code> <code>/accounts — list linked accounts (agencies)</code> <code>/pause — pause monitoring for this account</code></p>
+    </div>
+  </div>
+  <div class="section">
+    <h2>Pricing</h2>
+    <div class="card pricing"><span class="price">Freemium SaaS: Free tier (1 account, daily backup), Pro $9/mo (3 accounts, hourly backups, alerts), Agency $29/mo (20 accounts, webhooks, team). No per-lead — account-based.</span></div>
+  </div>
+</div>
+<div class="foot">Generated by PainScout · MVP in ~14 days · Built by a vibe coder for people with real problems</div>
+</body>
+</html>

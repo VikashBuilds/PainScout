@@ -1,7 +1,172 @@
 {
-  "query": "small business owners waste time on admin work",
-  "generated_at": "2026-08-02T10:29:38+00:00",
+  "query": "wish there was a way to automate",
+  "generated_at": "2026-08-03T16:00:38+00:00",
   "pain_points": [
+    {
+      "source": "hackernews",
+      "title": "Ask HN: What is your personal photo/video storage and archival plan?",
+      "text": "So, I’m a new dad. And with that, now have hundreds of photos and videos that, without a shred of doubt, I want to keep forever. I currently have 3 backups (computer, usb drive, and cloud backup through crash plan). I also use Flickr Pro which I guess is my 4th backup. Then (ok, so maybe I have 5 backups) I have some home videos on YouTube to watch on my Roku TV.<p>There is some manual work needed (not a lot) to make sure all are in sync. But boy I wish there was a fully automated way to do this that allowed sharing, lots of backups (even offline tape), and ability to collect and view videos and photos on all devices.<p>I’d love to hear how others are managing the long-term storage of photos and videos.",
+      "url": "https://news.ycombinator.com/item?id=21257276",
+      "created_at": "2019-10-15T10:55:16Z",
+      "meta": {
+        "points": 15,
+        "num_comments": 26
+      }
+    },
+    {
+      "source": "hackernews",
+      "title": "Launch HN: Kable (YC W22) – All-in-one platform for API products",
+      "text": "Hi HN! I’m Adam from Kable (<a href=\"https:&#x2F;&#x2F;kable.io\" rel=\"nofollow\">https:&#x2F;&#x2F;kable.io</a>). We make it easy to build great API products.<p>Kable takes care of all of the things that pull you away from your core business – API keys and authentication, usage-metering and billing, invoicing your customers, dashboards for tracking key metrics, evolving pricing to optimize revenue, surfacing usage dashboards to your customers – so you can focus on what’s most important.<p>Every API developer has to deal with important but unsexy responsibilities like “How will I securely manage API keys?” “How am I going to track which customers are using which parts of my product?” “How am I going to monitor usage of my API, and how can I make that information available to customers?” “Billing is complicated, invoicing is time-consuming, when am I going to find time to automate that?” This is the stuff we take care of.<p>I led the billing team at Hulu for five years and got a full education in the complexities of billing, payments, and accounting. Before that, I led the security team at Appian for two years, and before that I worked at WePay (YC S09), a payments API company. On a slightly weirder note...I have an obsession with API-first companies. I am fascinated by the rise of the API economy. Twilio for messaging; Stripe for payments; Algolia for search; Segment for data; the list gets longer every year. I have always been fascinated by these companies, wanted to work with them, learn from them, and serve them.<p>I spoke to hundreds of people building API companies and two themes rang more loudly than anything else: “We are doing X for now but we really want to do Y...” and “We haven’t built Z yet because we just don’t have the time.” These statements were always about the same topics, too: billing, invoicing, authentication, monitoring, analytics. Why was every startup struggling with the same things? I decided the best way to serve this community – a community ",
+      "url": "https://news.ycombinator.com/item?id=30627558",
+      "created_at": "2022-03-10T14:52:39Z",
+      "meta": {
+        "points": 193,
+        "num_comments": 79
+      }
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Artifact Keeper – Open-Source Artifactory/Nexus Alternative in Rust",
+      "text": "I&#x27;m a software engineer who keeps getting pulled into DevOps no matter how hard I try to escape it. I recently moved into a Lead DevOps Engineer role writing tooling to automate a lot of the pain away. On my own time outside of work, I built Artifact Keeper — a self-hosted artifact registry that supports 45+ package formats. Security scanning, SSO, replication, WASM plugins — it&#x27;s all in the MIT-licensed release. No enterprise tier. No feature gates. No surprise invoices.<p>Your package managers — pip, npm, docker, cargo, helm, go, all of them — talk directly to it using their native protocols. Security scanning with Trivy, Grype, and OpenSCAP is built in, with a policy engine that can quarantine bad artifacts before they hit your builds. And if you need a format it doesn&#x27;t support yet, there&#x27;s a WASM plugin system so you can add your own without forking the backend.<p>Why I built it:<p>Part of what pulled me into computers in the first place was open source. I grew up poor in New Orleans, and the only hardware I had access to in the early 2000s were some Compaq Pentium IIs my dad brought home after his work was tossing them out. I put Linux on them, and it ran circles around Windows 2000 and Millennium on that low-end hardware. That experience taught me that the best software is software that&#x27;s open for everyone to see, use, and that actually runs well on whatever you&#x27;ve got.<p>Fast forward to today, and I see the same pattern everywhere: GitLab, JFrog, Harbor, and others ship a limited &quot;community&quot; edition and then hide the features teams actually need behind some paywall. I get it — paychecks have to come from somewhere. But I wanted to prove that a fully-featured artifact registry could exist as genuinely open-source software. Every feature. No exceptions.<p>The specific features came from real pain points. Artifactory&#x27;s search is painfully slow — that&#x27;s why I integrated Meilisearch. Security scanning that doesn&#",
+      "url": "https://news.ycombinator.com/item?id=46909037",
+      "created_at": "2026-02-06T04:12:59Z",
+      "meta": {
+        "points": 166,
+        "num_comments": 67
+      }
+    },
+    {
+      "source": "hackernews",
+      "title": "Launch HN: Boostly (YC S22) – SMS marketing for restaurants",
+      "text": "Hey HN, we are Shane and Mikey, the co-founders of Boostly (<a href=\"https:&#x2F;&#x2F;boostly.com\" rel=\"nofollow\">https:&#x2F;&#x2F;boostly.com</a>). Boostly is a text marketing and feedback system for restaurants that works seamlessly with their point of sale, online ordering, and phone systems.<p>Restaurants live or die based on their ability to keep their customers coming back. However, with the rise of the third party delivery platforms, which charge 20%-35% commission on each transaction, restaurants are afraid that many of their customers will stop ordering directly from the restaurant (even if the restaurant can do their own delivery), and wipe out their small profit margins.<p>The delivery platforms also maintain ownership of the customer data. They know how valuable this is for marketing, whereas the typical restaurant owner is focused on the food and service, as they should be—and they miss out on being able to communicate directly with their guest as a result. With so many restaurants hanging by a thread these days, it’s more important than ever that they be able to market to their customers themselves, build relationships, and get their customers to order through their most profitable channels.<p>Customer data is notoriously hard for restaurant owners to access because it is scattered across different systems with various challenges. Even if they access it, they don’t have a way to manage opt-in consent for texting. And of course, most restaurant owners are non-technical and so none of this stuff is easy for them to begin with. We help restaurants access their data, get people opted-in to receive text marketing, and then put it all on autopilot.<p>All of this started when I (Shane) was running sales for Jolt, a restaurant operations software company, and saw the early stages of online ordering trends. Everyone was focused on the transactions, while customer data was largely getting neglected. Our insight was that this was leaving an incredible amount of",
+      "url": "https://news.ycombinator.com/item?id=32675658",
+      "created_at": "2022-09-01T13:00:03Z",
+      "meta": {
+        "points": 38,
+        "num_comments": 68
+      }
+    },
+    {
+      "source": "hackernews",
+      "title": "What I learned about the iPhone AppStore over the last 2 months",
+      "text": "This summer I was tasked to evaluate the AppStore and advise our company on whether to pursue a native iPhone app or a web-based approach. I decided against the AppStore for all of the reasons that have been floating around the blogosphere &#38; which pg has summarized more eloquently than I can.<p>But learning about the AppStore piqued my interest and I set up a little private project. This is my humble story &#38; what I learned.<p># THE STORY<p>After brushing up on my Objective-C, I set out to build the minimal viable iPhone App. A flashlight was out of the question because I wanted something that: 1) makes people smile 2) uses <i>some</i> native iPhone functionality (accelerometer) 3) tests the AppStore approval process. Oh, and I like irony.<p>$DRUMROLL: My application named 'Reject' was APPROVED last week after two months in purgatory. $BADABING<p>Granted, the app is fairly trivial like many of the other apps in the CrappStore. This is due to the very nature of said store. Building complex apps is actively discouraged by the approval uncertainty and huge waiting times. As a beginning developer you minimize risk, pump out a few silly things while you are learning &#38; once you are more confident you tackle a bigger project. After 2 months, I've only now started my first big project.<p>If you could all buy the app to help me recover my dev-license and dev-time, that'd be grand. If you're too poor I've reserved the 50 promo codes exclusively for HN users surviving on ramen noodles, screw the press ;-)<p># WHAT I LEARNED (CORRECT ME IF I'M WRONG)<p>Here are a few dirty tricks &#38; ideas that I hope will make life in AppStore purgatory easier:<p>Use the 'Easter Egg' field to plead directly to the reviewer. It's a free-text field that every reviewer will read and a little social engineering will work wonders.<p>If the app name is important to you, reserve it by submitting a dummy app without binary. You'll need dummy 512x512 and 480x320 artwork in order to be able",
+      "url": "https://news.ycombinator.com/item?id=951360",
+      "created_at": "2009-11-19T22:52:09Z",
+      "meta": {
+        "points": 16,
+        "num_comments": 1
+      }
+    },
+    {
+      "source": "hackernews",
+      "title": "Ask HN: iPhone 15 pro handset just damaged my hearing, what now?",
+      "text": "Title says it all. Wish I was kidding.<p>I had a power outage tonight even before the big snow arrived. My shitty power utility has a call back feature if they restore power, which is useful since I have to throw the primary disconnect to use my generator.<p>They called as I finished getting the generator going and I answered while standing nearby. This is an automated system that waits for a voice, and I said &#x27;Yo&#x27; into the handset. Immediately after the loudest recording I&#x27;ve ever heard played through the speaker causing sharp pain and ringing as the handset was seated directly over my left ear. I pulled it away within a second but this was like a gunshot near my ear.<p>What I want to know is, does the iPhone have an adaptive volume &#x27;feature&#x27; that CRANKS the volume when it picks up ambient noise to damaging levels? I just answered as it was a normal call, no speaker option and I am certain I did not increase volume after the call began. I&#x27;ve never experienced it going this loud.<p>Also, since I&#x27;ve never experienced an acute hearing injury like this, should I be going to ER? This happened within the past hour and while there&#x27;s no bleeding coming out of the ear, I do have high pitched constant ringing (in just that ear) Is there anything that can be done or am I just screwed if it caused damage?",
+      "url": "https://news.ycombinator.com/item?id=46740264",
+      "created_at": "2026-01-24T01:39:27Z",
+      "meta": {
+        "points": 13,
+        "num_comments": 5
+      }
+    },
+    {
+      "source": "hackernews",
+      "title": "Launch HN: Screenpipe (YC S26) – Record how you work and turn that into agents",
+      "text": "Hi Hacker News, I&#x27;m Louis. I built Screenpipe (<a href=\"https:&#x2F;&#x2F;screenpipe.com\">https:&#x2F;&#x2F;screenpipe.com</a>), an app that records your screen and audio locally (only!), and gives AI agents a searchable memory of what you&#x27;ve seen, said, and heard. This makes it easier to automate your repetitive tasks, turn them into SOPs (Standard Operating Procedure) and so on.<p>I made a HN-style demo video at <a href=\"https:&#x2F;&#x2F;www.tella.tv&#x2F;video&#x2F;build-your-ai-second-brain-with-screenpipe-e1j7\" rel=\"nofollow\">https:&#x2F;&#x2F;www.tella.tv&#x2F;video&#x2F;build-your-ai-second-brain-with-s...</a> and there’s a marketing video at <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=c1jV6E9pyug\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=c1jV6E9pyug</a>.<p>I’ve been obsessed with this for a long time. I’ve been maintaining a “second brain” since 2020, in which I would store journals, handwritten notes, music I listen to, projects I&#x27;m working on, conversations I have with people, personal CRM etc. I experimented a lot of RAG in the early days with ParlAI, hundreds of fine-tuned GPT2 models, and GPT3 (<a href=\"https:&#x2F;&#x2F;forum.obsidian.md&#x2F;t&#x2F;fine-tuning-openai-api-gpt3-on-your-second-brain-obsidian&#x2F;21849&#x2F;4\" rel=\"nofollow\">https:&#x2F;&#x2F;forum.obsidian.md&#x2F;t&#x2F;fine-tuning-openai-api-gpt3-on-y...</a>). Later I built Ava, the first Obsidian AI plugin, which grew to a few thousands of users quickly. It then became Embedbase, an API to make it easier to build AI apps powered by RAG.<p>What I learned from all this is how important it is for the models to have context about what you’re doing on your computer, in order to get them to do what you want.<p>In the early days there was fine tuning but it was too much pain, then there was tool calling so that AI can access software you use but still kinda not autonomous enough. needing micro management. Then MCP came, but it felt too static",
+      "url": "https://news.ycombinator.com/item?id=49024620",
+      "created_at": "2026-07-23T16:48:38Z",
+      "meta": {
+        "points": 88,
+        "num_comments": 67
+      }
+    },
+    {
+      "source": "hackernews",
+      "title": "Launch HN: Tensil (YC S19) – Open-Source ML Accelerators",
+      "text": "Hello HN! I&#x27;m Tom, co-founder at Tensil (<a href=\"https:&#x2F;&#x2F;www.tensil.ai&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.tensil.ai&#x2F;</a>). We design free and open source machine learning accelerators that anyone can use.<p>A machine learning inference accelerator is a specialized chip that can run the operations used in ML models very quickly and efficiently. It can be either an ASIC or an FPGA, with ASIC giving better performance but FPGA being more flexible.<p>Custom accelerators offer dramatically better performance per watt than existing GPU and CPU options. Massive companies like Google and Facebook use them to make training and inference cheaper. However, everyone else has been left out: small and mid-sized companies, students and academics, hobbyists and tinkerers currently have no chance of getting custom ML hardware. We aim to change that, starting with ML inference on embedded and edge FPGA platforms. Our dream is that our accelerators help people make new applications possible that simply weren&#x27;t feasible before.<p>We believe that advances in AI go hand in hand with advances in computing hardware. As a couple of software and ML engineers hoping to live in a world alongside intelligent machines, we wanted to know why those hardware advances were taking so long! We taught ourselves digital design and gradually realized that the next generation of hardware will need to be finely customized to enable state of the art ML models at the edge, that is, running on your devices and not in the cloud. In the CPU world, the RISC-V RocketChip implementation has proven the value of customizable compute hardware. The problem was that no-one was building that kind of capability for ML acceleration. We started Tensil to build customizable ML accelerators and see what kind of applications people can create with them.<p>Tensil is a set of tools for running ML models on custom accelerator architectures. It includes an RTL generator, a model compiler, and a ",
+      "url": "https://news.ycombinator.com/item?id=30643520",
+      "created_at": "2022-03-11T18:00:10Z",
+      "meta": {
+        "points": 96,
+        "num_comments": 87
+      }
+    },
+    {
+      "source": "hackernews",
+      "title": "Ask HN: Is there room for another e-mail client?",
+      "text": "With the demise of Sparrow (we can argue the definition of demise, yes) I find myself with no real alternative e-mail client anymore<p>Thunderbird doesn't work well for my work flow<p>Eudora is long gone.<p>Sometimes I go back to using Pine, Alpine, Sylpheed, Mutt.<p>Apple Mail is OK, more polished than it used to be but I find it slow and unstable with large amounts of Mail.<p>Outlook, gets better with each release, cannot handle my 12GB of mail at all, lots of continual corruption. Seems very bloated in CPU and RAM consumption although it is very full featured.<p>I miss Postmaster from BeOS. It was powerful, lightweight, fast.<p>GyazMail was pretty good, but alas very slow to make development progress.<p>GMail web interface works OK for me.<p>I know I am rambling on and on but does anyone else feel e-mail has changed from the mid-90's. It used to be exciting to receive e-mail. Now I dread my inbox and dread just how innovative e-mail has become. I have a lot of ideas on how to make e-mail fun and productive.<p>Does anyone else wish E-Mail and the way we interact with e-mail was different? How so?<p>Additional: I think e-mail is thought of as so commonplace now-a-days that nobody is innovating. Rather just keeping up with the bare minimum necessary features people expect out of e-mail.<p>Why can't my e-mail client automatically organize e-mails for me without me having to create filters/rules? Why can't my e-mail client help me fight SPAM versus just learning to filter it away from my view? I save a lot of mail, I have 12 years work of things that I might need to reference someday, Why can't my e-mail client prepare an overview for me of interactions I have had with people so I dont have to search and wade through e-mail to find something?<p>I'd like to explore this and create an app that works better for the way we use e-mail now. I can code in C++ like a rockstar but I will struggle with UI design.",
+      "url": "https://news.ycombinator.com/item?id=4603099",
+      "created_at": "2012-10-02T17:21:20Z",
+      "meta": {
+        "points": 7,
+        "num_comments": 5
+      }
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Palmier Pro – Open-source macOS video editor built for AI",
+      "text": "Hi HN, we are Marcos and Harrison, cofounders of Palmier (<a href=\"https:&#x2F;&#x2F;palmier.io\">https:&#x2F;&#x2F;palmier.io</a>). We are building Palmier Pro, an open source macOS video editor, with built-in AI generation and a local MCP server that connects to your agent. Here are a few demos:<p>- Making some AI transitions: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=hbM_-eR1GX4\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=hbM_-eR1GX4</a><p>- Multicam editing with Codex: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=SjS2q2LT1q8\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=SjS2q2LT1q8</a><p>- Cutting long form clips into shorts: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=PR66eN2ouuQ\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=PR66eN2ouuQ</a><p>We built Palmier Pro as an internal tool when we were making AI launch videos for other startups. The main problem it solved in the beginning was the back-and-forth between AI generation platform and video editor. The iteration loop was awkward: AI videos → download → import to editor → edit → realize we need to change the AI video → repeat. So we built a minimal video editor where we could let Claude generate AI videos inside the editor.<p>As we gave more and more tools to the agent, we wanted to push to see what else agents can do in the video editing space. So today, your Claude&#x2F;Codex can:<p>- Manage projects inside Palmier Pro<p>- Import media from a public URL or filesystem to the project, and organize them in folders<p>- Search media (by embedding footages using SigLIP2 running locally)<p>- Edit the timeline (tracks&#x2F;clips&#x2F;keyframes operations)<p>- Generate images, videos, sound effects, captions, music<p>- Export videos<p>There are two ways for LLMs to interact with the editor: by connecting to the local MCP server, or using the in-app chat. Both use the same tools and APIs exposed by the video editor.<p>We have se",
+      "url": "https://news.ycombinator.com/item?id=49022911",
+      "created_at": "2026-07-23T15:11:37Z",
+      "meta": {
+        "points": 191,
+        "num_comments": 39
+      }
+    },
+    {
+      "source": "hackernews",
+      "title": "Ask HN: Where is my cloud addressbook?",
+      "text": "All my info lives happily in the cloud- notes, to-do lists, documents, photos, music - except for my darn addressbook - you know, name, phone number, address, email, group. Now I am <i>not</i> looking for social networking solutions - what I wish for is:<p>1. An online way of managing addresses with a decent UI (no, Google Contacts is not a decent UI).<p>2. A way of sharing items with family members (so only one spouse has to enter the number of the plumber)<p>3. Decent offline clients (ideally sync, at least read-only) for the usual suspects - iPhone, linux (akonadi?), whatever Mac/Windows worlds use.<p>4. Web based import - eg. my electrican's website exporting their vcard/hcard so I would just click on an icon when browsing their website (like the RSS feed monitor) to import their data in my address book. Hell, maybe when they move their new address would automatically push out.<p>None of this stuff is rocket science these days, so where is it? At least is there a good solution for 1-3? (I realise 4 would require some kind of standard and viral uptake). What do people here use? Is everybody tied to their OS/mobile-specific addressbooks, or are they depending on stuff like Facebook/LinkedIn? I don't want to have to join Facebook to look up my plumber's number.<p>PS. Sorry if this is covered before, closest thread I was able to find was http://news.ycombinator.com/item?id=544738 which had a good OP but comments petered out. After reading the comments I am tempted to add the suggestion I found there of:<p>5. Deal with multi-person addresses like husband and wife at the same location.",
+      "url": "https://news.ycombinator.com/item?id=754175",
+      "created_at": "2009-08-10T22:02:58Z",
+      "meta": {
+        "points": 6,
+        "num_comments": 5
+      }
+    },
+    {
+      "source": "hackernews",
+      "title": "The Fall of Hacking",
+      "text": "Please first excuse my liberal arts sensibilities in a technical forum; but I figure out there might be some like-minded people out there who feel the same way I do ... that the hacker culture is dying out.<p>Before anyone jumps in to say that I've jumped the shark, let me quickly jump to elaborate:<p>The ideal of the hacker a la early 90's, Ghost in the Shell, Hacker and Cyberpunk; a cowboy on the electronic frontier typing silently the night away to a CRT monitor but the internals (of man and machine) is intense full of drama. Better yet, a reclusive vampire in the cyberworld, dialing up the BBS where people went by handles and the text file on packet sniffing taught me the hacking techniques and text file called \"subverting American lower-education\" taught me the hacking ethos and attitude. Hacking was punk-rock (a la the Ramones, pre-Blink182 and Sum41): marginal and subversive, exploiting buffer overflow vulnerabilities on remote servers, warez, BIOS viruses, and automatic credit card number generators in Visual Basic 3.0 to get free Internet access via AOL/Prodigy/Compuserve, pirated Turbo C++ with DJGPP writing a 2D DOS sidescroller. But I do not really do justice to the description of hacker, pre the dot-com boom - but I think you know what I mean.<p>Fast forward to the 2009, a hacker has become the anti-thesis to the hacker of early 90's. The new \"hacker\" go to websites such as YCombinator and have snazzy wordpress blogs with rounded corner designers with full names and locations and snazzy job titles, and geek-chic photo of the said hacker in yuppie dress-shirts smiling, \"Software Visionaire/Ruby Ninja; come hit me up on Facebook, let's meet up and talk about business ideas!\" The big ideas of the day is a PHP database CRUD application that displays everyone's colleges and geographical networks, with full names and whose purpose essentially, is a repository for pictures of inebriated hot chicks. Apparently, the new new thing is now this CRUD forum database ",
+      "url": "https://news.ycombinator.com/item?id=762121",
+      "created_at": "2009-08-14T01:00:15Z",
+      "meta": {
+        "points": 176,
+        "num_comments": 112
+      }
+    },
+    {
+      "source": "hackernews",
+      "title": "Ask HN: How would you learn AI-assisted development from the ground up?",
+      "text": "I&#x27;m a director&#x2F;exec, not a software engineer. Background&#x27;s mostly data analytics, SQL and Excel day to day, some R and PostgreSQL. Years ago I could hack together basic HTML&#x2F;CSS&#x2F;PHP too.<p>Got into AI early and now use ChatGPT and Claude constantly. With their help I&#x27;ve built a handful of web apps, some Python scripts and desktop tools, and an Android app on Supabase with real multiple users.<p>So I can build things. But I&#x27;m very aware there are big holes underneath it. I can usually get something working without really knowing why it works, whether it&#x27;s actually well built, or what&#x27;s going to break down the road once it gets more complex.<p>Feels like it&#x27;s time to go back to fundamentals. Michael Jordan still worked on his footwork, that kind of thing.<p>What I&#x27;m hoping to get to eventually:<p>* build small useful apps, windows&#x2F;mac&#x2F;android&#x2F;ios&#x2F;web<p>* automate chunks of my own and my team&#x27;s work<p>* maybe build a simple SaaS at some point<p>* generally not get left behind, open to this reshaping my career or spinning into a side thing<p>Was hoping for something structured, starting from prompt&#x2F;context engineering and working into real programming fundamentals, APIs, databases, architecture, security, testing, deployment. Problem is anything I find is stale within months given how fast this moves.<p>Not looking for free necessarily, and definitely not looking for &quot;learn to code in a weekend.&quot; Willing to put in real time.<p>For people who&#x27;ve gone down this road already: what&#x27;s actually worth learning properly, what&#x27;s fine to just learn enough to supervise, and what can honestly just stay AI&#x27;s job?<p>P.S.: Yes I polished&#x2F;refined this post using AI, but I first wrote it all myself (the original was twice as long).",
+      "url": "https://news.ycombinator.com/item?id=49098829",
+      "created_at": "2026-07-29T15:31:35Z",
+      "meta": {
+        "points": 6,
+        "num_comments": 9
+      }
+    },
+    {
+      "source": "hackernews",
+      "title": "Launch HN: Codebuff (YC F24) – CLI tool that writes code for you",
+      "text": "Hey HN! We’re James and Brandon building Codebuff (<a href=\"https:&#x2F;&#x2F;codebuff.com\">https:&#x2F;&#x2F;codebuff.com</a>). Codebuff is like Cursor Composer, but in your terminal: it modifies files based on your natural language requests. You can try it with `npm i -g codebuff` and start using it immediately for free. We have no login gate, and we give all accounts up to $20 worth of credits.<p>Codebuff is different because we simplified the input to one step: you type what you want done in your terminal and hit enter. Then Codebuff looks through your whole codebase and makes the edits it wants, to existing source files or new ones. It also can run your tests, the type checker, or install packages to fulfill your request.<p>Demo video: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=dQ0NOMsu0dA\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=dQ0NOMsu0dA</a><p>It all started at a hackathon. I was trying out Sonnet 3.5 which had recently come out and seeing if I could use it to write code. The script I cobbled together that day pulled codebase context in one step and used it to rewrite files with changes in the second step. This two step process still exists today. Incidentally, my hackathon script worked rather poorly and my demo failed to produce any useful code.<p>But that weekend I thought about the kind of errors it made, and realized that with more context on our codebase, it might have been able to get the change right. For example, it tried to create an endpoint on our server (at my previous startup), but it didn&#x27;t know that you needed to edit 3 specific files to do this (yeah... our backend was not that clean). So I hand-wrote a guide to our codebase, like I was instructing a new hire. I put it in a markdown file and passed it into Sonnet 3.5&#x27;s system prompt.  And the crazy thing is that it started producing wayyy better code. So, I started getting excited. In fact, this code guide idea still exists in Codebuff today as k",
+      "url": "https://news.ycombinator.com/item?id=42078536",
+      "created_at": "2024-11-07T17:06:28Z",
+      "meta": {
+        "points": 285,
+        "num_comments": 239
+      }
+    },
+    {
+      "source": "hackernews",
+      "title": "Launch HN: Tokenless (YC S26) – Automatic model switching to save money",
+      "text": "Hi HN, Rohit here from Tokenless (<a href=\"https:&#x2F;&#x2F;usetokenless.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;usetokenless.com&#x2F;</a>), which I’m building alongside co-founders Andrew and Kev. We’re building an API gateway which routes agent traffic dynamically turn-by-turn between different models to save on AI spend.<p>The cost of AI tokens is top-of-mind for many. Companies like Uber and Salesforce have been complaining about blowing their yearly AI spend faster than expected.<p>Frontier models are amazing for dev work, but are so expensive. Open-source models are cheap and rapidly improving, closing the gap with frontier models, but aren’t quite there yet.<p>Tokenless gets you the best of both worlds–routing harder turns to smarter models only when needed, which keeps costs low.<p>Before Tokenless, I was doing a PhD at Princeton. While using coding&#x2F;other agents, I constantly agonized over model choice, to make sure my AI spend was going as far as possible on my academic Cursor account.<p>At the same time, I was doing LLM research, and a small technique I developed while in recovery from NeurIPS submission season seemed to hit SOTA pretty fast. I was surprised that such simple ideas could do routing well.<p>We’ve been able to develop a version of the router that matches the performance of Claude Fable 5 at half the cost. The blog post on our website explores the technical details on how we did this (<a href=\"https:&#x2F;&#x2F;usetokenless.com&#x2F;blog&#x2F;building-tokenless&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;usetokenless.com&#x2F;blog&#x2F;building-tokenless&#x2F;</a>).<p>Highlights:\n- Our approach queries multiple models at once and uses their progress to make decisions (this technique is novel AFAIK, let us know if you know anyone else doing this).\n- Switching models doesn’t destroy the cache if the routing algorithm is aware of when the cache is hot&#x2F;cold.<p>To come:\n- Adding Kimi K3, all other GPT efforts and more to the router<p>Go",
+      "url": "https://news.ycombinator.com/item?id=49099143",
+      "created_at": "2026-07-29T15:55:27Z",
+      "meta": {
+        "points": 71,
+        "num_comments": 63
+      }
+    },
     {
       "source": "github",
       "title": "Improved subpixel text rendering for OLED (WRGB stripe, RGB triangular) -- Unfixable by ClearType Tuner (Over 100 upvotes in Feedback Hub)",
@@ -15,247 +180,284 @@
       }
     },
     {
-      "source": "appstore",
-      "title": "Por favor",
-      "text": "No me deja poner el usuario",
-      "url": "",
-      "created_at": "2026-07-31T12:50:26-07:00",
+      "source": "github",
+      "title": "[FEATURE REQUEST] Ability to tile windows automatically",
+      "text": "### The \"Window-Tiling\" PowerToy\r\nHere's an idea, add the ability to tile windows automatically. What I mean by that is when a window would open, it'll cover the whole screen but when another window would open, it'll cover the half of the screen automatically and the first app would also resize to the half of the screen. If the third window opens it'll open below the second window, resizing the second window to half vertically. And the new window would take place under the second window.\r\n\r\nIt has been done before in some Linux window managers like \"i3\". And a lot of people really appreciate the ability to do that.\r\n\r\n### Concept Shots\r\nI've prepared some concept shots to show that:\r\n\r\n![Surface Book - 1 (24)](https://user-images.githubusercontent.com/54409865/81105312-2f6a0900-8f2d-11ea-89be-db96ea9445ea.png)\r\n\r\nIn the image above, a single window is opened. When the user wants open another window, they would need to click the start button or hit the start key on the keyboard. The Start Menu would be replaced with Power Run. The user would be able to select the desired app by typing it's name and selecting one of the results by using the arrow keys. Or just type the name and hit enter\r\n\r\n![Surface Book - 3 (9)](https://user-images.githubusercontent.com/54409865/81105842-07c77080-8f2e-11ea-9275-3cc5536915f8.png)\r\n![Surface Book - 2 (17)](https://user-images.githubusercontent.com/54409865/81105857-0d24bb00-8f2e-11ea-9ad8-ed2addcef7b6.png)\r\n\r\nAnd when more than two apps are opened:\r\n![Surface Book - 4 (4)](https://user-images.githubusercontent.com/54409865/81105885-1ada4080-8f2e-11ea-8985-545e3fc7ceb6.png)\r\n\r\nAnd when more than three apps are opened, the third app would be resized to half of it's size and the fourth window would appear in the empty space created by the third app. \r\n\r\nThere are better explanations of tiling window managers (than what I've done here) online\r\n\r\n### Conclusion\r\nThe window tiling feature is inspired by some window managers in Linux (like i",
+      "url": "https://github.com/microsoft/PowerToys/issues/2694",
+      "created_at": "2020-05-05T19:25:42Z",
       "meta": {
-        "rating": 5,
-        "author": "Todo me encantó"
+        "repo": "microsoft/PowerToys",
+        "comments": 48,
+        "reactions": 246
       }
     },
     {
       "source": "appstore",
-      "title": "Very good",
-      "text": "So nice, I’m much understandable",
+      "title": "..",
+      "text": "Mi app está dando error se sale solo de la app y no me deja hacer nada",
       "url": "",
-      "created_at": "2026-07-31T12:03:59-07:00",
-      "meta": {
-        "rating": 5,
-        "author": "Nonnoncee"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "Too boring",
-      "text": "I wish there was more people on this app and different chats. You can join make it less boring.",
-      "url": "",
-      "created_at": "2026-07-31T11:21:23-07:00",
-      "meta": {
-        "rating": 3,
-        "author": "That girl underscoreterri"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "Meta is not reliable",
-      "text": "I really don’t like this app. It’s strange how there’s no prompts options and it seems like it’s entirely too easy for phone messages to get intercepted by the app. When I first saw the format, I don’t think I would’ve agreed to the terms and conditions, however you have to click ok to get to the next screen. Just a reminder that I don’t like Meta and I don’t want an app screening my messages. Now I’m not getting my texts and I think someone has hacked my phone number. Why is there no customer service?",
-      "url": "",
-      "created_at": "2026-07-31T10:58:58-07:00",
+      "created_at": "2026-08-02T07:13:30-07:00",
       "meta": {
         "rating": 1,
-        "author": "moonflowR"
+        "author": "Duran…."
       }
     },
     {
       "source": "appstore",
-      "title": "Such a blessing!!",
-      "text": "Had this app for a while last year. But, had to delete it because my phone wasn’t working properly. New phone and just in time to download the WhatsApp to be able to keep in contact with my daughter and her husband while they are away in Nigeria. This app is wonderful!! Thank you!!",
+      "title": "Ça aide",
+      "text": "Très bonne application",
       "url": "",
-      "created_at": "2026-07-31T10:47:50-07:00",
+      "created_at": "2026-08-02T06:39:47-07:00",
       "meta": {
         "rating": 5,
-        "author": "GollielollieJo"
+        "author": "Camara cheik"
       }
     },
     {
       "source": "appstore",
-      "title": "Watch complication",
-      "text": "Love this app!! Please add the option to add it as a complication on our faces!!!",
+      "title": "Missing feature",
+      "text": "Everyone I know has the new feature that allows you add a second account (second phone number) on the same phone and switch back and forth. WhatsApp has been taunting me, sending me messages about this feature but I have no way to add it (no plus sign next to my name) and the AI support helpbot has been useless. Please add this for everyone!",
       "url": "",
-      "created_at": "2026-07-31T10:38:14-07:00",
+      "created_at": "2026-08-02T06:24:16-07:00",
+      "meta": {
+        "rating": 1,
+        "author": "Frustrated and filledwithrage"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "Fraud",
+      "text": "Not enough security on WhatsApp to to secure a person identity",
+      "url": "",
+      "created_at": "2026-08-02T06:23:04-07:00",
+      "meta": {
+        "rating": 1,
+        "author": "Jmoney1995"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "I Love It",
+      "text": "Awesome",
+      "url": "",
+      "created_at": "2026-08-02T05:36:13-07:00",
       "meta": {
         "rating": 5,
-        "author": "Kevin Christ"
+        "author": "John881944"
       }
     },
     {
       "source": "appstore",
-      "title": "Hello",
-      "text": "I like WhatsApp",
+      "title": "Too many unnecessary restrictions",
+      "text": "It’s a very useless app you will get logged out for just texting someone or family members worst app ever I think signal is better and preferred thank you",
       "url": "",
-      "created_at": "2026-07-31T10:13:57-07:00",
+      "created_at": "2026-08-02T05:34:02-07:00",
+      "meta": {
+        "rating": 1,
+        "author": "sam promzy"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "لدي مشكلة",
+      "text": "تم تسجيل الخروج من حسابي وتظهر رسالة لم يعد رقم هاتفي مسجلا في واتساب على هذا الهاتف ما الحل كيف اتواصل مع الدعم؟",
+      "url": "",
+      "created_at": "2026-08-02T05:32:34-07:00",
       "meta": {
         "rating": 4,
-        "author": "Wallo 777"
+        "author": "kane99995"
       }
     },
     {
       "source": "appstore",
-      "title": "It doesn’t let me log in",
-      "text": "I am 11 years old, I am in the US, my dad is in Brazil, I need to talk to him, today it’s his birthday, WhatsApp is stupid, because of age limit.",
+      "title": "ok",
+      "text": "OK",
       "url": "",
-      "created_at": "2026-07-31T10:02:26-07:00",
-      "meta": {
-        "rating": 1,
-        "author": "#9Lucca"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "???🤷‍♀️",
-      "text": "I have a question why did you remove avatar from WhatsApp",
-      "url": "",
-      "created_at": "2026-07-31T09:55:33-07:00",
-      "meta": {
-        "rating": 4,
-        "author": "The Avatar is gone"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "LadyQueen01",
-      "text": "I had to keep blocking a number from Nigeria, but it kept coming through!!!f",
-      "url": "",
-      "created_at": "2026-07-31T09:30:51-07:00",
-      "meta": {
-        "rating": 3,
-        "author": "LadyQueen01"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "My group is suspended",
-      "text": "Why is my group suspended this is a business account I start for so long but I wake up today seeing groups is suspended please give me back my group to start my business back",
-      "url": "",
-      "created_at": "2026-07-31T09:11:13-07:00",
-      "meta": {
-        "rating": 1,
-        "author": "Obed Apraku Dankwa"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "واتسابي لايعمل ارجو اصلاحه في اقرب وقت ممكن",
-      "text": "واتسابي لايعمل ارجو اصلاحه في اقرب وقت ممكن",
-      "url": "",
-      "created_at": "2026-07-31T08:10:50-07:00",
-      "meta": {
-        "rating": 1,
-        "author": "ffuipojbvgf"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "Terrible actualización",
-      "text": "La persona que está dando la actualización de WhatsApp, no sé qué se está fumando pero está mal, están haciendo de esta plataforma que sirve para comunicarnos con gente seleccionada lo mismo que las demás app, es horrible la actualización de los estados horizontales cada vez se parece más a Instagram, se supone que cada app debería tener su esencia y esta la está perdiendo, ahora dizque usuario? Ya para eso mejor nos vamos a Instagram y chateamos por ahí, de verdad que es una mierda de actualización. Boten al de la idea 👎🏼",
-      "url": "",
-      "created_at": "2026-07-31T07:37:35-07:00",
-      "meta": {
-        "rating": 1,
-        "author": "Yiimaa"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "Descontento",
-      "text": "La facilidad con la que pierdes la copia de seguridad de chata, cuando cambias de android a iphone es desagradable, se pierde mucha informacion y es necesario que creen un metodo para respaldar esa informacion en whatsapp y no en la plataforma de sistemas operativos",
-      "url": "",
-      "created_at": "2026-07-31T07:29:40-07:00",
-      "meta": {
-        "rating": 3,
-        "author": "Lermith vzla"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "Whatsapp",
-      "text": "Whatsapp",
-      "url": "",
-      "created_at": "2026-07-31T07:14:54-07:00",
+      "created_at": "2026-08-02T01:20:44-07:00",
       "meta": {
         "rating": 5,
-        "author": "Kayes9185"
+        "author": "yi jinyispeaker"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "أبو أمنة",
+      "text": "الحمدلله",
+      "url": "",
+      "created_at": "2026-08-02T00:39:53-07:00",
+      "meta": {
+        "rating": 5,
+        "author": "عمران كمال الفكي عمران"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "Account on review again very unhappy and unsatisfied with WhatsApp this days",
+      "text": "Kindly unbanned my account I did not violate the rules of WhatsApp,I woke up this morning to see my account is under review again please",
+      "url": "",
+      "created_at": "2026-08-02T00:19:37-07:00",
+      "meta": {
+        "rating": 1,
+        "author": "Succe980"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "Freezes",
+      "text": "With big group chats your app will freeze forever",
+      "url": "",
+      "created_at": "2026-08-01T23:57:55-07:00",
+      "meta": {
+        "rating": 1,
+        "author": "UnHa 은하"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "CRITICAL HELP ASAP",
+      "text": "So I’m a daily user of WhatsApp and usually don’t have problems. \n\nToday I was sending some pictures from my SSD card to my contacts on WhatsApp desktop (MacBook) and I sent quite a lot. Maybe about 400-500 HD pictures to some friends. \n\nWhile I’m doing this, my WhatsApp from my phone (iPhone 15 pro max) breaks. It scans my face, enters the app, but the UI stays frozen in the home page of my messages. \n\nNow, I’ve been able to press a chatroom or an icon for a split second (less than a second as the app opens) but then it freezes again permanently. \nInterestingly enough, I still get notifications when I’m outside the app (while using my phone for other stuff) as if it’s running properly, but once again, if I go back to WhatsApp, it scans my face, and then the UI freezes. \n\nI tried (from the ones I remember) \n- restarting my phone \n- force quitting the app from my most recent used apps\n- offloading the app and reinstalling it \n- toggling on and off background app refresh\n- checking for any WhatsApp updates \n- opening the app in airplane mode \n- changing to internet\n- leaving my WhatsApp phone app open to see if it syncs with the new messages I sent from my laptop \n- deleted in WhatsApp desktop all the picture data (the ones I’ve sent from my desktop) from my side of the chats to see if it just lagged with the syncing, in order to stop my phone from syncing\n\n\nNothing seems to fix it. I don’t have my chats backed up so I refuse to delete it fully and reinstall it, but I have no idea when you guys will release a new update to see if it helps. \n\nI can still use WhatsApp desktop just fine, but it’s a matter of time when my laptop will ask me to reconnect my phone to it. \n\nFunnily enough, the phone UI freezes at the main page of WhatsApp, and even some of the chats are updated with the most recent messages I’ve sent in my laptop. \n\nI’m truly not sure what it could be, but please try to send a fix for this, even a tiny update to see if it can recalibrate my app. Please I’m b",
+      "url": "",
+      "created_at": "2026-08-01T23:55:43-07:00",
+      "meta": {
+        "rating": 2,
+        "author": "r.oline"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "方便及时",
+      "text": "方便了你也方便了，我远在天涯，近在咫尺",
+      "url": "",
+      "created_at": "2026-08-01T23:43:31-07:00",
+      "meta": {
+        "rating": 5,
+        "author": "春风吹万物"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "Great but…",
+      "text": "I love the app but my concern on being restricted and sometimes banned for absolutely no reason, concerns me. I have been accused of spamming numerous times yet I never have. Speaking to bots is also annoying.",
+      "url": "",
+      "created_at": "2026-08-01T22:21:49-07:00",
+      "meta": {
+        "rating": 5,
+        "author": "Sigidi-Ed"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "bad.",
+      "text": "My boyfriend and I and 5227 miles away. And I have to update this app every 10 calls. I call him everyday. Discraceful.",
+      "url": "",
+      "created_at": "2026-08-01T21:29:13-07:00",
+      "meta": {
+        "rating": 1,
+        "author": "zarina iman"
       }
     }
   ],
   "opportunities": [
     {
-      "theme": "OLED subpixel text rendering",
-      "pain": "Windows ClearType assumes RGB stripe subpixels, causing color fringing on WOLED (WRGB) and QD-OLED (triangular) monitors, with no built-in correction.",
+      "theme": "Personal Photo/Video Archival Automation",
+      "pain": "Parents and creators juggle 3-5 manual backup silos (local, USB, cloud, Flickr, YouTube) and crave a fully automated, multi-target pipeline that handles offline/tape, sharing, and cross-device viewing without ongoing effort.",
       "evidence": [
-        "ClearType alters anti-aliasing assuming an RGB stripe subpixel configuration. More WOLED (WRGB stripe) and QD-OLED (RGB triangular) monitors are coming to market and have noticeable chromatic aberration/color fringing on edges of text.",
-        "It would be nice if Windows had a built-in option to alter text rendering based on subpixel configuration of the monitor."
+        "I currently have 3 backups (computer, usb drive, and cloud backup through crash plan). I also use Flickr Pro which I guess is my 4th backup... I have some home videos on YouTube",
+        "boy I wish there was a fully automated way to do this that allowed sharing, lots of backups (even offline tape), and ability to collect and view videos and photos on all devices"
+      ],
+      "sources": [
+        "hackernews"
+      ],
+      "url": "https://news.ycombinator.com/item?id=21257276",
+      "suggested_solution": "A self-hosted 'Media Lifecycle Manager' (Docker/SBC) that watches a drop folder, deduplicates, transcodes, pushes to configurable targets (S3, Backblaze, NAS, LTO via LTFS), generates share links, and serves a PWA gallery — all configured via YAML.",
+      "monetization": "MIT core; $49 one-time for Pro config UI + tape/LTO plugin; $9/mo for hosted control plane (optional).",
+      "score": 85.0,
+      "buy_intent": false
+    },
+    {
+      "theme": "OLED Subpixel Text Rendering (WRGB / QD-OLED)",
+      "pain": "Windows ClearType assumes RGB stripe; on WRGB-stripe WOLED and RGB-triangular QD-OLED monitors, text shows severe color fringing and chromatic aberration — no OS-level fix exists despite 800+ community upvotes.",
+      "evidence": [
+        "ClearType alters anti-aliasing assuming an RGB stripe subpixel configuration. More WOLED (WRGB stripe) and QD-OLED (RGB triangular) monitors... have noticeable chromatic aberration/color fringing on edges of text",
+        "Over 100 upvotes in Feedback Hub"
       ],
       "sources": [
         "github"
       ],
       "url": "https://github.com/microsoft/PowerToys/issues/25595",
-      "suggested_solution": "A Windows utility (PowerToy or standalone) that detects monitor subpixel layout and applies custom display shaders for correct subpixel anti-aliasing on WOLED/QD-OLED.",
-      "monetization": "Freemium: free basic profiles; $15 one-time for advanced per-monitor calibration and auto-switching.",
-      "score": 85.0,
+      "suggested_solution": "A 'Display Shaders' PowerToy module (HLSL/GLSL) that intercepts DWM composition, applies per-subpixel-layout shaders (WRGB, triangular, RWBG), and exposes a simple calibration wizard — packaged as a signed MSIX for easy install.",
+      "monetization": "Free open source; $19 one-time for pre-built signed installer + auto-update channel + priority shader presets for new panel types.",
+      "score": 82.0,
       "buy_intent": false
     },
     {
-      "theme": "WhatsApp business account suspension without recourse",
-      "pain": "Business accounts suffer sudden group suspensions with no explanation, no appeal process, and zero customer support, halting revenue.",
+      "theme": "WhatsApp Account Instability & Bans",
+      "pain": "Users experience sudden account bans, review loops, forced logouts, and app freezes — especially with large media transfers or group chats — losing access to critical communication with no human support.",
       "evidence": [
-        "Why is my group suspended this is a business account I start for so long but I wake up today seeing groups is suspended please give me back my group to start my business back"
+        "Kindly unbanned my account I did not violate the rules of WhatsApp,I woke up this morning to see my account is under review again please",
+        "While I'm doing this, my WhatsApp from my phone (iPhone 15 pro max) breaks. It scans my face, enters the app, but the UI stays frozen in the home page of my messages",
+        "It's a very useless app you will get logged out for just texting someone or family members worst app ever"
       ],
       "sources": [
+        "appstore",
+        "appstore",
         "appstore"
       ],
       "url": "",
-      "suggested_solution": "A WhatsApp Business compliance dashboard that monitors policy risk signals, auto-backs up group data, and generates appeal templates via the Business API.",
-      "monetization": "Monthly SaaS $29 per business number with tiered support.",
-      "score": 75.0,
+      "suggested_solution": "A WhatsApp-compatible backup & recovery SaaS that continuously syncs chats/media to user-owned cloud storage (S3, Drive, R2) and provides a one-click restore + automated appeal generator when accounts are banned or frozen.",
+      "monetization": "Freemium: free local backup; $5/mo for cloud sync + auto-restore; $15/mo for priority appeal assistance and SLA.",
+      "score": 78.0,
       "buy_intent": false
     },
     {
-      "theme": "Cross-platform WhatsApp backup loss",
-      "pain": "Switching between Android and iPhone loses WhatsApp chat history because backups are locked to Google Drive and iCloud with no official migration path.",
+      "theme": "Email Client Fragmentation & Large-Mailbox Performance",
+      "pain": "Power users with 10+ GB mailboxes suffer corruption, slowness, and CPU bloat in Outlook; Thunderbird workflow gaps; Apple Mail instability — no client handles massive archives, keyboard-centric workflows, and cross-platform sync reliably.",
       "evidence": [
-        "La facilidad con la que pierdes la copia de seguridad de chata, cuando cambias de android a iphone es desagradable, se pierde mucha informacion y es necesario que creen un metodo para respaldar esa informacion en whatsapp y no en la plataforma de sistemas operativos"
+        "Outlook, gets better with each release, cannot handle my 12GB of mail at all, lots of continual corruption. Seems very bloated in CPU and RAM consumption",
+        "Thunderbird doesn't work well for my work flow",
+        "Apple Mail is OK, more polished than it used to be but I find it slow and unstable with large amounts of Mail"
       ],
       "sources": [
+        "hackernews"
+      ],
+      "url": "https://news.ycombinator.com/item?id=4603099",
+      "suggested_solution": "A local-first, SQLite/ RocksDB-backed email client (Tauri + Rust) with virtualized list rendering, JMAP/IMAP sync engine, keyboard-driven triage, and pluggable AI classifiers — designed for 50 GB+ mailboxes.",
+      "monetization": "Free community build; $79 perpetual license for pro features (AI search, custom rules, team shared tags); $12/seat/yr for managed sync relay.",
+      "score": 76.0,
+      "buy_intent": false
+    },
+    {
+      "theme": "WhatsApp Missing Dual-Account / Multi-Number Support",
+      "pain": "Users with dual-SIM phones or personal/work separation cannot add a second WhatsApp account on the same device despite the feature existing for others; WhatsApp's rollout is opaque and support bots are useless.",
+      "evidence": [
+        "Everyone I know has the new feature that allows you add a second account (second phone number) on the same phone and switch back and forth. WhatsApp has been taunting me, sending me messages about this feature but I have no way to add it",
+        "no plus sign next to my name and the AI support helpbot has been useless"
+      ],
+      "sources": [
+        "appstore",
         "appstore"
       ],
       "url": "",
-      "suggested_solution": "A local desktop tool that decrypts WhatsApp backups from Google Drive/iCloud and re-encrypts for the target OS, enabling seamless cross-platform migration.",
-      "monetization": "Per-migration fee $9.99 or $29.99/year for unlimited family migrations.",
+      "suggested_solution": "A lightweight WhatsApp Web wrapper (Electron/Tauri) that runs multiple isolated browser contexts, each logged into a different account, with a native menubar switcher and local notification relay — no official API needed.",
+      "monetization": "One-time $29 license (solo dev) or $3/mo subscription for auto-updates and multi-device sync.",
+      "score": 72.0,
+      "buy_intent": false
+    },
+    {
+      "theme": "Cloud-Native Address Book with Sharing & Offline Sync",
+      "pain": "Contacts remain trapped in OS silos (iCloud, Google, Outlook) with poor UIs, no family sharing, no offline Linux/mobile clients, and no web-import standard (vCard/hCard) for one-click capture from websites.",
+      "evidence": [
+        "All my info lives happily in the cloud- notes, to-do lists, documents, photos, music - except for my darn addressbook",
+        "Google Contacts is not a decent UI",
+        "A way of sharing items with family members (so only one spouse has to enter the number of the plumber)"
+      ],
+      "sources": [
+        "hackernews"
+      ],
+      "url": "https://news.ycombinator.com/item?id=754175",
+      "suggested_solution": "A CardDAV/CalDAV server (Rust + SQLite) with a React/PWA admin, WebDAV sync, family groups with granular ACLs, and a browser extension that detects hCard/vCard on any page and offers one-click import.",
+      "monetization": "Self-hosted free; $3/mo per family for hosted instance with automatic backups, PWA push, and the browser extension.",
       "score": 70.0,
-      "buy_intent": false
-    },
-    {
-      "theme": "Meta privacy distrust & message interception fears",
-      "pain": "Users believe Meta intercepts private messages, experience unexplained message loss, and have no customer service for security incidents.",
-      "evidence": [
-        "It’s strange how there’s no prompts options and it seems like it’s entirely too easy for phone messages to get intercepted by the app... I don’t want an app screening my messages. Now I’m not getting my texts and I think someone has hacked my phone number. Why is there no customer service?"
-      ],
-      "sources": [
-        "appstore"
-      ],
-      "url": "",
-      "suggested_solution": "An on-device WhatsApp proxy that encrypts message databases, blocks telemetry, and provides audit logs for message delivery verification.",
-      "monetization": "Freemium: free audit logs; $3/month for advanced encryption and telemetry blocking.",
-      "score": 65.0,
-      "buy_intent": false
-    },
-    {
-      "theme": "WhatsApp UI regression & forced Instagram-like changes",
-      "pain": "Updates replace WhatsApp’s distinct UI with Instagram-style horizontal statuses and remove features like avatars, alienating users who want a focused messaging experience.",
-      "evidence": [
-        "Terrible actualización... están haciendo de esta plataforma que sirve para comunicarnos con gente seleccionada lo mismo que las demás app, es horrible la actualización de los estados horizontales cada vez se parece más a Instagram",
-        "I have a question why did you remove avatar from WhatsApp"
-      ],
-      "sources": [
-        "appstore"
-      ],
-      "url": "",
-      "suggested_solution": "A customizable WhatsApp Web wrapper that restores classic status layout, brings back avatars, and lets users toggle UI modules via a settings panel.",
-      "monetization": "One-time license $12 or $2/month for continuous updates.",
-      "score": 60.0,
       "buy_intent": false
     }
   ]
