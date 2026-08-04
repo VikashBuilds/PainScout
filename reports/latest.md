@@ -1,100 +1,132 @@
 # 🔍 PainScout Report
 
-- **Query:** `wish there was a way to automate`
-- **Generated:** 2026-08-03T16:00:38+00:00
-- **Pain points scanned:** 32
+- **Query:** `customer support is terrible`
+- **Generated:** 2026-08-04T12:32:10+00:00
+- **Pain points scanned:** 40
 - **Analyzer:** AI (LLM)
 
-**Sources:** appstore: 15, github: 2, hackernews: 15
+**Sources:** appstore: 15, hackernews: 15, stackexchange: 10
 
 ## 🎯 Top 6 Opportunities
 
-### 1. [85/100] Personal Photo/Video Archival Automation
+### 1. [92/100] Account Lockouts & Support Black Holes  · 🔺 new
 
-**The pain:** Parents and creators juggle 3-5 manual backup silos (local, USB, cloud, Flickr, YouTube) and crave a fully automated, multi-target pipeline that handles offline/tape, sharing, and cross-device viewing without ongoing effort.
-
-**Evidence:**
-- “I currently have 3 backups (computer, usb drive, and cloud backup through crash plan). I also use Flickr Pro which I guess is my 4th backup... I have some home videos on YouTube”
-- “boy I wish there was a fully automated way to do this that allowed sharing, lots of backups (even offline tape), and ability to collect and view videos and photos on all devices”
-
-**Sources:** hackernews · [best link](https://news.ycombinator.com/item?id=21257276)
-
-**AI solution to build:** A self-hosted 'Media Lifecycle Manager' (Docker/SBC) that watches a drop folder, deduplicates, transcodes, pushes to configurable targets (S3, Backblaze, NAS, LTO via LTFS), generates share links, and serves a PWA gallery — all configured via YAML.
-
-**How to charge:** MIT core; $49 one-time for Pro config UI + tape/LTO plugin; $9/mo for hosted control plane (optional).
-
-### 2. [82/100] OLED Subpixel Text Rendering (WRGB / QD-OLED)
-
-**The pain:** Windows ClearType assumes RGB stripe; on WRGB-stripe WOLED and RGB-triangular QD-OLED monitors, text shows severe color fringing and chromatic aberration — no OS-level fix exists despite 800+ community upvotes.
+**The pain:** Users get locked out of mission-critical accounts (email, cloud, crypto, hosting) with no human recourse, automated KYC flags, and support that cannot escalate or resolve.
 
 **Evidence:**
-- “ClearType alters anti-aliasing assuming an RGB stripe subpixel configuration. More WOLED (WRGB stripe) and QD-OLED (RGB triangular) monitors... have noticeable chromatic aberration/color fringing on edges of text”
-- “Over 100 upvotes in Feedback Hub”
+- “"I've been locked out of my Google Apps email for over 24 hrs due to 'suspicious activity'... Filled Contact Us form and spoke to customer support lady who is unfortunately clueless and cannot help me at all."”
+- “"I've received an email from DigitalOcean... my account is locked and I cannot access anything but their ticketing service. I think this practice of lock first ask questions later is terrible."”
+- “"Coinbase is at fault and they've violated their own terms of service... 'I simply do not have the ability to do that, I'm sorry. None of the admins do.'"”
+- “"Apple's customer support final response after more than a week... was they would not be able to replace the display even when my friend sent clear voice recordings of the service centre employees accepting their mistake."”
 
-**Sources:** github · [best link](https://github.com/microsoft/PowerToys/issues/25595)
+**Sources:** hackernews, hackernews, hackernews, hackernews · [best link](https://news.ycombinator.com/item?id=6933360)
 
-**AI solution to build:** A 'Display Shaders' PowerToy module (HLSL/GLSL) that intercepts DWM composition, applies per-subpixel-layout shaders (WRGB, triangular, RWBG), and exposes a simple calibration wizard — packaged as a signed MSIX for easy install.
+**AI solution to build:** AI-powered 'Account Guardian' WhatsApp bot that monitors login health, auto-drafts escalation emails with legal citations, and connects users to verified human advocates via a paid concierge tier.
 
-**How to charge:** Free open source; $19 one-time for pre-built signed installer + auto-update channel + priority shader presets for new panel types.
+**How to charge:** Freemium: free monitoring + $29/mo for instant escalation concierge; $199 one-time 'unlock my account' emergency fee.
 
-### 3. [78/100] WhatsApp Account Instability & Bans
+**Competition:** MEDIUM
+- rawfilejson/ATM (★2)
+- Scarage1/go-login-cli (★1)
+- Marknet78/UsNow (★1)
+- emrgcl/MonitorAccountLockouts (★0)
+- Miguel-C-Cyber/it-support-home-lab (★0)
+  ('account lockouts support': 6 similar repo(s), 7 HN stories. Room to differentiate.)
 
-**The pain:** Users experience sudden account bans, review loops, forced logouts, and app freezes — especially with large media transfers or group chats — losing access to critical communication with no human support.
+### 2. [88/100] WhatsApp Scam & Spam Flood  · 🔺 new
 
-**Evidence:**
-- “Kindly unbanned my account I did not violate the rules of WhatsApp,I woke up this morning to see my account is under review again please”
-- “While I'm doing this, my WhatsApp from my phone (iPhone 15 pro max) breaks. It scans my face, enters the app, but the UI stays frozen in the home page of my messages”
-- “It's a very useless app you will get logged out for just texting someone or family members worst app ever”
-
-**Sources:** appstore, appstore, appstore · [best link]()
-
-**AI solution to build:** A WhatsApp-compatible backup & recovery SaaS that continuously syncs chats/media to user-owned cloud storage (S3, Drive, R2) and provides a one-click restore + automated appeal generator when accounts are banned or frozen.
-
-**How to charge:** Freemium: free local backup; $5/mo for cloud sync + auto-restore; $15/mo for priority appeal assistance and SLA.
-
-### 4. [76/100] Email Client Fragmentation & Large-Mailbox Performance
-
-**The pain:** Power users with 10+ GB mailboxes suffer corruption, slowness, and CPU bloat in Outlook; Thunderbird workflow gaps; Apple Mail instability — no client handles massive archives, keyboard-centric workflows, and cross-platform sync reliably.
+**The pain:** WhatsApp users face relentless scams, catfishing, and spam — one user lost $500k — with no built-in filtering, reporting that works, or privacy controls to stop unknown contacts.
 
 **Evidence:**
-- “Outlook, gets better with each release, cannot handle my 12GB of mail at all, lots of continual corruption. Seems very bloated in CPU and RAM consumption”
-- “Thunderbird doesn't work well for my work flow”
-- “Apple Mail is OK, more polished than it used to be but I find it slow and unstable with large amounts of Mail”
+- “"Without a doubt, WhatsApp is one of the worst apps online as there are too many scammers and cat fishers. Facts."”
+- “"One of these entities was able to rob me of over a half million dollars, and then simply disappeared."”
+- “"Too many scammers and catfishers... WhatsApp is actually spitting on everything you type and talk about. They are selling this information to the companies that pay for their data centers."”
+- “"I began to get more and more unsolicited messages from unknown entities, and nearly all of them were scams."”
 
-**Sources:** hackernews · [best link](https://news.ycombinator.com/item?id=4603099)
+**Sources:** appstore, appstore, appstore, appstore · [best link](https://apps.apple.com/app/id310633997)
 
-**AI solution to build:** A local-first, SQLite/ RocksDB-backed email client (Tauri + Rust) with virtualized list rendering, JMAP/IMAP sync engine, keyboard-driven triage, and pluggable AI classifiers — designed for 50 GB+ mailboxes.
+**AI solution to build:** WhatsApp Business API wrapper that adds AI spam/scam detection, auto-blocks known fraud patterns, and gives users a 'verified contacts only' mode with one-tap reporting to Meta.
 
-**How to charge:** Free community build; $79 perpetual license for pro features (AI search, custom rules, team shared tags); $12/seat/yr for managed sync relay.
+**How to charge:** B2C: $4.99/mo per number; B2B: $0.01 per screened message for agencies managing client WhatsApp.
 
-### 5. [72/100] WhatsApp Missing Dual-Account / Multi-Number Support
+**Competition:** MEDIUM
+- NishNishendanidu/mtroid-bot (★113)
+- salhabheba-cyber/Haq (★2)
+- Mjraj16/whatsappScam (★1)
+- lsuarezj/SpamWhatsappScamer (★0)
+- Sachit-Timane/Whatsapp-spam-detector-bot-ML (★0)
+  ('whatsapp scam spam': 6 similar repo(s), 3 HN stories. Room to differentiate.)
 
-**The pain:** Users with dual-SIM phones or personal/work separation cannot add a second WhatsApp account on the same device despite the feature existing for others; WhatsApp's rollout is opaque and support bots are useless.
+### 3. [81/100] Forced Updates & Platform Hostage-Taking  · 🔺 new
 
-**Evidence:**
-- “Everyone I know has the new feature that allows you add a second account (second phone number) on the same phone and switch back and forth. WhatsApp has been taunting me, sending me messages about this feature but I have no way to add it”
-- “no plus sign next to my name and the AI support helpbot has been useless”
-
-**Sources:** appstore, appstore · [best link]()
-
-**AI solution to build:** A lightweight WhatsApp Web wrapper (Electron/Tauri) that runs multiple isolated browser contexts, each logged into a different account, with a native menubar switcher and local notification relay — no official API needed.
-
-**How to charge:** One-time $29 license (solo dev) or $3/mo subscription for auto-updates and multi-device sync.
-
-### 6. [70/100] Cloud-Native Address Book with Sharing & Offline Sync
-
-**The pain:** Contacts remain trapped in OS silos (iCloud, Google, Outlook) with poor UIs, no family sharing, no offline Linux/mobile clients, and no web-import standard (vCard/hCard) for one-click capture from websites.
+**The pain:** Apps threaten account deactivation if users don't update immediately; platforms (Adobe, Protonmail, Apple) make leaving or downgrading deliberately hard, trapping paying customers.
 
 **Evidence:**
-- “All my info lives happily in the cloud- notes, to-do lists, documents, photos, music - except for my darn addressbook”
-- “Google Contacts is not a decent UI”
-- “A way of sharing items with family members (so only one spouse has to enter the number of the plumber)”
+- “"Every time WhatsApp has an 'updated version' they send me a notification threatening me if I don't update the app my account will be deactivated… why do I have to update the app to keep my account???"”
+- “"After removing domains and users from protonmail, the subscription was telling me I could NOT downgrade because I was over the 1GB limit."”
+- “"Adobe has sort of a monopoly... nobody seriously considers an alternative... would rather appreciate an intuitive UI, cheaper price, and friendlier customer support."”
+- “"I do not want to pay another dime to Apple for such pathetic treatment even under warranty."”
 
-**Sources:** hackernews · [best link](https://news.ycombinator.com/item?id=754175)
+**Sources:** appstore, hackernews, hackernews, hackernews · [best link](https://news.ycombinator.com/item?id=33852218)
 
-**AI solution to build:** A CardDAV/CalDAV server (Rust + SQLite) with a React/PWA admin, WebDAV sync, family groups with granular ACLs, and a browser extension that detects hCard/vCard on any page and offers one-click import.
+**AI solution to build:** Cross-platform 'Digital Freedom' dashboard that auto-backups WhatsApp/Proton/Adobe data, simulates legacy API versions to delay forced updates, and one-click exports to open alternatives.
 
-**How to charge:** Self-hosted free; $3/mo per family for hosted instance with automatic backups, PWA push, and the browser extension.
+**How to charge:** Subscription $9.99/mo for individuals; $49/mo per seat for teams needing compliance-grade exports.
+
+**Competition:** MEDIUM
+- amir2510/script (★18)
+- shulikhatun/Digital-marketing (★1)
+- Chetan-KH511/ProcureOps (★0)
+- Rajkumarb7/MIST-Portal (★0)
+  ('forced updates platform': 4 similar repo(s), 22 HN stories. Room to differentiate.)
+
+### 4. [79/100] No Viable Alternatives to Monopoly Creative Tools  · 🔺 new
+
+**The pain:** Independent creators need 40% of Adobe's features at a fair price with decent support, but no competitor delivers a stable, professional-grade subset — GIMP/Pixelmator/OpenShot fall short.
+
+**Evidence:**
+- “"There are more and more small (independent) creators... who do not need all the uber features... would rather appreciate an intuitive UI, cheaper price, and friendlier customer support."”
+- “"I tried using Pixelmator (non-free), GIMP, OpenShot... left out with either free iMovie/Quick, which are too basic or a super-expensive Premiere."”
+- “"Adobe has sort of a monopoly on the creative tools market. Nobody seriously considers an alternative... why nobody dares to compete with them."”
+- “"My experience was quite terrible. I was also looking for a simple software to stitch together my GoPro videos but was left out with either free iMovie/Quick, which are too basic or a super-expensive Premiere."”
+
+**Sources:** hackernews, hackernews, hackernews, hackernews · [best link](https://news.ycombinator.com/item?id=16694382)
+
+**AI solution to build:** AI-assisted 'Creative Lite' suite: browser-based video/photo editor with 40% of pro features, trained on open datasets, $15/mo, plugin API for community extensions.
+
+**How to charge:** $15/mo per seat; marketplace takes 15% on community plugins/templates.
+
+### 5. [76/100] Unreliable Core Comms (Video Calls & Messaging)  · 🔺 new
+
+**The pain:** WhatsApp video calls randomly fail, messages don't send, status updates break — core features are flaky for months despite reinstalls, destroying trust in the primary communication channel.
+
+**Evidence:**
+- “"Se me apaga el teléfono cuando estoy en videollamada" (phone shuts down during video calls) — 2 separate 1-star reviews.”
+- “"Video calls are a hit or miss sometimes it works sometimes it doesn't."”
+- “"Hace ya mas de 1 mes que WhatsApp me viene fallando, los mensajes no se envían, para subir un estado también se vuelve difícil... Actualizacion: aun sigue sin funcionar."”
+- “"Problemas con la aplicación... Se apaga el teléfono cuando estoy en videollamada."”
+
+**Sources:** appstore, appstore, appstore, appstore · [best link](https://apps.apple.com/app/id310633997)
+
+**AI solution to build:** Lightweight WhatsApp Web companion that routes calls via WebRTC with fallback relays, auto-retries failed messages, and surfaces diagnostic logs users can send to support.
+
+**How to charge:** Free core; $2.99/mo for 'Reliability Plus' with priority relay servers and SLA-backed uptime.
+
+### 6. [73/100] Privacy Violations & Data Monetization Without Consent  · 🔺 new
+
+**The pain:** Users believe WhatsApp and router vendors (Nest, etc.) sell conversation metadata and network traffic to advertisers, with no transparency or opt-out.
+
+**Evidence:**
+- “"WhatsApp is actually spitting on everything you type and talk about. They are selling this information to the companies that pay for their data centers."”
+- “"Routers are starting to require logins and subscriptions. I have privacy concerns about those options, so no on Nest."”
+- “"I'm not really comfortable sending as much personal info as my drivers license contains... especially over unencrypted email, and when this requirement wasn't mentioned before listing my space." (Airbnb KYC)”
+- “"There is no privacy. So why don't you just try throw the privacy b s out the window. It is useless."”
+
+**Sources:** appstore, hackernews, hackernews, appstore · [best link](https://news.ycombinator.com/item?id=29082526)
+
+**AI solution to build:** Open-source 'Privacy Firewall' WhatsApp proxy + router firmware that strips metadata, blocks telemetry, and generates GDPR/CCPA deletion requests automatically.
+
+**How to charge:** Hardware: $149 pre-flashed router; SaaS: $5/mo per device for managed proxy + compliance reports.
 
 ---
 *Generated by PainScout — deploy an AI SaaS or WhatsApp automation to fix these.*

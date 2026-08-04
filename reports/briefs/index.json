@@ -1,26 +1,26 @@
 [
   {
-    "name": "ArchiveFlow",
-    "slug": "archiveflow",
-    "tagline": "Automate every backup, share anywhere, never lose a memory",
-    "theme": "Personal Photo/Video Archival Automation",
-    "build_estimate_days": 60,
-    "pricing_model": "$12/mo Pro (unlimited sources/targets, sharing, WhatsApp bot, health alerts) | $5/mo Lite (2 cloud targets, local only, no sharing) | Self-hosted free (bring your own infra, community support)"
+    "name": "UnlockAI",
+    "slug": "unlockai",
+    "tagline": "AI-powered account recovery concierge that escalates lockouts to human resolution",
+    "theme": "Account Lockouts & Support Black Holes",
+    "build_estimate_days": 21,
+    "pricing_model": "$29/mo SaaS, freemium (1 free appeal), per-appeal overage $9"
   },
   {
-    "name": "OLED ClearType",
-    "slug": "oled-cleartype",
-    "tagline": "Eliminate color fringing on WRGB and QD-OLED monitors with custom subpixel rendering.",
-    "theme": "OLED Subpixel Text Rendering (WRGB / QD-OLED)",
-    "build_estimate_days": 35,
-    "pricing_model": "$19 one-time license per major version, free beta, free for personal use on single monitor"
+    "name": "ScamShield AI",
+    "slug": "scamshield-ai",
+    "tagline": "AI guardian that stops WhatsApp scams, spam, and catfishers before they reach you",
+    "theme": "WhatsApp Scam & Spam Flood",
+    "build_estimate_days": 21,
+    "pricing_model": "Freemium SaaS: $4.99/mo Pro, $39/yr, lifetime $99. Free tier: 10 AI scans/day, basic blocking."
   },
   {
-    "name": "WABridge",
-    "slug": "wabridge",
-    "tagline": "Never lose WhatsApp access — backup, monitor & recover accounts automatically",
-    "theme": "WhatsApp Account Instability & Bans",
-    "build_estimate_days": 14,
-    "pricing_model": "Freemium SaaS: Free tier (1 account, daily backup), Pro $9/mo (3 accounts, hourly backups, alerts), Agency $29/mo (20 accounts, webhooks, team). No per-lead — account-based."
+    "name": "HostageFree",
+    "slug": "hostagefree",
+    "tagline": "Escape platform lock-in, keep your data, stop forced updates",
+    "theme": "Forced Updates & Platform Hostage-Taking",
+    "build_estimate_days": 21,
+    "pricing_model": "$9/mo SaaS, freemium (3 platforms), $79/yr pro"
   }
 ]

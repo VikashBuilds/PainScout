@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HostageFree — Escape platform lock-in, keep your data, stop forced updates</title>
+<style>
+:root{--bg:#0b0f1a;--card:#131a2b;--acc:#6c5ce7;--acc2:#00cec9;--txt:#e8ecf4;--mut:#9aa5b8}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--txt);line-height:1.6}
+.hero{padding:72px 20px 48px;text-align:center;background:radial-gradient(ellipse at top,#1a2340 0%,var(--bg) 70%)}
+.badge{display:inline-block;padding:6px 14px;border-radius:999px;background:rgba(108,92,231,.15);color:#b3a8ff;font-size:13px;letter-spacing:.5px;margin-bottom:20px;border:1px solid rgba(108,92,231,.4)}
+h1{font-size:clamp(2rem,5vw,3.4rem);font-weight:800;letter-spacing:-.5px;margin-bottom:14px}
+.tag{font-size:clamp(1.05rem,2.5vw,1.35rem);color:var(--mut);max-width:640px;margin:0 auto 30px}
+.cta{display:inline-block;padding:15px 34px;border-radius:12px;background:linear-gradient(135deg,var(--acc),var(--acc2));color:#fff;font-weight:700;font-size:1.05rem;text-decoration:none;box-shadow:0 8px 30px rgba(108,92,231,.35);transition:transform .15s}
+.cta:hover{transform:translateY(-2px)}
+.container{max-width:960px;margin:0 auto;padding:32px 20px 80px}
+.section{margin-top:48px}
+h2{font-size:1.5rem;margin-bottom:18px;color:#fff}
+.card{background:var(--card);border:1px solid #1e2a45;border-radius:16px;padding:24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.grid .card{padding:18px}
+.grid .card strong{color:var(--acc2);font-size:1.05rem}
+ul{list-style:none}
+li{padding:8px 0 8px 26px;position:relative}
+li:before{content:"✓";position:absolute;left:0;color:var(--acc2)}
+.wa{border-left:4px solid #25d366;padding:20px 24px;border-radius:0 12px 12px 0;background:rgba(37,211,102,.06)}
+code{background:#0d1526;padding:2px 8px;border-radius:6px;font-size:.92em;color:#8be9fd}
+.pricing{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.pricing .price{font-size:2.2rem;font-weight:800;color:var(--acc2)}
+.foot{text-align:center;color:var(--mut);padding:32px;font-size:.85rem}
+@media(max-width:600px){.hero{padding:48px 16px 32px}}
+</style>
+</head>
+<body>
+<div class="hero">
+  <span class="badge">✨ AI-Powered · WhatsApp-First · No-Code</span>
+  <h1>Stop Letting Platforms Hold Your Data Hostage</h1>
+  <p class="tag">Get warned before forced updates trap you. One-tap export. Seamless migration. All from WhatsApp.</p>
+  <a class="cta" href="#wa">Connect WhatsApp &amp; Scan Free</a>
+</div>
+<div class="container">
+  <div class="section">
+    <h2>The problem</h2>
+    <div class="card"><p>Platforms like Adobe, Proton, and WhatsApp threaten account deactivation to force updates and deliberately block downgrades or exports, trapping paying customers in hostile ecosystems.</p></div>
+  </div>
+  <div class="section">
+    <h2>The solution</h2>
+    <div class="card"><p>HostageFree monitors your connected accounts for dark patterns (forced updates, downgrade blocks, export barriers), alerts you via WhatsApp before you&#x27;re trapped, and automates one-click data export and migration to open alternatives.</p></div>
+  </div>
+  <div class="section">
+    <h2>What you get</h2>
+    <div class="card"><ul><li>🚨 Real-time WhatsApp alerts when apps threaten deactivation</li><li>📦 One-click export from Adobe, Proton, Google, Apple, Microsoft</li><li>🧭 Migration checklists to open-source alternatives (LibreOffice, Nextcloud, Signal)</li><li>📉 Downgrade/cancel with pre-filled legal forms — no dark patterns</li><li>📊 Lock-in risk score (0-100) for every connected account</li><li>⏰ Auto-backup scheduler before forced-update deadlines</li></ul></div>
+  </div>
+  <div class="section">
+    <h2>Features (v1)</h2>
+    <div class="card"><ul><li>WhatsApp alerts for forced-update threats and downgrade blocks</li><li>Automated data export from Google, Adobe, Proton, Apple, Microsoft</li><li>Risk dashboard scoring each account&#x27;s lock-in severity (0-100)</li><li>One-tap migration guides to open-source alternatives (LibreOffice, Nextcloud, Signal, etc.)</li><li>Pre-filled cancellation/downgrade forms with legal templates</li><li>Platform policy change monitor (ToS, pricing, feature removals)</li><li>Scheduled auto-backups before forced-update deadlines</li><li>Community-sourced dark-pattern database with user reports</li></ul></div>
+  </div>
+  <div class="section">
+    <h2>Tech stack</h2>
+    <div class="card" style="display:flex;flex-wrap:wrap;gap:8px"><code>Node.js/TypeScript</code> <code>Express + Prisma ORM</code> <code>WhatsApp Business API (Meta Cloud API)</code> <code>Puppeteer/Playwright for scraping non-API platforms</code> <code>PostgreSQL (Supabase)</code> <code>Redis (Upstash) for queues</code> <code>OpenAI GPT-4o for policy analysis</code> <code>Railway hosting + Cron jobs</code></div>
+  </div>
+  <div class="section">
+    <h2>Competitors &amp; the gap</h2>
+    <div class="grid"><div class="card"><strong>JustDeleteMe</strong><p style="margin-top:8px;color:var(--mut)">Gap: Static deletion links only; no monitoring, no WhatsApp, no migration paths, no real-time alerts</p></div><div class="card"><strong>AccountKiller</strong><p style="margin-top:8px;color:var(--mut)">Gap: Manual guides only; no automation, no account health scoring, no cross-platform export</p></div><div class="card"><strong>MyDataDoneRight</strong><p style="margin-top:8px;color:var(--mut)">Gap: Enterprise B2B focus ($500+/mo); no consumer WhatsApp bot, no forced-update detection</p></div><div class="card"><strong>Google Takeout / Adobe Export</strong><p style="margin-top:8px;color:var(--mut)">Gap: Platform-specific, manual, one-time; no cross-platform dashboard, no downgrade assistance</p></div></div>
+  </div>
+  <div class="section" id="wa">
+    <h2>Try it on WhatsApp</h2>
+    <div class="card wa">
+      <p><strong>How it works:</strong> User clicks &#x27;Connect WhatsApp&#x27; on landing page → OAuth to Google/Adobe/Proton → Bot runs initial risk scan → Sends risk report with scores → User replies with commands to export, migrate, or downgrade → Bot executes and confirms</p>
+      <p style="margin-top:12px"><strong>Commands:</strong> <code>SCAN — re-run risk check on all linked accounts</code> <code>EXPORT [platform] — generate download link for full data dump</code> <code>MIGRATE [from] [to] — step-by-step guide (e.g., MIGRATE ADOBE LIBREOFFICE)</code> <code>ALERTS — toggle real-time notifications on/off</code> <code>DOWNGRADE [platform] — pre-filled cancellation form + support chat template</code> <code>ALTERNATIVES [platform] — ranked open-source/privacy-first replacements</code> <code>SCORE — show current lock-in risk scores for all accounts</code></p>
+    </div>
+  </div>
+  <div class="section">
+    <h2>Pricing</h2>
+    <div class="card pricing"><span class="price">$9/mo SaaS, freemium (3 platforms), $79/yr pro</span></div>
+  </div>
+</div>
+<div class="foot">Generated by PainScout · MVP in ~21 days · Built by a vibe coder for people with real problems</div>
+</body>
+</html>

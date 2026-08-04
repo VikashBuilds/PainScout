@@ -1,0 +1,79 @@
+{
+  "generated_at": "2026-08-04T12:32:10+00:00",
+  "window_days": 30,
+  "theme_count": 6,
+  "themes": [
+    {
+      "theme": "Account Lockouts & Support Black Holes",
+      "occurrences": 1,
+      "scans": 1,
+      "first_seen": "2026-08-04T12:32:10+00:00",
+      "last_seen": "2026-08-04T12:32:10+00:00",
+      "avg_score": 92.0,
+      "last7": 1,
+      "prev7": 0,
+      "recent": true,
+      "trend": "new"
+    },
+    {
+      "theme": "WhatsApp Scam & Spam Flood",
+      "occurrences": 1,
+      "scans": 1,
+      "first_seen": "2026-08-04T12:32:10+00:00",
+      "last_seen": "2026-08-04T12:32:10+00:00",
+      "avg_score": 88.0,
+      "last7": 1,
+      "prev7": 0,
+      "recent": true,
+      "trend": "new"
+    },
+    {
+      "theme": "Forced Updates & Platform Hostage-Taking",
+      "occurrences": 1,
+      "scans": 1,
+      "first_seen": "2026-08-04T12:32:10+00:00",
+      "last_seen": "2026-08-04T12:32:10+00:00",
+      "avg_score": 81.0,
+      "last7": 1,
+      "prev7": 0,
+      "recent": true,
+      "trend": "new"
+    },
+    {
+      "theme": "No Viable Alternatives to Monopoly Creative Tools",
+      "occurrences": 1,
+      "scans": 1,
+      "first_seen": "2026-08-04T12:32:10+00:00",
+      "last_seen": "2026-08-04T12:32:10+00:00",
+      "avg_score": 79.0,
+      "last7": 1,
+      "prev7": 0,
+      "recent": true,
+      "trend": "new"
+    },
+    {
+      "theme": "Unreliable Core Comms (Video Calls & Messaging)",
+      "occurrences": 1,
+      "scans": 1,
+      "first_seen": "2026-08-04T12:32:10+00:00",
+      "last_seen": "2026-08-04T12:32:10+00:00",
+      "avg_score": 76.0,
+      "last7": 1,
+      "prev7": 0,
+      "recent": true,
+      "trend": "new"
+    },
+    {
+      "theme": "Privacy Violations & Data Monetization Without Consent",
+      "occurrences": 1,
+      "scans": 1,
+      "first_seen": "2026-08-04T12:32:10+00:00",
+      "last_seen": "2026-08-04T12:32:10+00:00",
+      "avg_score": 73.0,
+      "last7": 1,
+      "prev7": 0,
+      "recent": true,
+      "trend": "new"
+    }
+  ]
+}

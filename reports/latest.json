@@ -1,145 +1,134 @@
 {
-  "query": "wish there was a way to automate",
-  "generated_at": "2026-08-03T16:00:38+00:00",
+  "query": "customer support is terrible",
+  "generated_at": "2026-08-04T12:32:10+00:00",
   "pain_points": [
     {
       "source": "hackernews",
-      "title": "Ask HN: What is your personal photo/video storage and archival plan?",
-      "text": "So, I’m a new dad. And with that, now have hundreds of photos and videos that, without a shred of doubt, I want to keep forever. I currently have 3 backups (computer, usb drive, and cloud backup through crash plan). I also use Flickr Pro which I guess is my 4th backup. Then (ok, so maybe I have 5 backups) I have some home videos on YouTube to watch on my Roku TV.<p>There is some manual work needed (not a lot) to make sure all are in sync. But boy I wish there was a fully automated way to do this that allowed sharing, lots of backups (even offline tape), and ability to collect and view videos and photos on all devices.<p>I’d love to hear how others are managing the long-term storage of photos and videos.",
-      "url": "https://news.ycombinator.com/item?id=21257276",
-      "created_at": "2019-10-15T10:55:16Z",
+      "title": "Is this the most condescending customer support ever experienced by mankind?",
+      "text": "Here&#x27;s the exchange (anonymised as I&#x27;m not into public shaming): http:&#x2F;&#x2F;pastebin.com&#x2F;grbfp3Kv<p>I&#x27;m sincerely interested in knowing what people&#x27;s opinion on this exchange is. I felt condescended and disrespected from answer 1 all the way to the end. I may have overreacted but I was honestly blown away by how unhelpful and condescending this person was.<p>Thoughts?<p>--<p>UPDATE: thanks for all the answers so far. It&#x27;s really helping\nbalance my position in all this. I still feel like I&#x27;m the one\nwho&#x27;s right in the exchange but given how many pointed out I\nwas too aggressive from the get go there has to be something\nthere too.<p>I just feel like pointing out that a straight no (a.k.a. door shut\nin your face) on such a basic request is terrible and disappointing\nin 2015 isn&#x27;t disrespectful enough to warrant the flood of\ncondescension that came my way. I definitely escalated it after that,\nbut I feel it was somehow warranted.<p>To those who ask that I name the company: please realise I only\nposted this here to get people&#x27;s 2 cents on an exchange, not to\npublicly shame a company or an individual. There&#x27;s already too\nmuch of that online and things like that have been known to\nhave dire consequences for parties involved.<p>This is not my goal nor my motivation in posting this there.",
+      "url": "https://news.ycombinator.com/item?id=9090851",
+      "created_at": "2015-02-22T20:13:50Z",
       "meta": {
-        "points": 15,
-        "num_comments": 26
+        "points": 9,
+        "num_comments": 34
       }
     },
     {
       "source": "hackernews",
-      "title": "Launch HN: Kable (YC W22) – All-in-one platform for API products",
-      "text": "Hi HN! I’m Adam from Kable (<a href=\"https:&#x2F;&#x2F;kable.io\" rel=\"nofollow\">https:&#x2F;&#x2F;kable.io</a>). We make it easy to build great API products.<p>Kable takes care of all of the things that pull you away from your core business – API keys and authentication, usage-metering and billing, invoicing your customers, dashboards for tracking key metrics, evolving pricing to optimize revenue, surfacing usage dashboards to your customers – so you can focus on what’s most important.<p>Every API developer has to deal with important but unsexy responsibilities like “How will I securely manage API keys?” “How am I going to track which customers are using which parts of my product?” “How am I going to monitor usage of my API, and how can I make that information available to customers?” “Billing is complicated, invoicing is time-consuming, when am I going to find time to automate that?” This is the stuff we take care of.<p>I led the billing team at Hulu for five years and got a full education in the complexities of billing, payments, and accounting. Before that, I led the security team at Appian for two years, and before that I worked at WePay (YC S09), a payments API company. On a slightly weirder note...I have an obsession with API-first companies. I am fascinated by the rise of the API economy. Twilio for messaging; Stripe for payments; Algolia for search; Segment for data; the list gets longer every year. I have always been fascinated by these companies, wanted to work with them, learn from them, and serve them.<p>I spoke to hundreds of people building API companies and two themes rang more loudly than anything else: “We are doing X for now but we really want to do Y...” and “We haven’t built Z yet because we just don’t have the time.” These statements were always about the same topics, too: billing, invoicing, authentication, monitoring, analytics. Why was every startup struggling with the same things? I decided the best way to serve this community – a community ",
-      "url": "https://news.ycombinator.com/item?id=30627558",
-      "created_at": "2022-03-10T14:52:39Z",
+      "title": "Sent $10,701.03 to Coinbase. Still missing bitcoins.",
+      "text": "I placed an order for bitcoins early last week and was slated to receive them on Friday. Not only did I not recieve them, the transaction disappeared from my account, even though the ACH withdrawal had already clearly happened from my bank account.<p>Now, I&#x27;m still missing bitcoins in my account for transactions that have already been cleared and I&#x27;ve received a portion of the $10,701.03 in bitcoin at the price that I was was locked in at if I was to receive them on Friday, December 13th. I received them 5 days late and at the price locked in on December 8.<p>Coinbase is at fault and they&#x27;ve violated their own terms of service. I&#x27;ve asked for a similar resolution that the other gentleman on HN got from Brian, and this is the response I received from their customer support:<p>&quot;I&#x27;m not sure how that guy got the CEO of the company to intercede on his behalf, but that&#x27;s definitely not a normal handling of that case.<p>I simply do not have the ability to do that, I&#x27;m sorry. None of the admins do. That guy must have been one of our extremely high volume VIP users or something in order for something like that to have happened.<p>I...don&#x27;t really know how to respond further. That does seem somewhat unfair. Very sorry, but I just don&#x27;t have the ability to push through such a request. Nor is it possible to forward a ticket to our CEO. My apologies, but I&#x27;m just not able to be of further help here...&quot;<p>What&#x27;s wrong with Coinbase right now? I&#x27;m a huge fan of them, but this is terrible customer service. I can&#x27;t get a fair resolution because your ticketing system doesn&#x27;t allow you to send a ticket to Brian or any of your other superiors? What kind of customer service is this?<p>I would even love an acknowledgment that Coinbase violated its TOS and is in the wrong here. I&#x27;m just looking for a fair resolution.",
+      "url": "https://news.ycombinator.com/item?id=6933360",
+      "created_at": "2013-12-19T07:27:04Z",
       "meta": {
-        "points": 193,
-        "num_comments": 79
+        "points": 343,
+        "num_comments": 133
       }
     },
     {
       "source": "hackernews",
-      "title": "Show HN: Artifact Keeper – Open-Source Artifactory/Nexus Alternative in Rust",
-      "text": "I&#x27;m a software engineer who keeps getting pulled into DevOps no matter how hard I try to escape it. I recently moved into a Lead DevOps Engineer role writing tooling to automate a lot of the pain away. On my own time outside of work, I built Artifact Keeper — a self-hosted artifact registry that supports 45+ package formats. Security scanning, SSO, replication, WASM plugins — it&#x27;s all in the MIT-licensed release. No enterprise tier. No feature gates. No surprise invoices.<p>Your package managers — pip, npm, docker, cargo, helm, go, all of them — talk directly to it using their native protocols. Security scanning with Trivy, Grype, and OpenSCAP is built in, with a policy engine that can quarantine bad artifacts before they hit your builds. And if you need a format it doesn&#x27;t support yet, there&#x27;s a WASM plugin system so you can add your own without forking the backend.<p>Why I built it:<p>Part of what pulled me into computers in the first place was open source. I grew up poor in New Orleans, and the only hardware I had access to in the early 2000s were some Compaq Pentium IIs my dad brought home after his work was tossing them out. I put Linux on them, and it ran circles around Windows 2000 and Millennium on that low-end hardware. That experience taught me that the best software is software that&#x27;s open for everyone to see, use, and that actually runs well on whatever you&#x27;ve got.<p>Fast forward to today, and I see the same pattern everywhere: GitLab, JFrog, Harbor, and others ship a limited &quot;community&quot; edition and then hide the features teams actually need behind some paywall. I get it — paychecks have to come from somewhere. But I wanted to prove that a fully-featured artifact registry could exist as genuinely open-source software. Every feature. No exceptions.<p>The specific features came from real pain points. Artifactory&#x27;s search is painfully slow — that&#x27;s why I integrated Meilisearch. Security scanning that doesn&#",
-      "url": "https://news.ycombinator.com/item?id=46909037",
-      "created_at": "2026-02-06T04:12:59Z",
+      "title": "Ask HN: Locked out of Google Aps email with no recourse - advice?",
+      "text": "I&#x27;ve been locked out of my Google Apps email for over 24 hrs due to &quot;suspicious activity&quot;. I am the admin of the domain so &quot;contacting my admin&quot; is of no help. Filled Contact Us form and spoke to customer support lady who is unfortunately clueless and cannot help me at all.<p>Terrible experience for such a mission-critical service.<p>Anyone has suggestions on how to deal with this to restore access?<p>PS: I did not sent out any spam or do anything that goes against their ToS. Just a loyal customer for 7 years doing normal day to day emailing.",
+      "url": "https://news.ycombinator.com/item?id=9768593",
+      "created_at": "2015-06-23T23:48:34Z",
       "meta": {
-        "points": 166,
-        "num_comments": 67
+        "points": 9,
+        "num_comments": 11
       }
     },
     {
       "source": "hackernews",
-      "title": "Launch HN: Boostly (YC S22) – SMS marketing for restaurants",
-      "text": "Hey HN, we are Shane and Mikey, the co-founders of Boostly (<a href=\"https:&#x2F;&#x2F;boostly.com\" rel=\"nofollow\">https:&#x2F;&#x2F;boostly.com</a>). Boostly is a text marketing and feedback system for restaurants that works seamlessly with their point of sale, online ordering, and phone systems.<p>Restaurants live or die based on their ability to keep their customers coming back. However, with the rise of the third party delivery platforms, which charge 20%-35% commission on each transaction, restaurants are afraid that many of their customers will stop ordering directly from the restaurant (even if the restaurant can do their own delivery), and wipe out their small profit margins.<p>The delivery platforms also maintain ownership of the customer data. They know how valuable this is for marketing, whereas the typical restaurant owner is focused on the food and service, as they should be—and they miss out on being able to communicate directly with their guest as a result. With so many restaurants hanging by a thread these days, it’s more important than ever that they be able to market to their customers themselves, build relationships, and get their customers to order through their most profitable channels.<p>Customer data is notoriously hard for restaurant owners to access because it is scattered across different systems with various challenges. Even if they access it, they don’t have a way to manage opt-in consent for texting. And of course, most restaurant owners are non-technical and so none of this stuff is easy for them to begin with. We help restaurants access their data, get people opted-in to receive text marketing, and then put it all on autopilot.<p>All of this started when I (Shane) was running sales for Jolt, a restaurant operations software company, and saw the early stages of online ordering trends. Everyone was focused on the transactions, while customer data was largely getting neglected. Our insight was that this was leaving an incredible amount of",
-      "url": "https://news.ycombinator.com/item?id=32675658",
-      "created_at": "2022-09-01T13:00:03Z",
+      "title": "Tell HN: I can no longer support Protonmail",
+      "text": "Hello HN,<p>I often say you can tell how good a service is by judging how easy they make it to part ways. By that measure, Protonmail is a terrible service. Allow me to explain since those are harsh words for a privacy-focused email provider.<p>After being with them on a paid supporter (privacy first) plan for years, I finally decided to take the plunge and try their business account.<p>This was a big, big mistake.<p>From purely a business services standpoint, they are not up to par.  For starters, they lack basic forwarding. I don&#x27;t understand how you cannot do basic forwarding even if you do end-to-end encryption. Fastmail does it, why can&#x27;t Proton?  Anyway, after discovering all the shortcomings of the business plan, i finally threw the towel and decided to discontinue the service. I then decided to import my proton file into fastmail. Move my domains. Hard work, all done.<p>Here is the part where Protonmail&#x27;s reputation went down the toilet.<p>After removing domains and users from protonmail, the subscription was telling me I could NOT downgrade because I was over the 1GB limit. This was because, all those freebie GBs you accumulated during promos, are now gone!<p>Yes, stupid customer! For trying to support us, and upgrade from the basic personal service. We now penalize you and take what you had rightfully earned! All those years of personal paid plans mean nothing. Gone!<p>Anyway, I am a determined customer to downgrade, so I start deleting personal pictures to hit &lt; 1GB quota.<p>But Proton hasn&#x27;t had its last laugh.  &quot;Your storage in use is above the 1GB quota for premium accounts&quot;. I can&#x27;t downgrade, again! What?<p>So I write to customer service.  Something about being sorry. NO downgrade happens. Nothing really happens.<p>I finally get fed up with the service enough that I swap CCs and call it a day.<p>Now, this is where the store would normally end. However, I now realize I cant access the proton free account without p",
+      "url": "https://news.ycombinator.com/item?id=33852218",
+      "created_at": "2022-12-04T10:05:56Z",
       "meta": {
-        "points": 38,
-        "num_comments": 68
+        "points": 6,
+        "num_comments": 2
       }
     },
     {
       "source": "hackernews",
-      "title": "What I learned about the iPhone AppStore over the last 2 months",
-      "text": "This summer I was tasked to evaluate the AppStore and advise our company on whether to pursue a native iPhone app or a web-based approach. I decided against the AppStore for all of the reasons that have been floating around the blogosphere &#38; which pg has summarized more eloquently than I can.<p>But learning about the AppStore piqued my interest and I set up a little private project. This is my humble story &#38; what I learned.<p># THE STORY<p>After brushing up on my Objective-C, I set out to build the minimal viable iPhone App. A flashlight was out of the question because I wanted something that: 1) makes people smile 2) uses <i>some</i> native iPhone functionality (accelerometer) 3) tests the AppStore approval process. Oh, and I like irony.<p>$DRUMROLL: My application named 'Reject' was APPROVED last week after two months in purgatory. $BADABING<p>Granted, the app is fairly trivial like many of the other apps in the CrappStore. This is due to the very nature of said store. Building complex apps is actively discouraged by the approval uncertainty and huge waiting times. As a beginning developer you minimize risk, pump out a few silly things while you are learning &#38; once you are more confident you tackle a bigger project. After 2 months, I've only now started my first big project.<p>If you could all buy the app to help me recover my dev-license and dev-time, that'd be grand. If you're too poor I've reserved the 50 promo codes exclusively for HN users surviving on ramen noodles, screw the press ;-)<p># WHAT I LEARNED (CORRECT ME IF I'M WRONG)<p>Here are a few dirty tricks &#38; ideas that I hope will make life in AppStore purgatory easier:<p>Use the 'Easter Egg' field to plead directly to the reviewer. It's a free-text field that every reviewer will read and a little social engineering will work wonders.<p>If the app name is important to you, reserve it by submitting a dummy app without binary. You'll need dummy 512x512 and 480x320 artwork in order to be able",
-      "url": "https://news.ycombinator.com/item?id=951360",
-      "created_at": "2009-11-19T22:52:09Z",
+      "title": "Ask HN: Why nobody competes with Adobe?",
+      "text": "Adobe has sort of a monopoly on the creative tools market. Nobody seriously considers an alternative for their Photoshop, Premiere, After Effects, etc, and for some people, these are truly the only products which can satisfy their sophisticated needs. However, there are more and more small (independent) creators of all kinds, who do not need all the uber features of the professional products but would rather appreciate an intuitive UI, cheaper price, and friendlier customer support. Every kid today is either a blogger, vlogger or web designer and it seems to me like quite a big market that would easily turn away from Adobe, had anyone created an alternative product with 40% of functionality that works flawlessly (!).<p>I recently had to interact with Adobe support, and my experience was quite terrible. I was also looking for a simple software to stitch together my GoPro videos but was left out with either free iMovie&#x2F;Quick, which are too basic or a super-expensive Premiere.\nBoth times I was wondering, how come there&#x27;s only Adobe on the market, why nobody dares to compete with them. So, HN, what do you think, why?<p>P.S.\nI tried using Pixelmator (non-free), GIMP, OpenShot and a few more open-source editors - they don&#x27;t stand the competition.\nOn the other hand, I use and love Sketch, and would really appreciate Sketch-grade competitors for the above mentioned Adobe products.",
+      "url": "https://news.ycombinator.com/item?id=16694382",
+      "created_at": "2018-03-28T01:22:54Z",
       "meta": {
-        "points": 16,
-        "num_comments": 1
-      }
-    },
-    {
-      "source": "hackernews",
-      "title": "Ask HN: iPhone 15 pro handset just damaged my hearing, what now?",
-      "text": "Title says it all. Wish I was kidding.<p>I had a power outage tonight even before the big snow arrived. My shitty power utility has a call back feature if they restore power, which is useful since I have to throw the primary disconnect to use my generator.<p>They called as I finished getting the generator going and I answered while standing nearby. This is an automated system that waits for a voice, and I said &#x27;Yo&#x27; into the handset. Immediately after the loudest recording I&#x27;ve ever heard played through the speaker causing sharp pain and ringing as the handset was seated directly over my left ear. I pulled it away within a second but this was like a gunshot near my ear.<p>What I want to know is, does the iPhone have an adaptive volume &#x27;feature&#x27; that CRANKS the volume when it picks up ambient noise to damaging levels? I just answered as it was a normal call, no speaker option and I am certain I did not increase volume after the call began. I&#x27;ve never experienced it going this loud.<p>Also, since I&#x27;ve never experienced an acute hearing injury like this, should I be going to ER? This happened within the past hour and while there&#x27;s no bleeding coming out of the ear, I do have high pitched constant ringing (in just that ear) Is there anything that can be done or am I just screwed if it caused damage?",
-      "url": "https://news.ycombinator.com/item?id=46740264",
-      "created_at": "2026-01-24T01:39:27Z",
-      "meta": {
-        "points": 13,
-        "num_comments": 5
-      }
-    },
-    {
-      "source": "hackernews",
-      "title": "Launch HN: Screenpipe (YC S26) – Record how you work and turn that into agents",
-      "text": "Hi Hacker News, I&#x27;m Louis. I built Screenpipe (<a href=\"https:&#x2F;&#x2F;screenpipe.com\">https:&#x2F;&#x2F;screenpipe.com</a>), an app that records your screen and audio locally (only!), and gives AI agents a searchable memory of what you&#x27;ve seen, said, and heard. This makes it easier to automate your repetitive tasks, turn them into SOPs (Standard Operating Procedure) and so on.<p>I made a HN-style demo video at <a href=\"https:&#x2F;&#x2F;www.tella.tv&#x2F;video&#x2F;build-your-ai-second-brain-with-screenpipe-e1j7\" rel=\"nofollow\">https:&#x2F;&#x2F;www.tella.tv&#x2F;video&#x2F;build-your-ai-second-brain-with-s...</a> and there’s a marketing video at <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=c1jV6E9pyug\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=c1jV6E9pyug</a>.<p>I’ve been obsessed with this for a long time. I’ve been maintaining a “second brain” since 2020, in which I would store journals, handwritten notes, music I listen to, projects I&#x27;m working on, conversations I have with people, personal CRM etc. I experimented a lot of RAG in the early days with ParlAI, hundreds of fine-tuned GPT2 models, and GPT3 (<a href=\"https:&#x2F;&#x2F;forum.obsidian.md&#x2F;t&#x2F;fine-tuning-openai-api-gpt3-on-your-second-brain-obsidian&#x2F;21849&#x2F;4\" rel=\"nofollow\">https:&#x2F;&#x2F;forum.obsidian.md&#x2F;t&#x2F;fine-tuning-openai-api-gpt3-on-y...</a>). Later I built Ava, the first Obsidian AI plugin, which grew to a few thousands of users quickly. It then became Embedbase, an API to make it easier to build AI apps powered by RAG.<p>What I learned from all this is how important it is for the models to have context about what you’re doing on your computer, in order to get them to do what you want.<p>In the early days there was fine tuning but it was too much pain, then there was tool calling so that AI can access software you use but still kinda not autonomous enough. needing micro management. Then MCP came, but it felt too static",
-      "url": "https://news.ycombinator.com/item?id=49024620",
-      "created_at": "2026-07-23T16:48:38Z",
-      "meta": {
-        "points": 88,
-        "num_comments": 67
-      }
-    },
-    {
-      "source": "hackernews",
-      "title": "Launch HN: Tensil (YC S19) – Open-Source ML Accelerators",
-      "text": "Hello HN! I&#x27;m Tom, co-founder at Tensil (<a href=\"https:&#x2F;&#x2F;www.tensil.ai&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.tensil.ai&#x2F;</a>). We design free and open source machine learning accelerators that anyone can use.<p>A machine learning inference accelerator is a specialized chip that can run the operations used in ML models very quickly and efficiently. It can be either an ASIC or an FPGA, with ASIC giving better performance but FPGA being more flexible.<p>Custom accelerators offer dramatically better performance per watt than existing GPU and CPU options. Massive companies like Google and Facebook use them to make training and inference cheaper. However, everyone else has been left out: small and mid-sized companies, students and academics, hobbyists and tinkerers currently have no chance of getting custom ML hardware. We aim to change that, starting with ML inference on embedded and edge FPGA platforms. Our dream is that our accelerators help people make new applications possible that simply weren&#x27;t feasible before.<p>We believe that advances in AI go hand in hand with advances in computing hardware. As a couple of software and ML engineers hoping to live in a world alongside intelligent machines, we wanted to know why those hardware advances were taking so long! We taught ourselves digital design and gradually realized that the next generation of hardware will need to be finely customized to enable state of the art ML models at the edge, that is, running on your devices and not in the cloud. In the CPU world, the RISC-V RocketChip implementation has proven the value of customizable compute hardware. The problem was that no-one was building that kind of capability for ML acceleration. We started Tensil to build customizable ML accelerators and see what kind of applications people can create with them.<p>Tensil is a set of tools for running ML models on custom accelerator architectures. It includes an RTL generator, a model compiler, and a ",
-      "url": "https://news.ycombinator.com/item?id=30643520",
-      "created_at": "2022-03-11T18:00:10Z",
-      "meta": {
-        "points": 96,
+        "points": 63,
         "num_comments": 87
       }
     },
     {
       "source": "hackernews",
-      "title": "Ask HN: Is there room for another e-mail client?",
-      "text": "With the demise of Sparrow (we can argue the definition of demise, yes) I find myself with no real alternative e-mail client anymore<p>Thunderbird doesn't work well for my work flow<p>Eudora is long gone.<p>Sometimes I go back to using Pine, Alpine, Sylpheed, Mutt.<p>Apple Mail is OK, more polished than it used to be but I find it slow and unstable with large amounts of Mail.<p>Outlook, gets better with each release, cannot handle my 12GB of mail at all, lots of continual corruption. Seems very bloated in CPU and RAM consumption although it is very full featured.<p>I miss Postmaster from BeOS. It was powerful, lightweight, fast.<p>GyazMail was pretty good, but alas very slow to make development progress.<p>GMail web interface works OK for me.<p>I know I am rambling on and on but does anyone else feel e-mail has changed from the mid-90's. It used to be exciting to receive e-mail. Now I dread my inbox and dread just how innovative e-mail has become. I have a lot of ideas on how to make e-mail fun and productive.<p>Does anyone else wish E-Mail and the way we interact with e-mail was different? How so?<p>Additional: I think e-mail is thought of as so commonplace now-a-days that nobody is innovating. Rather just keeping up with the bare minimum necessary features people expect out of e-mail.<p>Why can't my e-mail client automatically organize e-mails for me without me having to create filters/rules? Why can't my e-mail client help me fight SPAM versus just learning to filter it away from my view? I save a lot of mail, I have 12 years work of things that I might need to reference someday, Why can't my e-mail client prepare an overview for me of interactions I have had with people so I dont have to search and wade through e-mail to find something?<p>I'd like to explore this and create an app that works better for the way we use e-mail now. I can code in C++ like a rockstar but I will struggle with UI design.",
-      "url": "https://news.ycombinator.com/item?id=4603099",
-      "created_at": "2012-10-02T17:21:20Z",
+      "title": "Launch HN: Kraftful (YC S19) – UX Analytics for IoT Products",
+      "text": "Hey HN, I’m Yana from Kraftful (<a href=\"https:&#x2F;&#x2F;kraftful.com\" rel=\"nofollow\">https:&#x2F;&#x2F;kraftful.com</a>). We’re an analytics product that helps IoT companies make their apps and displays more usable.<p>As you’ve probably noticed, everything is becoming internet connected: home appliances, furniture, exercise equipment, toys. But it’s often done in a clumsy, unusable, or unnecessary way—IoT toasters, anybody? Hardware companies haven’t yet figured out where connectivity makes sense and where it doesn’t. At the same time, some great use cases are beginning to emerge: elder care, micro mobility, preventative care, energy saving, and more.<p>I ran into this problem as head of product at IFTTT, working with the makers of hundreds of connected devices. Unfortunately, the apps and displays that control these products tend to have terrible usability, especially for less technical people. Hardware companies don&#x27;t understand how to use data to track how their products are used or where they have usability problems, let alone how to fix them. The usability methods developed at software companies haven&#x27;t made it into their universe. In particular, they hardly ever use analytics tools because those require lots of configuration, and IoT PMs have more than software and UX on their plate. If they use anything, it’s usually Google Analytics because it’s pre-configured. But when they want to answer IoT specific questions (like where users get stuck when they try to connect the device), PMs need to export the data and query it outside of Google Analytics. Most of them don’t know how to do that and don’t have time.<p>When I was at IFTTT, I would hear from IoT PMs that even when they’d sell millions of connected devices with a recognizable brand, only a few thousand people would ever use the product as a connected device via the app. I wanted to help them get to the root of the problem: How many people tried to connect the device? How far did they get? Whic",
+      "url": "https://news.ycombinator.com/item?id=31167368",
+      "created_at": "2022-04-26T13:43:54Z",
       "meta": {
-        "points": 7,
-        "num_comments": 5
+        "points": 98,
+        "num_comments": 52
       }
     },
     {
       "source": "hackernews",
-      "title": "Show HN: Palmier Pro – Open-source macOS video editor built for AI",
-      "text": "Hi HN, we are Marcos and Harrison, cofounders of Palmier (<a href=\"https:&#x2F;&#x2F;palmier.io\">https:&#x2F;&#x2F;palmier.io</a>). We are building Palmier Pro, an open source macOS video editor, with built-in AI generation and a local MCP server that connects to your agent. Here are a few demos:<p>- Making some AI transitions: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=hbM_-eR1GX4\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=hbM_-eR1GX4</a><p>- Multicam editing with Codex: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=SjS2q2LT1q8\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=SjS2q2LT1q8</a><p>- Cutting long form clips into shorts: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=PR66eN2ouuQ\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=PR66eN2ouuQ</a><p>We built Palmier Pro as an internal tool when we were making AI launch videos for other startups. The main problem it solved in the beginning was the back-and-forth between AI generation platform and video editor. The iteration loop was awkward: AI videos → download → import to editor → edit → realize we need to change the AI video → repeat. So we built a minimal video editor where we could let Claude generate AI videos inside the editor.<p>As we gave more and more tools to the agent, we wanted to push to see what else agents can do in the video editing space. So today, your Claude&#x2F;Codex can:<p>- Manage projects inside Palmier Pro<p>- Import media from a public URL or filesystem to the project, and organize them in folders<p>- Search media (by embedding footages using SigLIP2 running locally)<p>- Edit the timeline (tracks&#x2F;clips&#x2F;keyframes operations)<p>- Generate images, videos, sound effects, captions, music<p>- Export videos<p>There are two ways for LLMs to interact with the editor: by connecting to the local MCP server, or using the in-app chat. Both use the same tools and APIs exposed by the video editor.<p>We have se",
-      "url": "https://news.ycombinator.com/item?id=49022911",
-      "created_at": "2026-07-23T15:11:37Z",
+      "title": "Ask HN: Is there a developer laptop that does not suck and is not a Mac in 2022?",
+      "text": "Background: I am sick of Apple&#x27;s terrible customer support in my country. The most recent case was that of my friend who upgraded to a 14 inch Macbook Pro that stopped booting in 7 days. Since there is no return option in 30 days like in other geographies, he took it to Apple&#x27;s authorised service centre (there are no Apple owned service centres in my country), and they put a big scratch right across the Apple logo. To add to this, Apple&#x27;s customer support final response after more than a week of wasting his time was they would not be able to replace the display even when my friend sent clear voice recordings of the service centre employees accepting their mistake. He had to take the help of the local police who went with him to the shop to get a written statement that they would be replacing the display too along with the mainboard to fix the primary issue of dead laptop.<p>I have had my own horror stories in the past 10 years and I do not want to pay another dime to Apple for such pathetic treatment even under warranty.<p>Are there any other options for someone like me?",
+      "url": "https://news.ycombinator.com/item?id=32632720",
+      "created_at": "2022-08-28T22:32:12Z",
       "meta": {
-        "points": 191,
-        "num_comments": 39
+        "points": 336,
+        "num_comments": 518
       }
     },
     {
       "source": "hackernews",
-      "title": "Ask HN: Where is my cloud addressbook?",
-      "text": "All my info lives happily in the cloud- notes, to-do lists, documents, photos, music - except for my darn addressbook - you know, name, phone number, address, email, group. Now I am <i>not</i> looking for social networking solutions - what I wish for is:<p>1. An online way of managing addresses with a decent UI (no, Google Contacts is not a decent UI).<p>2. A way of sharing items with family members (so only one spouse has to enter the number of the plumber)<p>3. Decent offline clients (ideally sync, at least read-only) for the usual suspects - iPhone, linux (akonadi?), whatever Mac/Windows worlds use.<p>4. Web based import - eg. my electrican's website exporting their vcard/hcard so I would just click on an icon when browsing their website (like the RSS feed monitor) to import their data in my address book. Hell, maybe when they move their new address would automatically push out.<p>None of this stuff is rocket science these days, so where is it? At least is there a good solution for 1-3? (I realise 4 would require some kind of standard and viral uptake). What do people here use? Is everybody tied to their OS/mobile-specific addressbooks, or are they depending on stuff like Facebook/LinkedIn? I don't want to have to join Facebook to look up my plumber's number.<p>PS. Sorry if this is covered before, closest thread I was able to find was http://news.ycombinator.com/item?id=544738 which had a good OP but comments petered out. After reading the comments I am tempted to add the suggestion I found there of:<p>5. Deal with multi-person addresses like husband and wife at the same location.",
-      "url": "https://news.ycombinator.com/item?id=754175",
-      "created_at": "2009-08-10T22:02:58Z",
+      "title": "How airbnb lost me as a customer",
+      "text": "I don't have a blog where this story would be appropriate, but since I know airbnb founders/investors read HN, I figure my story might be valuable to them.  This is how my first experience with airbnb is also going to be my last.<p>I recently rented out my apartment for a 2 week stay.  With my nearly $3,000 payment being held by airbnb, I received an email asking me to \"send in a scanned copy of your government issued ID and a copy of a utility bill\".  No form to do so, just the vague \"send\".  I'm not really comfortable sending as much personal info as my drivers license contains (height, weight, eye color, DL number, photo) especially over unencrypted email, and when this requirement wasn't mentioned before listing my space.<p>Here is where they lose me as a customer though- I snapped a photo of a utility bill and responded to their email.  Two days go by, my payment is still 'pending' now several days after the guest has arrived.  I send a second email inquiring if the photo was ok (I don't have a scanner handy) and why they still haven't paid me, and get no response.  More days go by with airbnb holding my payment, and I try to use their live chat.  Live chat fails silently in firefox (clicking the button does nothing).  I try in chrome and it tells me everyone is busy.  Try again later and it opens a window... then 30 seconds later tells me everyone is busy and to email my request.<p>Finally, now 9 days after my guest arrived, I receive another email from airbnb which ignores all my previous messages and tells me to once again \"send\" them scans of gov't id and utility bill.  Apparently my only option to get them to release my funds is to send highly personal information over unencrypted email, a requirement which was never made clear when I made my listing.<p>Airbnb seems like a great idea with an ideal set of founders and backers, but unexpected requirements and terrible customer support have turned me off their site.",
+      "url": "https://news.ycombinator.com/item?id=4617947",
+      "created_at": "2012-10-05T18:06:30Z",
       "meta": {
-        "points": 6,
-        "num_comments": 5
+        "points": 78,
+        "num_comments": 67
       }
     },
     {
       "source": "hackernews",
-      "title": "The Fall of Hacking",
-      "text": "Please first excuse my liberal arts sensibilities in a technical forum; but I figure out there might be some like-minded people out there who feel the same way I do ... that the hacker culture is dying out.<p>Before anyone jumps in to say that I've jumped the shark, let me quickly jump to elaborate:<p>The ideal of the hacker a la early 90's, Ghost in the Shell, Hacker and Cyberpunk; a cowboy on the electronic frontier typing silently the night away to a CRT monitor but the internals (of man and machine) is intense full of drama. Better yet, a reclusive vampire in the cyberworld, dialing up the BBS where people went by handles and the text file on packet sniffing taught me the hacking techniques and text file called \"subverting American lower-education\" taught me the hacking ethos and attitude. Hacking was punk-rock (a la the Ramones, pre-Blink182 and Sum41): marginal and subversive, exploiting buffer overflow vulnerabilities on remote servers, warez, BIOS viruses, and automatic credit card number generators in Visual Basic 3.0 to get free Internet access via AOL/Prodigy/Compuserve, pirated Turbo C++ with DJGPP writing a 2D DOS sidescroller. But I do not really do justice to the description of hacker, pre the dot-com boom - but I think you know what I mean.<p>Fast forward to the 2009, a hacker has become the anti-thesis to the hacker of early 90's. The new \"hacker\" go to websites such as YCombinator and have snazzy wordpress blogs with rounded corner designers with full names and locations and snazzy job titles, and geek-chic photo of the said hacker in yuppie dress-shirts smiling, \"Software Visionaire/Ruby Ninja; come hit me up on Facebook, let's meet up and talk about business ideas!\" The big ideas of the day is a PHP database CRUD application that displays everyone's colleges and geographical networks, with full names and whose purpose essentially, is a repository for pictures of inebriated hot chicks. Apparently, the new new thing is now this CRUD forum database ",
-      "url": "https://news.ycombinator.com/item?id=762121",
-      "created_at": "2009-08-14T01:00:15Z",
+      "title": "Ask HN: Consumer WiFi router options in 2021",
+      "text": "I am in the market for a new router. I’m open to mesh or just a beefy single router. I’d like WiFi 6 for future proofing but I really want good 2.4 and 5Ghz performance. I only have one device with 6 capability, so I could drop that feature until it is supported more in 5 years.<p>This is an update to this discussion, which frankly I found to echo my experience looking online a year later.\nhttps:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=24756061<p>There is no clear answer on what’s the “best” or even just a universal solid option.<p>Things I’m observing from reviews and comments around the internet:\nMesh isn’t ready and can have mixed performance on satellites.<p>Routers are starting to require logins and subscriptions. I have privacy concerns about those options, so no on Nest.<p>ASUS has quality control and customer support issues, but if you’re lucky they can be good.<p>Some companies don’t continue to update firmware and leave their routers to be vulnerable after a few years. Tp-link is one.<p>WiFi 6 capability can come at the cost of crap 2.4ghz performance.<p>Ubiquiti sounds good or terrible depending on who you listen to.<p>Why is Apple not selling a $400 router that just works, has good design, and slick UI (for Apple devices)? If the performance was good I’d just drop the cash and move on, All I ask is 5 years of security updates.",
+      "url": "https://news.ycombinator.com/item?id=29082526",
+      "created_at": "2021-11-02T15:18:40Z",
       "meta": {
-        "points": 176,
-        "num_comments": 112
+        "points": 39,
+        "num_comments": 28
       }
     },
     {
       "source": "hackernews",
-      "title": "Ask HN: How would you learn AI-assisted development from the ground up?",
-      "text": "I&#x27;m a director&#x2F;exec, not a software engineer. Background&#x27;s mostly data analytics, SQL and Excel day to day, some R and PostgreSQL. Years ago I could hack together basic HTML&#x2F;CSS&#x2F;PHP too.<p>Got into AI early and now use ChatGPT and Claude constantly. With their help I&#x27;ve built a handful of web apps, some Python scripts and desktop tools, and an Android app on Supabase with real multiple users.<p>So I can build things. But I&#x27;m very aware there are big holes underneath it. I can usually get something working without really knowing why it works, whether it&#x27;s actually well built, or what&#x27;s going to break down the road once it gets more complex.<p>Feels like it&#x27;s time to go back to fundamentals. Michael Jordan still worked on his footwork, that kind of thing.<p>What I&#x27;m hoping to get to eventually:<p>* build small useful apps, windows&#x2F;mac&#x2F;android&#x2F;ios&#x2F;web<p>* automate chunks of my own and my team&#x27;s work<p>* maybe build a simple SaaS at some point<p>* generally not get left behind, open to this reshaping my career or spinning into a side thing<p>Was hoping for something structured, starting from prompt&#x2F;context engineering and working into real programming fundamentals, APIs, databases, architecture, security, testing, deployment. Problem is anything I find is stale within months given how fast this moves.<p>Not looking for free necessarily, and definitely not looking for &quot;learn to code in a weekend.&quot; Willing to put in real time.<p>For people who&#x27;ve gone down this road already: what&#x27;s actually worth learning properly, what&#x27;s fine to just learn enough to supervise, and what can honestly just stay AI&#x27;s job?<p>P.S.: Yes I polished&#x2F;refined this post using AI, but I first wrote it all myself (the original was twice as long).",
-      "url": "https://news.ycombinator.com/item?id=49098829",
-      "created_at": "2026-07-29T15:31:35Z",
+      "title": "Tell HN: DigitalOcean locks your account for KYC",
+      "text": "Disclaimer: I might not have any Droplet or other service (or anything) running on DO at the time. But I cannot check because my account is locked.<p>I&#x27;ve received an email from DigitalOcean with the subject:\n&gt; [DigitalOcean] Ticket #xxx: Verify Your Account: ref:!xxx.!xxx:ref<p>Great subject BTW! (op.ed.)\n(replaced real references with xxx)<p>I logged into my DO account and found that my account is locked and I cannot access anything but their ticketing service. I think this practice of lock first ask questions later is terrible and I hope they change it.<p>Here&#x27;s the full email body (references replaced with xxx):<p>Hi there,<p>We&#x27;re excited to have you as a customer of DigitalOcean and we would like to verify your account.<p>Because your recent account activity is atypical, we’d like to better understand your product needs. To help us in restoring access to the account, please respond to this email message with a description of the workload you’ve deployed on your Droplets and how you plan to use your account going forward.<p>We appreciate your understanding and look forward to better understanding how DigitalOcean can support your needs!<p>Regards,\nDigitalOcean Security<p>ref:!xxx.!xxx:ref",
+      "url": "https://news.ycombinator.com/item?id=41662147",
+      "created_at": "2024-09-26T19:20:52Z",
+      "meta": {
+        "points": 11,
+        "num_comments": 3
+      }
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: I left my FAANG job at 50 to build a sci-fi game",
+      "text": "I am a 50-year-old who left a FAANG Engineering Manager job to build a sci-fi game. I just released Outsider, a sci-fi narrative game with multiple endings. If you want to support my work, the game is now 15% off (<a href=\"https:&#x2F;&#x2F;store.steampowered.com&#x2F;app&#x2F;3040110&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;store.steampowered.com&#x2F;app&#x2F;3040110&#x2F;</a>).<p>I&#x27;ve always wanted to create a game. I moved from Brazil to the US to work at Big Tech,  but after a career of customer focus, mission alignment and 360-degree feedback, I wanted to experience <i>solo</i> game development.<p>While FAANG can be soul-crushing at times, I had a great manager and an amazing team. The pay and benefits were fantastic. However, a dream is a dream, so I left my job in August 2024 to start my game company, backed by a supportive working wife and savings.<p>I did all the coding, writing and art, but purchased a few assets. I&#x27;m not good at art, but I learned to use Blender 3D and Photoshop. As an amateur musician, I composed the game&#x27;s main theme and recorded two additional songs. The soundtrack is shared under a CC-BY license, including songs made by other artists.<p>I also &quot;hired&quot; my 15-year-old high schooler as an apprentice. He wants to study CS, so that was a great opportunity to show him the ropes. He was very helpful and worked 1-2 hours per week doing odd jobs. I was a tough but compassionate boss, and he learned a good deal about software projects. He also worked as an advisor (&quot;this is cringe, dad&quot;) and gave me his Gen-Z perspective.<p>You could call my game an &quot;interactive book with choices and a metapuzzle&quot;, similar to Kit Williams&#x27; &quot;Masquerade&quot; Puzzle Hunt classic, but with an optional puzzle. The game&#x27;s story revolves around an extraterrestrial who reaches out to a tech worker through an online chat. There&#x27;s a lot of hacker culture throughout the story. It&#x27;s really, pardon the c",
+      "url": "https://news.ycombinator.com/item?id=45846056",
+      "created_at": "2025-11-07T13:21:29Z",
+      "meta": {
+        "points": 9,
+        "num_comments": 3
+      }
+    },
+    {
+      "source": "hackernews",
+      "title": "Ask HN: What hosting do you use?",
+      "text": "I've had experiences with the following hosting providers:<p>000webhost: Great free host for simple php applications. However, they don't give you SSH access and their servers do not handle spikes in web traffic very well.<p>Amazon EWS: Free tier for a year is nice, however you still have to pay 10 dollars a month if you want an elastic IP. Relatively expensive compared to other cloud hosting providers for small scale projects. Terrible customer support and convoluted usage reports.<p>Recently I've been thinking about buying a remote dedicated server or using rackspace cloud hosting.<p>What hosting do you use?",
+      "url": "https://news.ycombinator.com/item?id=3806203",
+      "created_at": "2012-04-06T06:22:40Z",
       "meta": {
         "points": 6,
         "num_comments": 9
@@ -147,318 +136,619 @@
     },
     {
       "source": "hackernews",
-      "title": "Launch HN: Codebuff (YC F24) – CLI tool that writes code for you",
-      "text": "Hey HN! We’re James and Brandon building Codebuff (<a href=\"https:&#x2F;&#x2F;codebuff.com\">https:&#x2F;&#x2F;codebuff.com</a>). Codebuff is like Cursor Composer, but in your terminal: it modifies files based on your natural language requests. You can try it with `npm i -g codebuff` and start using it immediately for free. We have no login gate, and we give all accounts up to $20 worth of credits.<p>Codebuff is different because we simplified the input to one step: you type what you want done in your terminal and hit enter. Then Codebuff looks through your whole codebase and makes the edits it wants, to existing source files or new ones. It also can run your tests, the type checker, or install packages to fulfill your request.<p>Demo video: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=dQ0NOMsu0dA\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=dQ0NOMsu0dA</a><p>It all started at a hackathon. I was trying out Sonnet 3.5 which had recently come out and seeing if I could use it to write code. The script I cobbled together that day pulled codebase context in one step and used it to rewrite files with changes in the second step. This two step process still exists today. Incidentally, my hackathon script worked rather poorly and my demo failed to produce any useful code.<p>But that weekend I thought about the kind of errors it made, and realized that with more context on our codebase, it might have been able to get the change right. For example, it tried to create an endpoint on our server (at my previous startup), but it didn&#x27;t know that you needed to edit 3 specific files to do this (yeah... our backend was not that clean). So I hand-wrote a guide to our codebase, like I was instructing a new hire. I put it in a markdown file and passed it into Sonnet 3.5&#x27;s system prompt.  And the crazy thing is that it started producing wayyy better code. So, I started getting excited. In fact, this code guide idea still exists in Codebuff today as k",
-      "url": "https://news.ycombinator.com/item?id=42078536",
-      "created_at": "2024-11-07T17:06:28Z",
+      "title": "Launch HN: Metal (YC W23) – Embeddings as a Service",
+      "text": "Hey HN! We’re Taylor, James and Sergio – the founders of Metal (<a href=\"https:&#x2F;&#x2F;www.getmetal.io&#x2F;\">https:&#x2F;&#x2F;www.getmetal.io&#x2F;</a>). You can think of Metal as embeddings as a service. We help developers use embeddings without needing to build out infrastructure, storage, or tooling. Here’s a 2-minute overview: <a href=\"https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;39fb6df7fd73469eaf20b37248ceed0f\" rel=\"nofollow\">https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;39fb6df7fd73469eaf20b37248ceed0f</a><p>If you’re unfamiliar with embeddings, they are representations of real world data expressed as a vector, where the position of the vector can be compared to other vectors – thereby deriving <i>meaning</i> from the data. They can be used to create things like semantic search, recommender systems, clustering analysis, classification, and more.<p>Working at companies like Datadog, Meta, and Spotify, we found it frustrating to build ML apps. Lack of tooling, infrastructure, and proper abstraction made working with ML tedious and slow. To get features out the door we’ve had to build data ingestion pipelines from scratch, manually maintain live customer datasets, build observability to measure drift, manage no-downtime deployments, and the list goes on. It took months to get simple features in front of users and the developer experience was terrible.<p>OpenAI, Hugging Face and others have brought models to the masses, but the developer experience still needs to be improved. To actually use embeddings, hitting APIs like OpenAI is just one piece of the puzzle. You also need to figure out storage, create indexes, maintain data quality through fine-tuning, manage versions, code operations on top of your data, and create APIs to consume it. All of this friction makes it a pain to ship live applications.<p>Metal solves these problems by providing an end-to-end platform for embeddings. Here’s how it works:<p><i>Data In:</i> You send data to our system via our",
+      "url": "https://news.ycombinator.com/item?id=35341514",
+      "created_at": "2023-03-28T14:18:40Z",
       "meta": {
-        "points": 285,
-        "num_comments": 239
+        "points": 196,
+        "num_comments": 99
       }
     },
     {
       "source": "hackernews",
-      "title": "Launch HN: Tokenless (YC S26) – Automatic model switching to save money",
-      "text": "Hi HN, Rohit here from Tokenless (<a href=\"https:&#x2F;&#x2F;usetokenless.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;usetokenless.com&#x2F;</a>), which I’m building alongside co-founders Andrew and Kev. We’re building an API gateway which routes agent traffic dynamically turn-by-turn between different models to save on AI spend.<p>The cost of AI tokens is top-of-mind for many. Companies like Uber and Salesforce have been complaining about blowing their yearly AI spend faster than expected.<p>Frontier models are amazing for dev work, but are so expensive. Open-source models are cheap and rapidly improving, closing the gap with frontier models, but aren’t quite there yet.<p>Tokenless gets you the best of both worlds–routing harder turns to smarter models only when needed, which keeps costs low.<p>Before Tokenless, I was doing a PhD at Princeton. While using coding&#x2F;other agents, I constantly agonized over model choice, to make sure my AI spend was going as far as possible on my academic Cursor account.<p>At the same time, I was doing LLM research, and a small technique I developed while in recovery from NeurIPS submission season seemed to hit SOTA pretty fast. I was surprised that such simple ideas could do routing well.<p>We’ve been able to develop a version of the router that matches the performance of Claude Fable 5 at half the cost. The blog post on our website explores the technical details on how we did this (<a href=\"https:&#x2F;&#x2F;usetokenless.com&#x2F;blog&#x2F;building-tokenless&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;usetokenless.com&#x2F;blog&#x2F;building-tokenless&#x2F;</a>).<p>Highlights:\n- Our approach queries multiple models at once and uses their progress to make decisions (this technique is novel AFAIK, let us know if you know anyone else doing this).\n- Switching models doesn’t destroy the cache if the routing algorithm is aware of when the cache is hot&#x2F;cold.<p>To come:\n- Adding Kimi K3, all other GPT efforts and more to the router<p>Go",
-      "url": "https://news.ycombinator.com/item?id=49099143",
-      "created_at": "2026-07-29T15:55:27Z",
+      "title": "Launch HN: Bedrock AI (YC S21) – Using ML to identify red flags in SEC filings",
+      "text": "We’re Kris, Suhas, and Heather (YCS21) and we’re building Bedrock AI (<a href=\"https:&#x2F;&#x2F;bedrock-ai.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;bedrock-ai.com&#x2F;</a>).  We use machine learning to extract hard-to-find information and assess risk in public company reports (SEC filings). Our platform is used by investors to improve portfolio returns and mitigate downside risks.<p>Most public company data is unstructured and textual. Because relevant information is hard to find, a lot of corporate data is radically underused, to the detriment of investors. For example, our research shows it can take 12-18 months for corporate malfeasance to be incorporated into stock price after clear warning signs appear in financial text.  Hard-to-find information that we extract includes accounting and governance choices, product defects, regulatory issues, customer&#x2F;market reliance and much more.<p>One example is Sino-Forest, Canada&#x27;s Enron. Sino-Forest was a darling of Canadian investors until an infamous exposé, by short-seller Muddy Waters, in 2011. It turned out it was a forestry company that didn’t actually own any forests. Months before the exposé and crash, there were obvious red flags in the company’s disclosures including buying and selling from companies controlled by their directors and problems with the review of their bookkeeping! Our algorithms picked up these red flags and more, and assessed Sino-Forest as high risk when we ran our models on the company’s historical filings.<p>I’m a CPA and a developer (odd combo).  The tech community has largely ignored public company financial disclosure.  A few years ago, I published a basic piece using computational methods to analyze cannabis disclosure. The local regulatory agency contacted me to give them a workshop on text analytics. It was then that it hit home how little was being done in the field.<p>Information drives financial markets. The difficulty of assessing risks hidden in long public filings mak",
+      "url": "https://news.ycombinator.com/item?id=27893182",
+      "created_at": "2021-07-20T13:00:58Z",
       "meta": {
-        "points": 71,
-        "num_comments": 63
+        "points": 183,
+        "num_comments": 107
       }
     },
     {
-      "source": "github",
-      "title": "Improved subpixel text rendering for OLED (WRGB stripe, RGB triangular) -- Unfixable by ClearType Tuner (Over 100 upvotes in Feedback Hub)",
-      "text": "### Description of the new feature / enhancement\n\n# EDIT: January 24th, 2025:\n\n- Proposed: [Alternative PowerToy Method: \"Display Shaders PowerToy\"](https://github.com/microsoft/PowerToys/issues/25595#issuecomment-2571621204)\n- Proposed: [Free Open Source Coding Offer to Microsoft to contribute \"Display Shaders PowerToy\"](https://github.com/microsoft/PowerToys/issues/25595#issuecomment-2611345767)\n- Related: [Blur Busters Open Source Display Shaders v1.0.2 specifcation](https://blurbusters.com/osi#spec)\n(will include WOLED/QDOLED shader)\n\n# NOTE: I do paid work with display manufacturers. \n\nRepost of incorrectly-closed github item that someone else posted:\n\n> ClearType alters anti-aliasing assuming an RGB stripe subpixel configuration. More WOLED (WRGB stripe) and QD-OLED (RGB triangular) monitors are coming to market and have noticeable chromatic aberration/color fringing on edges of text. It would be nice if Windows had a built-in option to alter text rendering based on subpixel configuration of the monitor.\n> \n> ### Scenario when this would be used?\n> When using a WOLED or QD-OLED monitor with WRGB stripe or RGB triangular subpixel configuration to improve text clarity.\n> \n> ### Supporting information\n> https://www.youtube.com/watch?v=52eiLP3Zy-s\n> \n> https://youtu.be/k-6yc1dA--0?t=602\n> \n> https://youtu.be/PR-1tMih0fM?t=442\n\nIt is definitely a real problem caused by unresolvable ClearType limitations.  The earlier github item (#25568) was incorrectly closed by someone who thought it was a feature already built into windows; so creating new GitHub issue.\n\n# EDIT January 24th, 2025\n_____\n\n# Over 100 Upvotes in Feedback Hub for \"ClearType 2\"\n\nOkay, I have audited Feedback Hub, and whoo-boy, this is a `popular complaint by OLED owners`.  \n\nThis issue is so obscure (that the duplicate-item judges do not even understand these are duplicates).  I will flag by copy and pasting some of this comment in Feedback Hub.\n\nSearch Terms: \"`cleartype OLED`\", \"`cleartype WOLED`\", ",
-      "url": "https://github.com/microsoft/PowerToys/issues/25595",
-      "created_at": "2023-04-18T04:07:48Z",
+      "source": "hackernews",
+      "title": "Launch HN: Taloflow (YC W21) – Find the top cloud or dev tools for your use case",
+      "text": "Hi HN,<p>We are Jason, Todd and LV - we&#x27;re building Taloflow (<a href=\"https:&#x2F;&#x2F;www.taloflow.ai\" rel=\"nofollow\">https:&#x2F;&#x2F;www.taloflow.ai</a>) to help developers find and evaluate cloud and API products based on their use case, requirements, and budget.<p>Have you ever wondered whether you should move a particular workload off of AWS to GCP? Or which database to build on? Or which APM is best for your size, architecture, and budget?<p>A little over a year ago, we launched a cloud management tool for AWS. A few months after launch, we learned that many of the dev teams we were working with were actively looking for alternative cloud products and dev tools to improve their stack. They generally found the investigation and testing process to be error-prone and a time suck (finding what fits the use case requirements, reading docs, sitting on sales calls, projecting costs in complex spreadsheets, etc.).<p>Similarly, while building our own product, we implemented several cloud and dev tools into our own stack. Some worked, and some were terrible. Time after time, we were fooled by the marketing language, lacked use case-based information to inform our decision, and generally found third-party review sites not as helpful when it comes to buying a cloud or dev tool. Why? Comparing options with info relevant to our specific use case was the missing piece, and there were several dozen dimensions to consider.<p>We built two ways to help you pinpoint which products best fit your use case.<p>The first walks you through a &quot;Quick match&quot; questionnaire that is designed with the help of domain experts for particular categories (e.g.: object storage, data pipelines, APM, etc.) to help you define your requirements and then rank options within a product category based on the inputs.<p>For example, in object storage, we collect use case info (Do you provide information to customers frequently and quickly? Do you perform intensive ML tasks? Do you work wit",
+      "url": "https://news.ycombinator.com/item?id=26504834",
+      "created_at": "2021-03-18T17:03:11Z",
       "meta": {
-        "repo": "microsoft/PowerToys",
-        "comments": 354,
-        "reactions": 819
+        "points": 79,
+        "num_comments": 21
       }
     },
     {
-      "source": "github",
-      "title": "[FEATURE REQUEST] Ability to tile windows automatically",
-      "text": "### The \"Window-Tiling\" PowerToy\r\nHere's an idea, add the ability to tile windows automatically. What I mean by that is when a window would open, it'll cover the whole screen but when another window would open, it'll cover the half of the screen automatically and the first app would also resize to the half of the screen. If the third window opens it'll open below the second window, resizing the second window to half vertically. And the new window would take place under the second window.\r\n\r\nIt has been done before in some Linux window managers like \"i3\". And a lot of people really appreciate the ability to do that.\r\n\r\n### Concept Shots\r\nI've prepared some concept shots to show that:\r\n\r\n![Surface Book - 1 (24)](https://user-images.githubusercontent.com/54409865/81105312-2f6a0900-8f2d-11ea-89be-db96ea9445ea.png)\r\n\r\nIn the image above, a single window is opened. When the user wants open another window, they would need to click the start button or hit the start key on the keyboard. The Start Menu would be replaced with Power Run. The user would be able to select the desired app by typing it's name and selecting one of the results by using the arrow keys. Or just type the name and hit enter\r\n\r\n![Surface Book - 3 (9)](https://user-images.githubusercontent.com/54409865/81105842-07c77080-8f2e-11ea-9275-3cc5536915f8.png)\r\n![Surface Book - 2 (17)](https://user-images.githubusercontent.com/54409865/81105857-0d24bb00-8f2e-11ea-9ad8-ed2addcef7b6.png)\r\n\r\nAnd when more than two apps are opened:\r\n![Surface Book - 4 (4)](https://user-images.githubusercontent.com/54409865/81105885-1ada4080-8f2e-11ea-8985-545e3fc7ceb6.png)\r\n\r\nAnd when more than three apps are opened, the third app would be resized to half of it's size and the fourth window would appear in the empty space created by the third app. \r\n\r\nThere are better explanations of tiling window managers (than what I've done here) online\r\n\r\n### Conclusion\r\nThe window tiling feature is inspired by some window managers in Linux (like i",
-      "url": "https://github.com/microsoft/PowerToys/issues/2694",
-      "created_at": "2020-05-05T19:25:42Z",
+      "source": "stackexchange",
+      "title": "Can the Pyramid framework be run on a CGI server",
+      "text": [
+        "python",
+        "cgi",
+        "pyramid"
+      ],
+      "url": "https://stackoverflow.com/q/29551646",
+      "created_at": "1428627839",
       "meta": {
-        "repo": "microsoft/PowerToys",
-        "comments": 48,
-        "reactions": 246
+        "site": "stackoverflow",
+        "score": 3,
+        "answers": 2,
+        "tags": [
+          "python",
+          "cgi",
+          "pyramid"
+        ]
+      }
+    },
+    {
+      "source": "stackexchange",
+      "title": "I do not find Git Version Control interface in my CPanel. Need it badly for auto deployment",
+      "text": [
+        "git",
+        "cpanel"
+      ],
+      "url": "https://stackoverflow.com/q/56337823",
+      "created_at": "1559031322",
+      "meta": {
+        "site": "stackoverflow",
+        "score": 0,
+        "answers": 0,
+        "tags": [
+          "git",
+          "cpanel"
+        ]
+      }
+    },
+    {
+      "source": "stackexchange",
+      "title": "I used Office Web Components (OWC), what now?",
+      "text": [
+        "oledb",
+        "office-web-components"
+      ],
+      "url": "https://stackoverflow.com/q/5582800",
+      "created_at": "1302186901",
+      "meta": {
+        "site": "stackoverflow",
+        "score": 3,
+        "answers": 0,
+        "tags": [
+          "oledb",
+          "office-web-components"
+        ]
+      }
+    },
+    {
+      "source": "stackexchange",
+      "title": "ERP/CRM Systems. Desktop Based? Web based?",
+      "text": [
+        "cloud-computing",
+        "user-interface"
+      ],
+      "url": "https://softwareengineering.com/q/57554",
+      "created_at": "1300028723",
+      "meta": {
+        "site": "softwareengineering",
+        "score": 2,
+        "answers": 5,
+        "tags": [
+          "cloud-computing",
+          "user-interface"
+        ]
+      }
+    },
+    {
+      "source": "stackexchange",
+      "title": "As developers is it our job to report issues if no one else in the org seems to care?",
+      "text": [
+        "web-development",
+        "business"
+      ],
+      "url": "https://softwareengineering.com/q/40614",
+      "created_at": "1296154859",
+      "meta": {
+        "site": "softwareengineering",
+        "score": 18,
+        "answers": 11,
+        "tags": [
+          "web-development",
+          "business"
+        ]
+      }
+    },
+    {
+      "source": "stackexchange",
+      "title": "How to track external media (binaries) that multiple engineers will update?",
+      "text": [
+        "distributed-system",
+        "packages",
+        "binary"
+      ],
+      "url": "https://softwareengineering.com/q/456225",
+      "created_at": "1735846069",
+      "meta": {
+        "site": "softwareengineering",
+        "score": 2,
+        "answers": 1,
+        "tags": [
+          "distributed-system",
+          "packages",
+          "binary"
+        ]
+      }
+    },
+    {
+      "source": "stackexchange",
+      "title": "Discuss new role in my first review",
+      "text": [
+        "software-industry",
+        "career-development",
+        "performance-reviews"
+      ],
+      "url": "https://workplace.com/q/77648",
+      "created_at": "1476304338",
+      "meta": {
+        "site": "workplace",
+        "score": 6,
+        "answers": 3,
+        "tags": [
+          "software-industry",
+          "career-development",
+          "performance-reviews"
+        ]
+      }
+    },
+    {
+      "source": "stackexchange",
+      "title": "Dealing with a toxic mentor",
+      "text": [
+        "teamleader",
+        "mentoring",
+        "toxic-culture"
+      ],
+      "url": "https://workplace.com/q/191214",
+      "created_at": "1682845005",
+      "meta": {
+        "site": "workplace",
+        "score": 2,
+        "answers": 4,
+        "tags": [
+          "teamleader",
+          "mentoring",
+          "toxic-culture"
+        ]
+      }
+    },
+    {
+      "source": "stackexchange",
+      "title": "Best way to ask for a raise in my situation? Any advice aside from that also welcome",
+      "text": [
+        "salary",
+        "project-management",
+        "raise"
+      ],
+      "url": "https://workplace.com/q/56080",
+      "created_at": "1445038386",
+      "meta": {
+        "site": "workplace",
+        "score": 2,
+        "answers": 3,
+        "tags": [
+          "salary",
+          "project-management",
+          "raise"
+        ]
+      }
+    },
+    {
+      "source": "stackexchange",
+      "title": "How does Apple Pay work? Why is Apple's intercession necessary?",
+      "text": [
+        "credit-card",
+        "visa",
+        "mastercard",
+        "american-express"
+      ],
+      "url": "https://money.com/q/69354",
+      "created_at": "1470807962",
+      "meta": {
+        "site": "money",
+        "score": 4,
+        "answers": 3,
+        "tags": [
+          "credit-card",
+          "visa",
+          "mastercard",
+          "american-express"
+        ]
       }
     },
     {
       "source": "appstore",
-      "title": "..",
-      "text": "Mi app está dando error se sale solo de la app y no me deja hacer nada",
+      "title": "Problema con la aplicación",
+      "text": "Se me apaga el teléfono cuando estoy en videollamada",
       "url": "",
-      "created_at": "2026-08-02T07:13:30-07:00",
+      "created_at": "2026-08-02T21:24:41-07:00",
       "meta": {
         "rating": 1,
-        "author": "Duran…."
+        "author": "AE1888",
+        "appId": "310633997"
       }
     },
     {
       "source": "appstore",
-      "title": "Ça aide",
-      "text": "Très bonne application",
+      "title": "Problemas",
+      "text": "Se apaga el teléfono cuando estoy en videollamada",
       "url": "",
-      "created_at": "2026-08-02T06:39:47-07:00",
+      "created_at": "2026-08-02T21:16:48-07:00",
+      "meta": {
+        "rating": 1,
+        "author": "FQ2288",
+        "appId": "310633997"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "Merci",
+      "text": "Merci",
+      "url": "",
+      "created_at": "2026-08-02T20:50:18-07:00",
       "meta": {
         "rating": 5,
-        "author": "Camara cheik"
+        "author": "Yohan_Ah",
+        "appId": "310633997"
       }
     },
     {
       "source": "appstore",
-      "title": "Missing feature",
-      "text": "Everyone I know has the new feature that allows you add a second account (second phone number) on the same phone and switch back and forth. WhatsApp has been taunting me, sending me messages about this feature but I have no way to add it (no plus sign next to my name) and the AI support helpbot has been useless. Please add this for everyone!",
+      "title": "Buena app",
+      "text": "Recomendación",
       "url": "",
-      "created_at": "2026-08-02T06:24:16-07:00",
-      "meta": {
-        "rating": 1,
-        "author": "Frustrated and filledwithrage"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "Fraud",
-      "text": "Not enough security on WhatsApp to to secure a person identity",
-      "url": "",
-      "created_at": "2026-08-02T06:23:04-07:00",
-      "meta": {
-        "rating": 1,
-        "author": "Jmoney1995"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "I Love It",
-      "text": "Awesome",
-      "url": "",
-      "created_at": "2026-08-02T05:36:13-07:00",
+      "created_at": "2026-08-02T20:40:30-07:00",
       "meta": {
         "rating": 5,
-        "author": "John881944"
+        "author": "Danigrua",
+        "appId": "310633997"
       }
     },
     {
       "source": "appstore",
-      "title": "Too many unnecessary restrictions",
-      "text": "It’s a very useless app you will get logged out for just texting someone or family members worst app ever I think signal is better and preferred thank you",
+      "title": "I like to make life",
+      "text": "1000%",
       "url": "",
-      "created_at": "2026-08-02T05:34:02-07:00",
-      "meta": {
-        "rating": 1,
-        "author": "sam promzy"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "لدي مشكلة",
-      "text": "تم تسجيل الخروج من حسابي وتظهر رسالة لم يعد رقم هاتفي مسجلا في واتساب على هذا الهاتف ما الحل كيف اتواصل مع الدعم؟",
-      "url": "",
-      "created_at": "2026-08-02T05:32:34-07:00",
-      "meta": {
-        "rating": 4,
-        "author": "kane99995"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "ok",
-      "text": "OK",
-      "url": "",
-      "created_at": "2026-08-02T01:20:44-07:00",
+      "created_at": "2026-08-02T19:26:06-07:00",
       "meta": {
         "rating": 5,
-        "author": "yi jinyispeaker"
+        "author": "Bloveshrestha",
+        "appId": "310633997"
       }
     },
     {
       "source": "appstore",
-      "title": "أبو أمنة",
-      "text": "الحمدلله",
+      "title": "Too many scammers and catfishers",
+      "text": "Without a doubt, WhatsApp is one of the worst apps online as there are too many scammers and cat fishers. Facts.",
       "url": "",
-      "created_at": "2026-08-02T00:39:53-07:00",
+      "created_at": "2026-08-02T19:14:39-07:00",
+      "meta": {
+        "rating": 1,
+        "author": "charlie yankee 14",
+        "appId": "310633997"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "What app is not letting me download the app on my iPhone I am having trouble with what app.",
+      "text": "Cheri Caudle",
+      "url": "",
+      "created_at": "2026-08-02T19:12:46-07:00",
       "meta": {
         "rating": 5,
-        "author": "عمران كمال الفكي عمران"
+        "author": "Cheri Caudle.",
+        "appId": "310633997"
       }
     },
     {
       "source": "appstore",
-      "title": "Account on review again very unhappy and unsatisfied with WhatsApp this days",
-      "text": "Kindly unbanned my account I did not violate the rules of WhatsApp,I woke up this morning to see my account is under review again please",
+      "title": "Spying and selling your information",
+      "text": "WhatsApp is actually spitting on everything you type and talk about. They are selling this information to the companies that pay for their data centers. Good luck. There is no privacy. So why don't you just try throw the privacy b s out the window. It is useless. Everyone knows that you are selling out information!!! GTH!",
       "url": "",
-      "created_at": "2026-08-02T00:19:37-07:00",
+      "created_at": "2026-08-02T18:36:21-07:00",
       "meta": {
         "rating": 1,
-        "author": "Succe980"
+        "author": "CJH080808",
+        "appId": "310633997"
       }
     },
     {
       "source": "appstore",
-      "title": "Freezes",
-      "text": "With big group chats your app will freeze forever",
+      "title": "Es muy bueno whatsapp",
+      "text": "Gracias a ti puedo ablar a mis familiares",
       "url": "",
-      "created_at": "2026-08-01T23:57:55-07:00",
+      "created_at": "2026-08-02T18:18:53-07:00",
+      "meta": {
+        "rating": 5,
+        "author": "Ney mariachi",
+        "appId": "310633997"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "Tedious updates",
+      "text": "Every time WhatsApp has an “updated version” they send me a notification threatening me if I don’t update the app my account will be deactivated… why do I have to update the app to keep my account??? It’s ridiculous!",
+      "url": "",
+      "created_at": "2026-08-02T17:34:10-07:00",
       "meta": {
         "rating": 1,
-        "author": "UnHa 은하"
+        "author": "Shots76andem",
+        "appId": "310633997"
       }
     },
     {
       "source": "appstore",
-      "title": "CRITICAL HELP ASAP",
-      "text": "So I’m a daily user of WhatsApp and usually don’t have problems. \n\nToday I was sending some pictures from my SSD card to my contacts on WhatsApp desktop (MacBook) and I sent quite a lot. Maybe about 400-500 HD pictures to some friends. \n\nWhile I’m doing this, my WhatsApp from my phone (iPhone 15 pro max) breaks. It scans my face, enters the app, but the UI stays frozen in the home page of my messages. \n\nNow, I’ve been able to press a chatroom or an icon for a split second (less than a second as the app opens) but then it freezes again permanently. \nInterestingly enough, I still get notifications when I’m outside the app (while using my phone for other stuff) as if it’s running properly, but once again, if I go back to WhatsApp, it scans my face, and then the UI freezes. \n\nI tried (from the ones I remember) \n- restarting my phone \n- force quitting the app from my most recent used apps\n- offloading the app and reinstalling it \n- toggling on and off background app refresh\n- checking for any WhatsApp updates \n- opening the app in airplane mode \n- changing to internet\n- leaving my WhatsApp phone app open to see if it syncs with the new messages I sent from my laptop \n- deleted in WhatsApp desktop all the picture data (the ones I’ve sent from my desktop) from my side of the chats to see if it just lagged with the syncing, in order to stop my phone from syncing\n\n\nNothing seems to fix it. I don’t have my chats backed up so I refuse to delete it fully and reinstall it, but I have no idea when you guys will release a new update to see if it helps. \n\nI can still use WhatsApp desktop just fine, but it’s a matter of time when my laptop will ask me to reconnect my phone to it. \n\nFunnily enough, the phone UI freezes at the main page of WhatsApp, and even some of the chats are updated with the most recent messages I’ve sent in my laptop. \n\nI’m truly not sure what it could be, but please try to send a fix for this, even a tiny update to see if it can recalibrate my app. Please I’m b",
+      "title": "Nico",
+      "text": "Arellano",
       "url": "",
-      "created_at": "2026-08-01T23:55:43-07:00",
+      "created_at": "2026-08-02T17:16:05-07:00",
+      "meta": {
+        "rating": 5,
+        "author": "123niky",
+        "appId": "310633997"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "Spam Haven",
+      "text": "While I initially created a WhatsApp account for easy communication with friends and relatives in the United States while I was serving abroad, it initially worked fine. But, as time went on, I began to get more and more unsolicited messages from unknown entities, and nearly all of them were scams. In fact, one of these entities was able to rob me of over a half million dollars, and then simply disappeared.",
+      "url": "",
+      "created_at": "2026-08-02T17:00:43-07:00",
       "meta": {
         "rating": 2,
-        "author": "r.oline"
+        "author": "JPooch89",
+        "appId": "310633997"
       }
     },
     {
       "source": "appstore",
-      "title": "方便及时",
-      "text": "方便了你也方便了，我远在天涯，近在咫尺",
+      "title": "Am having problem with my WhatsApp",
+      "text": "Can u fix it",
       "url": "",
-      "created_at": "2026-08-01T23:43:31-07:00",
+      "created_at": "2026-08-02T16:04:52-07:00",
       "meta": {
         "rating": 5,
-        "author": "春风吹万物"
+        "author": "Mohawudu",
+        "appId": "310633997"
       }
     },
     {
       "source": "appstore",
-      "title": "Great but…",
-      "text": "I love the app but my concern on being restricted and sometimes banned for absolutely no reason, concerns me. I have been accused of spamming numerous times yet I never have. Speaking to bots is also annoying.",
+      "title": "PROBLEMAS CON LA APP",
+      "text": "Hace ya mas de 1 mes que WhatsApp me viene fallando, los mensajes no se envían, para subir un estado también se vuelve difícil, lo eh actualizado, eliminado y vuelto a instalar y no se soluciona, se está volviendo tedioso usar la app, por favor denme una solución\nActualización, desinstale la app y ahora ya no me\nFunciona para nada :(\nActualizacion: aun sigue sin funcionar no se que pasa con wssp en mi celular que no funciona",
       "url": "",
-      "created_at": "2026-08-01T22:21:49-07:00",
-      "meta": {
-        "rating": 5,
-        "author": "Sigidi-Ed"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "bad.",
-      "text": "My boyfriend and I and 5227 miles away. And I have to update this app every 10 calls. I call him everyday. Discraceful.",
-      "url": "",
-      "created_at": "2026-08-01T21:29:13-07:00",
+      "created_at": "2026-08-02T16:00:47-07:00",
       "meta": {
         "rating": 1,
-        "author": "zarina iman"
+        "author": "Freed Andersson",
+        "appId": "310633997"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "Video calls",
+      "text": "Video calls are a hit or miss sometimes it works sometimes it doesn’t",
+      "url": "",
+      "created_at": "2026-08-02T15:51:02-07:00",
+      "meta": {
+        "rating": 3,
+        "author": "libradontscales",
+        "appId": "310633997"
       }
     }
   ],
   "opportunities": [
     {
-      "theme": "Personal Photo/Video Archival Automation",
-      "pain": "Parents and creators juggle 3-5 manual backup silos (local, USB, cloud, Flickr, YouTube) and crave a fully automated, multi-target pipeline that handles offline/tape, sharing, and cross-device viewing without ongoing effort.",
+      "theme": "Account Lockouts & Support Black Holes",
+      "pain": "Users get locked out of mission-critical accounts (email, cloud, crypto, hosting) with no human recourse, automated KYC flags, and support that cannot escalate or resolve.",
       "evidence": [
-        "I currently have 3 backups (computer, usb drive, and cloud backup through crash plan). I also use Flickr Pro which I guess is my 4th backup... I have some home videos on YouTube",
-        "boy I wish there was a fully automated way to do this that allowed sharing, lots of backups (even offline tape), and ability to collect and view videos and photos on all devices"
+        "\"I've been locked out of my Google Apps email for over 24 hrs due to 'suspicious activity'... Filled Contact Us form and spoke to customer support lady who is unfortunately clueless and cannot help me at all.\"",
+        "\"I've received an email from DigitalOcean... my account is locked and I cannot access anything but their ticketing service. I think this practice of lock first ask questions later is terrible.\"",
+        "\"Coinbase is at fault and they've violated their own terms of service... 'I simply do not have the ability to do that, I'm sorry. None of the admins do.'\"",
+        "\"Apple's customer support final response after more than a week... was they would not be able to replace the display even when my friend sent clear voice recordings of the service centre employees accepting their mistake.\""
       ],
       "sources": [
+        "hackernews",
+        "hackernews",
+        "hackernews",
         "hackernews"
       ],
-      "url": "https://news.ycombinator.com/item?id=21257276",
-      "suggested_solution": "A self-hosted 'Media Lifecycle Manager' (Docker/SBC) that watches a drop folder, deduplicates, transcodes, pushes to configurable targets (S3, Backblaze, NAS, LTO via LTFS), generates share links, and serves a PWA gallery — all configured via YAML.",
-      "monetization": "MIT core; $49 one-time for Pro config UI + tape/LTO plugin; $9/mo for hosted control plane (optional).",
-      "score": 85.0,
-      "buy_intent": false
+      "url": "https://news.ycombinator.com/item?id=6933360",
+      "suggested_solution": "AI-powered 'Account Guardian' WhatsApp bot that monitors login health, auto-drafts escalation emails with legal citations, and connects users to verified human advocates via a paid concierge tier.",
+      "monetization": "Freemium: free monitoring + $29/mo for instant escalation concierge; $199 one-time 'unlock my account' emergency fee.",
+      "score": 92.0,
+      "buy_intent": true,
+      "trend": "new",
+      "appearances": 1,
+      "market": {
+        "level": "medium",
+        "existing": [
+          "rawfilejson/ATM (★2)",
+          "Scarage1/go-login-cli (★1)",
+          "Marknet78/UsNow (★1)",
+          "emrgcl/MonitorAccountLockouts (★0)",
+          "Miguel-C-Cyber/it-support-home-lab (★0)",
+          "CalvinT57/it-support-incident-account-lockout-network-recovery (★0)"
+        ],
+        "links": [
+          "https://github.com/rawfilejson/ATM",
+          "https://github.com/Scarage1/go-login-cli",
+          "https://github.com/Marknet78/UsNow",
+          "https://github.com/emrgcl/MonitorAccountLockouts",
+          "https://github.com/Miguel-C-Cyber/it-support-home-lab",
+          "https://github.com/CalvinT57/it-support-incident-account-lockout-network-recovery"
+        ],
+        "hn_hits": 7,
+        "note": "'account lockouts support': 6 similar repo(s), 7 HN stories. Room to differentiate."
+      }
     },
     {
-      "theme": "OLED Subpixel Text Rendering (WRGB / QD-OLED)",
-      "pain": "Windows ClearType assumes RGB stripe; on WRGB-stripe WOLED and RGB-triangular QD-OLED monitors, text shows severe color fringing and chromatic aberration — no OS-level fix exists despite 800+ community upvotes.",
+      "theme": "WhatsApp Scam & Spam Flood",
+      "pain": "WhatsApp users face relentless scams, catfishing, and spam — one user lost $500k — with no built-in filtering, reporting that works, or privacy controls to stop unknown contacts.",
       "evidence": [
-        "ClearType alters anti-aliasing assuming an RGB stripe subpixel configuration. More WOLED (WRGB stripe) and QD-OLED (RGB triangular) monitors... have noticeable chromatic aberration/color fringing on edges of text",
-        "Over 100 upvotes in Feedback Hub"
+        "\"Without a doubt, WhatsApp is one of the worst apps online as there are too many scammers and cat fishers. Facts.\"",
+        "\"One of these entities was able to rob me of over a half million dollars, and then simply disappeared.\"",
+        "\"Too many scammers and catfishers... WhatsApp is actually spitting on everything you type and talk about. They are selling this information to the companies that pay for their data centers.\"",
+        "\"I began to get more and more unsolicited messages from unknown entities, and nearly all of them were scams.\""
       ],
       "sources": [
-        "github"
-      ],
-      "url": "https://github.com/microsoft/PowerToys/issues/25595",
-      "suggested_solution": "A 'Display Shaders' PowerToy module (HLSL/GLSL) that intercepts DWM composition, applies per-subpixel-layout shaders (WRGB, triangular, RWBG), and exposes a simple calibration wizard — packaged as a signed MSIX for easy install.",
-      "monetization": "Free open source; $19 one-time for pre-built signed installer + auto-update channel + priority shader presets for new panel types.",
-      "score": 82.0,
-      "buy_intent": false
-    },
-    {
-      "theme": "WhatsApp Account Instability & Bans",
-      "pain": "Users experience sudden account bans, review loops, forced logouts, and app freezes — especially with large media transfers or group chats — losing access to critical communication with no human support.",
-      "evidence": [
-        "Kindly unbanned my account I did not violate the rules of WhatsApp,I woke up this morning to see my account is under review again please",
-        "While I'm doing this, my WhatsApp from my phone (iPhone 15 pro max) breaks. It scans my face, enters the app, but the UI stays frozen in the home page of my messages",
-        "It's a very useless app you will get logged out for just texting someone or family members worst app ever"
-      ],
-      "sources": [
+        "appstore",
         "appstore",
         "appstore",
         "appstore"
       ],
-      "url": "",
-      "suggested_solution": "A WhatsApp-compatible backup & recovery SaaS that continuously syncs chats/media to user-owned cloud storage (S3, Drive, R2) and provides a one-click restore + automated appeal generator when accounts are banned or frozen.",
-      "monetization": "Freemium: free local backup; $5/mo for cloud sync + auto-restore; $15/mo for priority appeal assistance and SLA.",
-      "score": 78.0,
-      "buy_intent": false
+      "url": "https://apps.apple.com/app/id310633997",
+      "suggested_solution": "WhatsApp Business API wrapper that adds AI spam/scam detection, auto-blocks known fraud patterns, and gives users a 'verified contacts only' mode with one-tap reporting to Meta.",
+      "monetization": "B2C: $4.99/mo per number; B2B: $0.01 per screened message for agencies managing client WhatsApp.",
+      "score": 88.0,
+      "buy_intent": true,
+      "trend": "new",
+      "appearances": 1,
+      "market": {
+        "level": "medium",
+        "existing": [
+          "NishNishendanidu/mtroid-bot (★113)",
+          "salhabheba-cyber/Haq (★2)",
+          "Mjraj16/whatsappScam (★1)",
+          "lsuarezj/SpamWhatsappScamer (★0)",
+          "Sachit-Timane/Whatsapp-spam-detector-bot-ML (★0)",
+          "ftjagadeesh72-rgb/GuardWave-AI-Powered-Social-Media-Spam-Fake-ID-Detection-System (★0)"
+        ],
+        "links": [
+          "https://github.com/NishNishendanidu/mtroid-bot",
+          "https://github.com/salhabheba-cyber/Haq",
+          "https://github.com/Mjraj16/whatsappScam",
+          "https://github.com/lsuarezj/SpamWhatsappScamer",
+          "https://github.com/Sachit-Timane/Whatsapp-spam-detector-bot-ML",
+          "https://github.com/ftjagadeesh72-rgb/GuardWave-AI-Powered-Social-Media-Spam-Fake-ID-Detection-System"
+        ],
+        "hn_hits": 3,
+        "note": "'whatsapp scam spam': 6 similar repo(s), 3 HN stories. Room to differentiate."
+      }
     },
     {
-      "theme": "Email Client Fragmentation & Large-Mailbox Performance",
-      "pain": "Power users with 10+ GB mailboxes suffer corruption, slowness, and CPU bloat in Outlook; Thunderbird workflow gaps; Apple Mail instability — no client handles massive archives, keyboard-centric workflows, and cross-platform sync reliably.",
+      "theme": "Forced Updates & Platform Hostage-Taking",
+      "pain": "Apps threaten account deactivation if users don't update immediately; platforms (Adobe, Protonmail, Apple) make leaving or downgrading deliberately hard, trapping paying customers.",
       "evidence": [
-        "Outlook, gets better with each release, cannot handle my 12GB of mail at all, lots of continual corruption. Seems very bloated in CPU and RAM consumption",
-        "Thunderbird doesn't work well for my work flow",
-        "Apple Mail is OK, more polished than it used to be but I find it slow and unstable with large amounts of Mail"
+        "\"Every time WhatsApp has an 'updated version' they send me a notification threatening me if I don't update the app my account will be deactivated… why do I have to update the app to keep my account???\"",
+        "\"After removing domains and users from protonmail, the subscription was telling me I could NOT downgrade because I was over the 1GB limit.\"",
+        "\"Adobe has sort of a monopoly... nobody seriously considers an alternative... would rather appreciate an intuitive UI, cheaper price, and friendlier customer support.\"",
+        "\"I do not want to pay another dime to Apple for such pathetic treatment even under warranty.\""
       ],
       "sources": [
+        "appstore",
+        "hackernews",
+        "hackernews",
         "hackernews"
       ],
-      "url": "https://news.ycombinator.com/item?id=4603099",
-      "suggested_solution": "A local-first, SQLite/ RocksDB-backed email client (Tauri + Rust) with virtualized list rendering, JMAP/IMAP sync engine, keyboard-driven triage, and pluggable AI classifiers — designed for 50 GB+ mailboxes.",
-      "monetization": "Free community build; $79 perpetual license for pro features (AI search, custom rules, team shared tags); $12/seat/yr for managed sync relay.",
+      "url": "https://news.ycombinator.com/item?id=33852218",
+      "suggested_solution": "Cross-platform 'Digital Freedom' dashboard that auto-backups WhatsApp/Proton/Adobe data, simulates legacy API versions to delay forced updates, and one-click exports to open alternatives.",
+      "monetization": "Subscription $9.99/mo for individuals; $49/mo per seat for teams needing compliance-grade exports.",
+      "score": 81.0,
+      "buy_intent": true,
+      "trend": "new",
+      "appearances": 1,
+      "market": {
+        "level": "medium",
+        "existing": [
+          "amir2510/script (★18)",
+          "shulikhatun/Digital-marketing (★1)",
+          "Chetan-KH511/ProcureOps (★0)",
+          "Rajkumarb7/MIST-Portal (★0)"
+        ],
+        "links": [
+          "https://github.com/amir2510/script",
+          "https://github.com/shulikhatun/Digital-marketing",
+          "https://github.com/Chetan-KH511/ProcureOps",
+          "https://github.com/Rajkumarb7/MIST-Portal"
+        ],
+        "hn_hits": 22,
+        "note": "'forced updates platform': 4 similar repo(s), 22 HN stories. Room to differentiate."
+      }
+    },
+    {
+      "theme": "No Viable Alternatives to Monopoly Creative Tools",
+      "pain": "Independent creators need 40% of Adobe's features at a fair price with decent support, but no competitor delivers a stable, professional-grade subset — GIMP/Pixelmator/OpenShot fall short.",
+      "evidence": [
+        "\"There are more and more small (independent) creators... who do not need all the uber features... would rather appreciate an intuitive UI, cheaper price, and friendlier customer support.\"",
+        "\"I tried using Pixelmator (non-free), GIMP, OpenShot... left out with either free iMovie/Quick, which are too basic or a super-expensive Premiere.\"",
+        "\"Adobe has sort of a monopoly on the creative tools market. Nobody seriously considers an alternative... why nobody dares to compete with them.\"",
+        "\"My experience was quite terrible. I was also looking for a simple software to stitch together my GoPro videos but was left out with either free iMovie/Quick, which are too basic or a super-expensive Premiere.\""
+      ],
+      "sources": [
+        "hackernews",
+        "hackernews",
+        "hackernews",
+        "hackernews"
+      ],
+      "url": "https://news.ycombinator.com/item?id=16694382",
+      "suggested_solution": "AI-assisted 'Creative Lite' suite: browser-based video/photo editor with 40% of pro features, trained on open datasets, $15/mo, plugin API for community extensions.",
+      "monetization": "$15/mo per seat; marketplace takes 15% on community plugins/templates.",
+      "score": 79.0,
+      "buy_intent": true,
+      "trend": "new",
+      "appearances": 1
+    },
+    {
+      "theme": "Unreliable Core Comms (Video Calls & Messaging)",
+      "pain": "WhatsApp video calls randomly fail, messages don't send, status updates break — core features are flaky for months despite reinstalls, destroying trust in the primary communication channel.",
+      "evidence": [
+        "\"Se me apaga el teléfono cuando estoy en videollamada\" (phone shuts down during video calls) — 2 separate 1-star reviews.",
+        "\"Video calls are a hit or miss sometimes it works sometimes it doesn't.\"",
+        "\"Hace ya mas de 1 mes que WhatsApp me viene fallando, los mensajes no se envían, para subir un estado también se vuelve difícil... Actualizacion: aun sigue sin funcionar.\"",
+        "\"Problemas con la aplicación... Se apaga el teléfono cuando estoy en videollamada.\""
+      ],
+      "sources": [
+        "appstore",
+        "appstore",
+        "appstore",
+        "appstore"
+      ],
+      "url": "https://apps.apple.com/app/id310633997",
+      "suggested_solution": "Lightweight WhatsApp Web companion that routes calls via WebRTC with fallback relays, auto-retries failed messages, and surfaces diagnostic logs users can send to support.",
+      "monetization": "Free core; $2.99/mo for 'Reliability Plus' with priority relay servers and SLA-backed uptime.",
       "score": 76.0,
-      "buy_intent": false
+      "buy_intent": false,
+      "trend": "new",
+      "appearances": 1
     },
     {
-      "theme": "WhatsApp Missing Dual-Account / Multi-Number Support",
-      "pain": "Users with dual-SIM phones or personal/work separation cannot add a second WhatsApp account on the same device despite the feature existing for others; WhatsApp's rollout is opaque and support bots are useless.",
+      "theme": "Privacy Violations & Data Monetization Without Consent",
+      "pain": "Users believe WhatsApp and router vendors (Nest, etc.) sell conversation metadata and network traffic to advertisers, with no transparency or opt-out.",
       "evidence": [
-        "Everyone I know has the new feature that allows you add a second account (second phone number) on the same phone and switch back and forth. WhatsApp has been taunting me, sending me messages about this feature but I have no way to add it",
-        "no plus sign next to my name and the AI support helpbot has been useless"
+        "\"WhatsApp is actually spitting on everything you type and talk about. They are selling this information to the companies that pay for their data centers.\"",
+        "\"Routers are starting to require logins and subscriptions. I have privacy concerns about those options, so no on Nest.\"",
+        "\"I'm not really comfortable sending as much personal info as my drivers license contains... especially over unencrypted email, and when this requirement wasn't mentioned before listing my space.\" (Airbnb KYC)",
+        "\"There is no privacy. So why don't you just try throw the privacy b s out the window. It is useless.\""
       ],
       "sources": [
         "appstore",
+        "hackernews",
+        "hackernews",
         "appstore"
       ],
-      "url": "",
-      "suggested_solution": "A lightweight WhatsApp Web wrapper (Electron/Tauri) that runs multiple isolated browser contexts, each logged into a different account, with a native menubar switcher and local notification relay — no official API needed.",
-      "monetization": "One-time $29 license (solo dev) or $3/mo subscription for auto-updates and multi-device sync.",
-      "score": 72.0,
-      "buy_intent": false
-    },
-    {
-      "theme": "Cloud-Native Address Book with Sharing & Offline Sync",
-      "pain": "Contacts remain trapped in OS silos (iCloud, Google, Outlook) with poor UIs, no family sharing, no offline Linux/mobile clients, and no web-import standard (vCard/hCard) for one-click capture from websites.",
-      "evidence": [
-        "All my info lives happily in the cloud- notes, to-do lists, documents, photos, music - except for my darn addressbook",
-        "Google Contacts is not a decent UI",
-        "A way of sharing items with family members (so only one spouse has to enter the number of the plumber)"
-      ],
-      "sources": [
-        "hackernews"
-      ],
-      "url": "https://news.ycombinator.com/item?id=754175",
-      "suggested_solution": "A CardDAV/CalDAV server (Rust + SQLite) with a React/PWA admin, WebDAV sync, family groups with granular ACLs, and a browser extension that detects hCard/vCard on any page and offers one-click import.",
-      "monetization": "Self-hosted free; $3/mo per family for hosted instance with automatic backups, PWA push, and the browser extension.",
-      "score": 70.0,
-      "buy_intent": false
+      "url": "https://news.ycombinator.com/item?id=29082526",
+      "suggested_solution": "Open-source 'Privacy Firewall' WhatsApp proxy + router firmware that strips metadata, blocks telemetry, and generates GDPR/CCPA deletion requests automatically.",
+      "monetization": "Hardware: $149 pre-flashed router; SaaS: $5/mo per device for managed proxy + compliance reports.",
+      "score": 73.0,
+      "buy_intent": false,
+      "trend": "new",
+      "appearances": 1
     }
   ]
 }

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ScamShield AI — AI guardian that stops WhatsApp scams, spam, and catfishers before they reach you</title>
+<style>
+:root{--bg:#0b0f1a;--card:#131a2b;--acc:#6c5ce7;--acc2:#00cec9;--txt:#e8ecf4;--mut:#9aa5b8}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--txt);line-height:1.6}
+.hero{padding:72px 20px 48px;text-align:center;background:radial-gradient(ellipse at top,#1a2340 0%,var(--bg) 70%)}
+.badge{display:inline-block;padding:6px 14px;border-radius:999px;background:rgba(108,92,231,.15);color:#b3a8ff;font-size:13px;letter-spacing:.5px;margin-bottom:20px;border:1px solid rgba(108,92,231,.4)}
+h1{font-size:clamp(2rem,5vw,3.4rem);font-weight:800;letter-spacing:-.5px;margin-bottom:14px}
+.tag{font-size:clamp(1.05rem,2.5vw,1.35rem);color:var(--mut);max-width:640px;margin:0 auto 30px}
+.cta{display:inline-block;padding:15px 34px;border-radius:12px;background:linear-gradient(135deg,var(--acc),var(--acc2));color:#fff;font-weight:700;font-size:1.05rem;text-decoration:none;box-shadow:0 8px 30px rgba(108,92,231,.35);transition:transform .15s}
+.cta:hover{transform:translateY(-2px)}
+.container{max-width:960px;margin:0 auto;padding:32px 20px 80px}
+.section{margin-top:48px}
+h2{font-size:1.5rem;margin-bottom:18px;color:#fff}
+.card{background:var(--card);border:1px solid #1e2a45;border-radius:16px;padding:24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.grid .card{padding:18px}
+.grid .card strong{color:var(--acc2);font-size:1.05rem}
+ul{list-style:none}
+li{padding:8px 0 8px 26px;position:relative}
+li:before{content:"✓";position:absolute;left:0;color:var(--acc2)}
+.wa{border-left:4px solid #25d366;padding:20px 24px;border-radius:0 12px 12px 0;background:rgba(37,211,102,.06)}
+code{background:#0d1526;padding:2px 8px;border-radius:6px;font-size:.92em;color:#8be9fd}
+.pricing{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.pricing .price{font-size:2.2rem;font-weight:800;color:var(--acc2)}
+.foot{text-align:center;color:var(--mut);padding:32px;font-size:.85rem}
+@media(max-width:600px){.hero{padding:48px 16px 32px}}
+</style>
+</head>
+<body>
+<div class="hero">
+  <span class="badge">✨ AI-Powered · WhatsApp-First · No-Code</span>
+  <h1>Stop WhatsApp Scams Before They Cost You</h1>
+  <p class="tag">AI guardian that screens unknown contacts, detects catfishers, and auto-filters spam — all inside WhatsApp.</p>
+  <a class="cta" href="#wa">Add ScamShield to WhatsApp Free</a>
+</div>
+<div class="container">
+  <div class="section">
+    <h2>The problem</h2>
+    <div class="card"><p>WhatsApp users are flooded with scams, catfishing, and spam from unknown contacts, with no effective filtering, reporting, or privacy controls — leading to financial losses up to $500k.</p></div>
+  </div>
+  <div class="section">
+    <h2>The solution</h2>
+    <div class="card"><p>A WhatsApp-native AI bot that screens unknown senders, analyzes messages for scam patterns in real-time, and gives users granular privacy controls to block, report, and auto-filter threats without leaving the app.</p></div>
+  </div>
+  <div class="section">
+    <h2>What you get</h2>
+    <div class="card"><ul><li>Forward any suspicious message → instant AI verdict: scam, spam, or safe</li><li>Auto-challenge unknown senders with verification questions before they reach you</li><li>Block investment scams, romance catfish, phishing links, and fake job offers in real-time</li><li>One-tap reporting to WhatsApp &amp; authorities with evidence package</li><li>Privacy dashboard: control who sees your profile, adds you to groups, messages you</li></ul></div>
+  </div>
+  <div class="section">
+    <h2>Features (v1)</h2>
+    <div class="card"><ul><li>Real-time scam detection on forwarded messages using AI (LLM + heuristic rules)</li><li>Unknown contact screening: auto-reply with verification challenge before delivering to user</li><li>Group protection: bot monitors groups for suspicious links, impersonation, investment scams</li><li>Privacy dashboard: control who can message, see profile, add to groups via simple commands</li><li>One-tap reporting: forward to bot, it files report with WhatsApp and authorities</li><li>Scam database: community-sourced known scam numbers, patterns, updated daily</li><li>Link sandbox: auto-expand and analyze shortened URLs for phishing/malware</li><li>Catfish detection: reverse image search on profile pics, consistency checks</li></ul></div>
+  </div>
+  <div class="section">
+    <h2>Tech stack</h2>
+    <div class="card" style="display:flex;flex-wrap:wrap;gap:8px"><code>Node.js/TypeScript with Fastify</code> <code>WhatsApp Business API via Twilio</code> <code>OpenAI GPT-4o for classification</code> <code>PostgreSQL (Supabase) for user data and logs</code> <code>Redis + BullMQ for async job queue</code> <code>Railway for hosting</code> <code>Next.js for admin dashboard</code> <code>Sentry for error monitoring</code></div>
+  </div>
+  <div class="section">
+    <h2>Competitors &amp; the gap</h2>
+    <div class="grid"><div class="card"><strong>Truecaller</strong><p style="margin-top:8px;color:var(--mut)">Gap: Focuses on calls/SMS, not WhatsApp; no AI scam analysis for WhatsApp messages</p></div><div class="card"><strong>WhatsApp built-in reporting</strong><p style="margin-top:8px;color:var(--mut)">Gap: Slow, no feedback, no proactive filtering, no privacy controls</p></div><div class="card"><strong>Android spam blocker apps</strong><p style="margin-top:8px;color:var(--mut)">Gap: Require notification access, don&#x27;t work on iOS, no AI analysis</p></div><div class="card"><strong>Meta Privacy Checkup</strong><p style="margin-top:8px;color:var(--mut)">Gap: Educational only, no automation, no real-time protection</p></div></div>
+  </div>
+  <div class="section" id="wa">
+    <h2>Try it on WhatsApp</h2>
+    <div class="card wa">
+      <p><strong>How it works:</strong> User adds bot contact → sends &#x27;START&#x27; → bot explains commands → user forwards suspicious messages → bot replies with analysis + action buttons → user manages privacy via chat commands.</p>
+      <p style="margin-top:12px"><strong>Commands:</strong> <code>SCAN &lt;forwarded message&gt;</code> <code>BLOCK &lt;number&gt;</code> <code>ALLOW &lt;number&gt;</code> <code>PRIVACY</code> <code>REPORT &lt;number&gt;</code> <code>SETTINGS</code> <code>HELP</code></p>
+    </div>
+  </div>
+  <div class="section">
+    <h2>Pricing</h2>
+    <div class="card pricing"><span class="price">Freemium SaaS: $4.99/mo Pro, $39/yr, lifetime $99. Free tier: 10 AI scans/day, basic blocking.</span></div>
+  </div>
+</div>
+<div class="foot">Generated by PainScout · MVP in ~21 days · Built by a vibe coder for people with real problems</div>
+</body>
+</html>
