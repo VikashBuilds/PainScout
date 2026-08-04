@@ -42,9 +42,18 @@ jobs:
           NIM_MODEL: ${{ secrets.NIM_MODEL || 'nvidia/nemotron-3-ultra-550b-a55b' }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          PAINSCOUT_QUERY: ${{ inputs.query || 'wish there was a way to automate' }}
+          # Optional repo variables (set in Settings → Secrets and variables → Actions):
+          PAINSCOUT_QUERY_BANK: ${{ vars.PAINSCOUT_QUERY_BANK }}
+          PAINSCOUT_WATCH_APPS: ${{ vars.PAINSCOUT_WATCH_APPS }}
+          PAINSCOUT_QUERY: ${{ inputs.query || '' }}
         run: |
-          painscout --telegram --brief --brief-top 3
+          if [ -n "$PAINSCOUT_QUERY" ]; then
+            painscout --telegram --brief --brief-top 3 -q "$PAINSCOUT_QUERY"
+          else
+            # Rotate through the niche bank so each night explores a new vertical
+            # (dedup + 30-day trends + competition check run automatically).
+            painscout --telegram --brief --brief-top 3 --rotate
+          fi
 
       - name: Commit report
         if: always()

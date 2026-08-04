@@ -32,7 +32,10 @@ def render_markdown(report: Report, analyzer_mode: str) -> str:
     lines.append(f"## 🎯 Top {len(report.opportunities)} Opportunities")
     lines.append("")
     for i, opp in enumerate(report.opportunities, 1):
-        lines.append(f"### {i}. [{opp.score:.0f}/100] {opp.theme}")
+        head = f"### {i}. [{opp.score:.0f}/100] {opp.theme}"
+        if opp.trend:
+            head += f"  · 🔺 {opp.trend}"
+        lines.append(head)
         lines.append("")
         lines.append(f"**The pain:** {opp.pain}")
         lines.append("")
@@ -45,6 +48,14 @@ def render_markdown(report: Report, analyzer_mode: str) -> str:
         lines.append(f"**AI solution to build:** {opp.suggested_solution}")
         lines.append("")
         lines.append(f"**How to charge:** {opp.monetization}")
+        if opp.market:
+            mk = opp.market
+            lines.append("")
+            lines.append(f"**Competition:** {mk.get('level', 'unknown').upper()}")
+            if mk.get("existing"):
+                lines.append("- " + "\n- ".join(str(x) for x in mk["existing"][:5]))
+            if mk.get("note"):
+                lines.append(f"  ({mk['note']})")
         lines.append("")
 
     lines.append("---")

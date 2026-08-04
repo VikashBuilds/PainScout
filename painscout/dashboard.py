@@ -54,6 +54,14 @@ main{max-width:1100px;margin:0 auto;padding:24px}
 .ev{margin-top:10px;font-size:.85rem;color:var(--mut)}
 .ev li{margin-left:20px;margin-top:4px}
 a{color:var(--acc2)}
+.trend{display:inline-block;background:rgba(255,165,0,.12);color:#ffb347;border:1px solid rgba(255,165,0,.4);padding:3px 10px;border-radius:999px;font-size:.75rem;font-weight:700;margin-left:8px;vertical-align:middle}
+.mk{display:inline-block;background:rgba(231,76,60,.1);color:#ff8a80;border:1px solid rgba(231,76,60,.35);padding:2px 8px;border-radius:999px;font-size:.7rem;margin-left:6px}
+.mk.low{background:rgba(46,204,113,.1);color:var(--good);border-color:rgba(46,204,113,.35)}
+.mk.medium{background:rgba(255,165,0,.1);color:#ffb347;border-color:rgba(255,165,0,.35)}
+.tbl{width:100%;border-collapse:collapse;font-size:.85rem;margin:10px 0 24px}
+.tbl th,.tbl td{border:1px solid var(--line);padding:8px 10px;text-align:left}
+.tbl th{color:var(--mut);font-weight:600}
+.hist{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;margin-bottom:20px}
 .brief{display:inline-block;margin-top:10px;font-size:.85rem;border:1px solid var(--line);padding:6px 12px;border-radius:8px;text-decoration:none}
 .empty{text-align:center;color:var(--mut);padding:60px 0}
 footer{padding:24px;text-align:center;color:var(--mut);font-size:.8rem}
@@ -71,7 +79,9 @@ footer{padding:24px;text-align:center;color:var(--mut);font-size:.8rem}
   <select id="sort"><option value="score">Sort: score</option><option value="pain">Sort: pain (asc)</option><option value="evidence">Sort: evidence count</option></select>
   <button onclick="applyFilters()">Filter</button>
   <button onclick="exportCsv()">⬇ CSV</button>
+  <button onclick="exportTrendsCsv()">📈 Trends CSV</button>
 </div>
+<div class="hist" id="hist"></div>
 <main id="list"></main>
 <footer>PainScout — complaints → validated, launch-ready AI products</footer>
 <script>
@@ -79,6 +89,8 @@ let data = {opportunities: [], pain_points: []};
 async function load() {
   const r = await fetch('/api/report');
   data = await r.json();
+  const rh = await fetch('/api/history');
+  if (rh.ok) { const h = await rh.json(); window.__hist = h; renderHistory(h); }
   const srcs = [...new Set(data.pain_points.map(p => p.source))].sort();
   const sel = document.getElementById('src');
   srcs.forEach(s => { const o = document.createElement('option'); o.value = s; o.textContent = s; sel.appendChild(o); });
@@ -111,7 +123,7 @@ function applyFilters() {
     <div class="opp">
       <div class="opp-top">
         <div>
-          <h2>${o.buy_intent ? '<span class="buy">💰 BUY INTENT</span>' : ''} ${esc(o.theme)}</h2>
+          <h2>${o.buy_intent ? '<span class="buy">💰 BUY INTENT</span>' : ''} ${esc(o.theme)}${o.trend ? '<span class="trend">🔺 '+esc(o.trend)+'</span>' : ''}${o.market&&o.market.level ? '<span class="mk '+esc(o.market.level)+'">🕵️ '+esc(o.market.level)+'</span>' : ''}</h2>
           <div>${o.sources.map(s => `<span class="src">${esc(s)} · ${srcCounts[s]||0}</span>`).join('')}</div>
         </div>
         <div class="score">${o.score}</div>
@@ -132,6 +144,24 @@ function exportCsv() {
   const a = document.createElement('a');
   a.href = URL.createObjectURL(new Blob([csv], {type:'text/csv'}));
   a.download = 'painscout-opportunities.csv';
+  a.click();
+}
+function renderHistory(h) {
+  const el = document.getElementById('hist');
+  if (!h || !h.themes || !h.themes.length) { el.innerHTML = ''; return; }
+  const rows = h.themes.map(t =>
+    `<tr><td>${esc(t.theme)}</td><td>${esc(t.trend)}</td><td>${t.occurrences}</td><td>${t.scans}</td><td>${t.avg_score}</td></tr>`).join('');
+  el.innerHTML = `<h2 style="margin:0 0 6px">📈 30-day theme trends</h2>
+    <table class="tbl"><thead><tr><th>Theme</th><th>Trend</th><th>Appearances</th><th>Scans</th><th>Avg score</th></tr></thead><tbody>${rows}</tbody></table>`;
+}
+function exportTrendsCsv() {
+  if (!window.__hist || !window.__hist.themes) return;
+  const rows = [['theme','trend','occurrences','scans','avg_score','first_seen','last_seen','last7','prev7']];
+  window.__hist.themes.forEach(t => rows.push([t.theme, t.trend, t.occurrences, t.scans, t.avg_score, t.first_seen, t.last_seen, t.last7, t.prev7]));
+  const csv = rows.map(r => r.map(c => '"' + String(c).replace(/"/g,'""') + '"').join(',')).join('\\n');
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([csv], {type:'text/csv'}));
+  a.download = 'painscout-trends.csv';
   a.click();
 }
 load();
@@ -231,6 +261,16 @@ def serve(out_dir: Path, port: int = 8791, open_browser: bool = True) -> None:
             elif path == "/api/report":
                 report = _load_report(out_dir)
                 self._send(200, json.dumps(report.to_dict(), ensure_ascii=False).encode(), "application/json")
+            elif path == "/api/history":
+                hf = out_dir / "history.json"
+                body = hf.read_text(encoding="utf-8") if hf.exists() else "{}"
+                self._send(200, body.encode(), "application/json")
+            elif path == "/api/trends.csv":
+                cf = out_dir / "trends.csv"
+                if cf.exists():
+                    self._send(200, cf.read_bytes(), "text/csv")
+                else:
+                    self._send(404, b"no trends yet", "text/plain")
             elif path == "/api/export.csv":
                 report = _load_report(out_dir)
                 buf = io.StringIO()

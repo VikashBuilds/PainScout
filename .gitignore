@@ -14,6 +14,9 @@ htmlcov/
 # Env & secrets
 .env
 
+# Local SQLite history warehouse (not committed; history.json IS committed)
+reports/.history/
+
 # Reports are generated artifacts; keep latest in-repo for landing page
 reports/pain-report_*.md
 reports/pain-report_*.json

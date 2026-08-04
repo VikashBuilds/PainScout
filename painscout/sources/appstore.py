@@ -11,25 +11,50 @@ REVIEW_FEED = "https://itunes.apple.com/us/rss/customerreviews/page={page}/id={a
 class AppStoreSource(Source):
     name = "appstore"
 
+    def _ios_ids(self) -> list[dict]:
+        """App ids to scan: watch list (ios entries) or the legacy single id."""
+        from painscout.watch import parse_watch_apps
+
+        watched = [w for w in parse_watch_apps() if w["platform"] == "ios"]
+        if watched:
+            return watched
+        return [{"platform": "ios", "id": self.settings.appstore_app_id, "name": ""}]
+
     def fetch(self, query: str, limit: int) -> list[PainPoint]:
-        """Fetch recent reviews; low-star reviews are the pain points.
+        """Fetch recent reviews across watched iOS apps; low-star reviews are the pain points.
 
         The feed returns ~10 reviews per page regardless of `limit`,
-        so we pull pages until we have enough.
+        so we pull pages until we have enough per app.
         """
-        app_id = self.settings.appstore_app_id
         points: list[PainPoint] = []
-        page = 1
-        while len(points) < limit and page <= 5:
-            url = REVIEW_FEED.format(page=page, app_id=app_id)
-            with self._client() as client:
-                resp = client.get(url)
-                resp.raise_for_status()
-                batch = self._parse(resp.json())
-            if not batch:
+        for app in self._ios_ids():
+            if len(points) >= limit:
                 break
-            points.extend(batch)
-            page += 1
+            app_id = app["id"]
+            app_name = app.get("name") or ""
+            page = 1
+            while len(points) < limit and page <= 3:
+                url = REVIEW_FEED.format(page=page, app_id=app_id)
+                try:
+                    with self._client() as client:
+                        resp = client.get(url)
+                        resp.raise_for_status()
+                        batch = self._parse(resp.json())
+                except Exception:  # noqa: BLE001 — one app failing shouldn't kill the scan
+                    break
+                if not batch:
+                    break
+                for p in batch:
+                    if p.meta:
+                        p.meta["appId"] = app_id
+                        if app_name:
+                            p.meta["appName"] = app_name
+                    else:
+                        p.meta = {"appId": app_id, "appName": app_name}
+                points.extend(batch)
+                page += 1
+            if len(points) >= limit:
+                break
         return points[:limit]
 
     @staticmethod

@@ -1,6 +1,6 @@
 [project]
 name = "painscout"
-version = "0.1.0"
+version = "0.2.0"
 description = "Find customer pain points across Reddit, Hacker News and App Store reviews, then turn them into monetizable AI project ideas."
 readme = "README.md"
 requires-python = ">=3.11"

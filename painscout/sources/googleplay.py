@@ -22,25 +22,45 @@ DEFAULT_PACKAGE = "com.whatsapp"
 class GooglePlaySource(Source):
     name = "googleplay"
 
+    def _android_packages(self) -> list[dict]:
+        """Packages to scan: watch list (android entries) or the legacy single id."""
+        from painscout.watch import parse_watch_apps
+
+        watched = [w for w in parse_watch_apps() if w["platform"] == "android"]
+        if watched:
+            return watched
+        return [{"platform": "android", "id": self.settings.appstore_app_id or DEFAULT_PACKAGE, "name": ""}]
+
     def fetch(self, query: str, limit: int) -> list[PainPoint]:
-        package = self.settings.appstore_app_id if self.settings.appstore_app_id else DEFAULT_PACKAGE
-        # PAINSCOUT_APP_ID doubles as the Android package name for this source.
-        params = {
-            "reviewSortOrder": "NEWEST",
-            "pageNum": "0",
-            "id": package,
-            "reviewType": "1",
-            "xhr": "1",
-        }
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-            "X-Requested-With": "XMLHttpRequest",
-            "Referer": f"https://play.google.com/store/apps/details?id={package}&hl=en_US",
-        }
-        with httpx.Client(timeout=self.settings.timeout_seconds, headers=headers, follow_redirects=True) as client:
-            resp = client.post(REVIEW_URL, data=params)
-            resp.raise_for_status()
-            return self._parse(resp.text)
+        points: list[PainPoint] = []
+        for app in self._android_packages():
+            if len(points) >= limit:
+                break
+            package = app["id"]
+            app_name = app.get("name") or ""
+            params = {
+                "reviewSortOrder": "NEWEST",
+                "pageNum": "0",
+                "id": package,
+                "reviewType": "1",
+                "xhr": "1",
+            }
+            headers = {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+                "X-Requested-With": "XMLHttpRequest",
+                "Referer": f"https://play.google.com/store/apps/details?id={package}&hl=en_US",
+            }
+            try:
+                with httpx.Client(timeout=self.settings.timeout_seconds, headers=headers, follow_redirects=True) as client:
+                    resp = client.post(REVIEW_URL, data=params)
+                    resp.raise_for_status()
+                    batch = self._parse(resp.text)
+                for p in batch:
+                    p.meta = {**(p.meta or {}), "appId": package, "appName": app_name}
+                points.extend(batch)
+            except Exception:  # noqa: BLE001 — blocked/errored storefront shouldn't kill the scan
+                continue
+        return points[:limit]
 
     @staticmethod
     def _parse(raw: str) -> list[PainPoint]:

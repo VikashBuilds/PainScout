@@ -18,12 +18,14 @@ _STATIC_JS = """<script>
 let data = {opportunities: [], pain_points: []};
 let briefs = [];
 async function load() {
-  const [r1, r2] = await Promise.all([
+  const [r1, r2, r3] = await Promise.all([
     fetch('reports/latest.json').then(r => r.ok ? r.json() : null).catch(() => null),
     fetch('reports/briefs/index.json').then(r => r.ok ? r.json() : null).catch(() => null),
+    fetch('reports/history.json').then(r => r.ok ? r.json() : null).catch(() => null),
   ]);
   if (r1) data = r1;
   if (r2) briefs = r2;
+  if (r3) { window.__hist = r3; renderHistory(r3); }
   const srcs = [...new Set(data.pain_points.map(p => p.source))].sort();
   const sel = document.getElementById('src');
   srcs.forEach(s => { const o = document.createElement('option'); o.value = s; o.textContent = s; sel.appendChild(o); });
@@ -69,19 +71,39 @@ function applyFilters() {
     <div class="opp">
       <div class="opp-top">
         <div>
-          <h2>${o.buy_intent ? '<span class="buy">💰 BUY INTENT</span>' : ''} ${esc(o.theme)}</h2>
+          <h2>${o.buy_intent ? '<span class="buy">💰 BUY INTENT</span>' : ''} ${esc(o.theme)}${o.trend ? '<span class="trend">🔺 '+esc(o.trend)+'</span>' : ''}${o.market&&o.market.level ? '<span class="mk '+esc(o.market.level)+'">🕵️ '+esc(o.market.level)+'</span>' : ''}</h2>
           <div>${o.sources.map(s => `<span class="src">${esc(s)} · ${srcCounts[s]||0}</span>`).join('')}</div>
         </div>
         <div class="score">${o.score}</div>
       </div>
       <p class="pain">${esc(o.pain)}</p>
+      ${o.market&&o.market.note ? `<p class="mono">🕵️ ${esc(o.market.note)}</p>` : ''}
       <div class="sol"><span class="mono">💡 Build:</span> ${esc(o.suggested_solution)}</div>
       <div><span class="mono">💳</span> ${esc(o.monetization)}</div>
       <ul class="ev">${o.evidence.slice(0,3).map(e => `<li>“${esc(e)}”</li>`).join('')}</ul>
       ${o.url ? `<a href="${esc(o.url)}" target="_blank">evidence link ↗</a>` : ''}
+      ${o.market&&o.market.links&&o.market.links.length ? `<a class="brief" href="${esc(o.market.links[0])}" target="_blank">top competitor ↗</a>` : ''}
     </div>`).join('');
 }
 function esc(s){return (s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+function renderHistory(h) {
+  const el = document.getElementById('hist');
+  if (!h || !h.themes || !h.themes.length) { el.innerHTML = ''; return; }
+  const rows = h.themes.map(t =>
+    `<tr><td>${esc(t.theme)}</td><td>${esc(t.trend)}</td><td>${t.occurrences}</td><td>${t.scans}</td><td>${t.avg_score}</td></tr>`).join('');
+  el.innerHTML = `<h2 style="margin:0 0 6px">📈 30-day theme trends</h2>
+    <table class="tbl"><thead><tr><th>Theme</th><th>Trend</th><th>Appearances</th><th>Scans</th><th>Avg score</th></tr></thead><tbody>${rows}</tbody></table>`;
+}
+function exportTrendsCsv() {
+  if (!window.__hist || !window.__hist.themes) return;
+  const rows = [['theme','trend','occurrences','scans','avg_score','first_seen','last_seen','last7','prev7']];
+  window.__hist.themes.forEach(t => rows.push([t.theme, t.trend, t.occurrences, t.scans, t.avg_score, t.first_seen, t.last_seen, t.last7, t.prev7]));
+  const csv = rows.map(r => r.map(c => '"' + String(c).replace(/"/g,'""') + '"').join(',')).join('\\n');
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([csv], {type:'text/csv'}));
+  a.download = 'painscout-trends.csv';
+  a.click();
+}
 function exportCsv() {
   const rows = [['theme','score','buy_intent','sources','pain','suggested_solution','monetization','url']];
   data.opportunities.forEach(o => rows.push([o.theme, o.score, o.buy_intent, o.sources.join('|'), o.pain.replace(/\\n/g,' '), o.suggested_solution.replace(/\\n/g,' '), o.monetization.replace(/\\n/g,' '), o.url]));

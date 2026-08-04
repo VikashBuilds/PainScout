@@ -39,9 +39,12 @@ class Opportunity:
     monetization: str  # how to charge for it
     score: float = 0.0  # 0-100 opportunity score
     buy_intent: bool = False  # customers literally say they'd pay for a fix
+    trend: str = ""  # new | rising | hot | stable | cooling | dormant (from history)
+    appearances: int = 0  # how many scans this theme has appeared in (window)
+    market: dict = field(default_factory=dict)  # CompetitionResult.to_dict()
 
     def to_dict(self) -> dict:
-        return {
+        out = {
             "theme": self.theme,
             "pain": self.pain,
             "evidence": self.evidence,
@@ -52,6 +55,13 @@ class Opportunity:
             "score": round(self.score, 1),
             "buy_intent": self.buy_intent,
         }
+        if self.trend:
+            out["trend"] = self.trend
+        if self.appearances:
+            out["appearances"] = self.appearances
+        if self.market:
+            out["market"] = self.market
+        return out
 
 
 @dataclass

@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import os
 import sys
 from pathlib import Path
 
@@ -13,6 +14,7 @@ from painscout.models import Report
 from painscout.notify import send_file, send_text
 from painscout.report import save_report
 from painscout.sources import get_sources
+from painscout.warehouse import Store, dedup_points, default_db_path, write_history_artifacts
 
 
 def _make_parser() -> argparse.ArgumentParser:
@@ -22,15 +24,18 @@ def _make_parser() -> argparse.ArgumentParser:
     )
     p.add_argument("--version", action="version", version=f"painscout {__version__}")
     p.add_argument("-q", "--query", default=None, help="Search query (default from PAINSCOUT_QUERY)")
+    p.add_argument("--rotate", action="store_true", help="Pick today's query from the rotating niche bank (PAINSCOUT_QUERY_BANK)")
     p.add_argument("-s", "--sources", default=None, help="Comma-separated: reddit,hn,stackexchange,appstore (default: all)")
     p.add_argument("-l", "--limit", type=int, default=None, help="Max pain points per source")
     p.add_argument("-o", "--out-dir", default=None, help="Output directory (default: reports/)")
     p.add_argument("--no-ai", action="store_true", help="Force heuristic analyzer even if an API key exists")
     p.add_argument("--telegram", action="store_true", help="Send the report to Telegram")
     p.add_argument("--app-id", default=None, help="App Store app id for reviews (default: WhatsApp)")
+    p.add_argument("--watch", default=None, help="Competitor watch list, e.g. 'ios:310633997|WhatsApp, android:com.whatsapp'")
     p.add_argument("--provider", choices=["zen", "nim", "openai"], default=None, help="Force AI provider")
     p.add_argument("--brief", action="store_true", help="Also generate launch-ready project briefs + landing pages")
     p.add_argument("--brief-top", type=int, default=3, help="How many opportunities to expand into briefs")
+    p.add_argument("--no-market", action="store_true", help="Skip the free competition/market check before briefs")
     sub = p.add_subparsers(dest="command")
     dash = sub.add_parser("dashboard", help="Serve the web dashboard (local)")
     dash.add_argument("--port", type=int, default=8791)
@@ -61,12 +66,19 @@ def main(argv: list[str] | None = None) -> int:
 
     if args.query:
         settings.query = args.query
+    elif args.rotate:
+        from painscout.query_bank import pick_query
+
+        settings.query, qidx = pick_query()
+        print(f"🎡 Rotating niche bank -> picked #{qidx}: {settings.query!r}")
     if args.limit:
         settings.limit_per_source = args.limit
     if args.out_dir:
         settings.out_dir = Path(args.out_dir)
     if args.app_id:
         settings.appstore_app_id = args.app_id
+    if args.watch:
+        os.environ["PAINSCOUT_WATCH_APPS"] = args.watch
     if args.provider:
         settings.provider_override = args.provider
 
@@ -86,6 +98,10 @@ def main(argv: list[str] | None = None) -> int:
         except Exception as exc:  # noqa: BLE001 — source failure shouldn't kill the scan
             print(f"   [{src.name}] FAILED: {exc}")
 
+    points, dropped = dedup_points(points)
+    if dropped:
+        print(f"   🧹 Dedup: removed {dropped} duplicate pain point(s), {len(points)} kept")
+
     if not points:
         print("No pain points collected — check network/query.")
         return 1
@@ -97,12 +113,36 @@ def main(argv: list[str] | None = None) -> int:
           f"-> {len(opportunities)} opportunities")
 
     report = Report(query=settings.query, pain_points=points, opportunities=opportunities)
+
+    # Warehouse + trends (#2/#5): append scan, tag opportunities with trend labels,
+    # then save the report so those labels appear in the markdown/JSON.
+    store = Store(default_db_path(settings.out_dir))
+    try:
+        store.record(report, used_mode)
+        trends = store.theme_trends()
+        for o in report.opportunities:
+            t = trends.get(o.theme)
+            if t:
+                o.trend = Store.classify(t)
+                o.appearances = t["scans"]
+        hist_json, trends_csv = write_history_artifacts(store, settings.out_dir)
+        rising = [o.theme for o in report.opportunities if o.trend in ("rising", "new", "hot")]
+        print(f"   🗄️  History: {len(trends)} themes tracked -> {hist_json.name}, {trends_csv.name}")
+        if rising:
+            print(f"   🔺 Rising now: {', '.join(rising[:5])}")
+    finally:
+        store.close()
+
     md_path, json_path = save_report(report, used_mode, settings.out_dir)
     print(f"✅ Report saved: {md_path}")
     print(f"   JSON: {json_path}")
 
     if args.brief and opportunities:
-        _generate_briefs(opportunities[: args.brief_top], settings)
+        _generate_briefs(opportunities[: args.brief_top], settings, with_market=not args.no_market)
+        # Re-render so latest.md carries the competition/market info attached during briefs.
+        if not args.no_market and any(o.market for o in report.opportunities):
+            save_report(report, used_mode, settings.out_dir)
+            print("   🔄 Re-rendered report with competition/market info")
 
     if args.telegram:
         summary = (
@@ -121,14 +161,23 @@ def main(argv: list[str] | None = None) -> int:
     return 0
 
 
-def _generate_briefs(opportunities, settings) -> None:
+def _generate_briefs(opportunities, settings, with_market: bool = True) -> None:
     """Expand top opportunities into launch-ready briefs + landing pages."""
     from painscout.brief import generate_brief, save_brief, save_briefs_index
     from painscout.landing import save_landing_page
+    from painscout.market import check_market
 
     briefs = []
     for i, opp in enumerate(opportunities, 1):
         print(f"   🚀 Brief {i}/{len(opportunities)}: {opp.theme}")
+        if with_market and not opp.market:
+            print(f"      🕵️  Competition check: {opp.theme!r} …")
+            try:
+                opp.market = check_market(opp.theme).to_dict()
+                print(f"         level={opp.market.get('level')} "
+                      f"({opp.market.get('note', '')})")
+            except Exception as exc:  # noqa: BLE001 — market check is best-effort
+                opp.market = {"level": "unknown", "note": f"check failed: {exc}"}
         brief, mode = generate_brief(opp, settings)
         bpath = save_brief(brief, settings.out_dir)
         lpath = save_landing_page(brief, settings.out_dir)

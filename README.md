@@ -32,16 +32,20 @@ painscout dashboard       # open the web dashboard at http://localhost:8791
 
 ```
 -q, --query        search query              (env: PAINSCOUT_QUERY)
+--rotate           pick today's query from the rotating niche bank
+--watch            scan reviews of MANY competitor apps (e.g. 'ios:310633997|WhatsApp, android:com.whatsapp')
 -s, --sources      reddit,hn,stackexchange,github,googleplay,appstore (default: all)
--l, --limit        max pain points/source    (env: PAINSCOUT_LIMIT)
--o, --out-dir      output directory          (default: reports/)
---app-id           App Store app id / Play package (env: PAINSCOUT_APP_ID)
---no-ai            force heuristic analyzer
+-l, --limit         max pain points/source    (env: PAINSCOUT_LIMIT)
+-o, --out-dir       output directory          (default: reports/)
+--app-id            App Store app id / Play package (env: PAINSCOUT_APP_ID)
+--no-ai             force heuristic analyzer
 --provider zen|nim|openai
---telegram         send report to Telegram
---brief            generate project briefs + landing pages for top opportunities
+--telegram          send report to Telegram
+--brief             generate project briefs + landing pages (runs a free competition check first)
 --brief-top N      how many briefs (default 3)
+--no-market         skip the competition/market check (default: on with --brief)
 dashboard          subcommand: serve the web dashboard (--port, --no-browser)
+static             subcommand: render the GitHub Pages dashboard
 ```
 
 ## Configuration (env vars)
@@ -59,6 +63,16 @@ dashboard          subcommand: serve the web dashboard (--port, --no-browser)
 | `PAINSCOUT_LIMIT` | default per-source limit |
 | `PAINSCOUT_APP_ID` | App Store app id for reviews |
 | `PAINSCOUT_OUT_DIR` | report output directory |
+| `PAINSCOUT_QUERY_BANK` | rotating niche bank (JSON array) — used by `--rotate` |
+| `PAINSCOUT_WATCH_APPS` | competitor watch list, e.g. `ios:310633997\|WhatsApp, android:com.whatsapp` |
+
+## Trends, dedup & competition (the power features)
+
+- **Dedup** — duplicate complaints are dropped automatically on every scan.
+- **30-day trends** — every scan is stored in a local SQLite history (`reports/.history/`). Themes are tagged 🔺 **new / rising / hot / stable / cooling / dormant** so you see what's *growing*. Exported to `reports/history.json` + `reports/trends.csv` (committed) and shown on the dashboard.
+- **Rotating niches** — `--rotate` picks today's query from a bank so each night explores a different vertical, building trend data across niches over time.
+- **Competition check** — before turning a pain point into a brief, PainScout queries GitHub + Hacker News for existing solutions and labels the space **low / medium / high** competition. Shown on opportunities, briefs and the dashboard.
+- **Competitor app watch** — `--watch` (or `PAINSCOUT_WATCH_APPS`) scans reviews of **many** apps in one run (`ios:<id>|Name, android:<package>`) instead of just one.
 
 ## GitHub Actions
 
