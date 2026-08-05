@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FlowLens — Catch silent n8n failures before they waste your debugging hours</title>
+<style>
+:root{--bg:#0b0f1a;--card:#131a2b;--acc:#6c5ce7;--acc2:#00cec9;--txt:#e8ecf4;--mut:#9aa5b8}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--txt);line-height:1.6}
+.hero{padding:72px 20px 48px;text-align:center;background:radial-gradient(ellipse at top,#1a2340 0%,var(--bg) 70%)}
+.badge{display:inline-block;padding:6px 14px;border-radius:999px;background:rgba(108,92,231,.15);color:#b3a8ff;font-size:13px;letter-spacing:.5px;margin-bottom:20px;border:1px solid rgba(108,92,231,.4)}
+h1{font-size:clamp(2rem,5vw,3.4rem);font-weight:800;letter-spacing:-.5px;margin-bottom:14px}
+.tag{font-size:clamp(1.05rem,2.5vw,1.35rem);color:var(--mut);max-width:640px;margin:0 auto 30px}
+.cta{display:inline-block;padding:15px 34px;border-radius:12px;background:linear-gradient(135deg,var(--acc),var(--acc2));color:#fff;font-weight:700;font-size:1.05rem;text-decoration:none;box-shadow:0 8px 30px rgba(108,92,231,.35);transition:transform .15s}
+.cta:hover{transform:translateY(-2px)}
+.container{max-width:960px;margin:0 auto;padding:32px 20px 80px}
+.section{margin-top:48px}
+h2{font-size:1.5rem;margin-bottom:18px;color:#fff}
+.card{background:var(--card);border:1px solid #1e2a45;border-radius:16px;padding:24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.grid .card{padding:18px}
+.grid .card strong{color:var(--acc2);font-size:1.05rem}
+ul{list-style:none}
+li{padding:8px 0 8px 26px;position:relative}
+li:before{content:"✓";position:absolute;left:0;color:var(--acc2)}
+.wa{border-left:4px solid #25d366;padding:20px 24px;border-radius:0 12px 12px 0;background:rgba(37,211,102,.06)}
+code{background:#0d1526;padding:2px 8px;border-radius:6px;font-size:.92em;color:#8be9fd}
+.pricing{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.pricing .price{font-size:2.2rem;font-weight:800;color:var(--acc2)}
+.foot{text-align:center;color:var(--mut);padding:32px;font-size:.85rem}
+@media(max-width:600px){.hero{padding:48px 16px 32px}}
+</style>
+</head>
+<body>
+<div class="hero">
+  <span class="badge">✨ AI-Powered · WhatsApp-First · No-Code</span>
+  <h1>Stop guessing why your n8n workflow returned null</h1>
+  <p class="tag">FlowLens shows every expression evaluation in real-time, alerts on silent failures, and gives you the shortcuts n8n forgot — all in a lightweight sidebar.</p>
+  <a class="cta" href="#wa">Install Free Chrome Extension</a>
+</div>
+<div class="container">
+  <div class="section">
+    <h2>The problem</h2>
+    <div class="card"><p>n8n power-users lose hours daily to silent expression failures that resolve to null without errors, logs, or failed node indicators — plus fragmented UX across AI tools like missing shortcuts, split billing, and manual refreshes.</p></div>
+  </div>
+  <div class="section">
+    <h2>The solution</h2>
+    <div class="card"><p>FlowLens wraps n8n with a real-time observability layer that instruments every expression evaluation, surfaces silent null resolutions instantly, and adds a unified command palette for cross-tool shortcuts, billing views, and auto-refresh — all without modifying existing workflows.</p></div>
+  </div>
+  <div class="section">
+    <h2>What you get</h2>
+    <div class="card"><ul><li>See every expression result, type, and null resolution as it happens</li><li>Get alerted the moment a paired-item lookup silently returns undefined</li><li>Jump to credentials, executions, or OpenAI billing with Cmd+K</li><li>Auto-refresh execution lists — no more F5 mashing</li><li>One-click re-run from the exact expression that failed silently</li><li>Works on n8n Cloud and self-hosted, zero server setup</li></ul></div>
+  </div>
+  <div class="section">
+    <h2>Features (v1)</h2>
+    <div class="card"><ul><li>Expression-level trace panel showing every evaluation result, type, and null/undefined resolution in real-time</li><li>Silent-failure alerts via in-app toast, webhook, or WhatsApp when any expression resolves to null/undefined unexpectedly</li><li>Unified command palette (Cmd+K) with shortcuts to n8n credentials, executions, workflows, and external AI tool dashboards (OpenAI, Anthropic, etc.)</li><li>Auto-refresh toggle for execution lists and workflow editor with configurable intervals</li><li>Consolidated billing dashboard pulling spend from OpenAI, Anthropic, Replicate, and n8n cloud via API keys</li><li>URL canonicalizer that rewrites confusing n8n execution URLs to human-readable paths (workflow-name/execution-id)</li><li>One-click &#x27;Re-run from failed expression&#x27; that isolates and re-executes only the problematic node chain</li><li>Expression playground sidebar to test any expression against live execution context before deploying</li></ul></div>
+  </div>
+  <div class="section">
+    <h2>Tech stack</h2>
+    <div class="card" style="display:flex;flex-wrap:wrap;gap:8px"><code>Manifest V3 Chrome Extension (TypeScript)</code> <code>React 18 + Tailwind CSS for sidebar UI</code> <code>Vite for build + HMR</code> <code>n8n REST API (self-hosted &amp; cloud) for execution/workflow data</code> <code>OpenAI/Anthropic/Replicate billing APIs (user-provided keys, stored locally)</code> <code>IndexedDB (via idb) for local trace storage</code> <code>Vercel for landing page + static asset hosting</code> <code>Playwright for E2E testing against n8n demo instance</code></div>
+  </div>
+  <div class="section">
+    <h2>Competitors &amp; the gap</h2>
+    <div class="grid"><div class="card"><strong>n8n native debug panel</strong><p style="margin-top:8px;color:var(--mut)">Gap: Only shows node I/O, not expression-level evaluation; silent nulls invisible</p></div><div class="card"><strong>Datadog APM</strong><p style="margin-top:8px;color:var(--mut)">Gap: Overkill, expensive, doesn&#x27;t understand n8n expression semantics or paired-item resolution</p></div><div class="card"><strong>Sentry</strong><p style="margin-top:8px;color:var(--mut)">Gap: Catches thrown errors, not silent null resolutions; no n8n-specific context</p></div><div class="card"><strong>Postman</strong><p style="margin-top:8px;color:var(--mut)">Gap: API testing only, no workflow execution observability</p></div></div>
+  </div>
+  <div class="section" id="wa">
+    <h2>Try it on WhatsApp</h2>
+    <div class="card wa">
+      <p><strong>How it works:</strong> User links n8n instance via /connect command → bot stores webhook URL → on every execution, n8n calls webhook → bot evaluates expressions against stored context → if silent null detected, sends WhatsApp alert with workflow name, node, expression, and deep link to FlowLens trace. User replies &#x27;retry&#x27; to trigger re-run from that node.</p>
+      <p style="margin-top:12px"><strong>Commands:</strong> <code>/connect &lt;n8n_webhook_url&gt; — link your n8n instance</code> <code>/trace &lt;execution_id&gt; — get last 50 expression evaluations for that run</code> <code>/alerts on|off — toggle silent-failure notifications</code> <code>/billing — show consolidated AI spend (OpenAI, Anthropic, Replicate)</code> <code>/shortcuts — list all Cmd+K shortcuts available in extension</code> <code>/retry &lt;execution_id&gt; &lt;node_name&gt; — re-run workflow from specific node</code></p>
+    </div>
+  </div>
+  <div class="section">
+    <h2>Pricing</h2>
+    <div class="card pricing"><span class="price">Freemium Chrome extension: Free (100 traced executions/mo, basic sidebar). Pro $12/mo (unlimited traces, alerts, billing dashboard, team debug links, WhatsApp bot). Team $35/mo (5 seats, shared traces, SSO).</span></div>
+  </div>
+</div>
+<div class="foot">Generated by PainScout · MVP in ~21 days · Built by a vibe coder for people with real problems</div>
+</body>
+</html>

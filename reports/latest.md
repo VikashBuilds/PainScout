@@ -1,132 +1,115 @@
 # 🔍 PainScout Report
 
-- **Query:** `customer support is terrible`
-- **Generated:** 2026-08-04T12:32:10+00:00
-- **Pain points scanned:** 40
+- **Query:** `why is this so confusing to use`
+- **Generated:** 2026-08-05T12:29:18+00:00
+- **Pain points scanned:** 46
 - **Analyzer:** AI (LLM)
 
-**Sources:** appstore: 15, hackernews: 15, stackexchange: 10
+**Sources:** appstore: 15, github: 4, hackernews: 15, stackexchange: 12
 
-## 🎯 Top 6 Opportunities
+## 🎯 Top 5 Opportunities
 
-### 1. [92/100] Account Lockouts & Support Black Holes  · 🔺 new
+### 1. [85/100] Windows Missing Basic Productivity Features  · 🔺 new
 
-**The pain:** Users get locked out of mission-critical accounts (email, cloud, crypto, hosting) with no human recourse, automated KYC flags, and support that cannot escalate or resolve.
+**The pain:** Windows lacks native text replacement/expansion and proper OLED subpixel rendering, forcing power users to buy third-party tools or endure chromatic aberration on premium monitors.
 
 **Evidence:**
-- “"I've been locked out of my Google Apps email for over 24 hrs due to 'suspicious activity'... Filled Contact Us form and spoke to customer support lady who is unfortunately clueless and cannot help me at all."”
-- “"I've received an email from DigitalOcean... my account is locked and I cannot access anything but their ticketing service. I think this practice of lock first ask questions later is terrible."”
-- “"Coinbase is at fault and they've violated their own terms of service... 'I simply do not have the ability to do that, I'm sorry. None of the admins do.'"”
-- “"Apple's customer support final response after more than a week... was they would not be able to replace the display even when my friend sent clear voice recordings of the service centre employees accepting their mistake."”
+- “This kind of feature is surprisingly missing from Windows. I have many web addresses I send to customers and many full sentences for my notes at work that used repeatedly.”
+- “ClearType alters anti-aliasing assuming an RGB stripe subpixel configuration. More WOLED (WRGB stripe) and QD-OLED (RGB triangular) monitors are coming to market and have noticeable chromatic aberration/color fringing on edges of text.”
+- “Over 100 upvotes in Feedback Hub”
+- “Free Open Source Coding Offer to Microsoft to contribute "Display Shaders PowerToy"”
 
-**Sources:** hackernews, hackernews, hackernews, hackernews · [best link](https://news.ycombinator.com/item?id=6933360)
+**Sources:** github · [best link](https://github.com/microsoft/PowerToys/issues/5074)
 
-**AI solution to build:** AI-powered 'Account Guardian' WhatsApp bot that monitors login health, auto-drafts escalation emails with legal citations, and connects users to verified human advocates via a paid concierge tier.
+**AI solution to build:** A lightweight Windows tray app (built with Tauri/Rust) that adds system-wide text expansion with cloud sync and per-monitor shader profiles for WRGB/RGB-triangular OLEDs.
 
-**How to charge:** Freemium: free monitoring + $29/mo for instant escalation concierge; $199 one-time 'unlock my account' emergency fee.
+**How to charge:** $19 one-time license (personal) / $49 team; $3/mo for cloud sync of snippets across devices.
 
 **Competition:** MEDIUM
-- rawfilejson/ATM (★2)
-- Scarage1/go-login-cli (★1)
-- Marknet78/UsNow (★1)
-- emrgcl/MonitorAccountLockouts (★0)
-- Miguel-C-Cyber/it-support-home-lab (★0)
-  ('account lockouts support': 6 similar repo(s), 7 HN stories. Room to differentiate.)
+- chrisneagu/FTC-Skystone-Dark-Angels-Romania-2020 (★297)
+- ManojKumarPatnaik/Major-project-list (★242)
+- klonnet23/helloy-word (★89)
+- SOYJUN/FTP-implement-based-on-UDP (★69)
+- nyaundid/EC2-AWS-AND-SHELL (★55)
+  ('windows missing basic': 6 similar repo(s), 36 HN stories. Room to differentiate.)
 
-### 2. [88/100] WhatsApp Scam & Spam Flood  · 🔺 new
+### 2. [81/100] WhatsApp Reliability & Account Lockouts  · 🔺 new
 
-**The pain:** WhatsApp users face relentless scams, catfishing, and spam — one user lost $500k — with no built-in filtering, reporting that works, or privacy controls to stop unknown contacts.
+**The pain:** Users suffer random freezes, unexplained account restrictions, OTP delivery failures, and irreversible data loss with no human support — critical for small businesses relying on WhatsApp for revenue.
 
 **Evidence:**
-- “"Without a doubt, WhatsApp is one of the worst apps online as there are too many scammers and cat fishers. Facts."”
-- “"One of these entities was able to rob me of over a half million dollars, and then simply disappeared."”
-- “"Too many scammers and catfishers... WhatsApp is actually spitting on everything you type and talk about. They are selling this information to the companies that pay for their data centers."”
-- “"I began to get more and more unsolicited messages from unknown entities, and nearly all of them were scams."”
+- “Why is my WhatsApp always freezing anytime I open the app”
+- “They intentionally restricted my account without any reason after two hours of review they reinstated my account but now they don't send me OTP to activate my account”
+- “I lost all my data from past 5 years maybe I shouldn't trust these people and shifted to telegram”
+- “Создать аккаунт надо танцевать с бубном под луной, всёу вас какие-то блокировки проверки”
 
-**Sources:** appstore, appstore, appstore, appstore · [best link](https://apps.apple.com/app/id310633997)
+**Sources:** appstore · [best link](https://apps.apple.com/app/id310633997)
 
-**AI solution to build:** WhatsApp Business API wrapper that adds AI spam/scam detection, auto-blocks known fraud patterns, and gives users a 'verified contacts only' mode with one-tap reporting to Meta.
+**AI solution to build:** A WhatsApp Business wrapper that auto-backups chats to encrypted local SQLite, monitors account health via unofficial API, alerts on restriction risk, and provides a one-tap "warm standby" SIM swap flow.
 
-**How to charge:** B2C: $4.99/mo per number; B2B: $0.01 per screened message for agencies managing client WhatsApp.
+**How to charge:** $12/mo per number; $99/mo agency plan for 10 numbers with SLA-backed recovery assist.
 
 **Competition:** MEDIUM
-- NishNishendanidu/mtroid-bot (★113)
-- salhabheba-cyber/Haq (★2)
-- Mjraj16/whatsappScam (★1)
-- lsuarezj/SpamWhatsappScamer (★0)
-- Sachit-Timane/Whatsapp-spam-detector-bot-ML (★0)
-  ('whatsapp scam spam': 6 similar repo(s), 3 HN stories. Room to differentiate.)
+- usacrazyseller-ux/Old-Gmail-Account-for-Email-Marketing (★0)
+- Nkt41/How-to-Create-OpenAI-ChatGPT-Accounts-in-2026-Using-SMS-MAN (★0)
+- Nkt41/SMS-MAN-in-2026.-SMS-activation-platform (★0)
+  ('whatsapp reliability account': 3 similar repo(s), 2 HN stories. Room to differentiate.)
 
-### 3. [81/100] Forced Updates & Platform Hostage-Taking  · 🔺 new
+### 3. [78/100] AI Tool UX & Silent Failures  · 🔺 new
 
-**The pain:** Apps threaten account deactivation if users don't update immediately; platforms (Adobe, Protonmail, Apple) make leaving or downgrading deliberately hard, trapping paying customers.
+**The pain:** AI power-users face daily friction from missing shortcuts, split billing, manual refreshes, confusing URLs, and silent expression failures in automation tools like n8n that waste hours debugging.
 
 **Evidence:**
-- “"Every time WhatsApp has an 'updated version' they send me a notification threatening me if I don't update the app my account will be deactivated… why do I have to update the app to keep my account???"”
-- “"After removing domains and users from protonmail, the subscription was telling me I could NOT downgrade because I was over the 1GB limit."”
-- “"Adobe has sort of a monopoly... nobody seriously considers an alternative... would rather appreciate an intuitive UI, cheaper price, and friendlier customer support."”
-- “"I do not want to pay another dime to Apple for such pathetic treatment even under warranty."”
+- “Why is there no shortcut to my account/profile settings from ChatGPT's left panel?”
+- “Why are my DALL-E money and ChatGPT/API money kept separate? These are two products from the same company, asking twice for my CC number.”
+- “Any downstream expression that uses paired-item resolution across that node then silently resolves to null. No expression error, no failed node, no log line.”
+- “Many buttons and interactive elements are not properly labeled. Some controls are completely invisible to screen readers.”
 
-**Sources:** appstore, hackernews, hackernews, hackernews · [best link](https://news.ycombinator.com/item?id=33852218)
+**Sources:** hackernews, github · [best link](https://news.ycombinator.com/item?id=35236635)
 
-**AI solution to build:** Cross-platform 'Digital Freedom' dashboard that auto-backups WhatsApp/Proton/Adobe data, simulates legacy API versions to delay forced updates, and one-click exports to open alternatives.
+**AI solution to build:** A browser extension + WhatsApp bot that unifies ChatGPT/DALL-E/API billing dashboards, adds keyboard shortcuts, auto-reconnects on error, and surfaces n8n pairedItem bugs via real-time linting.
 
-**How to charge:** Subscription $9.99/mo for individuals; $49/mo per seat for teams needing compliance-grade exports.
+**How to charge:** Freemium: free unified dashboard; $8/mo for auto-reconnect, shortcut injector, and n8n debug webhook.
 
 **Competition:** MEDIUM
-- amir2510/script (★18)
-- shulikhatun/Digital-marketing (★1)
-- Chetan-KH511/ProcureOps (★0)
-- Rajkumarb7/MIST-Portal (★0)
-  ('forced updates platform': 4 similar repo(s), 22 HN stories. Room to differentiate.)
+- rcourtman/Pulse (★6481)
+- wuji-labs/nopua (★1376)
+- Handit-AI/handit.ai (★189)
+- sreerevanth/AgentWatch (★31)
+- OrderLab/OKLib (★28)
+  ('silent failures': 6 similar repo(s), 67 HN stories. Room to differentiate.)
 
-### 4. [79/100] No Viable Alternatives to Monopoly Creative Tools  · 🔺 new
+### 4. [76/100] Deceptive E-Commerce & Opaque Platform Policies  · 🔺 new
 
-**The pain:** Independent creators need 40% of Adobe's features at a fair price with decent support, but no competitor delivers a stable, professional-grade subset — GIMP/Pixelmator/OpenShot fall short.
-
-**Evidence:**
-- “"There are more and more small (independent) creators... who do not need all the uber features... would rather appreciate an intuitive UI, cheaper price, and friendlier customer support."”
-- “"I tried using Pixelmator (non-free), GIMP, OpenShot... left out with either free iMovie/Quick, which are too basic or a super-expensive Premiere."”
-- “"Adobe has sort of a monopoly on the creative tools market. Nobody seriously considers an alternative... why nobody dares to compete with them."”
-- “"My experience was quite terrible. I was also looking for a simple software to stitch together my GoPro videos but was left out with either free iMovie/Quick, which are too basic or a super-expensive Premiere."”
-
-**Sources:** hackernews, hackernews, hackernews, hackernews · [best link](https://news.ycombinator.com/item?id=16694382)
-
-**AI solution to build:** AI-assisted 'Creative Lite' suite: browser-based video/photo editor with 40% of pro features, trained on open datasets, $15/mo, plugin API for community extensions.
-
-**How to charge:** $15/mo per seat; marketplace takes 15% on community plugins/templates.
-
-### 5. [76/100] Unreliable Core Comms (Video Calls & Messaging)  · 🔺 new
-
-**The pain:** WhatsApp video calls randomly fail, messages don't send, status updates break — core features are flaky for months despite reinstalls, destroying trust in the primary communication channel.
+**The pain:** Consumers and sellers face deliberate product-name obfuscation for price discrimination, unexplained security holds on financial platforms, and user-hostile dark patterns across the web.
 
 **Evidence:**
-- “"Se me apaga el teléfono cuando estoy en videollamada" (phone shuts down during video calls) — 2 separate 1-star reviews.”
-- “"Video calls are a hit or miss sometimes it works sometimes it doesn't."”
-- “"Hace ya mas de 1 mes que WhatsApp me viene fallando, los mensajes no se envían, para subir un estado también se vuelve difícil... Actualizacion: aun sigue sin funcionar."”
-- “"Problemas con la aplicación... Se apaga el teléfono cuando estoy en videollamada."”
+- “Furniture sellers actively prevent consumers from easily finding the same item at other stores, or under other names, because this allows them to charge more.”
+- “Then, out of the blue one day, I get "security hold, please contact 'supp0rt at gemini.com". Nothing else. No information as to why.”
+- “Today's Internet experience has become user-hostile and it almost calls out for returning to the 90s: walled gardens aka Compuserve experience.”
+- “The sellers get to name the products and they name them in confusing ways to facilitate price discrimination.”
 
-**Sources:** appstore, appstore, appstore, appstore · [best link](https://apps.apple.com/app/id310633997)
+**Sources:** hackernews · [best link](https://news.ycombinator.com/item?id=30757421)
 
-**AI solution to build:** Lightweight WhatsApp Web companion that routes calls via WebRTC with fallback relays, auto-retries failed messages, and surfaces diagnostic logs users can send to support.
+**AI solution to build:** An AI price-history browser extension + WhatsApp alert bot that normalizes furniture SKUs across retailers using visual embeddings, and monitors crypto/banking accounts for sudden policy flags via screen-scraping with user consent.
 
-**How to charge:** Free core; $2.99/mo for 'Reliability Plus' with priority relay servers and SLA-backed uptime.
+**How to charge:** Free price-drop alerts; $7/mo for SKU unification API access (affiliate/arbitrage sellers) and instant policy-change notifications.
 
-### 6. [73/100] Privacy Violations & Data Monetization Without Consent  · 🔺 new
+### 5. [72/100] Embedded Dev Toolchain Fragmentation  · 🔺 new
 
-**The pain:** Users believe WhatsApp and router vendors (Nest, etc.) sell conversation metadata and network traffic to advertisers, with no transparency or opt-out.
+**The pain:** Embedded engineers waste weeks stitching together vendor-specific CMSIS, HALs, linker scripts, and IDE configs just to blink an LED on STM32 or similar MCUs.
 
 **Evidence:**
-- “"WhatsApp is actually spitting on everything you type and talk about. They are selling this information to the companies that pay for their data centers."”
-- “"Routers are starting to require logins and subscriptions. I have privacy concerns about those options, so no on Nest."”
-- “"I'm not really comfortable sending as much personal info as my drivers license contains... especially over unencrypted email, and when this requirement wasn't mentioned before listing my space." (Airbnb KYC)”
-- “"There is no privacy. So why don't you just try throw the privacy b s out the window. It is useless."”
+- “All of them are quite complex and when you get them working, they lay down A TON of files that seem somewhat irrelevant (and noisy) to creating simple programs.”
+- “ARM has system CMSIS but vendors have vendor-specific CMSIS, so (finding them) and piecing them together sucks.”
+- “Oh then you need linkers and startup scripts, where are those? Again, vendor specific that the CubeMX or uV basically pull from STM32's Github org.”
+- “The HALs are confusing so want to just leverage CMSIS and bit bang my way to greatness.”
 
-**Sources:** appstore, hackernews, hackernews, appstore · [best link](https://news.ycombinator.com/item?id=29082526)
+**Sources:** hackernews · [best link](https://news.ycombinator.com/item?id=44424060)
 
-**AI solution to build:** Open-source 'Privacy Firewall' WhatsApp proxy + router firmware that strips metadata, blocks telemetry, and generates GDPR/CCPA deletion requests automatically.
+**AI solution to build:** A CLI + VS Code extension that auto-fetches correct CMSIS/startup/linker files for any MCU part number, generates a minimal CMake project, and flashes via openocd/pyocd — no CubeMX required.
 
-**How to charge:** Hardware: $149 pre-flashed router; SaaS: $5/mo per device for managed proxy + compliance reports.
+**How to charge:** Open-core: free CLI; $15/mo for cloud CI templates, team device registry, and automated HAL stub generation.
 
 ---
 *Generated by PainScout — deploy an AI SaaS or WhatsApp automation to fix these.*

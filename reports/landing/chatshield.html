@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ChatShield — Bulletproof WhatsApp reliability for revenue-critical conversations.</title>
+<style>
+:root{--bg:#0b0f1a;--card:#131a2b;--acc:#6c5ce7;--acc2:#00cec9;--txt:#e8ecf4;--mut:#9aa5b8}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--txt);line-height:1.6}
+.hero{padding:72px 20px 48px;text-align:center;background:radial-gradient(ellipse at top,#1a2340 0%,var(--bg) 70%)}
+.badge{display:inline-block;padding:6px 14px;border-radius:999px;background:rgba(108,92,231,.15);color:#b3a8ff;font-size:13px;letter-spacing:.5px;margin-bottom:20px;border:1px solid rgba(108,92,231,.4)}
+h1{font-size:clamp(2rem,5vw,3.4rem);font-weight:800;letter-spacing:-.5px;margin-bottom:14px}
+.tag{font-size:clamp(1.05rem,2.5vw,1.35rem);color:var(--mut);max-width:640px;margin:0 auto 30px}
+.cta{display:inline-block;padding:15px 34px;border-radius:12px;background:linear-gradient(135deg,var(--acc),var(--acc2));color:#fff;font-weight:700;font-size:1.05rem;text-decoration:none;box-shadow:0 8px 30px rgba(108,92,231,.35);transition:transform .15s}
+.cta:hover{transform:translateY(-2px)}
+.container{max-width:960px;margin:0 auto;padding:32px 20px 80px}
+.section{margin-top:48px}
+h2{font-size:1.5rem;margin-bottom:18px;color:#fff}
+.card{background:var(--card);border:1px solid #1e2a45;border-radius:16px;padding:24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.grid .card{padding:18px}
+.grid .card strong{color:var(--acc2);font-size:1.05rem}
+ul{list-style:none}
+li{padding:8px 0 8px 26px;position:relative}
+li:before{content:"✓";position:absolute;left:0;color:var(--acc2)}
+.wa{border-left:4px solid #25d366;padding:20px 24px;border-radius:0 12px 12px 0;background:rgba(37,211,102,.06)}
+code{background:#0d1526;padding:2px 8px;border-radius:6px;font-size:.92em;color:#8be9fd}
+.pricing{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.pricing .price{font-size:2.2rem;font-weight:800;color:var(--acc2)}
+.foot{text-align:center;color:var(--mut);padding:32px;font-size:.85rem}
+@media(max-width:600px){.hero{padding:48px 16px 32px}}
+</style>
+</head>
+<body>
+<div class="hero">
+  <span class="badge">✨ AI-Powered · WhatsApp-First · No-Code</span>
+  <h1>Stop Losing Customers to WhatsApp Glitches</h1>
+  <p class="tag">The reliability layer Meta forgot to build. Backups, monitoring, OTP fallback, and instant restore — all in one dashboard.</p>
+  <a class="cta" href="#wa">Start 14-Day Free Trial</a>
+</div>
+<div class="container">
+  <div class="section">
+    <h2>The problem</h2>
+    <div class="card"><p>Small businesses lose revenue when WhatsApp freezes, accounts get restricted without warning, OTPs fail, and years of chat history vanish — with zero human support to fix it.</p></div>
+  </div>
+  <div class="section">
+    <h2>The solution</h2>
+    <div class="card"><p>ChatShield adds a reliability layer on top of WhatsApp Business API: continuous encrypted backups, real-time health monitoring, OTP fallback via email/voice, one-click restore, and automated risk scoring — so you never lose a customer conversation.</p></div>
+  </div>
+  <div class="section">
+    <h2>What you get</h2>
+    <div class="card"><ul><li>🔒 Encrypted daily backups — recover any chat in seconds</li><li>📊 Real-time health scores — know before you&#x27;re banned</li><li>📞 OTP via voice/email — never locked out again</li><li>💰 Revenue-at-risk view — see exactly what&#x27;s on the line</li></ul></div>
+  </div>
+  <div class="section">
+    <h2>Features (v1)</h2>
+    <div class="card"><ul><li>Automated daily encrypted message backups to S3/R2 with point-in-time recovery</li><li>Real-time account health monitoring (freeze detection, restriction alerts via webhooks)</li><li>OTP delivery fallback: receive verification codes via email, voice call, or authenticator app</li><li>One-click chat restore to new device or after reinstall with full media support</li><li>Restriction risk scoring based on messaging patterns, template usage, and velocity</li><li>Automated compliance checks for message frequency, opt-in status, and template approvals</li><li>Revenue-at-risk dashboard showing potential loss per unhealthy account</li><li>Webhook alerts to Slack, Email, or Telegram for critical events (ban, OTP failure, backup failure)</li></ul></div>
+  </div>
+  <div class="section">
+    <h2>Tech stack</h2>
+    <div class="card" style="display:flex;flex-wrap:wrap;gap:8px"><code>Node.js (NestJS)</code> <code>PostgreSQL (Supabase)</code> <code>Redis + BullMQ</code> <code>AWS S3 / Cloudflare R2</code> <code>WhatsApp Business API (Meta)</code> <code>Twilio (Voice/Email OTP)</code> <code>Vercel (Hosting)</code> <code>TailwindCSS + React (Dashboard)</code></div>
+  </div>
+  <div class="section">
+    <h2>Competitors &amp; the gap</h2>
+    <div class="grid"><div class="card"><strong>Twilio Conversations</strong><p style="margin-top:8px;color:var(--mut)">Gap: No native WhatsApp backup/restore or account health monitoring</p></div><div class="card"><strong>MessageBird</strong><p style="margin-top:8px;color:var(--mut)">Gap: Lacks automated OTP fallback and restriction risk scoring</p></div><div class="card"><strong>Wati.io</strong><p style="margin-top:8px;color:var(--mut)">Gap: Focuses on marketing automation, not reliability/backup</p></div><div class="card"><strong>Respond.io</strong><p style="margin-top:8px;color:var(--mut)">Gap: No one-click chat restore or revenue-at-risk metrics</p></div></div>
+  </div>
+  <div class="section" id="wa">
+    <h2>Try it on WhatsApp</h2>
+    <div class="card wa">
+      <p><strong>How it works:</strong> User adds ChatShield as a contact → sends &#x27;START&#x27; → bot guides through Business Account linking via OAuth → configures backup schedule &amp; alert channels → daily status updates sent via WhatsApp + dashboard access.</p>
+      <p style="margin-top:12px"><strong>Commands:</strong> <code>START — link account &amp; configure</code> <code>STATUS — current health, last backup, risk score</code> <code>BACKUP NOW — trigger immediate backup</code> <code>RESTORE &lt;date&gt; — initiate point-in-time restore</code> <code>ALERTS ON/OFF — toggle WhatsApp notifications</code> <code>OTP TEST — send test OTP via voice/email</code></p>
+    </div>
+  </div>
+  <div class="section">
+    <h2>Pricing</h2>
+    <div class="card pricing"><span class="price">$49/mo per WhatsApp Business Account, 14-day free trial, includes 10GB backup storage + 100 OTP fallback credits/mo</span></div>
+  </div>
+</div>
+<div class="foot">Generated by PainScout · MVP in ~21 days · Built by a vibe coder for people with real problems</div>
+</body>
+</html>

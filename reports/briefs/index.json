@@ -1,26 +1,26 @@
 [
   {
-    "name": "UnlockAI",
-    "slug": "unlockai",
-    "tagline": "AI-powered account recovery concierge that escalates lockouts to human resolution",
-    "theme": "Account Lockouts & Support Black Holes",
-    "build_estimate_days": 21,
-    "pricing_model": "$29/mo SaaS, freemium (1 free appeal), per-appeal overage $9"
+    "name": "SnapType",
+    "slug": "snaptype",
+    "tagline": "Instant text expansion & crisp OLED rendering for Windows",
+    "theme": "Windows Missing Basic Productivity Features",
+    "build_estimate_days": 45,
+    "pricing_model": "Freemium: free tier (50 snippets, basic rendering), Pro $19/year (unlimited snippets, cloud sync, advanced OLED profiles, priority support)"
   },
   {
-    "name": "ScamShield AI",
-    "slug": "scamshield-ai",
-    "tagline": "AI guardian that stops WhatsApp scams, spam, and catfishers before they reach you",
-    "theme": "WhatsApp Scam & Spam Flood",
+    "name": "ChatShield",
+    "slug": "chatshield",
+    "tagline": "Bulletproof WhatsApp reliability for revenue-critical conversations.",
+    "theme": "WhatsApp Reliability & Account Lockouts",
     "build_estimate_days": 21,
-    "pricing_model": "Freemium SaaS: $4.99/mo Pro, $39/yr, lifetime $99. Free tier: 10 AI scans/day, basic blocking."
+    "pricing_model": "$49/mo per WhatsApp Business Account, 14-day free trial, includes 10GB backup storage + 100 OTP fallback credits/mo"
   },
   {
-    "name": "HostageFree",
-    "slug": "hostagefree",
-    "tagline": "Escape platform lock-in, keep your data, stop forced updates",
-    "theme": "Forced Updates & Platform Hostage-Taking",
+    "name": "FlowLens",
+    "slug": "flowlens",
+    "tagline": "Catch silent n8n failures before they waste your debugging hours",
+    "theme": "AI Tool UX & Silent Failures",
     "build_estimate_days": 21,
-    "pricing_model": "$9/mo SaaS, freemium (3 platforms), $79/yr pro"
+    "pricing_model": "Freemium Chrome extension: Free (100 traced executions/mo, basic sidebar). Pro $12/mo (unlimited traces, alerts, billing dashboard, team debug links, WhatsApp bot). Team $35/mo (5 seats, shared traces, SSO)."
   }
 ]
