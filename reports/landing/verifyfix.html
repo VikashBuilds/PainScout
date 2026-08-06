@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VerifyFix — Unlock WhatsApp when iOS verification loops block your account</title>
+<style>
+:root{--bg:#0b0f1a;--card:#131a2b;--acc:#6c5ce7;--acc2:#00cec9;--txt:#e8ecf4;--mut:#9aa5b8}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--txt);line-height:1.6}
+.hero{padding:72px 20px 48px;text-align:center;background:radial-gradient(ellipse at top,#1a2340 0%,var(--bg) 70%)}
+.badge{display:inline-block;padding:6px 14px;border-radius:999px;background:rgba(108,92,231,.15);color:#b3a8ff;font-size:13px;letter-spacing:.5px;margin-bottom:20px;border:1px solid rgba(108,92,231,.4)}
+h1{font-size:clamp(2rem,5vw,3.4rem);font-weight:800;letter-spacing:-.5px;margin-bottom:14px}
+.tag{font-size:clamp(1.05rem,2.5vw,1.35rem);color:var(--mut);max-width:640px;margin:0 auto 30px}
+.cta{display:inline-block;padding:15px 34px;border-radius:12px;background:linear-gradient(135deg,var(--acc),var(--acc2));color:#fff;font-weight:700;font-size:1.05rem;text-decoration:none;box-shadow:0 8px 30px rgba(108,92,231,.35);transition:transform .15s}
+.cta:hover{transform:translateY(-2px)}
+.container{max-width:960px;margin:0 auto;padding:32px 20px 80px}
+.section{margin-top:48px}
+h2{font-size:1.5rem;margin-bottom:18px;color:#fff}
+.card{background:var(--card);border:1px solid #1e2a45;border-radius:16px;padding:24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.grid .card{padding:18px}
+.grid .card strong{color:var(--acc2);font-size:1.05rem}
+ul{list-style:none}
+li{padding:8px 0 8px 26px;position:relative}
+li:before{content:"✓";position:absolute;left:0;color:var(--acc2)}
+.wa{border-left:4px solid #25d366;padding:20px 24px;border-radius:0 12px 12px 0;background:rgba(37,211,102,.06)}
+code{background:#0d1526;padding:2px 8px;border-radius:6px;font-size:.92em;color:#8be9fd}
+.pricing{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.pricing .price{font-size:2.2rem;font-weight:800;color:var(--acc2)}
+.foot{text-align:center;color:var(--mut);padding:32px;font-size:.85rem}
+@media(max-width:600px){.hero{padding:48px 16px 32px}}
+</style>
+</head>
+<body>
+<div class="hero">
+  <span class="badge">✨ AI-Powered · WhatsApp-First · No-Code</span>
+  <h1>Stuck on &#x27;Update WhatsApp&#x27; when you&#x27;re already updated?</h1>
+  <p class="tag">VerifyFix gets you back in — no laptop, no Apple Store visit, no waiting on hold.</p>
+  <a class="cta" href="#wa">Start Fixing on WhatsApp →</a>
+</div>
+<div class="container">
+  <div class="section">
+    <h2>The problem</h2>
+    <div class="card"><p>iPhone users get stuck in a false &#x27;update required&#x27; loop during WhatsApp phone verification — the app rejects the current App Store build, won&#x27;t send SMS/call codes, and locks them out of their accounts with no in-app escape hatch.</p></div>
+  </div>
+  <div class="section">
+    <h2>The solution</h2>
+    <div class="card"><p>VerifyFix is an AI-powered troubleshooting bot that runs on WhatsApp itself (via a backup number or web) and guides users through proven, version-specific workarounds — cache clears, network resets, TestFlight builds, Apple ID region tricks, and escalation templates — until verification succeeds. It learns from each success to update its playbook in real time.</p></div>
+  </div>
+  <div class="section">
+    <h2>What you get</h2>
+    <div class="card"><ul><li>Works from a friend&#x27;s WhatsApp or the web — no account access needed</li><li>Fixes 12+ iOS verification error patterns in under 3 minutes</li><li>Exports a one-tap iOS Shortcut for the &#x27;nuclear reset&#x27;</li><li>Auto-files a pre-filled WhatsApp Support ticket with your logs</li><li>Free while in beta; $4.99/mo after for unlimited recoveries</li></ul></div>
+  </div>
+  <div class="section">
+    <h2>Features (v1)</h2>
+    <div class="card"><ul><li>Interactive diagnostic flow that detects iOS version, WhatsApp build, carrier, and error variant</li><li>Step-by-step video + text guides for 12 known iOS verification failure patterns</li><li>One-tap &#x27;Open WhatsApp TestFlight&#x27; deep link when public build is broken</li><li>Auto-generated Apple Support &amp; WhatsApp Support tickets with device logs attached</li><li>Fallback verification via WhatsApp Business API sandbox (receive code in our chat)</li><li>Push alert when WhatsApp acknowledges the bug or pushes a hotfix</li><li>Community-sourced workaround voting so the best fix bubbles up</li><li>Privacy-first: no phone number stored, all logic runs client-side via Shortcuts</li></ul></div>
+  </div>
+  <div class="section">
+    <h2>Tech stack</h2>
+    <div class="card" style="display:flex;flex-wrap:wrap;gap:8px"><code>Node.js + Fastify on Fly.io</code> <code>WhatsApp Cloud API (Meta Business)</code> <code>Supabase (Postgres + Realtime + Auth)</code> <code>OpenAI GPT-4o-mini for dynamic fix generation</code> <code>iOS Shortcuts (JSON export) for client-side automation</code> <code>Tailwind CSS + Astro for landing page</code> <code>Resend for transactional email (support tickets)</code> <code>Sentry for error tracking</code></div>
+  </div>
+  <div class="section">
+    <h2>Competitors &amp; the gap</h2>
+    <div class="grid"><div class="card"><strong>WhatsApp FAQ / In-app Help</strong><p style="margin-top:8px;color:var(--mut)">Gap: Generic articles; no version-specific, interactive troubleshooting; can&#x27;t reach you when you&#x27;re locked out</p></div><div class="card"><strong>Apple Support App</strong><p style="margin-top:8px;color:var(--mut)">Gap: Routes to generic &#x27;reinstall app&#x27; advice; no WhatsApp-specific logic; 24-48h response</p></div><div class="card"><strong>Reddit / Twitter / DownDetector</strong><p style="margin-top:8px;color:var(--mut)">Gap: Crowdsourced but unstructured; no guided fix; high noise; no privacy</p></div><div class="card"><strong>Third-party &#x27;WhatsApp Fixer&#x27; Android apps</strong><p style="margin-top:8px;color:var(--mut)">Gap: Android-only; often malware; no iOS support; no official API access</p></div></div>
+  </div>
+  <div class="section" id="wa">
+    <h2>Try it on WhatsApp</h2>
+    <div class="card wa">
+      <p><strong>How it works:</strong> User messages &#x27;VERIFY&#x27; to +1-555-VERIFY-1 → Bot replies with 5 diagnostic buttons (iOS version, WhatsApp version, carrier, error screenshot, tried fixes) → User taps → Bot serves top 3 fixes with video GIFs + &#x27;Run Shortcut&#x27; button → User reports result → Bot logs success/failure, offers escalation ticket if failed</p>
+      <p style="margin-top:12px"><strong>Commands:</strong> <code>VERIFY — start diagnostic</code> <code>SHORTCUT — get iOS Shortcut file</code> <code>TICKET — generate support ticket PDF</code> <code>STATUS — check known outage map</code> <code>HELP — show all commands</code></p>
+    </div>
+  </div>
+  <div class="section">
+    <h2>Pricing</h2>
+    <div class="card pricing"><span class="price">Freemium SaaS: $4.99/mo per user (Pro), $19/mo per 5-seat team. No per-lead; usage capped only by recovery count on free tier.</span></div>
+  </div>
+</div>
+<div class="foot">Generated by PainScout · MVP in ~14 days · Built by a vibe coder for people with real problems</div>
+</body>
+</html>

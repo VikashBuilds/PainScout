@@ -1,0 +1,76 @@
+{
+  "opportunity_theme": "OLED subpixel text rendering broken on Windows",
+  "name": "ClearOLED",
+  "tagline": "Eliminate color fringing on WOLED and QD-OLED monitors",
+  "problem": "Windows ClearType assumes RGB stripe subpixels, causing severe color fringing on WOLED (WRGB) and QD-OLED (triangular) displays with no native fix.",
+  "solution": "A lightweight Windows utility that applies custom pixel shaders to correct subpixel rendering per panel type, replacing ClearType's faulty assumptions with display-aware anti-aliasing.",
+  "features": [
+    "Auto-detect monitor panel type (WOLED/QD-OLED/standard) via EDID and display enumeration",
+    "Per-monitor HLSL shader profiles for WRGB stripe, RGB triangular, and RGB stripe layouts",
+    "Real-time preview with configurable test patterns (text, lines, color edges)",
+    "System-wide toggle with per-application exclusion list (e.g., disable for games)",
+    "ClearType replacement: disables ClearType, injects shader via Desktop Window Manager hook",
+    "Calibration wizard with visual fringe measurement and automatic profile selection",
+    "Low-resource background service (<1% GPU, ~15MB RAM) with startup persistence",
+    "Open-source shader library (GitHub) for community-contributed panel profiles",
+    "Hotkey (Win+Alt+C) for instant A/B comparison between corrected and raw output",
+    "Export/import JSON profiles for sharing across machines or monitor upgrades"
+  ],
+  "mvp_scope": "Build a WinUI 3 desktop app with Direct3D 11/HLSL shader pipeline that hooks DWM via Windows Magnification API, applies per-monitor pixel shaders, and persists three built-in profiles (WOLED, QD-OLED, Standard). Include calibration wizard with fringe test patterns and system-wide enable/disable. Ship as MSIX via GitHub Releases and Winget.",
+  "tech_stack": [
+    ".NET 8 / C#",
+    "WinUI 3 (Windows App SDK 1.5+)",
+    "Direct3D 11 / HLSL (Shader Model 5.0)",
+    "Windows Magnification API (MagSetWindowTransform)",
+    "SQLite (local profile storage)",
+    "GitHub Actions (CI/CD, MSIX packaging)",
+    "Winget / Chocolatey (distribution)",
+    "EDID parsing via Windows.Devices.Display.Core"
+  ],
+  "build_estimate_days": 35,
+  "competitors": [
+    {
+      "name": "BetterClearTypeTuner",
+      "gap": "Only tweaks ClearType registry values; cannot change subpixel geometry assumption"
+    },
+    {
+      "name": "MacType",
+      "gap": "Replaces font rasterizer globally; doesn't address panel subpixel layout mismatch"
+    },
+    {
+      "name": "Windows ClearType Tuner (built-in)",
+      "gap": "Assumes RGB stripe only; no WOLED/QD-OLED awareness"
+    },
+    {
+      "name": "DisplayCAL",
+      "gap": "ICC color calibration only; no runtime subpixel rendering correction"
+    },
+    {
+      "name": "Custom ICC profiles",
+      "gap": "Fixes color accuracy, not subpixel geometry or text fringing"
+    }
+  ],
+  "landing_copy": {
+    "headline": "Sharp Text on Any OLED. Finally.",
+    "subheadline": "Stop color fringing on WOLED and QD-OLED monitors with display-aware pixel shaders — no ClearType hacks.",
+    "bullets": [
+      "Auto-detects your panel type and applies the correct subpixel shader",
+      "Works system-wide or per-app; zero latency, <1% GPU",
+      "Calibrate in 60 seconds with visual fringe test patterns",
+      "Open-source shaders — community profiles for new panels"
+    ],
+    "cta": "Download Free for Windows 10/11"
+  },
+  "whatsapp_bot": {
+    "flow": "User messages bot with monitor model → bot replies with EDID lookup guide → sends test pattern image → user replies with photo of screen → bot analyzes fringe via CV → sends optimal shader profile file → user imports in app",
+    "commands": [
+      "/detect <model>",
+      "/testpattern",
+      "/profile <panel_type>",
+      "/calibrate",
+      "/help"
+    ],
+    "pricing": "Free companion bot; Pro users get priority analysis and auto-profile updates"
+  },
+  "pricing_model": "Free personal use / $19 one-time Pro license (per-app exclusions, auto-profile updates, priority support)"
+}

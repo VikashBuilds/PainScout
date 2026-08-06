@@ -1,450 +1,174 @@
 {
-  "query": "why is this so confusing to use",
-  "generated_at": "2026-08-05T12:29:18+00:00",
+  "query": "wish i did not have to do this manually",
+  "generated_at": "2026-08-06T12:32:30+00:00",
   "pain_points": [
     {
       "source": "hackernews",
-      "title": "Microsoft, why have you forsaken me so",
-      "text": "This is a bit of a rant so excuse me if it comes across as disjointed but I needed something cathartic before I threw myself out the window.<p>So far this morning I have been asked to join a skype call. I am on a new laptop so I said &quot;give me ten minutes I just need to download Skype.&quot;<p>1 hour later and I am still no closer to joining said skype call. The issue is that I need to use a certain account to join this call and so I Googled &quot;Download Skype for Business&quot;. Microsoft then welcomed me into their labyrinth of confusing Skype versions, Microsoft Accounts, Office 365, Office 2017. After being told I don&#x27;t have a Microsoft Account despite being logged into Outlook (What is a Microsoft Account?), and Skype already being logged into some other account on my laptop, I managed to find an installer.<p>So, I managed to find what Microsoft calls a &quot;Skype for Business Basic stand-alone client&quot;, which is actually a trojan horse armed to the teeth with Microsoft products I don&#x27;t want or need. So now I have a installer which was supposed to just be for Skype For Business Basic running for the last twenty minutes downloading on a mobile network at 6mb&#x2F;s. I don&#x27;t actually know what it is downloading. I assume it is downloading Office. It won&#x27;t die. Wait... when did &#x27;End Task&#x27; stop working? Why does the cross minimise the installer?<p>Why is this so difficult? What is actually downloading? Do I have a Microsoft Account? If I don&#x27;t why can I login to Outlook. Is a Office  365 account not a Microsoft Account? Why can&#x27;t I login to pre-installed Skype with this account?<p>I have no power here, I am not the captain of this ship anymore.<p>Oh no... data running out... send help....",
-      "url": "https://news.ycombinator.com/item?id=17573422",
-      "created_at": "2018-07-20T08:46:46Z",
+      "title": "Ask HN: Has anyone fully attempted Bret Victor's vision?",
+      "text": "I love how Bret Victor outlined the importance of programming transforming into a paradigm of direct data manipulation.<p>I&#x27;m much more curious about a programming paradigm that no longer uses text to communicate with computers but instead just directly manipulating data, receiving past, present, and future feedback of how it would change given your manipulations. Or to put it a different way &quot;What if&quot; feedback. &quot;If you did this, the data would change in this way&quot; is visualized across many different dimensions, allowing you to &#x27;feel your way&#x27; through feedback where you wish to go.<p>In other words, you give your computer your input data, and you modify dimensions which allow you to specify what you want the program to do.<p>To be clear, I&#x27;m not searching for specialized interpretations of this &quot;Oh someone did this with typography&quot; or &quot;Oh someone did this with a game&quot; but rather some more generalizable form like &quot;Someone tried to replace Python with an idea like this&quot;<p>I suppose the nearest thing I can think of is manually modifying the parameters of a neural net but that&#x27;s perhaps too cumbersome because there are so many. Perhaps if you can put an autoencoder on top of that, and reduce the parameters down to a smaller &quot;meta&quot; set of parameters that you can manipulate which manipulate the population of parameters in the larger neural net?<p>I&#x27;m just really curious if there have been instantiations along these lines (as opposed to code live-running with results on the sides).<p>I realize this is all quite difficult, may even seem &#x27;impossible&#x27; to have some sort of generalizable system that does this for all sorts of programs. I&#x27;ve heard people say it can&#x27;t be done, and code is the ideal format. I hold that in abeyance, I don&#x27;t really know, but intrigued to discover those who have a counter perspective to that and have attempted to build something.<p>Also r",
+      "url": "https://news.ycombinator.com/item?id=34485254",
+      "created_at": "2023-01-23T03:49:16Z",
       "meta": {
-        "points": 6,
-        "num_comments": 5
-      }
-    },
-    {
-      "source": "hackernews",
-      "title": "IPv6 should concede to using v4 addresses, for now",
-      "text": "tl;dr everything that currently has a v4 address should have the same v6 address (with padding), in every kind of dual-stack network, to ease the transition<p>IPv6 is generally considered better and even simpler than v4. Slow adoption has usually been blamed on old systems, but I&#x27;m getting tired of that explanation. Currently, many networks are dual-stack, meaning both v4 and v6 are spoken on it totally independently. Not only is v4 still around, but the phrase &quot;IP address&quot; is generally understood to mean v4. Why is this still a thing?<p>First I considered the human side. Say a device&#x27;s IPv4 address is 71.177.17.171 (seriously I used to have this one). Maybe I also get v6 address 2345:0425:2CA1:::0567:5673:23b5. You&#x27;re telling me this ::::ing eyesore of base16 is an upgrade? Even making it a longer octal like 71.177.17.171.77.111.11.11 would&#x27;ve been easier for most people. Yes, either way it&#x27;s just a number to the computer, but human-friendliness still matters (consider JSON).<p>When I mentioned this to some network expert colleagues over lunch (I&#x27;m no expert), they each said, the human-unfriendly v6 addresses are a <i>feature</i> to encourage use of DNS within an enterprise system. Something is wrong if you care about the address rather than just using DNS. DNS also solves the v4-&gt;6 migration. I get it, but doesn&#x27;t that sound user-hostile? If the benefit of switching from 4 to 6 is repeatedly too small for companies to justify in the short term, shouldn&#x27;t this be nicer?<p>So I asked, why is v4 still king if DNS can resolve to v6, and the answer confirmed my guess: It&#x27;s not a lack of hardware&#x2F;software support for v6. It&#x27;s all these old, shoddy systems with hardcoded peer ipv4 addresses within datacenters, enterprise setups, etc. Maybe a sensor hardcodes the controller address. And a v4 network will often include all sorts of middleware like NATs that you don&#x27;t put into a v6 network, so often ev",
-      "url": "https://news.ycombinator.com/item?id=33013552",
-      "created_at": "2022-09-28T21:31:28Z",
-      "meta": {
-        "points": 6,
-        "num_comments": 10
-      }
-    },
-    {
-      "source": "hackernews",
-      "title": "Ask HN: I'm a really lonely college student. What can I do?",
-      "text": "This is the last place I had thought of, but here I am. I&#x27;m a CS student in my third year of college, I&#x27;m 19. I feel old, I spend most of my time alone, and I feel as if I have no motivation for anything. My college experience has been, honestly, brutally disappointing; I just look around and see my peers having the time of their lives, finding opportunities, spending time with friends. I feel as if I&#x27;m not part of this community of young, interesting, capable people.<p>Worse still, I have no single person to tell these things to. I used to, but one by one they have left. I&#x27;m scared about being like a black hole...was my attitude the thing that led them away? I don&#x27;t want to fall into that ugly spiral of negative thoughts, I don&#x27;t want to be the person nobody wants to talk to, but I&#x27;m afraid I have become that guy. I deeply wish to be a cool, interesting person to be around with. This is so hard! I feel that before I had something to offer to people, something that made me interesting. I feel as if I&#x27;ve lost that.<p>I’m currently in counselling, but the therapist keeps telling me I should keep talking to at least one stranger every single day. I don&#x27;t see it working, and it drains me physically, mentally and specially emotionally. I have no way of letting this out - I can&#x27;t cry. Tears simply won&#x27;t come out.<p>I constantly ask myself how could I -and why the hell I can&#x27;t- connect and surround myself with the people that I would like to be with. Those, with which I could make projects, play music, stay up all night chatting, have the adventures people in college are supposed to have. It&#x27;s just so difficult for me to even analyze what I&#x27;m doing wrong, or what I&#x27;m supposed to do. Everything is so confusing, and getting worse by the day.<p>Hope this hasn&#x27;t been too long. I just have to let this out. Any word of help would be very welcome.",
-      "url": "https://news.ycombinator.com/item?id=7215081",
-      "created_at": "2014-02-11T01:31:06Z",
-      "meta": {
-        "points": 6,
-        "num_comments": 5
-      }
-    },
-    {
-      "source": "hackernews",
-      "title": "Ask HN: Why doesn't OpenAI care more about ChatGPT's UX?",
-      "text": "Like many people here, I have been using ChatGPT almost since its launch. Considering the massive adoption, I am a bit surprised that the interface hasn&#x27;t evolved one bit in 3 months.<p>My issues:<p>-  Why is there no shortcut to my account&#x2F;profile settings from ChatGPT&#x27;s left panel?<p>-  Why are my DALL-E money and ChatGPT&#x2F;API money kept separate? These are two products from the same company, asking twice for my CC number.<p>-  Why do I have to refresh my page manually every time something went wrong? Couldn&#x27;t the page either refresh itself or recreate a clean connexion?<p>-  Why isn&#x27;t there a &quot;log in&quot; button from OpenAI&#x27;s landing page, plus a SSO detecting that I am already connected and linking (for instance) to my account, the products I use, etc.?<p>-  Why are their URLs so confusing? DALL-E is living at &quot;labs.openai.com&quot; (for the actual product) or &quot;openai.com&#x2F;product&#x2F;dall-e-2&quot; (for the product presentation). For ChatGPT it&#x27;s &quot;chat.openai.com&#x2F;chat&quot; (why &quot;chat&quot; twice btw?), but it&#x27;s &quot;platform.openai.com&#x2F;playground&quot; for the playground. Of course no page links to the others so you have to go back to the landing to access any of them (or access them through Google).<p>-  And finally, why is the search on their website so bad? I was looking for the playground, but &quot;openai.com&#x2F;search?q=playground&quot; sucked so much that I had to use Google to find it. And we are talking about an AI company indexing its own pages.<p>I understand OpenAI has other important things to do right now, but these are minor issues that would take a mediocre dev a few days to fix. This would easily make me 10% happier with a 1&#x2F;1000000th of the resources needed to improve their models. Also, remember that Google got huge in the beginning by caring about stuff like this. So, why does nobody care?<p>EDIT: formatting",
-      "url": "https://news.ycombinator.com/item?id=35236635",
-      "created_at": "2023-03-20T18:49:45Z",
-      "meta": {
-        "points": 6,
-        "num_comments": 4
-      }
-    },
-    {
-      "source": "hackernews",
-      "title": "NFT(s) are just money laundering",
-      "text": "I think it’s highly laughable no one has come to this conclusion so far, and moreover, that there tries to be an explanation beyond this… there is not some value here or even any joke value, it’s just money laundering. In many cases, these transfers are the front for a drug transaction or arms.  It’s confusing why this angle is not being covered when it’s full-stop the entirety of all reasons behind these transactions, which are in essence, merely used to hide the actual transaction being performed.",
-      "url": "https://news.ycombinator.com/item?id=28485433",
-      "created_at": "2021-09-10T18:31:52Z",
-      "meta": {
-        "points": 30,
-        "num_comments": 19
-      }
-    },
-    {
-      "source": "hackernews",
-      "title": "Ask HN: Why does STM32 (or embedded generally) development suck?",
-      "text": "I&#x27;m getting into embedded development. Got me a STM32F3Discovery (recommended by Embedded Rust). Started going down the embedded rust rabbit hole before I got tired of the complexity (though do like the idea of Embassy), wanted to look for something simpler.<p>Started looking into embedded Zig. Looks promising but still not there, not a ton of hardware support yet.<p>Allergic to getting close to C++ due to all it&#x27;s baggage, decide to start getting into C. Learning C was easy so started to look into getting my stuff onto a chip, again using the Discovery as my base board.<p>Have a slew of IDE choices, STM32CubeMX, Keil uV, various VSCode extensions. <i>All</i> of them are quite complex and when you get them working, they lay down A TON of files that seem somewhat irrelevant (and noisy) to creating simple programs.<p>The HALs are confusing so want to just leverage CMSIS and bit bang my way to greatness. ARM has system CMSIS but vendors have vendor-specific CMSIS, so (finding them) and piecing them together sucks.<p>Oh then you need linkers and startup scripts, where are those? Again, vendor specific that the CubeMX or uV basically pull from STM32&#x27;s Github org. That org btw, tons of repos of <i>stuff</i> that isn&#x27;t super obvious what is what, what should be used with what, etc.<p>Now you have what you need but you need to then flash the chip, again a couple different ways to do this.<p>I just want a utility that plunks down the necessary CMSIS, linker and startup so I can get my base level bearing and actually do development...why is there so much noise and cruft everywhere?",
-      "url": "https://news.ycombinator.com/item?id=44424060",
-      "created_at": "2025-06-30T14:49:36Z",
-      "meta": {
-        "points": 6,
-        "num_comments": 8
-      }
-    },
-    {
-      "source": "hackernews",
-      "title": "Ask HN: Why is today's Internet experience so user hostile?",
-      "text": "Ever tried to help a relative over the holidays to set up their home-banking? Lost in the juggling of your multi-factor device garden? Tried to get useful search results from Google recently to find yourself in advert hell? Longing for the old Amazon experience when today&#x27;s seems like running the gauntlet of grey-imports and scam-price offerings? Logged out of a site for 6 months and returning to a completely confusing new site where nothing is like it used to be? \nToday&#x27;s Internet experience has become user-hostile and it almost calls out for returning to the 90s: walled gardens aka Compuserve experience, dedicated devices for home-banking and standalone cameras.<p>What has led to this experience? On the top of my head I can see the following reasons:<p>* Release Often as KPIs for developers<p>The release often KPI for promotion and bonuses has led to constant changes to &#x27;systems that are working fine&#x27; to become ever-changing user experiences. While daily users can gradually phase-in changes, most sites that are casually used will confuse users with completely new error-prone experience.<p>* Payment Security and Financial Regulations<p>At least in the EU fraud has led to various tech-related regulation calling as an example for separate apps for IDs and for transaction verification. While it is well-meant, it leads people to check bank statements less often and anecdotally in my family confuses especially elderly users to the point of introducing more opportunity for scams and fraud.<p>* Patch-work nature of ID &amp; Verification<p>Captchas, Two-factor SMS, password rules and Authentication Apps have been patched onto the original user&#x2F;pass system. The experience has become truly annoying with some clear winners: anecdotally more and more people simply use Google&#x2F;Facebook OAuth as logins to sites. This is fine from a UI perspective, but lacks consumer regulation - what happens if you lose your access and who can you contact if your acc",
-      "url": "https://news.ycombinator.com/item?id=29778880",
-      "created_at": "2022-01-03T09:24:21Z",
-      "meta": {
-        "points": 323,
-        "num_comments": 370
-      }
-    },
-    {
-      "source": "hackernews",
-      "title": "Ask HN: Am I a bad stupid engineer? I feel like everything I do is so simple",
-      "text": "I work as a backend&#x2F;platform engineer and I&#x27;m considered a &quot;senior&quot; engineer 6 years of exp, and in the past I&#x27;ve done everything from web UI&#x2F;backend, mobile apps, and data related stuff. I feel like I understand how to build systems at a high level.<p>So, I feel like a total noob when I show my work to other people. I&#x27;m trying to focus on some of my ideas and build out a company around something I can manage to build to 80% and start demoing. Here are my doubts:<p>- I don&#x27;t really understand how CI works. At work our CI process is massive and honestly confusing&#x2F;complex. In my case, I have just a few simple scripts that manage this.<p>- I keep my code organized by separation of concerns using some things I&#x27;ve learned from clean code, clean architecture, DDD, etc. Almost everything is a single responsibility, small functions that I can test easily in isolation or as part of larger integration tests, and I don&#x27;t really do anything fancy or n levels of abstraction, factories for factories, etc.<p>- If it works out of the box with std library, I use it. Otherwise for more complex things or things I don&#x27;t personally understand, I&#x27;ll use a well supported library if I don&#x27;t want to spend a whole day re-inventing the wheel.<p>When I look at other people&#x27;s code I often have a really hard time understanding what is going on. The tests are confusing, and I feel like I am stupid for not understanding what they&#x27;re doing in the source code. I also find a lot of the &quot;support&quot; projects like CI, infra, etc. are also complex. At work we have entire teams for all of this, like there&#x27;s a dozen engineers who work on CI related things, like 30 in infra, etc who support all the teams. Maybe that&#x27;s why it is complex?<p>At work I&#x27;m considered pretty good and I get put on greenfield projects which I hammer out foundations that other people then pick up and build on top of. When I look at ",
-      "url": "https://news.ycombinator.com/item?id=32829796",
-      "created_at": "2022-09-13T20:29:17Z",
-      "meta": {
-        "points": 7,
-        "num_comments": 4
-      }
-    },
-    {
-      "source": "hackernews",
-      "title": "Launch HN: Spoken (YC S21) – Better furniture shopping",
-      "text": "Hi HN, we’re Dane and Geoff, the founders of Spoken (<a href=\"https:&#x2F;&#x2F;www.spoken.io&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.spoken.io&#x2F;</a>). We make it easy to find the lowest price for any furniture item across all big stores.<p>Buying physical things on the internet is hard. You have to quality-check a product without touching it, double-check dimensions for where the thing will go, and evaluate a seller&#x27;s credibility, often with little data. But buying furniture online is a special case of hard, because the market is deliberately deceptive.<p>Furniture sellers actively prevent consumers from easily finding the same item at other stores, or under other names, because this allows them to charge more. The sellers get to name the products and they name them in confusing ways to facilitate price discriminaton. For example, this table at Wayfair (<a href=\"https:&#x2F;&#x2F;www.wayfair.com&#x2F;furniture&#x2F;pdp&#x2F;williston-forge-veronica-dining-table-w001977704.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.wayfair.com&#x2F;furniture&#x2F;pdp&#x2F;williston-forge-veroni...</a>) can also be found at Appliances Connection under a different name for roughly half the price (<a href=\"https:&#x2F;&#x2F;www.appliancesconnection.com&#x2F;modway-eei2034brn.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.appliancesconnection.com&#x2F;modway-eei2034brn.html</a>). With most online shopping, the products you want have unambiguous names—if you want, say, a TV, you can simply search “Samsung 55 inch” and see what both Best Buy and Walmart are charging. But with furniture, sellers work actively to disrupt an accurate product graph and keep the market inefficient.<p>The net result is that buying furniture feels icky, noisy, and predatorial. It is much like buying a used car from a used-car salesperson might have felt before Carmax. This is reflected in how much consumers hate the industry: across 14 of the biggest furniture retailers the average NPS is -11, compared ",
-      "url": "https://news.ycombinator.com/item?id=30757421",
-      "created_at": "2022-03-21T17:53:39Z",
-      "meta": {
-        "points": 132,
-        "num_comments": 118
-      }
-    },
-    {
-      "source": "hackernews",
-      "title": "Ask HN: How can one deal with bad management?",
-      "text": "I'm working at a big and renowned software company, but I'm not living\nin the USA, so my experience could be different from people working\nthere. After all, big companies only come in third-world countries for\ncost-savings.  I also read pg's essays, which I liked, so I may be\ninfluenced by his thinking.<p>I am a regular software developer, and I'm really passionate about my\nwork, that's why it hurts me to no end when I see decisions being made\nthat do not benefit the project. Some gripes include, but not limited\nto:<p>* changing a good design with one that's not visually appealing, and\n   is really confusing, because we had to make it look like it's part\n   of the company's website<p>* to change the design, and to accomodate future changes, we are\n   including external server-side files in our HTML, files that\n   gathered a lot of cruft over the years, with bad coding practices\n   (inline CSS/Javascript). We have to load them from external\n   sources, such that when they change, it changes for us too.<p>* With our old design the main page had 100Kb, with 80Kb being cached\n   static content. Now we have 1 MB of static files that do not have a\n   cache header set, and a ton of inline code that adds an extra 300Kb\n   to one request. And this is after we negotiated with the right\n   department to slim down those files.<p>* we rewrote the administration interface because it was considered\n   to have business value the usage of a certain technology,\n   sacrificing months with code going down the drain.<p>* cool features that provided value to real users where pushed in\n   favor of features that provided value to the upper-management. How\n   useful is a statistics dashboard for a product that doesn't have a\n   community yet?<p>* hacking on cool stuff is not encouraged. After all we have a\n   release coming. No reason to waiste time on unplanned stuff.<p>* we had to negociate a period dedicated to increasing the quality of\n   our infrastructure / code.<p>* we have been work",
-      "url": "https://news.ycombinator.com/item?id=304806",
-      "created_at": "2008-09-15T16:38:25Z",
-      "meta": {
-        "points": 22,
-        "num_comments": 23
-      }
-    },
-    {
-      "source": "hackernews",
-      "title": "Ask HN: How should programming be taught at university?",
-      "text": "I have brought this up in a couple of communities, and the response is always interesting, so I'm going to bring it up here, too.<p>I believe that the way programming is taught in university (in particular \"Intro to programming\" courses) is wrong. This year I had a couple of friends struggling with \"Intro to programming\" courses, and it made me reflect on what I was taught when going though a similar course at my own university.<p>My course, as well as the courses my friends were attending, were all trying to teach Java as a first language. There's nothing inherently wrong with learning Java (it's popular in big business, and that's where Universities are trying to aim their graduates) but something about the way that it's taught irks me.<p>I think that it's safe to say that Java is a fairly complex language. The JVM removes some annoyances that experienced programmers have had when trying to build a multi-platform systems, but it comes with a boiler-plate overhead. Most IDEs will deal with this automatically for you, so when you get to actually using the language, the boilerplate overhead isn't an issue. When you're learning not just the language, but the concepts of programming, then the boilerplate is horrible, scary, and confusing.<p>Now most programming courses will start with \"getting the JVM and (inevitably) NetBeans running\", followed by a quick trip down \"Hello, world!\" lane. Most teachers seem to think that the achievement of writing your first compiling program should be the thrill needed to spark further interest in programming, but in reality by this point they have taught students how to copy and paste. Some students will have managed to fail at that, too. And why? Because the boilerplate makes no sense to non-programmers. The fact that these nonsensical lines have to go in a specific order, and have to be typed in an exact way isn't always inherently obvious to a 'fresh-out-of-high-school, copy-down-notes' student. Crazy, I know.<p>The next problem wi",
-      "url": "https://news.ycombinator.com/item?id=3394070",
-      "created_at": "2011-12-26T22:13:28Z",
-      "meta": {
-        "points": 9,
-        "num_comments": 6
-      }
-    },
-    {
-      "source": "hackernews",
-      "title": "Ask HN: Dumbing down the Web with frameworks and abstractions",
-      "text": "I posted a question/rant over on Reddit, and I'd be curious to get the perspective of some HNers.<p>In summary, do too many Web developers lack a fundamental understanding of underpinnings of the Web?<p>http://www.reddit.com/r/programming/comments/b1apt/dumbing_down_the_web_with_frameworks_and/<p>--------------------------------------------------<p>Over the past few years, I've had the opportunity to work with many different Web-centric frameworks, and I've found them a great aid in boosting my productivity. I've used CSS, JavaScript and programming frameworks such as Blueprint CSS, jQuery, Django, ASP.NET, ASP.NET MVC.<p>Over the past year, I've been able to introduce several traditional ASP.NET developers to ASP.NET MVC, Blueprint and jQuery. I've been surprised at the lack of fundamental knowledge of how the Web works, and how this lack of knowledge has proven an obstacle for adopting these new technologies.<p>Before I start my rant, I want to say that these are intelligent, talented developers and that this situation isn't unique to those who grew up on ASP.NET.<p>So what do I mean by a lack of fundamental knowledge?\nIn my mind, ever Web developer (programmer) should have knowledge of the [suite of protocols](http://en.wikipedia.org/wiki/Internet_Protocol_Suite) that currently make up the Web:<p>* TCP/IP<p>* HTTP<p>* TLS/SSL<p>In addition, Web developers should have expert knowledge of:<p>* CSS<p>* JavaScript<p>* HTML<p>Developers don't need to be subject-matter experts on these, but they should <i>have a fundamental understanding</i> of these protocols and should be able to <i>translate a framework's abstraction into a core protocol</i>.<p>Some of the issues I've encountered due to a lack of fundamental understanding:<p>* Ajax -- Developers who have used ASP.NET AJAX have no concept of the HTTP requests that are going on behind the scenes. To them, ASP.NET AJAX removes a \"page flicker\" (a POST request to the current page, which re-fetches the content).<p>* Stat",
-      "url": "https://news.ycombinator.com/item?id=1120777",
-      "created_at": "2010-02-12T15:34:19Z",
-      "meta": {
-        "points": 7,
-        "num_comments": 2
-      }
-    },
-    {
-      "source": "hackernews",
-      "title": "Ask HN: How would you explain an ABI?",
-      "text": "This would be my (possibly wrong) explanation:<p>So in Linux we have syscalls such as write, read, close, socket, ...\nThese syscalls are defined according to the POSIX standard. POSIX is basically a standard for operating systems. Linux&#x2F;Unix follow these standards.\nSo syscalls are an interface so that we can communicate with the OS. (Is it the application binary interface already?)<p>Now, we have the C standard library, so we don&#x27;t need to deal with syscalls (or specific OS stuff). The C standard library is basically an application programming interface (API).\nSo printf, fopen etc. map to write, open, etc. respectively:<p>printf ~ write<p>fopen ~ open<p>fclose ~ close<p>...<p>Then, apparently, we require a runtime environment (RTE). This runtime environment (is perhaps) the standard library that is a .so file (a shared object).\nShared objects are (perhaps) loaded by the OS to a specific memory location so that all C programs can access that .so file (which is now loaded in memory for all C executables to use.)\nSo that .so file is the &quot;RTE&quot; and the syscalls are the &quot;ABI&quot;?<p>If so, I find &quot;ABI&quot; and &quot;RTE&quot; confusing. Java has an RTE. You need the Java Virtual Machine (an abstract CPU essentially) to run your .class files within that virtual machine (JVM).<p>Again, I am unsure about this, so please go easy on me. Thank you!<p>PS: Why do people like Jason Turner say: &quot;break the ABI to save C++&quot;? So break the .so files for C++&#x27;s standard library? What for? (Shouldn&#x27;t it be: &quot;break C++&#x27;s RTE&quot;?)",
-      "url": "https://news.ycombinator.com/item?id=29216852",
-      "created_at": "2021-11-14T12:37:04Z",
-      "meta": {
-        "points": 6,
-        "num_comments": 10
-      }
-    },
-    {
-      "source": "hackernews",
-      "title": "Stay Away from Gemini",
-      "text": "Background\nI&#x27;ve been a Gemini user for many years but never used it much until recently. I knew it to be the &quot;Winklevoss exchange&quot; and not much more (which I disliked). It has been around for a while and didn&#x27;t have a terrible reputation, which is I guess a good thing in crypto? (you know, the bar is low).<p>I eventually landed back into my old Gemini account and proceeded to buy some BTC and transfer to my cold wallet. Everything was fine for a few days, despite the usual weirdness around UI bugs and terribly confusing error messages, it mostly worked and I was able to buy and withdrawal my coins with no problem.<p>The nightmare begins\nThen, out of the blue one day, I get &quot;security hold, please contact &quot;supp0rt at gemini.com&quot;. Nothing else. No information as to why. Also seemingly completely random or for no clear reason. I was accessing from the same computer that I always use, from the same location, using 2FA as usual, nothing out of the ordinary.<p>Doing a Reddit search for that messaage, I found a lot other frustrated users with the same issue, so I knew I was not alone and was up for some frustration ahead of me.<p>If this happens to you, here&#x27;s a breakdown of what they will make you do:<p>First email: Submit a photo of yourself with the following:<p>1. A view of your full face\n2. Your ID that was used to register with Gemini, clear and legible\n3. A handwritten note that states the current date and says “\\[TICKET NUMBER\\]” underneath\nIf you don&#x27;t take a very high resolution photo including all of the above in a very crisp and readable image, it will be rejected and you&#x27;ll need to upload again. Been there, done that.<p>Fast forward 3 days later, the second email from &quot;supp0rt&quot;. No, we&#x27;re not quite done yet. Now you have to answer the questionnaire below:<p>1. How did you find out about Gemini?\n2. Has anyone instructed you to open this Gemini account or has any one requested payment through Gemini",
-      "url": "https://news.ycombinator.com/item?id=36888910",
-      "created_at": "2023-07-27T04:26:53Z",
-      "meta": {
-        "points": 6,
-        "num_comments": 0
-      }
-    },
-    {
-      "source": "hackernews",
-      "title": "Launch HN: Aquarium (YC S20) – Improve Your ML Dataset Quality",
-      "text": "Hi everyone! I’m Peter from Aquarium (<a href=\"https:&#x2F;&#x2F;www.aquariumlearning.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.aquariumlearning.com&#x2F;</a>). We help deep learning developers find problems in their datasets and models, then help fix them by smartly curating their datasets. We want to build the same high-power tooling for data curation that sophisticated ML companies like Cruise, Waymo, and Tesla have and bring it to the masses.<p>ML models are defined by a combination of code and the data that the code trains on. A programmer must think hard about what behavior they want from their model, assemble a dataset of labeled examples of what they want their model to do, and then train their model on that dataset. As they encounter errors in production, they must collect and label data for the model to train on to fix these errors, and verify they&#x27;re fixed by monitoring the model’s performance on a test set with previous failure cases. See Andrej Karpathy’s Software 2.0 article (<a href=\"https:&#x2F;&#x2F;medium.com&#x2F;@karpathy&#x2F;software-2-0-a64152b37c35\" rel=\"nofollow\">https:&#x2F;&#x2F;medium.com&#x2F;@karpathy&#x2F;software-2-0-a64152b37c35</a>) for a great description of this workflow.<p>My cofounder Quinn and I were early engineers at Cruise Automation (YC W14), where we built the perception stack + ML infrastructure for self driving cars. Quinn was tech lead of the ML infrastructure team and I was tech lead for the Perception team. We frequently ran into problems with our dataset that we needed to fix, and we found that most model improvement came from improvement to a dataset’s variety and quality. Basically, ML models are only as good as the datasets they’re trained on.<p>ML datasets need variety so the model can train on the types of data that it will see in production environments. In one case, a safety driver noticed that our car was not detecting green construction cones. Why? When we looked into our dataset, it turned out th",
-      "url": "https://news.ycombinator.com/item?id=23821502",
-      "created_at": "2020-07-13T15:05:41Z",
-      "meta": {
-        "points": 167,
-        "num_comments": 19
+        "points": 276,
+        "num_comments": 153
       }
     },
     {
       "source": "stackexchange",
-      "title": "Typedef function pointer?",
+      "title": "parsing a reponse from a XMLHttpRequest",
+      "text": [
+        "ajax",
+        "feedparser"
+      ],
+      "url": "https://stackoverflow.com/q/5363259",
+      "created_at": "1300551669",
+      "meta": {
+        "site": "stackoverflow",
+        "score": 1,
+        "answers": 3,
+        "tags": [
+          "ajax",
+          "feedparser"
+        ]
+      }
+    },
+    {
+      "source": "stackexchange",
+      "title": "Get city polygon from name",
+      "text": [
+        "python",
+        "python-2.7"
+      ],
+      "url": "https://stackoverflow.com/q/38365324",
+      "created_at": "1468469384",
+      "meta": {
+        "site": "stackoverflow",
+        "score": 1,
+        "answers": 1,
+        "tags": [
+          "python",
+          "python-2.7"
+        ]
+      }
+    },
+    {
+      "source": "stackexchange",
+      "title": "IDA Pro: Export identified array to c/c++",
+      "text": [
+        "ida"
+      ],
+      "url": "https://stackoverflow.com/q/9286987",
+      "created_at": "1329271721",
+      "meta": {
+        "site": "stackoverflow",
+        "score": 0,
+        "answers": 1,
+        "tags": [
+          "ida"
+        ]
+      }
+    },
+    {
+      "source": "stackexchange",
+      "title": "Parallel programming library? (+ some features)",
       "text": [
         "c++",
-        "c",
-        "pointers",
-        "typedef"
+        "multithreading",
+        "accessibility",
+        "portability",
+        "parallel-programming"
       ],
-      "url": "https://stackoverflow.com/q/4295432",
-      "created_at": "1290919825",
+      "url": "https://softwareengineering.com/q/101032",
+      "created_at": "1313343525",
       "meta": {
-        "site": "stackoverflow",
-        "score": 580,
-        "answers": 6,
+        "site": "softwareengineering",
+        "score": 8,
+        "answers": 1,
         "tags": [
           "c++",
-          "c",
-          "pointers",
-          "typedef"
+          "multithreading",
+          "accessibility",
+          "portability",
+          "parallel-programming"
         ]
       }
     },
     {
       "source": "stackexchange",
-      "title": "Use of PUT vs PATCH methods in REST API real life scenarios",
+      "title": "Enforcing standard practices onto a self-taught project owner",
       "text": [
-        "json",
-        "rest",
-        "http",
-        "put",
-        "http-method"
+        "management",
+        "education"
       ],
-      "url": "https://stackoverflow.com/q/28459418",
-      "created_at": "1423672201",
-      "meta": {
-        "site": "stackoverflow",
-        "score": 1347,
-        "answers": 16,
-        "tags": [
-          "json",
-          "rest",
-          "http",
-          "put",
-          "http-method"
-        ]
-      }
-    },
-    {
-      "source": "stackexchange",
-      "title": "Why not inherit from List<T>?",
-      "text": [
-        "c#",
-        ".net",
-        "list",
-        "oop",
-        "inheritance"
-      ],
-      "url": "https://stackoverflow.com/q/21692193",
-      "created_at": "1392087696",
-      "meta": {
-        "site": "stackoverflow",
-        "score": 1738,
-        "answers": 29,
-        "tags": [
-          "c#",
-          ".net",
-          "list",
-          "oop",
-          "inheritance"
-        ]
-      }
-    },
-    {
-      "source": "stackexchange",
-      "title": "What is TDD, why is everyone confusing it with mostly TFP?",
-      "text": [
-        "tdd"
-      ],
-      "url": "https://softwareengineering.com/q/334820",
-      "created_at": "1477632594",
-      "meta": {
-        "site": "softwareengineering",
-        "score": 0,
-        "answers": 4,
-        "tags": [
-          "tdd"
-        ]
-      }
-    },
-    {
-      "source": "stackexchange",
-      "title": "Why \"Fork me on GitHub\"?",
-      "text": [
-        "git",
-        "github",
-        "collaboration"
-      ],
-      "url": "https://softwareengineering.com/q/214952",
-      "created_at": "1382200693",
-      "meta": {
-        "site": "softwareengineering",
-        "score": 49,
-        "answers": 11,
-        "tags": [
-          "git",
-          "github",
-          "collaboration"
-        ]
-      }
-    },
-    {
-      "source": "stackexchange",
-      "title": "Why do people hesitate to use Python 3?",
-      "text": [
-        "programming-languages",
-        "python",
-        "community",
-        "upgrade"
-      ],
-      "url": "https://softwareengineering.com/q/63859",
-      "created_at": "1301560144",
-      "meta": {
-        "site": "softwareengineering",
-        "score": 230,
-        "answers": 9,
-        "tags": [
-          "programming-languages",
-          "python",
-          "community",
-          "upgrade"
-        ]
-      }
-    },
-    {
-      "source": "stackexchange",
-      "title": "Am I wrong to expect more initiative from the tech lead?",
-      "text": [
-        "communication",
-        "teamleader"
-      ],
-      "url": "https://workplace.com/q/160096",
-      "created_at": "1594057688",
+      "url": "https://workplace.com/q/178033",
+      "created_at": "1630512178",
       "meta": {
         "site": "workplace",
-        "score": -1,
+        "score": -7,
         "answers": 1,
         "tags": [
-          "communication",
-          "teamleader"
+          "management",
+          "education"
         ]
       }
     },
     {
       "source": "stackexchange",
-      "title": "Been at a company 9 months, never received training",
+      "title": "What Is The Most Professional Manner For Dealing With Arbitrary Management Style?",
       "text": [
-        "new-job",
-        "training",
-        "first-job",
-        "france",
-        "onboarding"
+        "manager",
+        "employees",
+        "people-management"
       ],
-      "url": "https://workplace.com/q/172655",
-      "created_at": "1621513837",
+      "url": "https://workplace.com/q/57816",
+      "created_at": "1447690567",
       "meta": {
         "site": "workplace",
-        "score": 9,
-        "answers": 5,
-        "tags": [
-          "new-job",
-          "training",
-          "first-job",
-          "france",
-          "onboarding"
-        ]
-      }
-    },
-    {
-      "source": "stackexchange",
-      "title": "Ex-employer is offering a \"compensation package\" for some basic things like no ill talking the company but also my password. What do?",
-      "text": [
-        "management"
-      ],
-      "url": "https://workplace.com/q/109594",
-      "created_at": "1521834343",
-      "meta": {
-        "site": "workplace",
-        "score": 5,
-        "answers": 4,
-        "tags": [
-          "management"
-        ]
-      }
-    },
-    {
-      "source": "stackexchange",
-      "title": "Why is there initial margin when I did not borrow any money to begin with?",
-      "text": [
-        "trading",
-        "margin"
-      ],
-      "url": "https://money.com/q/165577",
-      "created_at": "1742466057",
-      "meta": {
-        "site": "money",
-        "score": 4,
-        "answers": 1,
-        "tags": [
-          "trading",
-          "margin"
-        ]
-      }
-    },
-    {
-      "source": "stackexchange",
-      "title": "Is this projected return from Wealthify too low?",
-      "text": [
-        "investing",
-        "etf"
-      ],
-      "url": "https://money.com/q/103520",
-      "created_at": "1546341851",
-      "meta": {
-        "site": "money",
-        "score": 44,
-        "answers": 8,
-        "tags": [
-          "investing",
-          "etf"
-        ]
-      }
-    },
-    {
-      "source": "stackexchange",
-      "title": "Layman explanation of Withholding Allowance tax form",
-      "text": [
-        "united-states",
-        "income-tax",
-        "withholding",
-        "payroll-taxes"
-      ],
-      "url": "https://money.com/q/89252",
-      "created_at": "1515547385",
-      "meta": {
-        "site": "money",
         "score": 2,
-        "answers": 1,
+        "answers": 3,
         "tags": [
-          "united-states",
-          "income-tax",
-          "withholding",
-          "payroll-taxes"
+          "manager",
+          "employees",
+          "people-management"
         ]
       }
     },
     {
-      "source": "github",
-      "title": "This is not a feature request. This is a blocking accessibility issue.”  Critical Accessibility Issues Across Mobile and Desktop",
-      "text": "This is not a feature request. This is a blocking accessibility issue.” \n\nHello n8n Team,\n\nI am a blind user who relies entirely on screen readers (TalkBack on Android and NVDA screen readers on desktop), and I would like to raise a serious concern regarding accessibility in n8n.\n\nCurrently, n8n presents significant accessibility barriers on both mobile and desktop platforms, making it extremely difficult—if not impossible—for visually impaired users to use the tool independently.\n\nHere are the main issues I am facing:\n\n1. Screen Reader Compatibility\n\n- Many buttons and interactive elements are not properly labeled\n- Some controls are completely invisible to screen readers\n- Workflow nodes and connections are not accessible or understandable via screen readers\n\n2. Keyboard Navigation (Desktop)\n\n- Navigation using keyboard only is very limited or inconsistent\n- Focus order is unclear or broken in many areas\n- It is difficult to operate workflows without a mouse\n\n3. Mobile Accessibility\n\n- The interface is not optimized for TalkBack\n- Gestures and navigation are confusing or non-functional\n- Important actions are hard to reach or not announced properly\n\n4. Workflow Builder Accessibility\n\n- The visual editor is almost entirely inaccessible\n- There is no alternative (text-based or structured) way to build or edit workflows\n- This is a critical limitation for blind users\n\n5. General Accessibility Standards\n\n- Lack of ARIA labels and semantic structure\n- Missing accessibility roles for interactive components\n\n---\n\nWhy This Matters\n\nAccessibility is not a minor feature—it is essential. Tools like n8n are powerful and widely used, but without proper accessibility support, an entire group of users is excluded.\n\n---\n\nSuggestions for Improvement\n\n- Add proper ARIA labels and semantic HTML structure\n- Improve keyboard navigation and focus management\n- Provide full screen reader support for all UI elements\n- Consider creating an alternative accessible workflow editor (text-based",
-      "url": "https://github.com/n8n-io/n8n/issues/28071",
-      "created_at": "2026-04-06T18:29:37Z",
+      "source": "stackexchange",
+      "title": "Toxic workplace environment and my role",
+      "text": [
+        "toxic-culture"
+      ],
+      "url": "https://workplace.com/q/190835",
+      "created_at": "1680296288",
       "meta": {
-        "repo": "n8n-io/n8n",
-        "comments": 3,
-        "reactions": 0
+        "site": "workplace",
+        "score": -4,
+        "answers": 2,
+        "tags": [
+          "toxic-culture"
+        ]
       }
     },
     {
-      "source": "github",
-      "title": "Expressions silently resolve to null when Execute Workflow returns items with out-of-range pairedItem input index",
-      "text": "## Bug Description\n\nWhen an Execute Workflow node returns items from a sub-workflow, the sub-workflow's **internal** `pairedItem` metadata can pass through to the parent unchanged. If the sub-workflow's final node was a multi-input node (e.g. Merge) and the item came through input index ≥ 1, the parent receives an item with `pairedItem: { item: 0, input: 1 }` — but the Execute Workflow node only has one input.\n\nAny downstream expression that uses paired-item resolution across that node (e.g. `$('Webhook').item.json.field`) then **silently resolves to `null`**. No expression error, no failed node, no log line — the node runs \"successfully\" with an empty value, and the failure surfaces much later (in our case as a confusing 400 from an external API that received a parameter with no value).\n\nThe behavior is **intermittent** in real workflows because it depends on which input of the sub-workflow's final Merge produced the winning item on that particular run — which makes it very hard to debug from the outside.\n\nThree separate issues stack up to produce the silent null (all verified on current `master`, 5c204364eb):\n\n1. **Sub-workflow `pairedItem` passthrough** — `packages/nodes-base/nodes/ExecuteWorkflow/ExecuteWorkflow/ExecuteWorkflow.node.ts` (~L462–474): when `getExecutionDataById` returns no run data (e.g. sub-workflow has \"save successful executions\" disabled) or `findPairedItemThroughWorkflowData` returns `undefined`, the item keeps its sub-internal `pairedItem` verbatim, exporting an input index that is out of range in the parent context.\n\n2. **Paired-item resolver throws a raw `TypeError` instead of an `ExpressionError`** — `packages/workflow/src/workflow-data-proxy.ts`, `getPairedItem`: candidates whose `input` exceeds `sourceArray.length` are dropped via `return []` inside the `flatMap`, leaving `results` empty. Then:\n\n   ```ts\n   if (results.every((result) => !result.ok)) {\n     throw results[0].error;   // results is [] → results[0] is undefined\n   }\n   ```\n",
-      "url": "https://github.com/n8n-io/n8n/issues/35559",
-      "created_at": "2026-08-05T02:47:36Z",
+      "source": "stackexchange",
+      "title": "How should I deal with how the bank/VISA/companies deal with \"flexible\" charges?",
+      "text": [
+        "bank-account",
+        "bookkeeping",
+        "transaction"
+      ],
+      "url": "https://money.com/q/148805",
+      "created_at": "1643046802",
       "meta": {
-        "repo": "n8n-io/n8n",
-        "comments": 3,
-        "reactions": 0
+        "site": "money",
+        "score": 0,
+        "answers": 1,
+        "tags": [
+          "bank-account",
+          "bookkeeping",
+          "transaction"
+        ]
       }
     },
     {
@@ -461,352 +185,330 @@
     },
     {
       "source": "github",
-      "title": "Text Replacement / expander",
-      "text": "A simple text replacement tool, my examples are from macOS and iOS, it is also a feature in Android. \n\nBasically this feature: [Text Replacements](https://support.apple.com/guide/mac-help/replace-text-punctuation-documents-mac-mh35735/mac)\n\nOn your Mac, choose Apple menu > System Preferences, click Keyboard, then click Text.\n\nAnother example: [Third one down](https://support.apple.com/en-us/HT207525) \"Set up text replacement\"\n\nIt's very handy if you have things you need to type regularly, and just typing one word and having my system fill in a whole sentence saves a lot of time and effort at work instead of keeping a copy past text file. I have many web addresses I send to customers and many full sentences for my notes at work that used repeatedly and this kind of feature is surprisingly missing from Windows.\n\nSorry to open a new issue for this, but my last one was closed already.\n\n![mac-autoreplace-fun](https://user-images.githubusercontent.com/67873106/87842334-d3e7c000-c879-11ea-9433-75b8ccd83778.png)\n![ios12-iphone-x-settings-keyboards-text-replacement-social-card](https://user-images.githubusercontent.com/67873106/87842335-d4805680-c879-11ea-97ea-1c32f278863a.jpg)\n\n\nApps like Fastkeys and Beeftext do this well - adding to Powertoys would be awesome.\n\n\nhttps://www.fastkeysautomation.com/\n\nhttps://beeftext.org/",
-      "url": "https://github.com/microsoft/PowerToys/issues/5074",
-      "created_at": "2020-07-18T02:12:12Z",
+      "title": "Independent virtual desktops per monitor",
+      "text": "Yet another virtual desktop request. Currently switching virtual desktops switches windows on all monitors. It would be great to make this independent per monitor.\r\n\r\nEg. I always have Outlook on monitor 1, but want to switch between multiple sets of apps on monitor 2 and 3 without losing whats on monitor 1.\r\n\r\nBonus points if the virtual desktops are all shared so I can cycle through them on each monitor eg 5 virtual desktops, 3 monitors.\r\nStart with:\r\n1=1, 2=2, 3=3\r\nCycle 3 (to virtual 4):\r\n1=1, 2=2, 3=4\r\nCycle 2 (to virtual 5):\r\n1=1, 2=5, 3=3\r\nCycle 3 \"down\" (to virtual 2):\r\n1=1, 2=5, 3=2\r\n\r\n\r\n\r\n",
+      "url": "https://github.com/microsoft/PowerToys/issues/58",
+      "created_at": "2019-05-09T15:46:59Z",
       "meta": {
         "repo": "microsoft/PowerToys",
-        "comments": 63,
-        "reactions": 142
+        "comments": 132,
+        "reactions": 336
       }
     },
     {
       "source": "appstore",
-      "title": "😐",
-      "text": "Я не могу убрать столбец начните переписку я не хочу ни с кем ее начинать даже когда есть более 10 чатов этот столбец не уходит",
+      "title": "WhatsApp problème",
+      "text": "Mon WhatsApp ne peut pas ouvrir",
       "url": "",
-      "created_at": "2026-08-04T01:56:16-07:00",
-      "meta": {
-        "rating": 1,
-        "author": "😐☺️😂😛🤮😑😛😑💛👈🏻🧡😂",
-        "appId": "310633997"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "Fix my WhatsApp",
-      "text": "Why is my WhatsApp always freezing anytime I open the app 🤦🏻‍♂️🤦🏻‍♂️",
-      "url": "",
-      "created_at": "2026-08-04T01:48:10-07:00",
+      "created_at": "2026-08-05T01:10:22-07:00",
       "meta": {
         "rating": 5,
-        "author": "_.mr_bornrich",
+        "author": "Melchy||•",
         "appId": "310633997"
       }
     },
     {
       "source": "appstore",
-      "title": "I wouldn’t rate this app even one star but I have to",
-      "text": "This app is a trash they intensionally restricted my account without any reason after two hours of review they reinstated my account but now they don’t send me OTP to activate my account I tried multiple times every time it says try after one hour I lost all my data from past 5 years maybe I shouldn’t trust these people and shifted to telegram",
+      "title": "Whatsapp for Apple Watch.",
+      "text": "The app has been working perfectly but since th new update Month the UI has been strange. The chatbox covers th chat and you have to restart WhatsApp for proper display of the chatbox manually",
       "url": "",
-      "created_at": "2026-08-04T01:37:53-07:00",
-      "meta": {
-        "rating": 1,
-        "author": "HUSSEINKHAIL7",
-        "appId": "310633997"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "Отвратительно",
-      "text": "Ужасное app, вы же издеваетесь на людьми, создать аккаунт надо танцевать с бубном под луной, всёу вас какие-то блокировки проверки. Язык не поворачивается не ругаться..",
-      "url": "",
-      "created_at": "2026-08-04T00:46:20-07:00",
-      "meta": {
-        "rating": 1,
-        "author": "oldbobbi",
-        "appId": "310633997"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "Yo",
-      "text": "Up to stay in my phone",
-      "url": "",
-      "created_at": "2026-08-03T23:40:33-07:00",
-      "meta": {
-        "rating": 5,
-        "author": "Michael Jahn",
-        "appId": "310633997"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "Amiga 1 gonzales",
-      "text": "Amiga",
-      "url": "",
-      "created_at": "2026-08-03T23:24:16-07:00",
-      "meta": {
-        "rating": 5,
-        "author": "Pepe 8320",
-        "appId": "310633997"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "Mise à jour de WhatsApp",
-      "text": "Eh bien",
-      "url": "",
-      "created_at": "2026-08-03T23:15:34-07:00",
-      "meta": {
-        "rating": 2,
-        "author": "J’avais oublié le plan",
-        "appId": "310633997"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "whatsapp accoun in reviews",
-      "text": "whatsapp account in review",
-      "url": "",
-      "created_at": "2026-08-03T23:07:54-07:00",
-      "meta": {
-        "rating": 4,
-        "author": "pavanibbh",
-        "appId": "310633997"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "What app is not letting me download the app on my iPhone I am having trouble with what app.fixed  it",
-      "text": "Cheri Caudle",
-      "url": "",
-      "created_at": "2026-08-03T22:43:28-07:00",
+      "created_at": "2026-08-05T00:55:26-07:00",
       "meta": {
         "rating": 3,
-        "author": "Cheri Caudle.",
+        "author": "Akalson",
         "appId": "310633997"
       }
     },
     {
       "source": "appstore",
-      "title": "Email email email email email",
-      "text": "Mor pass Mor pass pass passed pass",
+      "title": "Best app",
+      "text": "Best communication app of our time, back to back",
       "url": "",
-      "created_at": "2026-08-03T22:09:24-07:00",
-      "meta": {
-        "rating": 1,
-        "author": "So Cheikhsow",
-        "appId": "310633997"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "السودان",
-      "text": "0‎%‎",
-      "url": "",
-      "created_at": "2026-08-03T21:33:43-07:00",
-      "meta": {
-        "rating": 1,
-        "author": "assad hh",
-        "appId": "310633997"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "Honduras",
-      "text": "Carlos Orellana",
-      "url": "",
-      "created_at": "2026-08-03T21:13:07-07:00",
+      "created_at": "2026-08-05T00:48:48-07:00",
       "meta": {
         "rating": 5,
-        "author": "Honduras 2028",
+        "author": "Ismail-00",
         "appId": "310633997"
       }
     },
     {
       "source": "appstore",
-      "title": "Bilchiam",
-      "text": "Marak",
+      "title": "Can’t log into my account",
+      "text": "I’ve been trying to log into WhatsApp and it keeps telling  me something’s wrong with my current version and I need to download a newer version but I literally downloaded it like 3secs from App Store!!!!",
       "url": "",
-      "created_at": "2026-08-03T20:41:19-07:00",
+      "created_at": "2026-08-05T00:44:49-07:00",
+      "meta": {
+        "rating": 1,
+        "author": "yyyyyyhbjjjkki",
+        "appId": "310633997"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "Good",
+      "text": "Awesome",
+      "url": "",
+      "created_at": "2026-08-05T00:42:25-07:00",
       "meta": {
         "rating": 5,
-        "author": "Bilchiam",
+        "author": "Jittu…",
         "appId": "310633997"
       }
     },
     {
       "source": "appstore",
-      "title": "I don’t like it",
-      "text": "It’s bad lol",
+      "title": "Nice app",
+      "text": "Nice app, I really enjoy communicating with people around the world with this app",
       "url": "",
-      "created_at": "2026-08-03T20:34:45-07:00",
+      "created_at": "2026-08-05T00:22:58-07:00",
       "meta": {
-        "rating": 1,
-        "author": "Matthewmir",
+        "rating": 5,
+        "author": "DenoAchiever",
         "appId": "310633997"
       }
     },
     {
       "source": "appstore",
-      "title": "Sucks",
-      "text": "Not very useful",
+      "title": "Telegram > WhatsApp",
+      "text": "Telegram > WhatsApp КТО СОГЛАСЕН???👀",
       "url": "",
-      "created_at": "2026-08-03T20:13:02-07:00",
+      "created_at": "2026-08-05T00:20:48-07:00",
       "meta": {
         "rating": 1,
-        "author": "Spotzerb",
+        "author": "egusot",
+        "appId": "310633997"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": ":(",
+      "text": "I have tried to make an account with ‎WhatsApp nearly 20 times and every time I do it says unable to send the code to my number I’ve tried to reinstalling the app after I’m installing it and my iOS is updated and WhatsApp is updated",
+      "url": "",
+      "created_at": "2026-08-04T23:50:25-07:00",
+      "meta": {
+        "rating": 1,
+        "author": "Dejdyvvj",
+        "appId": "310633997"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "Really?",
+      "text": "Won’t work on my new iPhone. Keeps telling me I need an update when it’s already updated",
+      "url": "",
+      "created_at": "2026-08-04T23:44:40-07:00",
+      "meta": {
+        "rating": 1,
+        "author": "Dani_Doom",
+        "appId": "310633997"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "Not working",
+      "text": "Verifying phone number doesn’t work. It doesn’t send code and asking to update the app, meanwhile the app is already updated.",
+      "url": "",
+      "created_at": "2026-08-04T22:30:23-07:00",
+      "meta": {
+        "rating": 1,
+        "author": "Ararat73",
+        "appId": "310633997"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "Disappointed. Need help.",
+      "text": "Cannot install on iPhone 15. Says I need to update, but there’s no update for WhatsApp. I need to transfer from my google phone to my iPhone.",
+      "url": "",
+      "created_at": "2026-08-04T22:25:29-07:00",
+      "meta": {
+        "rating": 3,
+        "author": "Trisna Vazz",
+        "appId": "310633997"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "Sadria",
+      "text": "Sadri",
+      "url": "",
+      "created_at": "2026-08-04T22:05:56-07:00",
+      "meta": {
+        "rating": 5,
+        "author": "Sadriasadri",
+        "appId": "310633997"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "Número nuevo",
+      "text": "No deja instalar la aplicación con número nuevo",
+      "url": "",
+      "created_at": "2026-08-04T22:04:21-07:00",
+      "meta": {
+        "rating": 1,
+        "author": "Elab8",
+        "appId": "310633997"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "العراق",
+      "text": "جيد",
+      "url": "",
+      "created_at": "2026-08-04T21:56:06-07:00",
+      "meta": {
+        "rating": 5,
+        "author": "مجتبى ماجد",
+        "appId": "310633997"
+      }
+    },
+    {
+      "source": "appstore",
+      "title": "Complain",
+      "text": "After downloading the latest version of WhatsApp I still can’t login my number, it keeps saying something is wrong with this current version, try and download the latest version which I’m aleady using",
+      "url": "",
+      "created_at": "2026-08-04T21:32:42-07:00",
+      "meta": {
+        "rating": 2,
+        "author": "2pcks",
         "appId": "310633997"
       }
     }
   ],
   "opportunities": [
     {
-      "theme": "Windows Missing Basic Productivity Features",
-      "pain": "Windows lacks native text replacement/expansion and proper OLED subpixel rendering, forcing power users to buy third-party tools or endure chromatic aberration on premium monitors.",
+      "theme": "WhatsApp verification broken on iOS",
+      "pain": "Users cannot verify their phone numbers on iPhone; the app claims it needs an update even when already on the latest version, blocking account access entirely.",
       "evidence": [
-        "This kind of feature is surprisingly missing from Windows. I have many web addresses I send to customers and many full sentences for my notes at work that used repeatedly.",
-        "ClearType alters anti-aliasing assuming an RGB stripe subpixel configuration. More WOLED (WRGB stripe) and QD-OLED (RGB triangular) monitors are coming to market and have noticeable chromatic aberration/color fringing on edges of text.",
-        "Over 100 upvotes in Feedback Hub",
-        "Free Open Source Coding Offer to Microsoft to contribute \"Display Shaders PowerToy\""
-      ],
-      "sources": [
-        "github"
-      ],
-      "url": "https://github.com/microsoft/PowerToys/issues/5074",
-      "suggested_solution": "A lightweight Windows tray app (built with Tauri/Rust) that adds system-wide text expansion with cloud sync and per-monitor shader profiles for WRGB/RGB-triangular OLEDs.",
-      "monetization": "$19 one-time license (personal) / $49 team; $3/mo for cloud sync of snippets across devices.",
-      "score": 85.0,
-      "buy_intent": true,
-      "trend": "new",
-      "appearances": 1,
-      "market": {
-        "level": "medium",
-        "existing": [
-          "chrisneagu/FTC-Skystone-Dark-Angels-Romania-2020 (★297)",
-          "ManojKumarPatnaik/Major-project-list (★242)",
-          "klonnet23/helloy-word (★89)",
-          "SOYJUN/FTP-implement-based-on-UDP (★69)",
-          "nyaundid/EC2-AWS-AND-SHELL (★55)",
-          "HlaingPhyoAung/sqlmap (★17)"
-        ],
-        "links": [
-          "https://github.com/chrisneagu/FTC-Skystone-Dark-Angels-Romania-2020",
-          "https://github.com/ManojKumarPatnaik/Major-project-list",
-          "https://github.com/klonnet23/helloy-word",
-          "https://github.com/SOYJUN/FTP-implement-based-on-UDP",
-          "https://github.com/nyaundid/EC2-AWS-AND-SHELL",
-          "https://github.com/HlaingPhyoAung/sqlmap"
-        ],
-        "hn_hits": 36,
-        "note": "'windows missing basic': 6 similar repo(s), 36 HN stories. Room to differentiate."
-      }
-    },
-    {
-      "theme": "WhatsApp Reliability & Account Lockouts",
-      "pain": "Users suffer random freezes, unexplained account restrictions, OTP delivery failures, and irreversible data loss with no human support — critical for small businesses relying on WhatsApp for revenue.",
-      "evidence": [
-        "Why is my WhatsApp always freezing anytime I open the app",
-        "They intentionally restricted my account without any reason after two hours of review they reinstated my account but now they don't send me OTP to activate my account",
-        "I lost all my data from past 5 years maybe I shouldn't trust these people and shifted to telegram",
-        "Создать аккаунт надо танцевать с бубном под луной, всёу вас какие-то блокировки проверки"
+        "I've been trying to log into WhatsApp and it keeps telling me something's wrong with my current version and I need to download a newer version but I literally downloaded it like 3secs from App Store!!!!",
+        "Verifying phone number doesn't work. It doesn't send code and asking to update the app, meanwhile the app is already updated.",
+        "After downloading the latest version of WhatsApp I still can't login my number, it keeps saying something is wrong with this current version"
       ],
       "sources": [
         "appstore"
       ],
-      "url": "https://apps.apple.com/app/id310633997",
-      "suggested_solution": "A WhatsApp Business wrapper that auto-backups chats to encrypted local SQLite, monitors account health via unofficial API, alerts on restriction risk, and provides a one-tap \"warm standby\" SIM swap flow.",
-      "monetization": "$12/mo per number; $99/mo agency plan for 10 numbers with SLA-backed recovery assist.",
-      "score": 81.0,
+      "url": "",
+      "suggested_solution": "A WhatsApp automation that detects the 'version mismatch' loop, forces a clean re-registration via the Business API fallback, and notifies the user via email/SMS when verification succeeds.",
+      "monetization": "Per-recovery fee $4.99 or $9.99/month subscription for agencies managing many client numbers.",
+      "score": 88.0,
+      "buy_intent": true,
+      "trend": "new",
+      "appearances": 1,
+      "market": {
+        "level": "low",
+        "existing": [],
+        "links": [],
+        "hn_hits": 0,
+        "note": "'whatsapp verification broken': 0 similar repo(s), 0 HN stories. Room to differentiate."
+      }
+    },
+    {
+      "theme": "OLED subpixel text rendering broken on Windows",
+      "pain": "WOLED (WRGB stripe) and QD-OLED (RGB triangular) monitors show severe color fringing because Windows ClearType assumes RGB stripe; no built-in fix exists.",
+      "evidence": [
+        "ClearType alters anti-aliasing assuming an RGB stripe subpixel configuration. More WOLED (WRGB stripe) and QD-OLED (RGB triangular) monitors are coming to market and have noticeable chromatic aberration/color fringing on edges of text.",
+        "Over 100 upvotes in Feedback Hub",
+        "Proposed: Alternative PowerToy Method: \"Display Shaders PowerToy\""
+      ],
+      "sources": [
+        "github"
+      ],
+      "url": "https://github.com/microsoft/PowerToys/issues/25595",
+      "suggested_solution": "A tiny Windows tray utility that injects a per-monitor DirectWrite pixel shader to apply the correct subpixel layout (WRGB stripe / RGB triangular) automatically on display hot-plug.",
+      "monetization": "One-time $14.99 license; free for personal use, $49/seat for enterprise.",
+      "score": 82.0,
+      "buy_intent": true,
+      "trend": "new",
+      "appearances": 1,
+      "market": {
+        "level": "low",
+        "existing": [
+          "Master-Antonio/Puretype (★78)",
+          "ASPRNG-PRGMR/kage (★0)"
+        ],
+        "links": [
+          "https://github.com/Master-Antonio/Puretype",
+          "https://github.com/ASPRNG-PRGMR/kage"
+        ],
+        "hn_hits": 0,
+        "note": "'oled subpixel text': 2 similar repo(s), 0 HN stories. Room to differentiate."
+      }
+    },
+    {
+      "theme": "Independent virtual desktops per monitor missing",
+      "pain": "Windows switches virtual desktops globally across all monitors; power users need per-monitor desktop switching to keep reference apps (e.g., Outlook) static while cycling workspaces on other screens.",
+      "evidence": [
+        "Currently switching virtual desktops switches windows on all monitors. It would be great to make this independent per monitor.",
+        "I always have Outlook on monitor 1, but want to switch between multiple sets of apps on monitor 2 and 3 without losing whats on monitor 1.",
+        "Bonus points if the virtual desktops are all shared so I can cycle through them on each monitor"
+      ],
+      "sources": [
+        "github"
+      ],
+      "url": "https://github.com/microsoft/PowerToys/issues/58",
+      "suggested_solution": "A PowerToys module that virtualizes the Win32 VirtualDesktop API, exposing per-monitor desktop grids with hotkeys and a WhatsApp bot to trigger switches via voice/text.",
+      "monetization": "Freemium: core free, advanced layouts + WhatsApp remote control $7.99/mo.",
+      "score": 76.0,
       "buy_intent": true,
       "trend": "new",
       "appearances": 1,
       "market": {
         "level": "medium",
         "existing": [
-          "usacrazyseller-ux/Old-Gmail-Account-for-Email-Marketing (★0)",
-          "Nkt41/How-to-Create-OpenAI-ChatGPT-Accounts-in-2026-Using-SMS-MAN (★0)",
-          "Nkt41/SMS-MAN-in-2026.-SMS-activation-platform (★0)"
+          "Suffix30/VirtualBox-UUID-Tool (★1)",
+          "harungecit/IndepenDesk (★0)",
+          "Ipicky22/kwin-macos-spaces (★0)",
+          "dnwtn/VirtualStemPlayer (★0)",
+          "pharomwinters/hyprgo-split-ws (★0)",
+          "edotjioe/audiorouter (★0)"
         ],
         "links": [
-          "https://github.com/usacrazyseller-ux/Old-Gmail-Account-for-Email-Marketing",
-          "https://github.com/Nkt41/How-to-Create-OpenAI-ChatGPT-Accounts-in-2026-Using-SMS-MAN",
-          "https://github.com/Nkt41/SMS-MAN-in-2026.-SMS-activation-platform"
+          "https://github.com/Suffix30/VirtualBox-UUID-Tool",
+          "https://github.com/harungecit/IndepenDesk",
+          "https://github.com/Ipicky22/kwin-macos-spaces",
+          "https://github.com/dnwtn/VirtualStemPlayer",
+          "https://github.com/pharomwinters/hyprgo-split-ws",
+          "https://github.com/edotjioe/audiorouter"
         ],
-        "hn_hits": 2,
-        "note": "'whatsapp reliability account': 3 similar repo(s), 2 HN stories. Room to differentiate."
+        "hn_hits": 1,
+        "note": "'independent virtual desktops': 6 similar repo(s), 1 HN stories. Room to differentiate."
       }
     },
     {
-      "theme": "AI Tool UX & Silent Failures",
-      "pain": "AI power-users face daily friction from missing shortcuts, split billing, manual refreshes, confusing URLs, and silent expression failures in automation tools like n8n that waste hours debugging.",
+      "theme": "Desire for visual direct-manipulation programming",
+      "pain": "Developers want a general-purpose programming environment that replaces text code with direct data manipulation and live multi-dimensional 'what-if' feedback, but only domain-specific prototypes exist.",
       "evidence": [
-        "Why is there no shortcut to my account/profile settings from ChatGPT's left panel?",
-        "Why are my DALL-E money and ChatGPT/API money kept separate? These are two products from the same company, asking twice for my CC number.",
-        "Any downstream expression that uses paired-item resolution across that node then silently resolves to null. No expression error, no failed node, no log line.",
-        "Many buttons and interactive elements are not properly labeled. Some controls are completely invisible to screen readers."
-      ],
-      "sources": [
-        "hackernews",
-        "github"
-      ],
-      "url": "https://news.ycombinator.com/item?id=35236635",
-      "suggested_solution": "A browser extension + WhatsApp bot that unifies ChatGPT/DALL-E/API billing dashboards, adds keyboard shortcuts, auto-reconnects on error, and surfaces n8n pairedItem bugs via real-time linting.",
-      "monetization": "Freemium: free unified dashboard; $8/mo for auto-reconnect, shortcut injector, and n8n debug webhook.",
-      "score": 78.0,
-      "buy_intent": false,
-      "trend": "new",
-      "appearances": 1,
-      "market": {
-        "level": "medium",
-        "existing": [
-          "rcourtman/Pulse (★6481)",
-          "wuji-labs/nopua (★1376)",
-          "Handit-AI/handit.ai (★189)",
-          "sreerevanth/AgentWatch (★31)",
-          "OrderLab/OKLib (★28)",
-          "arpitnath/orpheus (★26)"
-        ],
-        "links": [
-          "https://github.com/rcourtman/Pulse",
-          "https://github.com/wuji-labs/nopua",
-          "https://github.com/Handit-AI/handit.ai",
-          "https://github.com/sreerevanth/AgentWatch",
-          "https://github.com/OrderLab/OKLib",
-          "https://github.com/arpitnath/orpheus"
-        ],
-        "hn_hits": 67,
-        "note": "'silent failures': 6 similar repo(s), 67 HN stories. Room to differentiate."
-      }
-    },
-    {
-      "theme": "Deceptive E-Commerce & Opaque Platform Policies",
-      "pain": "Consumers and sellers face deliberate product-name obfuscation for price discrimination, unexplained security holds on financial platforms, and user-hostile dark patterns across the web.",
-      "evidence": [
-        "Furniture sellers actively prevent consumers from easily finding the same item at other stores, or under other names, because this allows them to charge more.",
-        "Then, out of the blue one day, I get \"security hold, please contact 'supp0rt at gemini.com\". Nothing else. No information as to why.",
-        "Today's Internet experience has become user-hostile and it almost calls out for returning to the 90s: walled gardens aka Compuserve experience.",
-        "The sellers get to name the products and they name them in confusing ways to facilitate price discrimination."
+        "I'm much more curious about a programming paradigm that no longer uses text to communicate with computers but instead just directly manipulating data, receiving past, present, and future feedback of how it would change given your manipulations.",
+        "To be clear, I'm not searching for specialized interpretations of this 'Oh someone did this with typography' or 'Oh someone did this with a game' but rather some more generalizable form",
+        "Someone tried to replace Python with an idea like this"
       ],
       "sources": [
         "hackernews"
       ],
-      "url": "https://news.ycombinator.com/item?id=30757421",
-      "suggested_solution": "An AI price-history browser extension + WhatsApp alert bot that normalizes furniture SKUs across retailers using visual embeddings, and monitors crypto/banking accounts for sudden policy flags via screen-scraping with user consent.",
-      "monetization": "Free price-drop alerts; $7/mo for SKU unification API access (affiliate/arbitrage sellers) and instant policy-change notifications.",
-      "score": 76.0,
+      "url": "https://news.ycombinator.com/item?id=34485254",
+      "suggested_solution": "An AI-assisted visual notebook where users draw data-flow graphs; an LLM instantly generates/runs the underlying code and shows live diff projections across time-travel sliders.",
+      "monetization": "VS Code extension: $10/mo pro, $100/yr team; enterprise on-prem $500/seat/yr.",
+      "score": 71.0,
       "buy_intent": false,
       "trend": "new",
       "appearances": 1
     },
     {
-      "theme": "Embedded Dev Toolchain Fragmentation",
-      "pain": "Embedded engineers waste weeks stitching together vendor-specific CMSIS, HALs, linker scripts, and IDE configs just to blink an LED on STM32 or similar MCUs.",
+      "theme": "Parallel C++ library fragmentation",
+      "pain": "C++ developers struggle to find a portable, accessible parallel programming library that works across platforms without vendor lock-in.",
       "evidence": [
-        "All of them are quite complex and when you get them working, they lay down A TON of files that seem somewhat irrelevant (and noisy) to creating simple programs.",
-        "ARM has system CMSIS but vendors have vendor-specific CMSIS, so (finding them) and piecing them together sucks.",
-        "Oh then you need linkers and startup scripts, where are those? Again, vendor specific that the CubeMX or uV basically pull from STM32's Github org.",
-        "The HALs are confusing so want to just leverage CMSIS and bit bang my way to greatness."
+        "Parallel programming library? (+ some features)",
+        "Tags: c++, multithreading, accessibility, portability, parallel-programming",
+        "Score: 8, Answers: 1"
       ],
       "sources": [
-        "hackernews"
+        "stackexchange"
       ],
-      "url": "https://news.ycombinator.com/item?id=44424060",
-      "suggested_solution": "A CLI + VS Code extension that auto-fetches correct CMSIS/startup/linker files for any MCU part number, generates a minimal CMake project, and flashes via openocd/pyocd — no CubeMX required.",
-      "monetization": "Open-core: free CLI; $15/mo for cloud CI templates, team device registry, and automated HAL stub generation.",
-      "score": 72.0,
+      "url": "https://softwareengineering.com/q/101032",
+      "suggested_solution": "A header-only C++20 library wrapping TBB, HPX, and std::execution with a unified policy API, distributed via vcpkg/Conan and documented by an AI chatbot on WhatsApp.",
+      "monetization": "Open-core: MIT core, $299/yr for priority support + WhatsApp Q&A bot.",
+      "score": 54.0,
       "buy_intent": false,
       "trend": "new",
       "appearances": 1

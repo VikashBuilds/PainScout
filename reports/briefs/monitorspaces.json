@@ -1,0 +1,69 @@
+{
+  "opportunity_theme": "Independent virtual desktops per monitor missing",
+  "name": "MonitorSpaces",
+  "tagline": "Independent virtual desktops per monitor, keep reference apps static while cycling workspaces.",
+  "problem": "Windows switches virtual desktops globally across all monitors, forcing power users to lose reference apps (e.g., Outlook) when cycling workspaces on other screens. Users need per-monitor desktop switching with shared desktop pools.",
+  "solution": "MonitorSpaces creates independent virtual desktop controllers for each monitor, allowing users to pin reference apps to a static desktop while cycling through shared workspace sets on other screens. It integrates with Windows' native virtual desktop API, providing per-monitor hotkeys, taskbar previews, and a unified desktop pool accessible from any monitor.",
+  "features": [
+    "Per-monitor virtual desktop switching via customizable hotkeys",
+    "Pin/reference mode: lock a monitor to a specific desktop",
+    "Shared desktop pool: same set of desktops accessible across all monitors",
+    "Taskbar integration showing per-monitor desktop thumbnails",
+    "Multi-monitor layout profiles (save/restore monitor-desktop assignments)",
+    "Automatic desktop assignment on monitor connect/disconnect",
+    "Lightweight system tray controller with keyboard shortcuts",
+    "Compatibility with Windows 10/11 native virtual desktops"
+  ],
+  "mvp_scope": "MVP delivers per-monitor desktop switching with shared pool: a system tray app that hooks Windows Virtual Desktop API, exposes per-monitor hotkeys (Win+Ctrl+Left/Right per monitor), and lets users pin one monitor to a fixed desktop. No taskbar integration or profiles in v1.",
+  "tech_stack": [
+    ".NET 8 (C#)",
+    "Windows App SDK / WinUI 3",
+    "Windows Virtual Desktop COM Interop (IVirtualDesktopManager)",
+    "NHotkey for global hotkeys",
+    "Hardcodet.Wpf.TaskbarNotification for system tray",
+    "MSIX packaging & GitHub Actions CI/CD"
+  ],
+  "build_estimate_days": 35,
+  "competitors": [
+    {
+      "name": "Windows Native Virtual Desktops",
+      "gap": "Switches all monitors globally, no per-monitor control."
+    },
+    {
+      "name": "DisplayFusion",
+      "gap": "Focuses on monitor profiles/window management, lacks independent virtual desktop cycling per monitor."
+    },
+    {
+      "name": "Dexpot (discontinued)",
+      "gap": "Offered per-monitor desktops but no longer maintained, no Windows 11 support."
+    },
+    {
+      "name": "VirtuaWin",
+      "gap": "Legacy virtual desktop manager, no multi-monitor independence, outdated UI."
+    }
+  ],
+  "landing_copy": {
+    "headline": "Per-Monitor Virtual Desktops for Windows Power Users",
+    "subheadline": "Keep Outlook on screen 1 while cycling project workspaces on screens 2 & 3 — all from a shared desktop pool.",
+    "bullets": [
+      "Independent desktop switching per monitor via custom hotkeys",
+      "Pin reference apps to a static desktop on any monitor",
+      "Shared desktop pool accessible across all screens",
+      "Lightweight, native Windows integration — no electron bloat",
+      "Free open-source core, pro features $19 one-time"
+    ],
+    "cta": "Download for Windows 10/11"
+  },
+  "whatsapp_bot": {
+    "flow": "User messages bot with 'start' → receives download link and license key (if purchased). Commands: 'switch <monitor> <desktop>' triggers desktop switch via local agent (requires companion app). 'status' shows current desktop per monitor. 'help' lists commands.",
+    "commands": [
+      "start",
+      "switch <monitor> <desktop>",
+      "status",
+      "help",
+      "license"
+    ],
+    "pricing": "Free tier: bot access + core app. Pro: $19 one-time for advanced hotkeys, profiles, and bot remote control."
+  },
+  "pricing_model": "Freemium: core per-monitor switching free; Pro $19 one-time unlocks profiles, auto-assign, and WhatsApp remote control."
+}

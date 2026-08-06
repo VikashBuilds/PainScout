@@ -1,26 +1,26 @@
 [
   {
-    "name": "SnapType",
-    "slug": "snaptype",
-    "tagline": "Instant text expansion & crisp OLED rendering for Windows",
-    "theme": "Windows Missing Basic Productivity Features",
-    "build_estimate_days": 45,
-    "pricing_model": "Freemium: free tier (50 snippets, basic rendering), Pro $19/year (unlimited snippets, cloud sync, advanced OLED profiles, priority support)"
+    "name": "VerifyFix",
+    "slug": "verifyfix",
+    "tagline": "Unlock WhatsApp when iOS verification loops block your account",
+    "theme": "WhatsApp verification broken on iOS",
+    "build_estimate_days": 14,
+    "pricing_model": "Freemium SaaS: $4.99/mo per user (Pro), $19/mo per 5-seat team. No per-lead; usage capped only by recovery count on free tier."
   },
   {
-    "name": "ChatShield",
-    "slug": "chatshield",
-    "tagline": "Bulletproof WhatsApp reliability for revenue-critical conversations.",
-    "theme": "WhatsApp Reliability & Account Lockouts",
-    "build_estimate_days": 21,
-    "pricing_model": "$49/mo per WhatsApp Business Account, 14-day free trial, includes 10GB backup storage + 100 OTP fallback credits/mo"
+    "name": "ClearOLED",
+    "slug": "clearoled",
+    "tagline": "Eliminate color fringing on WOLED and QD-OLED monitors",
+    "theme": "OLED subpixel text rendering broken on Windows",
+    "build_estimate_days": 35,
+    "pricing_model": "Free personal use / $19 one-time Pro license (per-app exclusions, auto-profile updates, priority support)"
   },
   {
-    "name": "FlowLens",
-    "slug": "flowlens",
-    "tagline": "Catch silent n8n failures before they waste your debugging hours",
-    "theme": "AI Tool UX & Silent Failures",
-    "build_estimate_days": 21,
-    "pricing_model": "Freemium Chrome extension: Free (100 traced executions/mo, basic sidebar). Pro $12/mo (unlimited traces, alerts, billing dashboard, team debug links, WhatsApp bot). Team $35/mo (5 seats, shared traces, SSO)."
+    "name": "MonitorSpaces",
+    "slug": "monitorspaces",
+    "tagline": "Independent virtual desktops per monitor, keep reference apps static while cycling workspaces.",
+    "theme": "Independent virtual desktops per monitor missing",
+    "build_estimate_days": 35,
+    "pricing_model": "Freemium: core per-monitor switching free; Pro $19 one-time unlocks profiles, auto-assign, and WhatsApp remote control."
   }
 ]
