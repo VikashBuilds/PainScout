@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ArchGuard — Enforce architectural intent while AI codes fast</title>
+<style>
+:root{--bg:#0b0f1a;--card:#131a2b;--acc:#6c5ce7;--acc2:#00cec9;--txt:#e8ecf4;--mut:#9aa5b8}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--txt);line-height:1.6}
+.hero{padding:72px 20px 48px;text-align:center;background:radial-gradient(ellipse at top,#1a2340 0%,var(--bg) 70%)}
+.badge{display:inline-block;padding:6px 14px;border-radius:999px;background:rgba(108,92,231,.15);color:#b3a8ff;font-size:13px;letter-spacing:.5px;margin-bottom:20px;border:1px solid rgba(108,92,231,.4)}
+h1{font-size:clamp(2rem,5vw,3.4rem);font-weight:800;letter-spacing:-.5px;margin-bottom:14px}
+.tag{font-size:clamp(1.05rem,2.5vw,1.35rem);color:var(--mut);max-width:640px;margin:0 auto 30px}
+.cta{display:inline-block;padding:15px 34px;border-radius:12px;background:linear-gradient(135deg,var(--acc),var(--acc2));color:#fff;font-weight:700;font-size:1.05rem;text-decoration:none;box-shadow:0 8px 30px rgba(108,92,231,.35);transition:transform .15s}
+.cta:hover{transform:translateY(-2px)}
+.container{max-width:960px;margin:0 auto;padding:32px 20px 80px}
+.section{margin-top:48px}
+h2{font-size:1.5rem;margin-bottom:18px;color:#fff}
+.card{background:var(--card);border:1px solid #1e2a45;border-radius:16px;padding:24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.grid .card{padding:18px}
+.grid .card strong{color:var(--acc2);font-size:1.05rem}
+ul{list-style:none}
+li{padding:8px 0 8px 26px;position:relative}
+li:before{content:"✓";position:absolute;left:0;color:var(--acc2)}
+.wa{border-left:4px solid #25d366;padding:20px 24px;border-radius:0 12px 12px 0;background:rgba(37,211,102,.06)}
+code{background:#0d1526;padding:2px 8px;border-radius:6px;font-size:.92em;color:#8be9fd}
+.pricing{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.pricing .price{font-size:2.2rem;font-weight:800;color:var(--acc2)}
+.foot{text-align:center;color:var(--mut);padding:32px;font-size:.85rem}
+@media(max-width:600px){.hero{padding:48px 16px 32px}}
+</style>
+</head>
+<body>
+<div class="hero">
+  <span class="badge">✨ AI-Powered · WhatsApp-First · No-Code</span>
+  <h1>Stop AI from Architecting Your Codebase Into a Mess</h1>
+  <p class="tag">ArchGuard enforces your architectural decisions while AI codes — so you stay in control without slowing down.</p>
+  <a class="cta" href="#wa">Add to VS Code Free</a>
+</div>
+<div class="container">
+  <div class="section">
+    <h2>The problem</h2>
+    <div class="card"><p>AI coding agents generate code faster than developers can review, eroding architectural boundaries and creating unreviewed technical debt that no one understands.</p></div>
+  </div>
+  <div class="section">
+    <h2>The solution</h2>
+    <div class="card"><p>ArchGuard sits between AI agents and your codebase as a real-time architectural gatekeeper. It enforces your structural rules, requires human sign-off on risky changes, and maintains a living architecture decision log so team understanding scales with AI velocity.</p></div>
+  </div>
+  <div class="section">
+    <h2>What you get</h2>
+    <div class="card"><ul><li>Block AI-generated code that violates layer boundaries</li><li>Auto-generate Architecture Decision Records for every structural change</li><li>See exactly which modules only AI understands — before it&#x27;s too late</li><li>Inject your architecture into Cursor/Copilot so they code *your* way</li></ul></div>
+  </div>
+  <div class="section">
+    <h2>Features (v1)</h2>
+    <div class="card"><ul><li>Architectural rule engine (YAML-defined layer boundaries, dependency direction, naming conventions)</li><li>Human-in-the-loop gates: block AI file creation, public API changes, DB migrations until approved</li><li>Auto-generated Architecture Decision Records linked to PRs and AI prompts</li><li>Code ownership heatmap: tracks who reviewed what, flags modules only AI has touched</li><li>AI watermarking: labels AI vs human code, tracks review status per hunk</li><li>Technical debt dashboard: visualizes gate bypasses, review backlog aging, drift trends</li><li>Context injection: syncs your rules to .cursorrules/.github/copilot-instructions automatically</li><li>Refactoring guardrails: prevents architectural drift during AI-assisted large-scale edits</li></ul></div>
+  </div>
+  <div class="section">
+    <h2>Tech stack</h2>
+    <div class="card" style="display:flex;flex-wrap:wrap;gap:8px"><code>VS Code Extension API (TypeScript)</code> <code>Tree-sitter WASM for multi-language AST parsing</code> <code>SQLite (better-sqlite3) for local ADR/event store</code> <code>YAML (js-yaml) for rule configuration</code> <code>GitHub API (Octokit) for PR linking</code> <code>Cursor/Copilot chat API hooks (where exposed)</code> <code>Bun for fast test/dev loop</code> <code>Vitest + Playwright for extension testing</code></div>
+  </div>
+  <div class="section">
+    <h2>Competitors &amp; the gap</h2>
+    <div class="grid"><div class="card"><strong>Cursor</strong><p style="margin-top:8px;color:var(--mut)">Gap: Generates code but has no architectural enforcement or review gates</p></div><div class="card"><strong>GitHub Copilot</strong><p style="margin-top:8px;color:var(--mut)">Gap: No codebase-wide architectural awareness; only local context</p></div><div class="card"><strong>SonarQube</strong><p style="margin-top:8px;color:var(--mut)">Gap: Retrospective code smell detection, not preventive architectural gates</p></div><div class="card"><strong>ArchUnit</strong><p style="margin-top:8px;color:var(--mut)">Gap: Java-only, test-time only, not integrated with AI workflows</p></div></div>
+  </div>
+  <div class="section" id="wa">
+    <h2>Try it on WhatsApp</h2>
+    <div class="card wa">
+      <p><strong>How it works:</strong> Dev gets WhatsApp alert when AI tries to create files violating architecture rules. Reply &#x27;APPROVE&#x27; or &#x27;BLOCK&#x27; to gate the change from phone.</p>
+      <p style="margin-top:12px"><strong>Commands:</strong> <code>STATUS</code> <code>RULES</code> <code>APPROVE &lt;gate_id&gt;</code> <code>BLOCK &lt;gate_id&gt;</code> <code>DEBT</code> <code>OWNERSHIP</code></p>
+    </div>
+  </div>
+  <div class="section">
+    <h2>Pricing</h2>
+    <div class="card pricing"><span class="price">$15/mo per dev (Pro), $40/mo per seat (Team), free tier: 5 rules, 10 gates/day, local-only</span></div>
+  </div>
+</div>
+<div class="foot">Generated by PainScout · MVP in ~21 days · Built by a vibe coder for people with real problems</div>
+</body>
+</html>

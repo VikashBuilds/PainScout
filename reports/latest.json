@@ -1,398 +1,379 @@
 {
-  "query": "wish i did not have to do this manually",
-  "generated_at": "2026-08-06T12:32:30+00:00",
+  "query": "this tool keeps crashing",
+  "generated_at": "2026-08-07T09:37:25+00:00",
   "pain_points": [
     {
       "source": "hackernews",
-      "title": "Ask HN: Has anyone fully attempted Bret Victor's vision?",
-      "text": "I love how Bret Victor outlined the importance of programming transforming into a paradigm of direct data manipulation.<p>I&#x27;m much more curious about a programming paradigm that no longer uses text to communicate with computers but instead just directly manipulating data, receiving past, present, and future feedback of how it would change given your manipulations. Or to put it a different way &quot;What if&quot; feedback. &quot;If you did this, the data would change in this way&quot; is visualized across many different dimensions, allowing you to &#x27;feel your way&#x27; through feedback where you wish to go.<p>In other words, you give your computer your input data, and you modify dimensions which allow you to specify what you want the program to do.<p>To be clear, I&#x27;m not searching for specialized interpretations of this &quot;Oh someone did this with typography&quot; or &quot;Oh someone did this with a game&quot; but rather some more generalizable form like &quot;Someone tried to replace Python with an idea like this&quot;<p>I suppose the nearest thing I can think of is manually modifying the parameters of a neural net but that&#x27;s perhaps too cumbersome because there are so many. Perhaps if you can put an autoencoder on top of that, and reduce the parameters down to a smaller &quot;meta&quot; set of parameters that you can manipulate which manipulate the population of parameters in the larger neural net?<p>I&#x27;m just really curious if there have been instantiations along these lines (as opposed to code live-running with results on the sides).<p>I realize this is all quite difficult, may even seem &#x27;impossible&#x27; to have some sort of generalizable system that does this for all sorts of programs. I&#x27;ve heard people say it can&#x27;t be done, and code is the ideal format. I hold that in abeyance, I don&#x27;t really know, but intrigued to discover those who have a counter perspective to that and have attempted to build something.<p>Also r",
-      "url": "https://news.ycombinator.com/item?id=34485254",
-      "created_at": "2023-01-23T03:49:16Z",
+      "title": "Ask HN: How to Visualise MongoDB?",
+      "text": "Hey HN, Is there a tool that lets you visualise your database in browser, in an easy way.<p>I have tried Metabase, Redash, Google DataStudio - all pretty complex tools.<p>I am an indie hacker, and have my product data in Mongo. Right now, I check it out in terminal. It would be good to have a visualisation tool to do that for me.<p>My criteria:<p>1. Simple to use\n2. Should not keep crashing (Metabase for Mac sucks)<p>If nothing like this exists, do you think I should build one and open source it?",
+      "url": "https://news.ycombinator.com/item?id=24038620",
+      "created_at": "2020-08-03T15:07:43Z",
       "meta": {
-        "points": 276,
-        "num_comments": 153
+        "points": 8,
+        "num_comments": 14
+      }
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Sorbay – Open-source alternative to Loom",
+      "text": "Hey HN, we&#x27;re excited to introduce Sorbay - an open source alternative to Loom for creating and sharing screen recordings.<p>With Sorbay, you can easily record your screen, camera, and microphone all at once. It is a complete solution that comes with its own backend service, allowing you to instantly share a link of your recording as soon as it is finished. The video is streamed directly to the backend service as the recording happens to make this possible.<p>With both founders based in different countries, we needed a tool to quickly share screen recordings to keep us up to date or to ask for feedback. Meetings are cool if you need to discuss something deeply, but for almost everything else a quick recording works better.<p>We had to settle for one of the proprietary solutions because none of the open source tools allowed us to quickly share something with each other. Doing the recording is one aspect, but having the ability to instantly share a link was crucial. Waiting on a 400mb video upload to a Dropbox is just too much interruption if you want to quickly share something.<p>The tipping point for us to actually build this open source tool came via an interaction from one of our day jobs. A third party provider sent a screen recording full of confidential information and to make things worse, all of it was uploaded by them to a different third party service. We strongly believe that information like this should stay within a company, ideally on infrastructure that they control themselves. Having a fully integrated open source solution is the best way to go for this.<p>Our goal with this first public release is to gather feedback. The critical code paths are working, but it is still a bit rough to use. We deliberately \ncut out all non-essential features, but have a clear roadmap on what we want to release this year.<p>There are a couple of known issues like audio glitches, non-working videos in Safari and crashing binaries that we hope to fix in the coming we",
+      "url": "https://news.ycombinator.com/item?id=35042662",
+      "created_at": "2023-03-06T16:05:21Z",
+      "meta": {
+        "points": 93,
+        "num_comments": 14
+      }
+    },
+    {
+      "source": "hackernews",
+      "title": "Ask HN: Struggling startup. What should I do next?",
+      "text": "This is a throwaway account. I need feedback/wisdom/advice/slaps to know what else can I do for my startup. Appreciate if anyone can give me some views on this as I am running out of ideas on what to do next and am on the verge of giving up. Thank you in advanced for your time and feedback.<p>//Background Info<p>- My co-founder and I started the company 2 years back fresh out of school.<p>- Both of us are technical, I am handling the frontend where as my co-founder is handling the backend.<p>- Other than frontend, I also handle the product and business side of stuff and deal with clients.<p>- We did a localized version of a B2B2C e-commerce web application when we first started.<p>- It's a very competitive landscape in the US but not so locally at where we are.<p>- A year later, we realized that the local businesses were just starting to warm up to the idea of e-commerce.<p>- Unfortunately, our industry is not sexy, hence it's difficult to get funding here locally as there are only limited funds available.<p>- We do not have any industry experience or networks to leverage on, hence that makes the already difficult fundraising process even harder.<p>- We kept our company really lean to survive, basically bootstrapping for the past 2 years.<p>//Present Days<p>- We have 3 complementary products now, one mobile utility tool and another mobile application.<p>- Our mobile application is picking up well.<p>- At the moment we are doing at least $20k per month since we launched our mobile app.<p>- Still, just the 2 of us after 2 years. We did some hiring but stopped them to keep the company lean.<p>- We are only paying ourselves to survive as we are trying to conserve our runway.<p>- Our receivables are pretty bad due to late payment from our clients.<p>//Our Problems<p>1. Lack of deep technical skills<p>We hacked our way through taking advantage of various existing frameworks, plugins etc<p>Unfortunately this have cost us a lot of money and time wasted because\n- Our first p",
+      "url": "https://news.ycombinator.com/item?id=4031050",
+      "created_at": "2012-05-27T21:23:19Z",
+      "meta": {
+        "points": 7,
+        "num_comments": 16
+      }
+    },
+    {
+      "source": "hackernews",
+      "title": "Launch HN: Expanse (YC P26) – Unlock Wasted GPU Capacity",
+      "text": "Hey HN, we’re Ismaeel, Eren, Yafet and Nikodem. We built Expanse (<a href=\"https:&#x2F;&#x2F;expanse.sh&#x2F;\">https:&#x2F;&#x2F;expanse.sh&#x2F;</a>) to increase the effective capacity of your HPC&#x2F;GPU clusters running schedulers&#x2F;orchestrators like Kubernetes and SLURM. We read the source code, job submission script, and the hardware a workload is about to run on to predict what the job actually needs before the cluster sees it. We also flag failures we think are about to happen and surface line-level optimisations the researcher can apply themselves.<p>The problem: Datacenters run at roughly 30% to 40% effective utilisation. Users request more resources than what they actually need, because of asymmetric risk: while over-requesting is bad because it’s expensive and wastes capacity that someone else could have used, under-requesting kills your job mid-run and you lose days of work. So everyone over-requests by two to three times.<p>We measured one national-scale HPC cluster for a month and from 122k jobs, 59% of the compute was wasted. At on-demand cloud rates for the same hardware, that’s roughly $8.5M of compute wasted in one month on one cluster. The pattern is similar in large scale compute industries as well, such as quant funds, AI labs, and manufacturing.<p>The four of us ran HPC and GPU training workloads at the largest quant funds and HPC facilities. Ismaeel did research at EPCC (Edinburgh’s Parallel Computing Centre, the UK’s national HPC site) under Adrian Jackson, where he built the first multimodal HPC resource predictor: a model that ingests job source code, submission scripts, hardware telemetry and cluster metadata in order to figure out how much compute will actually be needed. On a dataset of real workloads on EPCC’s own clusters it scored 34% better than any other baseline, and outperformed frontier general-purpose LLMs prompted on the same prediction task by roughly 8x. These results convinced us the problem was solvable with software.<",
+      "url": "https://news.ycombinator.com/item?id=48356312",
+      "created_at": "2026-06-01T13:05:02Z",
+      "meta": {
+        "points": 103,
+        "num_comments": 28
+      }
+    },
+    {
+      "source": "hackernews",
+      "title": "Got fed up with 36 hours of weekly meetings. Built something to fix it",
+      "text": "In my ops role at a major tech company, I peaked at a week-crushing *36-hours of weekly meetings* on a 40-hour work week, causing me to work evenings and weekends just to keep up with emails and core &#x27;heads down&#x27; work.<p>A buddy of mine had the same issue and wanted to try to do something about it. We did months of research on meetings, which was actually pretty interesting and revealing. Both of us having analytical backgrounds, traced the issue back to a main root cause: unprepared meetings. Call it breaking it down to its first principles. We also realized that many meeting softwares were actually focusing on the wrong problem.<p>Some interesting stats we found: 65% of meeting owners never prepare. Also, only ~30% of meeting attendees found the meetings they attended impactful, despite ~80% of owners thinking otherwise. A clear gap.<p>The core issues we identified were:<p>- Lack of agendas, talking points, and objectives\n- Excessive participants, often unnecessary\n- Absence of structure and clear outcomes\n- No feedback to meeting owners<p>We tested this finding out ourselves in our meetings by:<p>- Establishing a <i>single</i> defined objective (i.e. what we want to leave the meeting with hitting)\n- Articulating thoughtful talking points well ahead of time\n- Limiting attendees to those with assigned talking points (max 3-4 people per meeting)\n- Asking for honest meeting feedback from our attendees\n- Politely declining unnecessary meetings, including 1:1s<p>The result after only 1-2 weeks: A remarkable <i>10-hour reduction</i> in weekly meeting load, giving me back <i>an entire workday</i> and eliminating the need for evening and weekend work.<p>It was pretty wild how well this worked, but the key to keeping it this way was consistency.<p>We asked our colleagues and friends if they had similar issues with meetings and were astonished how common this was. SOO.. we developed an in-calendar tool that makes meeting preparation as simple as practicably possib",
+      "url": "https://news.ycombinator.com/item?id=38927178",
+      "created_at": "2024-01-09T15:25:08Z",
+      "meta": {
+        "points": 19,
+        "num_comments": 50
+      }
+    },
+    {
+      "source": "hackernews",
+      "title": "Has AI coding gone too far? I feel like I'm losing control of my own projects",
+      "text": "I wanted to share some thoughts on AI coding assistants that have been bothering me for a while, and I think the analogy of &quot;a kid with a credit card&quot; perfectly captures the danger of what some call &quot;vibecoding.&quot; At least until we have true AGI, this feels like a serious issue.<p>After using Cursor intensively for the better part of a year, I&#x27;m stunned by how fast it is. It can scaffold entire features, wire up components, and write complex logic in seconds. The feeling is like the difference between driving a car with a manual versus an automatic transmission. Or maybe, more accurately, like the difference between reading detailed documentation versus just watching a summary video.<p>It&#x27;s brought me back to when I first started using GitHub Copilot in 2023. Back then, it was mostly for autocompleting methods and providing in-context suggestions. That level of assistance felt just right. For more complex problems, I&#x27;d consciously switch contexts and ask a web-based AI like ChatGPT. I was still the one driving.<p>But tools like Cursor have changed the dynamic entirely. They are so proactive that they&#x27;re stripping me of the habit of thinking deeply about the business logic. It&#x27;s not that I&#x27;ve lost the ability to think, but I&#x27;m losing the ingrained, subconscious behavior of doing it. I&#x27;m no longer forced to hold the entire architecture in my head.<p>This is leading to a progressively weaker sense of ownership over the project. The workflow becomes:<p>Tell the AI to write a function.<p>Debug and test it.<p>Tell the AI to write the next function that connects to it.<p>Rinse and repeat. While fast, I end up with a series of black boxes I&#x27;ve prompted into existence. My role shifts from &quot;I know what I&#x27;m building&quot; to &quot;I know what I want.&quot; There&#x27;s a subtle but crucial difference. I&#x27;m becoming a project manager directing an AI intern, not an engineer crafting a solution.<p>This ",
+      "url": "https://news.ycombinator.com/item?id=44743115",
+      "created_at": "2025-07-31T06:58:12Z",
+      "meta": {
+        "points": 14,
+        "num_comments": 12
+      }
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Shimmer – ADHD coaching for adults, now on web",
+      "text": "Hi, I’m Chris, one of the co-founders of Shimmer. Last October, following my ADHD diagnosis, I launched Shimmer (<a href=\"https:&#x2F;&#x2F;shimmer.care\">https:&#x2F;&#x2F;shimmer.care</a>), one-to-one ADHD Coaching for adults. Our HN launch was here: <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=33468611\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=33468611</a>.<p>A quick recap before I dive into our new launch: Shimmer is an ADHD coaching service for adults. We took apart the traditionally expensive, inaccessible ADHD coaching offering ($300-600+&#x2F;session) and redesigned it from first principles. You get matched with one of our expert ADHD coaches, meet weekly over video, and get supported throughout the week via text and with learning tools. This solution is special to me personally (and our community) because it doesn’t just give you “knowledge” or offer another “tool”—our coaches help you set realistic goals, take personalized steps towards it, and keep you accountable.<p>Today we’re excited to launch our most-request feature: Web.<p>Over the past 9 months, we learned (and iterated) a lot with our members and coaches. A few key challenges pointed to the need for a web version: \n(1) ADHD “object permanence” challenges (e.g. out of sight out of mind), we needed to be multi-platform so when you finish a task or goal or encounter a challenge, regardless of if you’re near your laptop or phone, you can check it off &amp; ping your coach right away, \n(2) members used reflection modules (e.g. after each task, you’re prompted to reflect on what worked and didn’t work, and it informs your coach) more thoroughly than we originally anticipated, and web allows for deeper reflection and typing, \n(3) overarching coaching goals were often forgotten during the day-to-day, and the web makes it easier to use visual cues to keep goals top of mind for motivation, \n(4) many of our members struggle with phone addiction and driving members to the mobile app ",
+      "url": "https://news.ycombinator.com/item?id=37252231",
+      "created_at": "2023-08-24T17:49:04Z",
+      "meta": {
+        "points": 229,
+        "num_comments": 265
+      }
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Wispbit - Linter for AI coding agents",
+      "text": "Hey HN! Ilya and Nikita here. We&#x27;re building wispbit (<a href=\"https:&#x2F;&#x2F;wispbit.com\" rel=\"nofollow\">https:&#x2F;&#x2F;wispbit.com</a>) - a tool that helps keep codebase standards alive.<p>With the help of AI coding tools, engineers are writing more code than ever. Code output has increased, but the tooling to manage this hasn&#x27;t improved. Background agents still write bad code, and your IDE still writes slop without the right context.<p>So we built wispbit. It works by scanning your codebase for patterns you already use, and coming up with rules. Rules are kept up to date as standards change, and you can edit rules any time.<p>You can enforce these rules during code review, and because we have this rules system, you can run a CLI locally to review using these rules. You can think of it as a portable rules file that you can bring anywhere.<p>We put a lot of work into making a system that produces good rules and avoids slop. For repository crawling, we have an agent that dispatches subagents, similar to Anthropic&#x27;s research agent. These subagents will go through and look for common patterns within modules and directories, and report back to the main agent, which synthesizes the results. We also do a historical scan on your pull request comments, determine which ones were addressed, filter out comments that wouldn&#x27;t make a good rule, and use that to create or update rules.<p>Our early users are seeing 80%+ resolution rates, meaning that 80% of comments that wispbit makes are resolved.<p>Long-term, we see ourselves being a validation layer for AI-written code. With tools like Devin and Cursor, we find ourselves having to re-prompt the same solution many times. We still don&#x27;t know the long-term implications on AI-assisted codebases, so we want to get in front of that as soon as possible.<p>We&#x27;ve opened up signups for free to HN folks at <a href=\"https:&#x2F;&#x2F;wispbit.com\" rel=\"nofollow\">https:&#x2F;&#x2F;wispbit.com</a>. We&#x27;",
+      "url": "https://news.ycombinator.com/item?id=45584017",
+      "created_at": "2025-10-14T19:52:39Z",
+      "meta": {
+        "points": 31,
+        "num_comments": 14
+      }
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Prosona – Your co-pilot for intelligent responses in Slack",
+      "text": "Prosona was built to solve a personal problem at work - we’re constantly bombarded by questions from colleagues and our productivity suffered as a result.<p>All knowledge workers spend 15% - 20% of their time searching and gathering information. This often occurs when a colleague asks for a status update or how something works. Although the answers may be simple, the process of referring to Jira, grabbing links, and formulating an apt response is time-consuming. Until Prosona, this inconvenient context switch was just an accepted aspect of work life.<p>The issue is compounded by the dispersion of knowledge across a variety of apps such as Google Drive, Slack, and Email. We lose track of where information resides, or worse, forget about the existence of some information within our tools altogether. Adding new information to the mix becomes a tedious task of properly categorizing and documenting it.<p>This is where Prosona comes in. Our system integrates with all your knowledge stores, learns your unique tone of voice to then generate a draft allowing you to further personalize the message if needed.<p>In terms of security, we place the utmost importance on the protection of your data which is why it is encrypted in our vector DB. It can only be decrypted by you.<p>As an employee, your focus should be on achieving what truly matters: whether it&#x27;s meeting your OKRs, making an impact, or enjoying pastimes outside work. The last thing you need is to get bogged down in crafting routine messages to keep colleagues updated.<p>All you have to do is type `&#x2F;prosona` in Slack, and a beautiful draft will be written grounded in your context and tone.<p>Today we’re launching our private beta. To take part, sign up on our website. We&#x27;re providing access to the first 500 people who register.",
+      "url": "https://news.ycombinator.com/item?id=36858102",
+      "created_at": "2023-07-25T05:00:43Z",
+      "meta": {
+        "points": 13,
+        "num_comments": 17
+      }
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Enlist AI: Sub-second interview coaching with persistence",
+      "text": "Following some initial feedback, we’ve updated Enlist AI to ensure your preparation never resets. Based on user behavior, we noticed plans were being lost on refresh, so we&#x27;ve implemented local persistence to keep your progress synced.<p>What it does:\nEnlist AI is a full-pipeline preparation tool that turns any job description into a custom coaching experience. You paste a JD and get a personalized day-by-day study schedule.<p>The &quot;Mock Interview&quot; Flow:\nReal-time Voice Analysis: You speak your answers out loud. We use your microphone to track performance with sub-second latency.<p>Speech Clarity Scoring: The system flags filler words (um, like, you know) and scores your logic structure.<p>Actionable Feedback: Instead of generic scores, it gives a specific &quot;Fix it&quot; instruction for every answer.<p>Tailored Documents: It also generates a CV and cover letter specifically matched to the job requirements.<p>We’re running this on Groq for the inference speed to make the feedback feel instant. Would love to hear the community&#x27;s thoughts on the analysis logic.<p>Check out at <a href=\"https:&#x2F;&#x2F;enlistai.vercel.app\" rel=\"nofollow\">https:&#x2F;&#x2F;enlistai.vercel.app</a> and give feedback at <a href=\"https:&#x2F;&#x2F;enlistai.vercel.app&#x2F;feedback\" rel=\"nofollow\">https:&#x2F;&#x2F;enlistai.vercel.app&#x2F;feedback</a>",
+      "url": "https://news.ycombinator.com/item?id=47900781",
+      "created_at": "2026-04-25T12:05:02Z",
+      "meta": {
+        "points": 7,
+        "num_comments": 0
+      }
+    },
+    {
+      "source": "hackernews",
+      "title": "Tell HN: A realization I've had about working with AIs and building software",
+      "text": "Okay, here&#x27;s my debrief.<p>What I&#x27;ve realized is this: AI is an amplifier of what you are. It&#x27;s not a substitute - it just reflects and scales whatever you bring to the table.<p>When I was younger, I&#x27;d often just run at the wall and try to scale it fast. I&#x27;d throw a lot of code at the problem. Not out of carelessness - I was iterating quickly, looking for a working prototype that gave me feedback I could work with. Structure and architecture didn&#x27;t matter to me as much - what I wanted was to hit the goal, the concept, the tangible result.<p>And that actually worked. I built a lot of stuff that way.<p>But I assumed AI would kind of &quot;handle&quot; the rest - that it would take care of the complexity, or clean things up. And what I&#x27;ve come to see is that AI just reflects your approach. If I&#x27;m in &quot;throw code at the wall&quot; mode, AI will just help me do that faster. Which can help. But it won&#x27;t make the problem go away. It just accelerates whatever rhythm or method you&#x27;re already in.<p>If you&#x27;re designing systems, it can help you do that better. And if you&#x27;re caught in a whirlpool of iteration, it can pull you in faster - unless you consciously step out and take a broader view.<p>That&#x27;s the maturity I&#x27;ve been leaning into - stepping back, taking the time to think more expansively, seeing where the architecture needs to evolve to support the real model of what I&#x27;m trying to build. Because ultimately, building good software isn&#x27;t just hitting the feature, it&#x27;s about achieving a kind of mastery over the data and logic flow in the application.<p>There&#x27;s something subtle there - like crossing the threshold between &quot;everything technically works as a PoC&quot; to &quot;this is a robust, extensible system.&quot; The complexity isn&#x27;t in the features themselves, it&#x27;s in handling the state space, the transitions, the edges. It&#x27;s in aligning the implementation wi",
+      "url": "https://news.ycombinator.com/item?id=43691256",
+      "created_at": "2025-04-15T11:15:32Z",
+      "meta": {
+        "points": 20,
+        "num_comments": 15
+      }
+    },
+    {
+      "source": "hackernews",
+      "title": "10 Years, 10 Pricing Mistakes: What We Learned Building a SaaS Without VC Money",
+      "text": "Back in 2015 we launched our first SaaS with no VC and little experience. Most pricing choices came from gut feeling or advice we shouldn’t have taken. Looking back, what feels obvious today wasn’t obvious back then. We learned the hard way.<p>Tiered pricing.<p>On paper it looked fair. A team with 15 users paid $39 but adding one more jumped it to $119. Inside a tier customers were happy as cost per user dropped. But crossing a tier made them furious. People churned, demanded discounts or sent angry emails. Instead of rewarding growth the model punished it.<p>Per-user billing.<p>Finally revenue scaled with customers. But it attracted many solo users and tiny teams. Because Everhour syncs with project tools, even one freelancer could flood the system with hundreds of projects and tasks. They paid almost nothing but created huge load and were the loudest group: angry tweets, refund requests, endless tickets. Larger teams were calmer and more loyal.<p>To fix this we set a 5-seat minimum.<p>You could use fewer but still pay for 5. It filtered out freelancers, raised our average check and aligned us with the right customers. Some complained it was too expensive but those who valued the product stayed. Later we added a free plan for up to 5 users without integrations. This gave small teams a way to stick around and got us listed in “Top Free Tools” blogs. It worked more as marketing than monetization.<p>Flat-fee pricing in our Trello add-on.<p>$10&#x2F;month, unlimited users and projects. Out of 30,000+ active users only ~500 paid. Everyone else left the moment we asked for money. The product was too simple for upsells.<p>Grandfathering.<p>If someone signed up on old plan they could keep it forever. No forced upgrades, no surprise hikes. Many are still paying today. We tried nudging them to newer plans with extra features and loyalty discounts, but only a small percentage switched. If their plan worked fine, the barrier to paying more was too strong.<p>Discounts.<p>Volume",
+      "url": "https://news.ycombinator.com/item?id=45298374",
+      "created_at": "2025-09-19T05:56:58Z",
+      "meta": {
+        "points": 7,
+        "num_comments": 1
+      }
+    },
+    {
+      "source": "hackernews",
+      "title": "Ask HN: What are folks using for identity management?",
+      "text": "As I&#x27;m building prototypes or products for clients, I&#x27;m constantly concerned that the standard tools I&#x27;m using for auth (Devise for Rails, Passport for Node, etc) are just not enough over the long haul to keep user data secure.<p>Storing user data and handling most of the auth service seems risky as hell to me, but I don&#x27;t see quite as many strong opinions from the dev crowd about identity management as I do people sniping about where to put spec files in their codebase.<p>I guess I&#x27;m openly curious: Are folks using services like Firebase, Auth0, Okta to manage their user persistence, authentication, and authorization? Or are they just rolling their own or subscribing to open source projects and crossing fingers?<p>Personally, the Auth0 docs are not hitting the mark regarding the delivery vs complexity. For instance, it&#x27;s near to impossible for me to quickly get a ReactNative -&gt; Auth0 -&gt; API Server routine going, quickly. Okta seems easier, but I haven&#x27;t dug in. Firebase seems easiest, but then I don&#x27;t trust it because of the simplicity.<p>Fishing for opinions and experience on this subject...",
+      "url": "https://news.ycombinator.com/item?id=16700544",
+      "created_at": "2018-03-28T18:44:51Z",
+      "meta": {
+        "points": 6,
+        "num_comments": 1
+      }
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Finterm.ai Bloomberg terminal for Claude Code",
+      "text": "Hi, my name is Kam, and today my cofounder Josh and I are shipping Finterm, a CLI that\ngives coding agents direct access to financial data: stock prices, options data, SEC\nfilings, and Ticker Deep Research, a filtered ticker news search. I’m a developer and have been a full-time trader for the past few years.Recently I have been using LLMs more and more in my trading and strategy.\nI always found it frustrating that Claude Code or GPT did not have direct access to actual financial information and had to rely on web search, so it couldn’t get me more\ngranular numbers for specific options pricing.<p>When making a trade I want to understand as much as possible about the stock.\nInstead of relying on analysts or interpretations of the data, I like to go directly to\nthe truth. So whenever I have a trade thesis, I break research into a few parts: company\nresearch, analyst sentiment, and market sentiment.<p>Last September I had a short thesis on Popmart Labubu&#x27;s parent company. I was betting the toy was a fad and that the stock would fall. I read through the SEC filings and an LLM analyze them too: how big a driver is Labubu, what&#x27;s the business model, what does the debt look like, and what looks strange enough to dig into. I compared the company to its peers on EPS and industry metrics. I asked GPT to do deep research that included around 50 queries and hundreds of pages to map every argument about the stock. Finally I looked at the options data: call&#x2F;put ratios, implied volatility, recent volume, to see how the real money was betting. I made 16% over the next month.<p>The flow was painful, fetching SEC data, copy pasting filing sections in to GPT, aggregating everything by hand, and juggle a dozen chat windows.<p>In the past few months, Josh and I spent more time trying to get agents to trade autonomously. The more we dug in, the more we realized that the problem you need to solve first is giving agents access to factual information in a token-efficient way.",
+      "url": "https://news.ycombinator.com/item?id=48896257",
+      "created_at": "2026-07-13T17:52:10Z",
+      "meta": {
+        "points": 6,
+        "num_comments": 0
       }
     },
     {
       "source": "stackexchange",
-      "title": "parsing a reponse from a XMLHttpRequest",
+      "title": "App keeps crashing after changing targetsdkversion using apk easy tool",
       "text": [
-        "ajax",
-        "feedparser"
+        "java",
+        "android",
+        "flutter",
+        "apk"
       ],
-      "url": "https://stackoverflow.com/q/5363259",
-      "created_at": "1300551669",
-      "meta": {
-        "site": "stackoverflow",
-        "score": 1,
-        "answers": 3,
-        "tags": [
-          "ajax",
-          "feedparser"
-        ]
-      }
-    },
-    {
-      "source": "stackexchange",
-      "title": "Get city polygon from name",
-      "text": [
-        "python",
-        "python-2.7"
-      ],
-      "url": "https://stackoverflow.com/q/38365324",
-      "created_at": "1468469384",
-      "meta": {
-        "site": "stackoverflow",
-        "score": 1,
-        "answers": 1,
-        "tags": [
-          "python",
-          "python-2.7"
-        ]
-      }
-    },
-    {
-      "source": "stackexchange",
-      "title": "IDA Pro: Export identified array to c/c++",
-      "text": [
-        "ida"
-      ],
-      "url": "https://stackoverflow.com/q/9286987",
-      "created_at": "1329271721",
+      "url": "https://stackoverflow.com/q/69690527",
+      "created_at": "1635010497",
       "meta": {
         "site": "stackoverflow",
         "score": 0,
-        "answers": 1,
+        "answers": 0,
         "tags": [
-          "ida"
+          "java",
+          "android",
+          "flutter",
+          "apk"
         ]
       }
     },
     {
       "source": "stackexchange",
-      "title": "Parallel programming library? (+ some features)",
+      "title": "Safari Developer Tools keeps crashing on open",
+      "text": [
+        "iphone",
+        "safari",
+        "safari-web-inspector"
+      ],
+      "url": "https://stackoverflow.com/q/49956684",
+      "created_at": "1524320214",
+      "meta": {
+        "site": "stackoverflow",
+        "score": 10,
+        "answers": 3,
+        "tags": [
+          "iphone",
+          "safari",
+          "safari-web-inspector"
+        ]
+      }
+    },
+    {
+      "source": "stackexchange",
+      "title": "Safari Developer tools keep crashing when trying to inspect element",
+      "text": [
+        "angularjs",
+        "safari"
+      ],
+      "url": "https://stackoverflow.com/q/20993691",
+      "created_at": "1389178878",
+      "meta": {
+        "site": "stackoverflow",
+        "score": 3,
+        "answers": 1,
+        "tags": [
+          "angularjs",
+          "safari"
+        ]
+      }
+    },
+    {
+      "source": "stackexchange",
+      "title": "Debugging memory corruption",
       "text": [
         "c++",
-        "multithreading",
-        "accessibility",
-        "portability",
-        "parallel-programming"
+        "debugging",
+        "memory"
       ],
-      "url": "https://softwareengineering.com/q/101032",
-      "created_at": "1313343525",
+      "url": "https://softwareengineering.com/q/252696",
+      "created_at": "1407465550",
       "meta": {
         "site": "softwareengineering",
-        "score": 8,
-        "answers": 1,
+        "score": 24,
+        "answers": 5,
         "tags": [
           "c++",
-          "multithreading",
-          "accessibility",
-          "portability",
-          "parallel-programming"
+          "debugging",
+          "memory"
         ]
       }
     },
     {
       "source": "stackexchange",
-      "title": "Enforcing standard practices onto a self-taught project owner",
+      "title": "Should I track my handled exceptions?",
       "text": [
-        "management",
-        "education"
+        "programming-practices",
+        "exceptions",
+        "error-handling",
+        "reporting",
+        "analytics"
       ],
-      "url": "https://workplace.com/q/178033",
-      "created_at": "1630512178",
+      "url": "https://softwareengineering.com/q/386655",
+      "created_at": "1549358187",
       "meta": {
-        "site": "workplace",
-        "score": -7,
-        "answers": 1,
-        "tags": [
-          "management",
-          "education"
-        ]
-      }
-    },
-    {
-      "source": "stackexchange",
-      "title": "What Is The Most Professional Manner For Dealing With Arbitrary Management Style?",
-      "text": [
-        "manager",
-        "employees",
-        "people-management"
-      ],
-      "url": "https://workplace.com/q/57816",
-      "created_at": "1447690567",
-      "meta": {
-        "site": "workplace",
-        "score": 2,
-        "answers": 3,
-        "tags": [
-          "manager",
-          "employees",
-          "people-management"
-        ]
-      }
-    },
-    {
-      "source": "stackexchange",
-      "title": "Toxic workplace environment and my role",
-      "text": [
-        "toxic-culture"
-      ],
-      "url": "https://workplace.com/q/190835",
-      "created_at": "1680296288",
-      "meta": {
-        "site": "workplace",
-        "score": -4,
+        "site": "softwareengineering",
+        "score": 0,
         "answers": 2,
         "tags": [
-          "toxic-culture"
+          "programming-practices",
+          "exceptions",
+          "error-handling",
+          "reporting",
+          "analytics"
         ]
       }
     },
     {
       "source": "stackexchange",
-      "title": "How should I deal with how the bank/VISA/companies deal with \"flexible\" charges?",
+      "title": "Alternatives to cron jobs or other ways of improving scheduled task performance",
       "text": [
-        "bank-account",
-        "bookkeeping",
-        "transaction"
+        "php",
+        "database",
+        "performance",
+        "scheduling",
+        "cron"
       ],
-      "url": "https://money.com/q/148805",
-      "created_at": "1643046802",
+      "url": "https://softwareengineering.com/q/295350",
+      "created_at": "1441308488",
       "meta": {
-        "site": "money",
-        "score": 0,
-        "answers": 1,
+        "site": "softwareengineering",
+        "score": 3,
+        "answers": 2,
         "tags": [
-          "bank-account",
-          "bookkeeping",
-          "transaction"
+          "php",
+          "database",
+          "performance",
+          "scheduling",
+          "cron"
         ]
       }
     },
     {
       "source": "github",
-      "title": "Improved subpixel text rendering for OLED (WRGB stripe, RGB triangular) -- Unfixable by ClearType Tuner (Over 100 upvotes in Feedback Hub)",
-      "text": "### Description of the new feature / enhancement\n\n# EDIT: January 24th, 2025:\n\n- Proposed: [Alternative PowerToy Method: \"Display Shaders PowerToy\"](https://github.com/microsoft/PowerToys/issues/25595#issuecomment-2571621204)\n- Proposed: [Free Open Source Coding Offer to Microsoft to contribute \"Display Shaders PowerToy\"](https://github.com/microsoft/PowerToys/issues/25595#issuecomment-2611345767)\n- Related: [Blur Busters Open Source Display Shaders v1.0.2 specifcation](https://blurbusters.com/osi#spec)\n(will include WOLED/QDOLED shader)\n\n# NOTE: I do paid work with display manufacturers. \n\nRepost of incorrectly-closed github item that someone else posted:\n\n> ClearType alters anti-aliasing assuming an RGB stripe subpixel configuration. More WOLED (WRGB stripe) and QD-OLED (RGB triangular) monitors are coming to market and have noticeable chromatic aberration/color fringing on edges of text. It would be nice if Windows had a built-in option to alter text rendering based on subpixel configuration of the monitor.\n> \n> ### Scenario when this would be used?\n> When using a WOLED or QD-OLED monitor with WRGB stripe or RGB triangular subpixel configuration to improve text clarity.\n> \n> ### Supporting information\n> https://www.youtube.com/watch?v=52eiLP3Zy-s\n> \n> https://youtu.be/k-6yc1dA--0?t=602\n> \n> https://youtu.be/PR-1tMih0fM?t=442\n\nIt is definitely a real problem caused by unresolvable ClearType limitations.  The earlier github item (#25568) was incorrectly closed by someone who thought it was a feature already built into windows; so creating new GitHub issue.\n\n# EDIT January 24th, 2025\n_____\n\n# Over 100 Upvotes in Feedback Hub for \"ClearType 2\"\n\nOkay, I have audited Feedback Hub, and whoo-boy, this is a `popular complaint by OLED owners`.  \n\nThis issue is so obscure (that the duplicate-item judges do not even understand these are duplicates).  I will flag by copy and pasting some of this comment in Feedback Hub.\n\nSearch Terms: \"`cleartype OLED`\", \"`cleartype WOLED`\", ",
-      "url": "https://github.com/microsoft/PowerToys/issues/25595",
-      "created_at": "2023-04-18T04:07:48Z",
+      "title": "Maximize/Full Screen window within a zone (virtual monitor)",
+      "text": "Maximize window within the zone\r\n\r\nMaximizing the window currently maximizing it to the whole desktop. It would be useful if it has the ability to maximize within the zone\r\n",
+      "url": "https://github.com/microsoft/PowerToys/issues/279",
+      "created_at": "2019-09-06T23:27:46Z",
       "meta": {
         "repo": "microsoft/PowerToys",
-        "comments": 354,
-        "reactions": 819
+        "comments": 189,
+        "reactions": 332
       }
     },
     {
       "source": "github",
-      "title": "Independent virtual desktops per monitor",
-      "text": "Yet another virtual desktop request. Currently switching virtual desktops switches windows on all monitors. It would be great to make this independent per monitor.\r\n\r\nEg. I always have Outlook on monitor 1, but want to switch between multiple sets of apps on monitor 2 and 3 without losing whats on monitor 1.\r\n\r\nBonus points if the virtual desktops are all shared so I can cycle through them on each monitor eg 5 virtual desktops, 3 monitors.\r\nStart with:\r\n1=1, 2=2, 3=3\r\nCycle 3 (to virtual 4):\r\n1=1, 2=2, 3=4\r\nCycle 2 (to virtual 5):\r\n1=1, 2=5, 3=3\r\nCycle 3 \"down\" (to virtual 2):\r\n1=1, 2=5, 3=2\r\n\r\n\r\n\r\n",
-      "url": "https://github.com/microsoft/PowerToys/issues/58",
-      "created_at": "2019-05-09T15:46:59Z",
+      "title": "Win11 taskbar with desktop toolbar '>>' browsable folders with cascading levels",
+      "text": "### Description of the new feature / enhancement\r\n\r\nI'm using the Windows desktop toolbar for \"browsable folders with cascading levels\" - a place on the taskbar from where I can browse the whole computer (preferably starting from Desktop/User folder - showing This PC, Control Panel, OneDrive(s), Sharepoint(s), Network, Recycle Bin, Libraries, User folder, etc.) only with moving the mouse (without clicking) - cascading further inside (including in ZIP files), then right-clicking and/or dragging files/folders, copy/cut/paste/delete/rename, etc.\r\n\r\nAdd the \">>\" symbol from the Win10 desktop toolbar somewhere on the Win11 taskbar/start menu (for example as tray icon - similarly to [TrayToolbar](https://github.com/rojarsmith/TrayToolbar)) - as tray icon, as some other kind of button, as right-click menu item, etc.\r\n\r\n### Scenario when this would be used?\r\n\r\nfast and convenient browsing and all other Explorer file/folder operations (drag & drop, right-click, etc.)\r\n\r\n### Supporting information\r\n\r\nSee [screenshot](https://www.eightforums.com/threads/i-dont-miss-start-menu-at-all-heres-why.5442/):\r\n![Browsable cascading folders](https://user-images.githubusercontent.com/97228894/154351043-acb0eec3-fb8c-4b62-af71-4af88fa376e6.png)\r\n\r\nThe most crucial item that prevents me from using Win11.",
+      "url": "https://github.com/microsoft/PowerToys/issues/16404",
+      "created_at": "2022-02-16T21:22:52Z",
       "meta": {
         "repo": "microsoft/PowerToys",
-        "comments": 132,
-        "reactions": 336
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "WhatsApp problème",
-      "text": "Mon WhatsApp ne peut pas ouvrir",
-      "url": "",
-      "created_at": "2026-08-05T01:10:22-07:00",
-      "meta": {
-        "rating": 5,
-        "author": "Melchy||•",
-        "appId": "310633997"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "Whatsapp for Apple Watch.",
-      "text": "The app has been working perfectly but since th new update Month the UI has been strange. The chatbox covers th chat and you have to restart WhatsApp for proper display of the chatbox manually",
-      "url": "",
-      "created_at": "2026-08-05T00:55:26-07:00",
-      "meta": {
-        "rating": 3,
-        "author": "Akalson",
-        "appId": "310633997"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "Best app",
-      "text": "Best communication app of our time, back to back",
-      "url": "",
-      "created_at": "2026-08-05T00:48:48-07:00",
-      "meta": {
-        "rating": 5,
-        "author": "Ismail-00",
-        "appId": "310633997"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "Can’t log into my account",
-      "text": "I’ve been trying to log into WhatsApp and it keeps telling  me something’s wrong with my current version and I need to download a newer version but I literally downloaded it like 3secs from App Store!!!!",
-      "url": "",
-      "created_at": "2026-08-05T00:44:49-07:00",
-      "meta": {
-        "rating": 1,
-        "author": "yyyyyyhbjjjkki",
-        "appId": "310633997"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "Good",
-      "text": "Awesome",
-      "url": "",
-      "created_at": "2026-08-05T00:42:25-07:00",
-      "meta": {
-        "rating": 5,
-        "author": "Jittu…",
-        "appId": "310633997"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "Nice app",
-      "text": "Nice app, I really enjoy communicating with people around the world with this app",
-      "url": "",
-      "created_at": "2026-08-05T00:22:58-07:00",
-      "meta": {
-        "rating": 5,
-        "author": "DenoAchiever",
-        "appId": "310633997"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "Telegram > WhatsApp",
-      "text": "Telegram > WhatsApp КТО СОГЛАСЕН???👀",
-      "url": "",
-      "created_at": "2026-08-05T00:20:48-07:00",
-      "meta": {
-        "rating": 1,
-        "author": "egusot",
-        "appId": "310633997"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": ":(",
-      "text": "I have tried to make an account with ‎WhatsApp nearly 20 times and every time I do it says unable to send the code to my number I’ve tried to reinstalling the app after I’m installing it and my iOS is updated and WhatsApp is updated",
-      "url": "",
-      "created_at": "2026-08-04T23:50:25-07:00",
-      "meta": {
-        "rating": 1,
-        "author": "Dejdyvvj",
-        "appId": "310633997"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "Really?",
-      "text": "Won’t work on my new iPhone. Keeps telling me I need an update when it’s already updated",
-      "url": "",
-      "created_at": "2026-08-04T23:44:40-07:00",
-      "meta": {
-        "rating": 1,
-        "author": "Dani_Doom",
-        "appId": "310633997"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "Not working",
-      "text": "Verifying phone number doesn’t work. It doesn’t send code and asking to update the app, meanwhile the app is already updated.",
-      "url": "",
-      "created_at": "2026-08-04T22:30:23-07:00",
-      "meta": {
-        "rating": 1,
-        "author": "Ararat73",
-        "appId": "310633997"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "Disappointed. Need help.",
-      "text": "Cannot install on iPhone 15. Says I need to update, but there’s no update for WhatsApp. I need to transfer from my google phone to my iPhone.",
-      "url": "",
-      "created_at": "2026-08-04T22:25:29-07:00",
-      "meta": {
-        "rating": 3,
-        "author": "Trisna Vazz",
-        "appId": "310633997"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "Sadria",
-      "text": "Sadri",
-      "url": "",
-      "created_at": "2026-08-04T22:05:56-07:00",
-      "meta": {
-        "rating": 5,
-        "author": "Sadriasadri",
-        "appId": "310633997"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "Número nuevo",
-      "text": "No deja instalar la aplicación con número nuevo",
-      "url": "",
-      "created_at": "2026-08-04T22:04:21-07:00",
-      "meta": {
-        "rating": 1,
-        "author": "Elab8",
-        "appId": "310633997"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "العراق",
-      "text": "جيد",
-      "url": "",
-      "created_at": "2026-08-04T21:56:06-07:00",
-      "meta": {
-        "rating": 5,
-        "author": "مجتبى ماجد",
-        "appId": "310633997"
-      }
-    },
-    {
-      "source": "appstore",
-      "title": "Complain",
-      "text": "After downloading the latest version of WhatsApp I still can’t login my number, it keeps saying something is wrong with this current version, try and download the latest version which I’m aleady using",
-      "url": "",
-      "created_at": "2026-08-04T21:32:42-07:00",
-      "meta": {
-        "rating": 2,
-        "author": "2pcks",
-        "appId": "310633997"
+        "comments": 13,
+        "reactions": 2
       }
     }
   ],
   "opportunities": [
     {
-      "theme": "WhatsApp verification broken on iOS",
-      "pain": "Users cannot verify their phone numbers on iPhone; the app claims it needs an update even when already on the latest version, blocking account access entirely.",
+      "theme": "AI Coding Agents Produce Unmaintainable Code",
+      "pain": "Developers using AI coding assistants like Cursor are losing architectural control and code quality as agents generate code faster than humans can review, creating technical debt and eroding deep understanding of their own codebases.",
       "evidence": [
-        "I've been trying to log into WhatsApp and it keeps telling me something's wrong with my current version and I need to download a newer version but I literally downloaded it like 3secs from App Store!!!!",
-        "Verifying phone number doesn't work. It doesn't send code and asking to update the app, meanwhile the app is already updated.",
-        "After downloading the latest version of WhatsApp I still can't login my number, it keeps saying something is wrong with this current version"
+        "\"They are so proactive that they're stripping me of the habit of thinking deeply about problems.\"",
+        "\"Background agents still write bad code, and your IDE still writes slop without the right context.\"",
+        "\"AI just reflects your approach. If I'm in 'throw code at the wall' mode, AI will just help me do that faster.\""
       ],
       "sources": [
-        "appstore"
+        "hackernews",
+        "hackernews",
+        "hackernews"
       ],
-      "url": "",
-      "suggested_solution": "A WhatsApp automation that detects the 'version mismatch' loop, forces a clean re-registration via the Business API fallback, and notifies the user via email/SMS when verification succeeds.",
-      "monetization": "Per-recovery fee $4.99 or $9.99/month subscription for agencies managing many client numbers.",
+      "url": "https://news.ycombinator.com/item?id=44743115",
+      "suggested_solution": "A WhatsApp/Slack bot that intercepts AI-generated PRs, runs them through a local rule engine (like Wispbit) and auto-comments with architectural violations, missing tests, and complexity scores before human review.",
+      "monetization": "$15/seat/mo for teams; $99/mo org plan with custom rule packs and SOC2 audit logs.",
       "score": 88.0,
-      "buy_intent": true,
+      "buy_intent": false,
+      "trend": "new",
+      "appearances": 1,
+      "market": {
+        "level": "high",
+        "existing": [
+          "zarazhangrui/beautiful-html-templates (★4096)",
+          "JimLiu/baoyu-design (★3077)",
+          "zubair-trabzada/ai-sales-team-claude (★971)",
+          "Orkas-AI/Orkas-VideoStudio (★521)",
+          "julianoczkowski/designer-skills (★492)",
+          "WoJiSama/skill-based-architecture (★491)"
+        ],
+        "links": [
+          "https://github.com/zarazhangrui/beautiful-html-templates",
+          "https://github.com/JimLiu/baoyu-design",
+          "https://github.com/zubair-trabzada/ai-sales-team-claude",
+          "https://github.com/Orkas-AI/Orkas-VideoStudio",
+          "https://github.com/julianoczkowski/designer-skills",
+          "https://github.com/WoJiSama/skill-based-architecture"
+        ],
+        "hn_hits": 638,
+        "note": "'coding agents produce': 6 similar repo(s), 638 HN stories. Space looks crowded — differentiation needed."
+      }
+    },
+    {
+      "theme": "Meeting Overload from Unprepared Organizers",
+      "pain": "Knowledge workers spend 30-36 hours/week in meetings where 65% of organizers never prepare agendas, causing attendees to work nights/weekends to do actual work.",
+      "evidence": [
+        "\"I peaked at a week-crushing 36-hours of weekly meetings on a 40-hour work week\"",
+        "\"65% of meeting owners never prepare. Also, only ~30% of meeting attendees found the meetings they attended impactful\"",
+        "\"Lack of agendas, talking points, and objectives. Excessive participants, often unnecessary.\""
+      ],
+      "sources": [
+        "hackernews"
+      ],
+      "url": "https://news.ycombinator.com/item?id=38927178",
+      "suggested_solution": "A WhatsApp/Calendar integration that requires organizers to attach a one-sentence objective + timed agenda before the invite sends; auto-declines invites missing prep and nudges attendees with pre-read summaries 10 min before start.",
+      "monetization": "Freemium: free for 5 meetings/week; $8/user/mo unlimited + analytics; $2k/yr enterprise with compliance exports.",
+      "score": 82.0,
+      "buy_intent": false,
       "trend": "new",
       "appearances": 1,
       "market": {
@@ -400,115 +381,84 @@
         "existing": [],
         "links": [],
         "hn_hits": 0,
-        "note": "'whatsapp verification broken': 0 similar repo(s), 0 HN stories. Room to differentiate."
+        "note": "'meeting overload unprepared': 0 similar repo(s), 0 HN stories. Room to differentiate."
       }
     },
     {
-      "theme": "OLED subpixel text rendering broken on Windows",
-      "pain": "WOLED (WRGB stripe) and QD-OLED (RGB triangular) monitors show severe color fringing because Windows ClearType assumes RGB stripe; no built-in fix exists.",
+      "theme": "Over-Complex Data & Auth Tooling for Indie Devs",
+      "pain": "Solo founders and small teams waste days evaluating and configuring heavyweight tools (Metabase, Auth0, Okta) that are overkill for simple MongoDB visualization or user auth, while lighter alternatives feel untrustworthy.",
       "evidence": [
-        "ClearType alters anti-aliasing assuming an RGB stripe subpixel configuration. More WOLED (WRGB stripe) and QD-OLED (RGB triangular) monitors are coming to market and have noticeable chromatic aberration/color fringing on edges of text.",
-        "Over 100 upvotes in Feedback Hub",
-        "Proposed: Alternative PowerToy Method: \"Display Shaders PowerToy\""
+        "\"I have tried Metabase, Redash, Google DataStudio - all pretty complex tools.\"",
+        "\"Auth0 docs are not hitting the mark regarding the delivery vs complexity. Near impossible to quickly get a ReactNative -> Auth0 -> API Server routine going.\"",
+        "\"Firebase seems easiest, but then I don't trust it because of the simplicity.\""
       ],
       "sources": [
-        "github"
+        "hackernews",
+        "hackernews"
       ],
-      "url": "https://github.com/microsoft/PowerToys/issues/25595",
-      "suggested_solution": "A tiny Windows tray utility that injects a per-monitor DirectWrite pixel shader to apply the correct subpixel layout (WRGB stripe / RGB triangular) automatically on display hot-plug.",
-      "monetization": "One-time $14.99 license; free for personal use, $49/seat for enterprise.",
-      "score": 82.0,
-      "buy_intent": true,
+      "url": "https://news.ycombinator.com/item?id=24038620",
+      "suggested_solution": "A zero-config, embeddable admin panel + auth scaffold shipped as an npm package: `npx create-admin-panel` spins up a local MongoDB UI + magic-link auth in 30 seconds, deployable to any VPS with one Docker command.",
+      "monetization": "Open-core: MIT core; $29/mo hosted version with backups, SSO, and audit logs; $199 one-time self-hosted license for teams >5.",
+      "score": 79.0,
+      "buy_intent": false,
       "trend": "new",
       "appearances": 1,
       "market": {
-        "level": "low",
+        "level": "high",
         "existing": [
-          "Master-Antonio/Puretype (★78)",
-          "ASPRNG-PRGMR/kage (★0)"
+          "Lightning-Universe/lightning-flash (★1724)",
+          "ManojKumarPatnaik/Major-project-list (★242)",
+          "Aastha2104/Parkinson-Disease-Prediction (★194)",
+          "JayabharathP/The-Python-Mega-Course-Build-10-Real-World-Applications- (★182)",
+          "Masudbro94/python-hacked-mobile-phone- (★154)",
+          "jettbrains/-L- (★152)"
         ],
         "links": [
-          "https://github.com/Master-Antonio/Puretype",
-          "https://github.com/ASPRNG-PRGMR/kage"
+          "https://github.com/Lightning-Universe/lightning-flash",
+          "https://github.com/ManojKumarPatnaik/Major-project-list",
+          "https://github.com/Aastha2104/Parkinson-Disease-Prediction",
+          "https://github.com/JayabharathP/The-Python-Mega-Course-Build-10-Real-World-Applications-",
+          "https://github.com/Masudbro94/python-hacked-mobile-phone-",
+          "https://github.com/jettbrains/-L-"
         ],
-        "hn_hits": 0,
-        "note": "'oled subpixel text': 2 similar repo(s), 0 HN stories. Room to differentiate."
+        "hn_hits": 430,
+        "note": "'over complex data': 6 similar repo(s), 430 HN stories. Space looks crowded — differentiation needed."
       }
     },
     {
-      "theme": "Independent virtual desktops per monitor missing",
-      "pain": "Windows switches virtual desktops globally across all monitors; power users need per-monitor desktop switching to keep reference apps (e.g., Outlook) static while cycling workspaces on other screens.",
+      "theme": "Context Switching Across Fragmented Knowledge Stores",
+      "pain": "Knowledge workers lose 15-20% of their time searching Slack, Jira, Drive, and Email for answers to repetitive colleague questions, because information is scattered and undocumented.",
       "evidence": [
-        "Currently switching virtual desktops switches windows on all monitors. It would be great to make this independent per monitor.",
-        "I always have Outlook on monitor 1, but want to switch between multiple sets of apps on monitor 2 and 3 without losing whats on monitor 1.",
-        "Bonus points if the virtual desktops are all shared so I can cycle through them on each monitor"
-      ],
-      "sources": [
-        "github"
-      ],
-      "url": "https://github.com/microsoft/PowerToys/issues/58",
-      "suggested_solution": "A PowerToys module that virtualizes the Win32 VirtualDesktop API, exposing per-monitor desktop grids with hotkeys and a WhatsApp bot to trigger switches via voice/text.",
-      "monetization": "Freemium: core free, advanced layouts + WhatsApp remote control $7.99/mo.",
-      "score": 76.0,
-      "buy_intent": true,
-      "trend": "new",
-      "appearances": 1,
-      "market": {
-        "level": "medium",
-        "existing": [
-          "Suffix30/VirtualBox-UUID-Tool (★1)",
-          "harungecit/IndepenDesk (★0)",
-          "Ipicky22/kwin-macos-spaces (★0)",
-          "dnwtn/VirtualStemPlayer (★0)",
-          "pharomwinters/hyprgo-split-ws (★0)",
-          "edotjioe/audiorouter (★0)"
-        ],
-        "links": [
-          "https://github.com/Suffix30/VirtualBox-UUID-Tool",
-          "https://github.com/harungecit/IndepenDesk",
-          "https://github.com/Ipicky22/kwin-macos-spaces",
-          "https://github.com/dnwtn/VirtualStemPlayer",
-          "https://github.com/pharomwinters/hyprgo-split-ws",
-          "https://github.com/edotjioe/audiorouter"
-        ],
-        "hn_hits": 1,
-        "note": "'independent virtual desktops': 6 similar repo(s), 1 HN stories. Room to differentiate."
-      }
-    },
-    {
-      "theme": "Desire for visual direct-manipulation programming",
-      "pain": "Developers want a general-purpose programming environment that replaces text code with direct data manipulation and live multi-dimensional 'what-if' feedback, but only domain-specific prototypes exist.",
-      "evidence": [
-        "I'm much more curious about a programming paradigm that no longer uses text to communicate with computers but instead just directly manipulating data, receiving past, present, and future feedback of how it would change given your manipulations.",
-        "To be clear, I'm not searching for specialized interpretations of this 'Oh someone did this with typography' or 'Oh someone did this with a game' but rather some more generalizable form",
-        "Someone tried to replace Python with an idea like this"
+        "\"All knowledge workers spend 15% - 20% of their time searching and gathering information.\"",
+        "\"We lose track of where information resides, or worse, forget about the existence of some information within our tools altogether.\"",
+        "\"The process of referring to Jira, grabbing links, and formulating an apt response is time-consuming.\""
       ],
       "sources": [
         "hackernews"
       ],
-      "url": "https://news.ycombinator.com/item?id=34485254",
-      "suggested_solution": "An AI-assisted visual notebook where users draw data-flow graphs; an LLM instantly generates/runs the underlying code and shows live diff projections across time-travel sliders.",
-      "monetization": "VS Code extension: $10/mo pro, $100/yr team; enterprise on-prem $500/seat/yr.",
-      "score": 71.0,
+      "url": "https://news.ycombinator.com/item?id=36858102",
+      "suggested_solution": "A WhatsApp/Slack bot that indexes connected workspaces (Notion, Linear, GitHub, Drive) nightly, then replies to any \"@bot how do I...\" with a cited answer + deep links, learning the team's tone from past replies.",
+      "monetization": "$10/user/mo; $99/mo team (up to 20); enterprise $15/user/mo with on-prem indexing and PII redaction.",
+      "score": 78.0,
       "buy_intent": false,
       "trend": "new",
       "appearances": 1
     },
     {
-      "theme": "Parallel C++ library fragmentation",
-      "pain": "C++ developers struggle to find a portable, accessible parallel programming library that works across platforms without vendor lock-in.",
+      "theme": "SaaS Pricing Models That Punish Growth",
+      "pain": "Bootstrapped SaaS founders repeatedly hit revenue ceilings because tiered/per-seat pricing creates cliff effects that anger expanding customers and attract low-value freelancers who generate disproportionate support load.",
       "evidence": [
-        "Parallel programming library? (+ some features)",
-        "Tags: c++, multithreading, accessibility, portability, parallel-programming",
-        "Score: 8, Answers: 1"
+        "\"A team with 15 users paid $39 but adding one more jumped it to $119. Crossing a tier made them furious.\"",
+        "\"Per-user billing attracted many solo users... They paid almost nothing but created huge load and were the loudest group.\"",
+        "\"To fix this we set a 5-seat minimum. It filtered out freelancers, raised our average check.\""
       ],
       "sources": [
-        "stackexchange"
+        "hackernews"
       ],
-      "url": "https://softwareengineering.com/q/101032",
-      "suggested_solution": "A header-only C++20 library wrapping TBB, HPX, and std::execution with a unified policy API, distributed via vcpkg/Conan and documented by an AI chatbot on WhatsApp.",
-      "monetization": "Open-core: MIT core, $299/yr for priority support + WhatsApp Q&A bot.",
-      "score": 54.0,
+      "url": "https://news.ycombinator.com/item?id=45298374",
+      "suggested_solution": "An AI pricing simulator that ingests your Stripe/Chargebee history, models 12 pricing architectures (usage, hybrid, seat-minimums, value-metric), and outputs a migration plan with churn-risk scores per cohort.",
+      "monetization": "$499 one-time report; $199/mo subscription for quarterly re-runs + A/B test scaffolding.",
+      "score": 75.0,
       "buy_intent": false,
       "trend": "new",
       "appearances": 1

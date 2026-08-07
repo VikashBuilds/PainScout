@@ -1,0 +1,78 @@
+{
+  "opportunity_theme": "Over-Complex Data & Auth Tooling for Indie Devs",
+  "name": "SoloStack",
+  "tagline": "Lightweight MongoDB dashboards & auth that just work for indie devs",
+  "problem": "Solo founders waste days configuring enterprise tools like Metabase and Auth0 for simple MongoDB visualization and user auth, while lightweight alternatives lack trust and reliability.",
+  "solution": "SoloStack provides a zero-config MongoDB dashboard and authentication layer that deploys in minutes. It combines visual query building, auto-generated admin panels, and battle-tested auth (email/password, OAuth, magic links) — all without the bloat of enterprise platforms.",
+  "features": [
+    "Auto-generated MongoDB admin UI with CRUD, filters, and relation browsing",
+    "Visual query builder → charts/dashboards (no MQL/SQL needed)",
+    "Auth: email/password, magic links, Google/GitHub OAuth, JWT tokens",
+    "React/React Native SDK + REST API for custom frontends",
+    "Role-based access control (admin, editor, viewer) out of the box",
+    "One-click deploy to Railway/Render/Fly.io with managed MongoDB",
+    "Audit logs & GDPR export/delete endpoints",
+    "Embeddable dashboards for customer-facing analytics",
+    "CLI for local dev & schema migrations",
+    "Self-hosted or cloud with solo-dev friendly pricing"
+  ],
+  "mvp_scope": "Ship a self-hosted Docker image that connects to any MongoDB URI, auto-generates an admin panel with CRUD + charts, and issues JWTs via email/password + Google OAuth. Skip multi-tenancy, embeddable dashboards, and CLI in v1.",
+  "tech_stack": [
+    "Next.js 14 (App Router, API routes, server actions)",
+    "Prisma ORM (MongoDB connector, type-safe queries)",
+    "NextAuth.js v5 (auth providers, JWT sessions, adapters)",
+    "Recharts (visualization, responsive charts)",
+    "Tailwind CSS + shadcn/ui (styling, accessible components)",
+    "Docker + Docker Compose (packaging, local dev)",
+    "Railway / Fly.io (recommended hosting, one-click deploy)",
+    "Zod (validation, schema inference)"
+  ],
+  "build_estimate_days": 21,
+  "competitors": [
+    {
+      "name": "Metabase",
+      "gap": "Java-based, heavy resource usage, overkill for simple MongoDB; no built-in auth"
+    },
+    {
+      "name": "Auth0",
+      "gap": "Complex setup, pricing spikes at scale, docs assume enterprise architecture"
+    },
+    {
+      "name": "Firebase",
+      "gap": "Vendor lock-in, Firestore ≠ MongoDB, trust issues from Google sunset history"
+    },
+    {
+      "name": "AdminBro",
+      "gap": "Requires custom code per resource, not zero-config, auth is DIY"
+    },
+    {
+      "name": "PocketBase",
+      "gap": "SQLite-only, not MongoDB; auth mature but data layer wrong for this pain"
+    }
+  ],
+  "landing_copy": {
+    "headline": "Stop Wrestling Metabase. Start Shipping.",
+    "subheadline": "SoloStack gives you a production-ready MongoDB admin panel + auth in 5 minutes. Zero config. Self-hosted. Built for indie devs.",
+    "bullets": [
+      "Auto-admin UI from your MongoDB collections",
+      "Visual dashboards — no query language needed",
+      "Auth with email, magic links, OAuth in one SDK",
+      "Deploy to Railway/Fly.io with one click",
+      "Self-hosted — your data, your server, your rules"
+    ],
+    "cta": "Deploy Free on Railway"
+  },
+  "whatsapp_bot": {
+    "flow": "Dev connects MongoDB URI → bot provisions SoloStack instance → sends dashboard URL + auth credentials → dev manages users/collections via chat commands",
+    "commands": [
+      "/connect <mongo_uri>",
+      "/deploy",
+      "/users",
+      "/collections",
+      "/dashboard",
+      "/logs"
+    ],
+    "pricing": "Free self-hosted; $19/mo managed cloud (includes hosting, backups, SSL)"
+  },
+  "pricing_model": "Free self-hosted (MIT); $19/mo managed cloud with auto-backups, SSL, custom domain; $49/mo team (SSO, audit logs, priority support)"
+}

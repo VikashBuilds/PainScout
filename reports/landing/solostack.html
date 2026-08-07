@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SoloStack — Lightweight MongoDB dashboards &amp; auth that just work for indie devs</title>
+<style>
+:root{--bg:#0b0f1a;--card:#131a2b;--acc:#6c5ce7;--acc2:#00cec9;--txt:#e8ecf4;--mut:#9aa5b8}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--txt);line-height:1.6}
+.hero{padding:72px 20px 48px;text-align:center;background:radial-gradient(ellipse at top,#1a2340 0%,var(--bg) 70%)}
+.badge{display:inline-block;padding:6px 14px;border-radius:999px;background:rgba(108,92,231,.15);color:#b3a8ff;font-size:13px;letter-spacing:.5px;margin-bottom:20px;border:1px solid rgba(108,92,231,.4)}
+h1{font-size:clamp(2rem,5vw,3.4rem);font-weight:800;letter-spacing:-.5px;margin-bottom:14px}
+.tag{font-size:clamp(1.05rem,2.5vw,1.35rem);color:var(--mut);max-width:640px;margin:0 auto 30px}
+.cta{display:inline-block;padding:15px 34px;border-radius:12px;background:linear-gradient(135deg,var(--acc),var(--acc2));color:#fff;font-weight:700;font-size:1.05rem;text-decoration:none;box-shadow:0 8px 30px rgba(108,92,231,.35);transition:transform .15s}
+.cta:hover{transform:translateY(-2px)}
+.container{max-width:960px;margin:0 auto;padding:32px 20px 80px}
+.section{margin-top:48px}
+h2{font-size:1.5rem;margin-bottom:18px;color:#fff}
+.card{background:var(--card);border:1px solid #1e2a45;border-radius:16px;padding:24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.grid .card{padding:18px}
+.grid .card strong{color:var(--acc2);font-size:1.05rem}
+ul{list-style:none}
+li{padding:8px 0 8px 26px;position:relative}
+li:before{content:"✓";position:absolute;left:0;color:var(--acc2)}
+.wa{border-left:4px solid #25d366;padding:20px 24px;border-radius:0 12px 12px 0;background:rgba(37,211,102,.06)}
+code{background:#0d1526;padding:2px 8px;border-radius:6px;font-size:.92em;color:#8be9fd}
+.pricing{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.pricing .price{font-size:2.2rem;font-weight:800;color:var(--acc2)}
+.foot{text-align:center;color:var(--mut);padding:32px;font-size:.85rem}
+@media(max-width:600px){.hero{padding:48px 16px 32px}}
+</style>
+</head>
+<body>
+<div class="hero">
+  <span class="badge">✨ AI-Powered · WhatsApp-First · No-Code</span>
+  <h1>Stop Wrestling Metabase. Start Shipping.</h1>
+  <p class="tag">SoloStack gives you a production-ready MongoDB admin panel + auth in 5 minutes. Zero config. Self-hosted. Built for indie devs.</p>
+  <a class="cta" href="#wa">Deploy Free on Railway</a>
+</div>
+<div class="container">
+  <div class="section">
+    <h2>The problem</h2>
+    <div class="card"><p>Solo founders waste days configuring enterprise tools like Metabase and Auth0 for simple MongoDB visualization and user auth, while lightweight alternatives lack trust and reliability.</p></div>
+  </div>
+  <div class="section">
+    <h2>The solution</h2>
+    <div class="card"><p>SoloStack provides a zero-config MongoDB dashboard and authentication layer that deploys in minutes. It combines visual query building, auto-generated admin panels, and battle-tested auth (email/password, OAuth, magic links) — all without the bloat of enterprise platforms.</p></div>
+  </div>
+  <div class="section">
+    <h2>What you get</h2>
+    <div class="card"><ul><li>Auto-admin UI from your MongoDB collections</li><li>Visual dashboards — no query language needed</li><li>Auth with email, magic links, OAuth in one SDK</li><li>Deploy to Railway/Fly.io with one click</li><li>Self-hosted — your data, your server, your rules</li></ul></div>
+  </div>
+  <div class="section">
+    <h2>Features (v1)</h2>
+    <div class="card"><ul><li>Auto-generated MongoDB admin UI with CRUD, filters, and relation browsing</li><li>Visual query builder → charts/dashboards (no MQL/SQL needed)</li><li>Auth: email/password, magic links, Google/GitHub OAuth, JWT tokens</li><li>React/React Native SDK + REST API for custom frontends</li><li>Role-based access control (admin, editor, viewer) out of the box</li><li>One-click deploy to Railway/Render/Fly.io with managed MongoDB</li><li>Audit logs &amp; GDPR export/delete endpoints</li><li>Embeddable dashboards for customer-facing analytics</li></ul></div>
+  </div>
+  <div class="section">
+    <h2>Tech stack</h2>
+    <div class="card" style="display:flex;flex-wrap:wrap;gap:8px"><code>Next.js 14 (App Router, API routes, server actions)</code> <code>Prisma ORM (MongoDB connector, type-safe queries)</code> <code>NextAuth.js v5 (auth providers, JWT sessions, adapters)</code> <code>Recharts (visualization, responsive charts)</code> <code>Tailwind CSS + shadcn/ui (styling, accessible components)</code> <code>Docker + Docker Compose (packaging, local dev)</code> <code>Railway / Fly.io (recommended hosting, one-click deploy)</code> <code>Zod (validation, schema inference)</code></div>
+  </div>
+  <div class="section">
+    <h2>Competitors &amp; the gap</h2>
+    <div class="grid"><div class="card"><strong>Metabase</strong><p style="margin-top:8px;color:var(--mut)">Gap: Java-based, heavy resource usage, overkill for simple MongoDB; no built-in auth</p></div><div class="card"><strong>Auth0</strong><p style="margin-top:8px;color:var(--mut)">Gap: Complex setup, pricing spikes at scale, docs assume enterprise architecture</p></div><div class="card"><strong>Firebase</strong><p style="margin-top:8px;color:var(--mut)">Gap: Vendor lock-in, Firestore ≠ MongoDB, trust issues from Google sunset history</p></div><div class="card"><strong>AdminBro</strong><p style="margin-top:8px;color:var(--mut)">Gap: Requires custom code per resource, not zero-config, auth is DIY</p></div></div>
+  </div>
+  <div class="section" id="wa">
+    <h2>Try it on WhatsApp</h2>
+    <div class="card wa">
+      <p><strong>How it works:</strong> Dev connects MongoDB URI → bot provisions SoloStack instance → sends dashboard URL + auth credentials → dev manages users/collections via chat commands</p>
+      <p style="margin-top:12px"><strong>Commands:</strong> <code>/connect &lt;mongo_uri&gt;</code> <code>/deploy</code> <code>/users</code> <code>/collections</code> <code>/dashboard</code> <code>/logs</code></p>
+    </div>
+  </div>
+  <div class="section">
+    <h2>Pricing</h2>
+    <div class="card pricing"><span class="price">Free self-hosted (MIT); $19/mo managed cloud with auto-backups, SSL, custom domain; $49/mo team (SSO, audit logs, priority support)</span></div>
+  </div>
+</div>
+<div class="foot">Generated by PainScout · MVP in ~21 days · Built by a vibe coder for people with real problems</div>
+</body>
+</html>

@@ -1,26 +1,26 @@
 [
   {
-    "name": "VerifyFix",
-    "slug": "verifyfix",
-    "tagline": "Unlock WhatsApp when iOS verification loops block your account",
-    "theme": "WhatsApp verification broken on iOS",
-    "build_estimate_days": 14,
-    "pricing_model": "Freemium SaaS: $4.99/mo per user (Pro), $19/mo per 5-seat team. No per-lead; usage capped only by recovery count on free tier."
+    "name": "ArchGuard",
+    "slug": "archguard",
+    "tagline": "Enforce architectural intent while AI codes fast",
+    "theme": "AI Coding Agents Produce Unmaintainable Code",
+    "build_estimate_days": 21,
+    "pricing_model": "$15/mo per dev (Pro), $40/mo per seat (Team), free tier: 5 rules, 10 gates/day, local-only"
   },
   {
-    "name": "ClearOLED",
-    "slug": "clearoled",
-    "tagline": "Eliminate color fringing on WOLED and QD-OLED monitors",
-    "theme": "OLED subpixel text rendering broken on Windows",
-    "build_estimate_days": 35,
-    "pricing_model": "Free personal use / $19 one-time Pro license (per-app exclusions, auto-profile updates, priority support)"
+    "name": "AgendaGuard",
+    "slug": "agendaguard",
+    "tagline": "Stop unprepared meetings before they hit your calendar",
+    "theme": "Meeting Overload from Unprepared Organizers",
+    "build_estimate_days": 21,
+    "pricing_model": "$12/mo per user Pro, $10/user/mo Team (min 5 seats), freemium 10 checks/mo"
   },
   {
-    "name": "MonitorSpaces",
-    "slug": "monitorspaces",
-    "tagline": "Independent virtual desktops per monitor, keep reference apps static while cycling workspaces.",
-    "theme": "Independent virtual desktops per monitor missing",
-    "build_estimate_days": 35,
-    "pricing_model": "Freemium: core per-monitor switching free; Pro $19 one-time unlocks profiles, auto-assign, and WhatsApp remote control."
+    "name": "SoloStack",
+    "slug": "solostack",
+    "tagline": "Lightweight MongoDB dashboards & auth that just work for indie devs",
+    "theme": "Over-Complex Data & Auth Tooling for Indie Devs",
+    "build_estimate_days": 21,
+    "pricing_model": "Free self-hosted (MIT); $19/mo managed cloud with auto-backups, SSL, custom domain; $49/mo team (SSO, audit logs, priority support)"
   }
 ]

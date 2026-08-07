@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AgendaGuard — Stop unprepared meetings before they hit your calendar</title>
+<style>
+:root{--bg:#0b0f1a;--card:#131a2b;--acc:#6c5ce7;--acc2:#00cec9;--txt:#e8ecf4;--mut:#9aa5b8}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--txt);line-height:1.6}
+.hero{padding:72px 20px 48px;text-align:center;background:radial-gradient(ellipse at top,#1a2340 0%,var(--bg) 70%)}
+.badge{display:inline-block;padding:6px 14px;border-radius:999px;background:rgba(108,92,231,.15);color:#b3a8ff;font-size:13px;letter-spacing:.5px;margin-bottom:20px;border:1px solid rgba(108,92,231,.4)}
+h1{font-size:clamp(2rem,5vw,3.4rem);font-weight:800;letter-spacing:-.5px;margin-bottom:14px}
+.tag{font-size:clamp(1.05rem,2.5vw,1.35rem);color:var(--mut);max-width:640px;margin:0 auto 30px}
+.cta{display:inline-block;padding:15px 34px;border-radius:12px;background:linear-gradient(135deg,var(--acc),var(--acc2));color:#fff;font-weight:700;font-size:1.05rem;text-decoration:none;box-shadow:0 8px 30px rgba(108,92,231,.35);transition:transform .15s}
+.cta:hover{transform:translateY(-2px)}
+.container{max-width:960px;margin:0 auto;padding:32px 20px 80px}
+.section{margin-top:48px}
+h2{font-size:1.5rem;margin-bottom:18px;color:#fff}
+.card{background:var(--card);border:1px solid #1e2a45;border-radius:16px;padding:24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.grid .card{padding:18px}
+.grid .card strong{color:var(--acc2);font-size:1.05rem}
+ul{list-style:none}
+li{padding:8px 0 8px 26px;position:relative}
+li:before{content:"✓";position:absolute;left:0;color:var(--acc2)}
+.wa{border-left:4px solid #25d366;padding:20px 24px;border-radius:0 12px 12px 0;background:rgba(37,211,102,.06)}
+code{background:#0d1526;padding:2px 8px;border-radius:6px;font-size:.92em;color:#8be9fd}
+.pricing{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.pricing .price{font-size:2.2rem;font-weight:800;color:var(--acc2)}
+.foot{text-align:center;color:var(--mut);padding:32px;font-size:.85rem}
+@media(max-width:600px){.hero{padding:48px 16px 32px}}
+</style>
+</head>
+<body>
+<div class="hero">
+  <span class="badge">✨ AI-Powered · WhatsApp-First · No-Code</span>
+  <h1>Reclaim 15+ Hours/Week by Blocking Unprepared Meetings</h1>
+  <p class="tag">AgendaGuard auto-rejects calendar invites without agendas, generates prep docs instantly, and scores every meeting so you only attend what matters.</p>
+  <a class="cta" href="#wa">Join the Beta — Free for 3 Months</a>
+</div>
+<div class="container">
+  <div class="section">
+    <h2>The problem</h2>
+    <div class="card"><p>65% of meeting organizers skip agendas, forcing knowledge workers into 30+ hours/week of aimless calls that push real work to nights and weekends.</p></div>
+  </div>
+  <div class="section">
+    <h2>The solution</h2>
+    <div class="card"><p>AgendaGuard integrates with calendars to block meeting invites lacking agendas, auto-generates prep docs from past context, and scores meeting health so attendees can decline waste confidently.</p></div>
+  </div>
+  <div class="section">
+    <h2>What you get</h2>
+    <div class="card"><ul><li>Auto-decline or flag meetings missing agendas — no more empty calendar slots</li><li>AI generates structured agendas from title, attendees, and past context in seconds</li><li>Meeting health scores (0-100) let you decline waste with data, not guilt</li><li>One-click prep docs compile Slack, email, and docs before every call</li><li>Weekly analytics show hours saved and prep compliance across your org</li></ul></div>
+  </div>
+  <div class="section">
+    <h2>Features (v1)</h2>
+    <div class="card"><ul><li>Calendar sync (Google/Outlook) with real-time invite scanning for agenda presence</li><li>Auto-decline or flag meetings missing structured agendas with customizable rules</li><li>AI agenda generator (GPT-4o) creating draft agendas from title, attendees, past notes</li><li>Meeting health score (0-100) rating agenda quality, attendee count, duration, recurrence</li><li>One-click prep doc compilation pulling relevant Slack threads, emails, docs, prior notes</li><li>Attendee RSVP actions: &#x27;Accept with prep&#x27;, &#x27;Decline — no agenda&#x27;, &#x27;Tentative — need clarity&#x27;</li><li>Organizer nudges via Slack/email 24h and 2h before meeting to add agenda</li><li>Weekly analytics dashboard: hours saved, meetings declined, prep compliance by team</li></ul></div>
+  </div>
+  <div class="section">
+    <h2>Tech stack</h2>
+    <div class="card" style="display:flex;flex-wrap:wrap;gap:8px"><code>Next.js 14 (App Router)</code> <code>Supabase (Postgres + Auth + Realtime)</code> <code>Google Calendar API + Microsoft Graph API</code> <code>OpenAI GPT-4o</code> <code>Vercel (hosting + edge functions)</code> <code>Upstash Redis (rate limiting, caching)</code> <code>Resend (transactional email)</code> <code>Twilio WhatsApp Business API</code></div>
+  </div>
+  <div class="section">
+    <h2>Competitors &amp; the gap</h2>
+    <div class="grid"><div class="card"><strong>Fellow.app</strong><p style="margin-top:8px;color:var(--mut)">Gap: Focuses on collaborative note-taking during meetings; doesn&#x27;t prevent bad meetings from being scheduled</p></div><div class="card"><strong>Calendly</strong><p style="margin-top:8px;color:var(--mut)">Gap: Scheduling only — no agenda enforcement, quality scoring, or prep automation</p></div><div class="card"><strong>Microsoft Teams/Google Meet built-ins</strong><p style="margin-top:8px;color:var(--mut)">Gap: Agenda field exists but is optional, unenforced, and invisible to attendees pre-RSVP</p></div><div class="card"><strong>Reclaim.ai</strong><p style="margin-top:8px;color:var(--mut)">Gap: Time-blocking for focus time; doesn&#x27;t address meeting prep quality or organizer accountability</p></div></div>
+  </div>
+  <div class="section" id="wa">
+    <h2>Try it on WhatsApp</h2>
+    <div class="card wa">
+      <p><strong>How it works:</strong> User connects calendar via OAuth link. Bot sends daily 8 AM summary: &#x27;3 meetings today, 1 missing agenda ⚠️&#x27;. User replies &#x27;PREP 2&#x27; to get AI-generated agenda for meeting #2, &#x27;DECLINE 1&#x27; to auto-decline meeting #1, &#x27;SCORE&#x27; for health scores. Organizers get 2h nudge: &#x27;Add agenda to &quot;Q3 Planning&quot; or it gets flagged.&#x27;</p>
+      <p style="margin-top:12px"><strong>Commands:</strong> <code>PREP [num]</code> <code>DECLINE [num]</code> <code>SCORE</code> <code>TODAY</code> <code>WEEK</code> <code>TEMPLATES</code> <code>HELP</code></p>
+    </div>
+  </div>
+  <div class="section">
+    <h2>Pricing</h2>
+    <div class="card pricing"><span class="price">$12/mo per user Pro, $10/user/mo Team (min 5 seats), freemium 10 checks/mo</span></div>
+  </div>
+</div>
+<div class="foot">Generated by PainScout · MVP in ~21 days · Built by a vibe coder for people with real problems</div>
+</body>
+</html>
