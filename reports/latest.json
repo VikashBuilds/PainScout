@@ -1,13 +1,112 @@
 {
-  "query": "this tool keeps crashing",
-  "generated_at": "2026-08-07T09:37:25+00:00",
+  "query": "paying too much for this app",
+  "generated_at": "2026-08-08T08:08:19+00:00",
   "pain_points": [
     {
       "source": "hackernews",
-      "title": "Ask HN: How to Visualise MongoDB?",
-      "text": "Hey HN, Is there a tool that lets you visualise your database in browser, in an easy way.<p>I have tried Metabase, Redash, Google DataStudio - all pretty complex tools.<p>I am an indie hacker, and have my product data in Mongo. Right now, I check it out in terminal. It would be good to have a visualisation tool to do that for me.<p>My criteria:<p>1. Simple to use\n2. Should not keep crashing (Metabase for Mac sucks)<p>If nothing like this exists, do you think I should build one and open source it?",
-      "url": "https://news.ycombinator.com/item?id=24038620",
-      "created_at": "2020-08-03T15:07:43Z",
+      "title": "Ask HN: Giving away my (barely) profitable SaaS app, any takers?",
+      "text": "This was a mostly solo endeavor with another friend and I&#x27;ve not been able to do any marketing for the past few months.<p>I do not wish to continue working on it anymore, I have a full time job and other projects I want to explore.<p>I was going to close it but then thought it&#x27;s better to just give it away to someone who could grow it.<p>So I&#x27;m reaching out to people to see if they&#x27;d be interested in taking the product for a measly $2000, primarily because incorporating the company cost me something and closing it is going to cost me something too.<p>Sorry if this is the wrong place or I broke some guidelines, i don&#x27;t know where else to do this.<p>Here&#x27;s the stats\n- 6 paying customers (~$90&#x2F;mo MRR)\n- 39 Stripe Connected accounts (people who connected but didn&#x27;t continue or churned)\n- 309 Emails Collected\n- ~500 upvotes on ProductHunt! (badge on website)<p>Burn \n- $60&#x2F;mo not including incorporation fee (which costs more)<p>Here&#x27;s the services being used\n- Hosting (Free tier on Vercel)\n- DB (Firebase Free tier)\n- Postmark (for emails)\n- GSuite (for personal email)\n- Helpscout ($40&#x2F;mo! I&#x27;m paying way too much for this)<p>Here&#x27;s the Stack\n- Node JS and React JS\n- over 150 tests, 95% Test Coverage (Means any developer can pick it up really easily)\n- CI&#x2F;CD with Github<p>It&#x27;s a well tested, market validated app. We&#x27;ve had a lot of positive feedback and feature requests.\nI&#x27;m sure it can skyrocket if someone can get it&#x27;s marketing right and put some more time into it.<p>Please let me know if this is of any interest to you or someone you know.<p>You can check it out at https:&#x2F;&#x2F;simplefunnel.io",
+      "url": "https://news.ycombinator.com/item?id=25526708",
+      "created_at": "2020-12-24T11:45:27Z",
+      "meta": {
+        "points": 11,
+        "num_comments": 12
+      }
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Designers read hacker news too",
+      "text": "This isn't your fancy new javascript gizmo, but funny guy with a funny story to promote his toddler app.  I'm sure you'll agree.  Humor me.<p>1st let me tell you how I came upon hacker news, and why I read it everyday.&#60;p&#62;I'm not a programmer, and only half-decent designer.  I'm much more of a 'project manager' type of person.  I wrote a blog post 2 years ago on how to do a fancy trick with css3 with box shadows.  It was clever, and has been expanded and implemented all over the web.  One day (while sitting in church) my phone kept buzzing every couple of seconds with comments on that blog post.  I thought, \"Oh great. my WP install probably got hacked... again..\"  I wasn't paying too much attention to the comments, as they were coming in so quick, I though for sure spam...<p>After church, I took a look at my weblogs to see thousands of visitors coming from some \"hacker news\" website.  My fears were confirmed.  I'd been hacked.<p>Needless to say, I eventually found out what HN was, and have been a near daily reader ever since!  I love it. I don't understand half of the programming mumbo jump you'll talk about, but I love reading and following trends.<p>Soon after being 'hacked' by HN, A bug bit me to create a kids app for the iPhone for my then 2 year old boy.  Since I knew some flash (being a designer) I set down that path using Adobes packager, and after what seemed a jillion hours, released my App.  It's not quite as polished as I'd like, and I've got some more plans for it, but I'm quite happy.<p>So make this Dad's app climb the rankings by downloading it!  It's a free DL, and I'm pretty sure your toddler children or nieces and nephews will thank you for it as well...<p>Do the right thing here, it's my vindication for ya'll hacking me.. :)<p>http://itunes.apple.com/us/app/toddler-trainer-hd/id496323534?mt=8",
+      "url": "https://news.ycombinator.com/item?id=4331760",
+      "created_at": "2012-08-03T00:02:35Z",
+      "meta": {
+        "points": 6,
+        "num_comments": 1
+      }
+    },
+    {
+      "source": "hackernews",
+      "title": "Launch HN: Lightly (YC S21): Label only the data which improves your ML model",
+      "text": "Hi HackerNews! We’re Matt and Igor from Lightly (<a href=\"https:&#x2F;&#x2F;www.lightly.ai&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.lightly.ai&#x2F;</a>). Most companies that do machine learning at scale label only 1% of their data because it&#x27;s too expensive to label all of it. We built Lightly to help companies pick the most valuable 1% to be labeled.<p>If you wonder what data labeling looks like for images then think about these captchas that want you to tag images in the web containing objects such as a bus or person. When we were working on training machine learning (ML) models from scratch, we often had to do this labeling ourselves. But there was always far too much data for us to be able to label all of it. We talked with more than 250 ML teams ranging from small groups of 2-3 people to large teams at Apple and Google, and they all face the same problem: they have too much data to label.<p>Not only that, but there wouldn’t be a lot of value in labeling everything. For example, if you have billions of images, it&#x27;s a waste of time to get humans to label every one of them, because most of those labels wouldn&#x27;t add useful information to the model you’re hoping to train. Most of the images are probably similar enough to other images that have already been labeled and they have nothing new to tell your model. Spending more labeling effort on those would be a bit like labeling the same image over and over again—quite wasteful.<p>As soon as your ML model surpasses the initial prototype stage, you’re most interested in the edge cases in your dataset — the ones that represent rare events. For example, a few days ago, there was a Twitter thread about failure cases for Tesla vehicles. One Tesla has mistaken a yellow moon for a yellow traffic light: <a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;JordanTeslaTech&#x2F;status&#x2F;1418413307862585344\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;JordanTeslaTech&#x2F;status&#x2F;14184133078625853...</a>. A",
+      "url": "https://news.ycombinator.com/item?id=28116371",
+      "created_at": "2021-08-09T13:17:17Z",
+      "meta": {
+        "points": 88,
+        "num_comments": 25
+      }
+    },
+    {
+      "source": "hackernews",
+      "title": "I'm looking for a few cofounders to apply to YC. Working on something huge.",
+      "text": "I've spent the last 5 years working in the web and mobile industry building high quality software. Even though I don't have a degree and am largely self-taught, I doubled my salary at that job within 2 years, converted my workplace to Macs, and established the company's mobile development practice, becoming the lead mobile developer.<p>Our main product was a web CMS which we used to build custom sites and apps for people. In this process, there's a designer, and the designer must produce a design (which dictates aspects of the resultant software) according to his/her understanding of the client's needs as well as his/her amount of knowledge about computer systems. The developer then generally has to take this design and attempt to convert it into real software. Unless the designer is one of the rare people who is also an engineer, and unless this process is set up in such a way as to give the developer a high degree of input into the design, then the resultant software probably will never reach its full potential. The UI may not take full advantage of the tech, or the tech has to be redesigned or shoehorned into the client or designer spec. It's an altogether suboptimal approach to what should be a smooth and well understood process.<p>We've seen this kind of thing happen before. In the period of time before companies like Adobe and Apple ushered in the age of desktop publishing, the artist who designed something for print and those who produced/implemented it were entirely separate. The artist could of course produce copies of his work but usually it took lots of time and resources. When we got desktop publishing the game changed. Nowadays, instead of real canvases, paintbrushes, and pencils, we use tools like Photoshop, Illustrator, and printers to produce high quality work.<p>Right now we are experiencing a huge shift from print and web publishing to mobile and web publishing. And the problems in the process of producing mobile apps and publications indicate a hu",
+      "url": "https://news.ycombinator.com/item?id=3754986",
+      "created_at": "2012-03-26T04:23:18Z",
+      "meta": {
+        "points": 13,
+        "num_comments": 7
+      }
+    },
+    {
+      "source": "hackernews",
+      "title": "I may have Carpal Tunnel Syndrome and I'd appreciate some advice. (Long Post)",
+      "text": "Even though I'm looking for general advice, I'd like to go over my situation in detail to minimize the chances of being offered advice that could further injure me. I therefore apologize for the length of this post. I understand that you folks aren't doctors, and nothing you say is medical advice. I'm here because this community is probably at a higher risk than average for this sort of injury, and so there's a better chance of hearing from people who have lived through this here than elsewhere.<p>Anyway, a couple weeks ago I started getting pain in my wrist while I was typing. I managed to get an appointment with my family doctor for a week later, but because of the pain and my fear of doing more damage, I opted to go to a walk-in clinic I've been to a number of times previously.<p>The doctor at the clinic seemed to assume it was most likely Carpal Tunnel Syndrome just based on the fact that the pain was in my wrist. He had me flex my wrists (Phalen's Maneuver) and tapped on the underside of my wrist (Tinel's Sign) but neither of these tests really did anything to me - there was no pain or tingling present in either case (NB: When I try Phalen's now, I feel a bit of pressure in the underside of my wrist, but that's it).<p>The doctor told me to get a wrist brace, and specifically told me to get one made for CTS. He told me that a lot of people flex their wrists into odd positions in the middle of the night, so I should wear the brace when sleeping and when typing. I looked this up later, and there are mentions online about CTS sufferers mangling their wrists like the doctor said, and that this can present as waking up with your hands numb/asleep. I had noticed this a few times recently, so things seem to line up there.<p>After looking at various models in the drug store and discussing the situation with a girl who worked there, I eventually purchased a relatively expensive model (http://www.amazon.com/M-Brace-Wrist-Splint-Size-Regular/dp/B000X9SUKA). I wore this bra",
+      "url": "https://news.ycombinator.com/item?id=1496597",
+      "created_at": "2010-07-08T05:43:29Z",
+      "meta": {
+        "points": 7,
+        "num_comments": 10
+      }
+    },
+    {
+      "source": "hackernews",
+      "title": "Ask HN: Is there demand for a “White-label Zapier”?",
+      "text": "Hey guys,<p>We all know that most SaaS apps need integrations. Usually an app will start with a Zapier integration, and then over time develop custom direct integrations with the most used 3rd party apps.<p>Why? Because it would take too much work to connect to several 3rd party apps from day one.<p>Right, so my question is:<p>Would there be demand for a service like Zapier, but transparent and white label that works from inside your SaaS dashboard?<p>I mean, instead of having to send your users to Zapier, tell them to create an account, set up a Zap, pay membership fees, wouldn&#x27;t it be easier if all of your users could directly integrate with other apps as if you had a native integration?<p>Instead of the end-user paying for Zapier, the SaaS company would pay a small $ fee per each 1000 actions on the integration platform.<p>Because the alternative (as far as I know) is to spend several engineering hours integrating with many apps, and this process is repeated across thousands of SaaS companies. Then you also have to maintain all those integrations.<p>Does any SaaS entrepreneurs here feel this pain?",
+      "url": "https://news.ycombinator.com/item?id=21715996",
+      "created_at": "2019-12-05T20:12:52Z",
+      "meta": {
+        "points": 6,
+        "num_comments": 3
+      }
+    },
+    {
+      "source": "hackernews",
+      "title": "Launch HN: Tappity (YC S20) – Keeping kids entertained with science",
+      "text": "Hey HN --<p>I’m Chad, and I co-founded Tappity (<a href=\"https:&#x2F;&#x2F;www.tappityapp.com\" rel=\"nofollow\">https:&#x2F;&#x2F;www.tappityapp.com</a>) with my friend, Lawrence. We’re building a healthy alternative to Youtube that entertains and educates kids (4-10) with interactive lessons—starting with science!<p>Tappity’s story began ten years ago when I developed an app for my Biology professor to teach kids about evolution. It was my first time building a product for kids, so I learned a ton about designing for an audience who couldn’t read or sit still for very long. Also, their brutally honest feedback was refreshing! We ended up getting 20,000 downloads, and I learned kids <i>love</i> interactions. After that great experience, I continued to create apps for kids on the side for fun.<p>About two years ago, parents started paying for one of these apps. Kids loved a segment we had shot on a whim at our friend’s house, in which they could interact with a real live science teacher. Parents were excited, too. We gave them something engaging, fun, and educational for their kids, which is shockingly rare. The sad reality is that 99% of kids apps fall into three buckets: ad-riddled games, cheap &amp; buggy ABC&#x2F;123 apps, or YouTube. We wanted to do better. Shortly thereafter, Lawrence and I quit our jobs (where we had met) to start Tappity!<p>We leaned into this idea of live-like experiences. We felt it’d enrich screen time without sacrificing the fun. So, with Tappity, kids don’t just passively watch, they play along and direct our live-action characters on screen. For example, you could tell Haley—our version of Bill Nye—what she should do next in her science experiment, and she would actually do what you say. Unlike traditional TV programs or videos, where you know the person on screen is talking to a million other people, Tappity makes it feel like characters are interacting with <i>just</i> you in real time. Turns out, this format is super engaging. Best of ",
+      "url": "https://news.ycombinator.com/item?id=24423463",
+      "created_at": "2020-09-09T17:31:30Z",
+      "meta": {
+        "points": 146,
+        "num_comments": 64
+      }
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: An Experiment with One-Feature Tool Made $7164/Mo",
+      "text": "My Raw Story on coming up with an idea, building and growing it. It&#x27;s very detailed, with the purpose of giving another founder an insider look at one way of doing it.<p>In January I launched an indexing tool called Index Rusher, that forces google to index your pages quicker, to get ranked for SEO faster. This whole project was something I needed myself since I got over 20 products and paying for an external one would simply cost too much.<p>My initial idea was that I would just build an internal tool for my use, that has only 1 feature. No UI really, just 1 button.<p>In the middle of the process, I realized that I could actually run an experiment and launch this tool publically with just one feature. Super simple.<p>I hired a dev who spent a month building it. It looked super easy at first, but it turned out there were so many hidden snakes on the way. Troubles with sitemaps, google APIs, and more.<p>1 month later I launched it (In Jan). The launch didn&#x27;t go so great, but I didn&#x27;t really have high hopes. Because nobody knew about this tool, I had no traffic on the site. I still sold several licenses, which made me pretty happy, it felt like validation, people needed it, even if it solved such a narrow problem.<p>At that point, I declared my next stage of the experiment: Growing the traffic and revenue.<p>I&#x27;ve done a number of growth hacks in the next 30 days, resulting in over $7k in revenue, but what&#x27;s more important, the traffic on the site has grown a lot and stays high and growing. This means I&#x27;ve done a pretty good job on organic growth too, which will just accelerate over time.<p>Here is what I&#x27;ve done:<p>Cross-linking. \nI added links in the footer on my other products. This is one hidden effect of having multiple products. Each may serve as a lead magnet for the other one. In my case, I have the same audience for all my tools, people who love one of my tools often check out the rest.<p>Being visible on social media. \nI mon",
+      "url": "https://news.ycombinator.com/item?id=39459268",
+      "created_at": "2024-02-21T20:43:56Z",
+      "meta": {
+        "points": 67,
+        "num_comments": 47
+      }
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Local task classifier and dispatcher on RTX 3080",
+      "text": "Hi HN, I am shubham a 3d artist who learned coding in college as an I.T.  graduate know logics but not an expert as i just wanna try my hands on to ai<p>So i built Resilient Workflow Sentinel this is offline ai agent which classify urgency (Low,Medium and HIgh) and dispatches to the candidates based on availability \nWell i want an offline system like a person can trust with its sensitive data to stay completely locally<p>Did use ai to code for speeding and cutting labor.<p>Its works on RTX 3080 system (this is an basic affordable setup not heavy ai machinery) which i want it to make it reliable without heavy upgrade\nThis is full system doesn&#x27;t require ollama(I am not against it)<p>I see in companies tickets are raised on jira and slack. Currently people or manager (self) have to sort those things either manually read one by one or send them to the cloud. But the issue is you can&#x27;t send everything like there is a lot of sensitive data out there which they do not trust and makes it harder and manual sorting through thousands is likely a nightmare.<p>But then just imagine u get all the task classified like its urgency and distribution u can selectively see which task is urgent and needs immediate attention and last of all information doesn&#x27;t leave your building totally secure\nAlso Api sending is not the only issue u are paying per token cost for task for each may be monthly 100$ to 1000$ which can like save hassle for startup a lot or companies as well<p>There was several biases like positional bias also json out put bias also have issues in attention \nAt start i tried just prompting things like Chain of thoughts,RISE(evaluate negative first), given negative examples,Positive examples, somewhere it was struggling with commonsense issue so examples for that (Later changed the approach)<p>Well prompting did give the output and worked well but took too much time to process for single task like 70 to 90secs for a task<p>Then i tried batching and the biases g",
+      "url": "https://news.ycombinator.com/item?id=46906967",
+      "created_at": "2026-02-05T23:31:01Z",
+      "meta": {
+        "points": 26,
+        "num_comments": 2
+      }
+    },
+    {
+      "source": "hackernews",
+      "title": "What Can You Do If a Coder Cons You?",
+      "text": "I met a coder (via Twitter) when I was looking for someone to help me with some stuff. He had a great resume with buckets of experience listed on it. He was approx 35 so I believed the resume and he \"talked the talk\" as well as any coder I've ever met. As it turned out, he never did any work with me... but... an old friend of mine was looking for someone to help with his new site.<p>The site was a simple points/wallet system that you can earn points by filling out surveys and then download games using those points.<p>So, without thinking too much of it, I put the new coder buddy I had met via Twitter in touch with my old friend. My friend interviewed him and agreed that he looked like a great guy with lots of experience.<p>Anyway, he quoted 7 days work at a cost of $2k to do the job.<p>Everything was fine, and he delivered about 80% of the site. Then my friend made the mistake of paying him the final 50% because he was happy with the work to date.<p>After this, the developer stopped work.<p>After which point, each time he was sent an email asking when the next 20% would arrive, he would send back an email saying that he only had a couple of hours left and he would complete the site within the next day or so.<p>This went on for 6 weeks. Which of course drove my friend nuts, who finally contacted me to get involved.<p>My gut reaction was that my friend was over dramatizing and that I would be able to resolve the issue. So I spoke to the developer and he assured me that there was only few hours work left and he would get it done in a few days.<p>So, I set up a bug tracker and I checked in the exiting code to svn to make it a bit more track-able and easy to sign off the final 20% - after all there was only 5 small issues.<p>So, now what happened was, every few days I would send this guy an email saying hows it going, and he said I've finished everything. I'm going to commit it tonight.<p>This went on for two weeks.<p>At which point I realised that he was never actually ",
+      "url": "https://news.ycombinator.com/item?id=824656",
+      "created_at": "2009-09-15T20:21:12Z",
       "meta": {
         "points": 8,
         "num_comments": 14
@@ -15,449 +114,468 @@
     },
     {
       "source": "hackernews",
-      "title": "Show HN: Sorbay – Open-source alternative to Loom",
-      "text": "Hey HN, we&#x27;re excited to introduce Sorbay - an open source alternative to Loom for creating and sharing screen recordings.<p>With Sorbay, you can easily record your screen, camera, and microphone all at once. It is a complete solution that comes with its own backend service, allowing you to instantly share a link of your recording as soon as it is finished. The video is streamed directly to the backend service as the recording happens to make this possible.<p>With both founders based in different countries, we needed a tool to quickly share screen recordings to keep us up to date or to ask for feedback. Meetings are cool if you need to discuss something deeply, but for almost everything else a quick recording works better.<p>We had to settle for one of the proprietary solutions because none of the open source tools allowed us to quickly share something with each other. Doing the recording is one aspect, but having the ability to instantly share a link was crucial. Waiting on a 400mb video upload to a Dropbox is just too much interruption if you want to quickly share something.<p>The tipping point for us to actually build this open source tool came via an interaction from one of our day jobs. A third party provider sent a screen recording full of confidential information and to make things worse, all of it was uploaded by them to a different third party service. We strongly believe that information like this should stay within a company, ideally on infrastructure that they control themselves. Having a fully integrated open source solution is the best way to go for this.<p>Our goal with this first public release is to gather feedback. The critical code paths are working, but it is still a bit rough to use. We deliberately \ncut out all non-essential features, but have a clear roadmap on what we want to release this year.<p>There are a couple of known issues like audio glitches, non-working videos in Safari and crashing binaries that we hope to fix in the coming we",
-      "url": "https://news.ycombinator.com/item?id=35042662",
-      "created_at": "2023-03-06T16:05:21Z",
+      "title": "Ask HN: How to choose the desktop platform and tech for desktop app development?",
+      "text": "I am looking to create desktop app for one of my projects(The project is a video-creator app for musicians- https:&#x2F;&#x2F;vinlo.co ). The reason being I feel somethings are just not for the web. It takes a lot of time to perform FFMPEG operations on web. I want users to have a seamless experience and web is limiting in that sense.<p>I am well-versed in web tech, C++, Python. I have done my research and here&#x27;s what I arrived at. I would love it if HN people weighed in.<p>Mac: Users are used to paying for apps. Swift looks good. But very low market share compared to Windows.<p>Windows: Too many ways of doing things and too much options(C# WPF, Winforms).<p>Cross-platform(This would be best for me): Electron&#x2F;Tauri&#x2F;Wxwidgets&#x2F;Qt. Electron is a whole browser. Tauri uses the default web view but that means I&#x27;ll have to configure for every platforms. And also Tauri is not great with documentation. I am weighing between wxwidgets and QT but QT needs a commercial license which is pretty expensive. Wxwidgets is at least native. But looks almost dead?<p>I would appreciate any personal opinions. Thanks!",
+      "url": "https://news.ycombinator.com/item?id=39911674",
+      "created_at": "2024-04-02T22:47:13Z",
       "meta": {
-        "points": 93,
-        "num_comments": 14
+        "points": 22,
+        "num_comments": 41
       }
     },
     {
       "source": "hackernews",
-      "title": "Ask HN: Struggling startup. What should I do next?",
-      "text": "This is a throwaway account. I need feedback/wisdom/advice/slaps to know what else can I do for my startup. Appreciate if anyone can give me some views on this as I am running out of ideas on what to do next and am on the verge of giving up. Thank you in advanced for your time and feedback.<p>//Background Info<p>- My co-founder and I started the company 2 years back fresh out of school.<p>- Both of us are technical, I am handling the frontend where as my co-founder is handling the backend.<p>- Other than frontend, I also handle the product and business side of stuff and deal with clients.<p>- We did a localized version of a B2B2C e-commerce web application when we first started.<p>- It's a very competitive landscape in the US but not so locally at where we are.<p>- A year later, we realized that the local businesses were just starting to warm up to the idea of e-commerce.<p>- Unfortunately, our industry is not sexy, hence it's difficult to get funding here locally as there are only limited funds available.<p>- We do not have any industry experience or networks to leverage on, hence that makes the already difficult fundraising process even harder.<p>- We kept our company really lean to survive, basically bootstrapping for the past 2 years.<p>//Present Days<p>- We have 3 complementary products now, one mobile utility tool and another mobile application.<p>- Our mobile application is picking up well.<p>- At the moment we are doing at least $20k per month since we launched our mobile app.<p>- Still, just the 2 of us after 2 years. We did some hiring but stopped them to keep the company lean.<p>- We are only paying ourselves to survive as we are trying to conserve our runway.<p>- Our receivables are pretty bad due to late payment from our clients.<p>//Our Problems<p>1. Lack of deep technical skills<p>We hacked our way through taking advantage of various existing frameworks, plugins etc<p>Unfortunately this have cost us a lot of money and time wasted because\n- Our first p",
-      "url": "https://news.ycombinator.com/item?id=4031050",
-      "created_at": "2012-05-27T21:23:19Z",
+      "title": "Show HN: Just raised $17M for a no BS application security platform",
+      "text": "Hello Hacker News!\nWe’re Willem, Roeland, Felix and Madeline from Aikido Security (<a href=\"https:&#x2F;&#x2F;aikido.dev&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;aikido.dev&#x2F;</a>) We’re building a “no BS’ application security platform.\nIt’s the platform we wish existed, but couldn’t find.<p>Willem, our CTO had to manage (application) security at many of his previous startups, and honestly, hated it.\nMost security tools we had to use made us feel dumb. They were super complex and riddled with false positives. Their platform was behind the book a demo button. They had intransparent pricing models and honestly charged us way too much.<p>We think most of these platforms are built for the buyer at corporate companies, the CISO, not for the user, the developer. The people that actually need to use it.<p>So we built a platform that brings all the security scanners you need to secure your app, into one. We’ve built the app to be tech agnostic, it connects to your code (GitHub, GitLab, Azure Devops, Bitbucket,…), cloud (AWS, Azure, GCP, DigitalOcean), docker images (over 15 different types) &amp; domains (any domain ofcourse) and scans them for many different types of security issues and vulnerabilities. E.g. open source dependencies, cloud misconfigurations, secrets, static code issues, IaC misconfigurations, surface monitoring issues, license risks, malware, outdated software,…<p>We’ve been able to do this by leveraging lots of cool open source projects. Great scanners made by awesome communities. (Syft, Gitleaks, Trivy, Grype, Zap, Nuclei, CloudSploit, Checkov, Semgrep, Gosec, Bandit,…) We built on top of those &amp; fixed any gaps, (E.g. Bun lockfile support, Transiitive dependencies for .NET) to make sure we have full coverage. Recently, we also started own open source runtime security solution to give back to the community: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;AikidoSec&#x2F;runtime-node\">https:&#x2F;&#x2F;github.com&#x2F;AikidoSec&#x2F;runtime-node</a><p>We’v",
+      "url": "https://news.ycombinator.com/item?id=40236828",
+      "created_at": "2024-05-02T14:38:45Z",
       "meta": {
-        "points": 7,
-        "num_comments": 16
+        "points": 15,
+        "num_comments": 10
       }
     },
     {
       "source": "hackernews",
-      "title": "Launch HN: Expanse (YC P26) – Unlock Wasted GPU Capacity",
-      "text": "Hey HN, we’re Ismaeel, Eren, Yafet and Nikodem. We built Expanse (<a href=\"https:&#x2F;&#x2F;expanse.sh&#x2F;\">https:&#x2F;&#x2F;expanse.sh&#x2F;</a>) to increase the effective capacity of your HPC&#x2F;GPU clusters running schedulers&#x2F;orchestrators like Kubernetes and SLURM. We read the source code, job submission script, and the hardware a workload is about to run on to predict what the job actually needs before the cluster sees it. We also flag failures we think are about to happen and surface line-level optimisations the researcher can apply themselves.<p>The problem: Datacenters run at roughly 30% to 40% effective utilisation. Users request more resources than what they actually need, because of asymmetric risk: while over-requesting is bad because it’s expensive and wastes capacity that someone else could have used, under-requesting kills your job mid-run and you lose days of work. So everyone over-requests by two to three times.<p>We measured one national-scale HPC cluster for a month and from 122k jobs, 59% of the compute was wasted. At on-demand cloud rates for the same hardware, that’s roughly $8.5M of compute wasted in one month on one cluster. The pattern is similar in large scale compute industries as well, such as quant funds, AI labs, and manufacturing.<p>The four of us ran HPC and GPU training workloads at the largest quant funds and HPC facilities. Ismaeel did research at EPCC (Edinburgh’s Parallel Computing Centre, the UK’s national HPC site) under Adrian Jackson, where he built the first multimodal HPC resource predictor: a model that ingests job source code, submission scripts, hardware telemetry and cluster metadata in order to figure out how much compute will actually be needed. On a dataset of real workloads on EPCC’s own clusters it scored 34% better than any other baseline, and outperformed frontier general-purpose LLMs prompted on the same prediction task by roughly 8x. These results convinced us the problem was solvable with software.<",
-      "url": "https://news.ycombinator.com/item?id=48356312",
-      "created_at": "2026-06-01T13:05:02Z",
+      "title": "Ask HN: I openly dissect my workshop planning efforts. Pls, destroy my ego.",
+      "text": "Hello HN.<p><pre><code>   def tldr(): \n      (return 'A shallow attempt at casual humor to\n      engage(bait) HN readers into reading my dissection for \n      a promotional landing page. The subject is an Arduino\n      Hands-on Workshop It's not converting very well and \n      want experts to rip my approach to shreds.')\n</code></pre>\nI'm usually at the providing end of this exchange, but I am a student myself. I don't know everything(anything). So I humbly place my vanity on the shelf and expose my tender underbits for public rhoshambo-ing. If you promise to go easy on me, I'll try to make this beneficial/educational/entertaining.<p>I'm organizing my first group workshop. It's about learning to program and use the Arduino. The motivation here is to grow the technical community in South Florida. I organize an event in South Florida called Hack and Tell. (Imagine a grown-up version of show-and-tell for technophiles.) I can attract a pretty reasonable crowd but it's tough to find people to present interesting (or any) topics for the community. My hypothesis is that people feel the proverbial bar for presenting a project is higher than they are able to jump. So I want to give the local community something interesting to show off and motivate them with projects to present. I intend to dissect my marketing/promotional efforts in public in hopes the HN community would critique my approach?<p>With this workshop, I'm focusing my efforts on the 18-30 Male market with sparse discretionary funds (low budget). So I priced my event to keep my margins as thin as I could while still keeping this a viable proposition to invest my time into. To be clear, what makes this a viable proposition is breaking even on my tangible costs and netting enough cash to not completely bottom out my savings account while I take attention away from paying work. This is in return for connecting and enriching a portion of my community and generating some clout among my peers.<p>Before approaching this ",
+      "url": "https://news.ycombinator.com/item?id=3587399",
+      "created_at": "2012-02-13T21:24:09Z",
       "meta": {
-        "points": 103,
-        "num_comments": 28
+        "points": 8,
+        "num_comments": 11
       }
     },
     {
       "source": "hackernews",
-      "title": "Got fed up with 36 hours of weekly meetings. Built something to fix it",
-      "text": "In my ops role at a major tech company, I peaked at a week-crushing *36-hours of weekly meetings* on a 40-hour work week, causing me to work evenings and weekends just to keep up with emails and core &#x27;heads down&#x27; work.<p>A buddy of mine had the same issue and wanted to try to do something about it. We did months of research on meetings, which was actually pretty interesting and revealing. Both of us having analytical backgrounds, traced the issue back to a main root cause: unprepared meetings. Call it breaking it down to its first principles. We also realized that many meeting softwares were actually focusing on the wrong problem.<p>Some interesting stats we found: 65% of meeting owners never prepare. Also, only ~30% of meeting attendees found the meetings they attended impactful, despite ~80% of owners thinking otherwise. A clear gap.<p>The core issues we identified were:<p>- Lack of agendas, talking points, and objectives\n- Excessive participants, often unnecessary\n- Absence of structure and clear outcomes\n- No feedback to meeting owners<p>We tested this finding out ourselves in our meetings by:<p>- Establishing a <i>single</i> defined objective (i.e. what we want to leave the meeting with hitting)\n- Articulating thoughtful talking points well ahead of time\n- Limiting attendees to those with assigned talking points (max 3-4 people per meeting)\n- Asking for honest meeting feedback from our attendees\n- Politely declining unnecessary meetings, including 1:1s<p>The result after only 1-2 weeks: A remarkable <i>10-hour reduction</i> in weekly meeting load, giving me back <i>an entire workday</i> and eliminating the need for evening and weekend work.<p>It was pretty wild how well this worked, but the key to keeping it this way was consistency.<p>We asked our colleagues and friends if they had similar issues with meetings and were astonished how common this was. SOO.. we developed an in-calendar tool that makes meeting preparation as simple as practicably possib",
-      "url": "https://news.ycombinator.com/item?id=38927178",
-      "created_at": "2024-01-09T15:25:08Z",
-      "meta": {
-        "points": 19,
-        "num_comments": 50
-      }
-    },
-    {
-      "source": "hackernews",
-      "title": "Has AI coding gone too far? I feel like I'm losing control of my own projects",
-      "text": "I wanted to share some thoughts on AI coding assistants that have been bothering me for a while, and I think the analogy of &quot;a kid with a credit card&quot; perfectly captures the danger of what some call &quot;vibecoding.&quot; At least until we have true AGI, this feels like a serious issue.<p>After using Cursor intensively for the better part of a year, I&#x27;m stunned by how fast it is. It can scaffold entire features, wire up components, and write complex logic in seconds. The feeling is like the difference between driving a car with a manual versus an automatic transmission. Or maybe, more accurately, like the difference between reading detailed documentation versus just watching a summary video.<p>It&#x27;s brought me back to when I first started using GitHub Copilot in 2023. Back then, it was mostly for autocompleting methods and providing in-context suggestions. That level of assistance felt just right. For more complex problems, I&#x27;d consciously switch contexts and ask a web-based AI like ChatGPT. I was still the one driving.<p>But tools like Cursor have changed the dynamic entirely. They are so proactive that they&#x27;re stripping me of the habit of thinking deeply about the business logic. It&#x27;s not that I&#x27;ve lost the ability to think, but I&#x27;m losing the ingrained, subconscious behavior of doing it. I&#x27;m no longer forced to hold the entire architecture in my head.<p>This is leading to a progressively weaker sense of ownership over the project. The workflow becomes:<p>Tell the AI to write a function.<p>Debug and test it.<p>Tell the AI to write the next function that connects to it.<p>Rinse and repeat. While fast, I end up with a series of black boxes I&#x27;ve prompted into existence. My role shifts from &quot;I know what I&#x27;m building&quot; to &quot;I know what I want.&quot; There&#x27;s a subtle but crucial difference. I&#x27;m becoming a project manager directing an AI intern, not an engineer crafting a solution.<p>This ",
-      "url": "https://news.ycombinator.com/item?id=44743115",
-      "created_at": "2025-07-31T06:58:12Z",
-      "meta": {
-        "points": 14,
-        "num_comments": 12
-      }
-    },
-    {
-      "source": "hackernews",
-      "title": "Show HN: Shimmer – ADHD coaching for adults, now on web",
-      "text": "Hi, I’m Chris, one of the co-founders of Shimmer. Last October, following my ADHD diagnosis, I launched Shimmer (<a href=\"https:&#x2F;&#x2F;shimmer.care\">https:&#x2F;&#x2F;shimmer.care</a>), one-to-one ADHD Coaching for adults. Our HN launch was here: <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=33468611\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=33468611</a>.<p>A quick recap before I dive into our new launch: Shimmer is an ADHD coaching service for adults. We took apart the traditionally expensive, inaccessible ADHD coaching offering ($300-600+&#x2F;session) and redesigned it from first principles. You get matched with one of our expert ADHD coaches, meet weekly over video, and get supported throughout the week via text and with learning tools. This solution is special to me personally (and our community) because it doesn’t just give you “knowledge” or offer another “tool”—our coaches help you set realistic goals, take personalized steps towards it, and keep you accountable.<p>Today we’re excited to launch our most-request feature: Web.<p>Over the past 9 months, we learned (and iterated) a lot with our members and coaches. A few key challenges pointed to the need for a web version: \n(1) ADHD “object permanence” challenges (e.g. out of sight out of mind), we needed to be multi-platform so when you finish a task or goal or encounter a challenge, regardless of if you’re near your laptop or phone, you can check it off &amp; ping your coach right away, \n(2) members used reflection modules (e.g. after each task, you’re prompted to reflect on what worked and didn’t work, and it informs your coach) more thoroughly than we originally anticipated, and web allows for deeper reflection and typing, \n(3) overarching coaching goals were often forgotten during the day-to-day, and the web makes it easier to use visual cues to keep goals top of mind for motivation, \n(4) many of our members struggle with phone addiction and driving members to the mobile app ",
-      "url": "https://news.ycombinator.com/item?id=37252231",
-      "created_at": "2023-08-24T17:49:04Z",
-      "meta": {
-        "points": 229,
-        "num_comments": 265
-      }
-    },
-    {
-      "source": "hackernews",
-      "title": "Show HN: Wispbit - Linter for AI coding agents",
-      "text": "Hey HN! Ilya and Nikita here. We&#x27;re building wispbit (<a href=\"https:&#x2F;&#x2F;wispbit.com\" rel=\"nofollow\">https:&#x2F;&#x2F;wispbit.com</a>) - a tool that helps keep codebase standards alive.<p>With the help of AI coding tools, engineers are writing more code than ever. Code output has increased, but the tooling to manage this hasn&#x27;t improved. Background agents still write bad code, and your IDE still writes slop without the right context.<p>So we built wispbit. It works by scanning your codebase for patterns you already use, and coming up with rules. Rules are kept up to date as standards change, and you can edit rules any time.<p>You can enforce these rules during code review, and because we have this rules system, you can run a CLI locally to review using these rules. You can think of it as a portable rules file that you can bring anywhere.<p>We put a lot of work into making a system that produces good rules and avoids slop. For repository crawling, we have an agent that dispatches subagents, similar to Anthropic&#x27;s research agent. These subagents will go through and look for common patterns within modules and directories, and report back to the main agent, which synthesizes the results. We also do a historical scan on your pull request comments, determine which ones were addressed, filter out comments that wouldn&#x27;t make a good rule, and use that to create or update rules.<p>Our early users are seeing 80%+ resolution rates, meaning that 80% of comments that wispbit makes are resolved.<p>Long-term, we see ourselves being a validation layer for AI-written code. With tools like Devin and Cursor, we find ourselves having to re-prompt the same solution many times. We still don&#x27;t know the long-term implications on AI-assisted codebases, so we want to get in front of that as soon as possible.<p>We&#x27;ve opened up signups for free to HN folks at <a href=\"https:&#x2F;&#x2F;wispbit.com\" rel=\"nofollow\">https:&#x2F;&#x2F;wispbit.com</a>. We&#x27;",
-      "url": "https://news.ycombinator.com/item?id=45584017",
-      "created_at": "2025-10-14T19:52:39Z",
-      "meta": {
-        "points": 31,
-        "num_comments": 14
-      }
-    },
-    {
-      "source": "hackernews",
-      "title": "Show HN: Prosona – Your co-pilot for intelligent responses in Slack",
-      "text": "Prosona was built to solve a personal problem at work - we’re constantly bombarded by questions from colleagues and our productivity suffered as a result.<p>All knowledge workers spend 15% - 20% of their time searching and gathering information. This often occurs when a colleague asks for a status update or how something works. Although the answers may be simple, the process of referring to Jira, grabbing links, and formulating an apt response is time-consuming. Until Prosona, this inconvenient context switch was just an accepted aspect of work life.<p>The issue is compounded by the dispersion of knowledge across a variety of apps such as Google Drive, Slack, and Email. We lose track of where information resides, or worse, forget about the existence of some information within our tools altogether. Adding new information to the mix becomes a tedious task of properly categorizing and documenting it.<p>This is where Prosona comes in. Our system integrates with all your knowledge stores, learns your unique tone of voice to then generate a draft allowing you to further personalize the message if needed.<p>In terms of security, we place the utmost importance on the protection of your data which is why it is encrypted in our vector DB. It can only be decrypted by you.<p>As an employee, your focus should be on achieving what truly matters: whether it&#x27;s meeting your OKRs, making an impact, or enjoying pastimes outside work. The last thing you need is to get bogged down in crafting routine messages to keep colleagues updated.<p>All you have to do is type `&#x2F;prosona` in Slack, and a beautiful draft will be written grounded in your context and tone.<p>Today we’re launching our private beta. To take part, sign up on our website. We&#x27;re providing access to the first 500 people who register.",
-      "url": "https://news.ycombinator.com/item?id=36858102",
-      "created_at": "2023-07-25T05:00:43Z",
-      "meta": {
-        "points": 13,
-        "num_comments": 17
-      }
-    },
-    {
-      "source": "hackernews",
-      "title": "Show HN: Enlist AI: Sub-second interview coaching with persistence",
-      "text": "Following some initial feedback, we’ve updated Enlist AI to ensure your preparation never resets. Based on user behavior, we noticed plans were being lost on refresh, so we&#x27;ve implemented local persistence to keep your progress synced.<p>What it does:\nEnlist AI is a full-pipeline preparation tool that turns any job description into a custom coaching experience. You paste a JD and get a personalized day-by-day study schedule.<p>The &quot;Mock Interview&quot; Flow:\nReal-time Voice Analysis: You speak your answers out loud. We use your microphone to track performance with sub-second latency.<p>Speech Clarity Scoring: The system flags filler words (um, like, you know) and scores your logic structure.<p>Actionable Feedback: Instead of generic scores, it gives a specific &quot;Fix it&quot; instruction for every answer.<p>Tailored Documents: It also generates a CV and cover letter specifically matched to the job requirements.<p>We’re running this on Groq for the inference speed to make the feedback feel instant. Would love to hear the community&#x27;s thoughts on the analysis logic.<p>Check out at <a href=\"https:&#x2F;&#x2F;enlistai.vercel.app\" rel=\"nofollow\">https:&#x2F;&#x2F;enlistai.vercel.app</a> and give feedback at <a href=\"https:&#x2F;&#x2F;enlistai.vercel.app&#x2F;feedback\" rel=\"nofollow\">https:&#x2F;&#x2F;enlistai.vercel.app&#x2F;feedback</a>",
-      "url": "https://news.ycombinator.com/item?id=47900781",
-      "created_at": "2026-04-25T12:05:02Z",
-      "meta": {
-        "points": 7,
-        "num_comments": 0
-      }
-    },
-    {
-      "source": "hackernews",
-      "title": "Tell HN: A realization I've had about working with AIs and building software",
-      "text": "Okay, here&#x27;s my debrief.<p>What I&#x27;ve realized is this: AI is an amplifier of what you are. It&#x27;s not a substitute - it just reflects and scales whatever you bring to the table.<p>When I was younger, I&#x27;d often just run at the wall and try to scale it fast. I&#x27;d throw a lot of code at the problem. Not out of carelessness - I was iterating quickly, looking for a working prototype that gave me feedback I could work with. Structure and architecture didn&#x27;t matter to me as much - what I wanted was to hit the goal, the concept, the tangible result.<p>And that actually worked. I built a lot of stuff that way.<p>But I assumed AI would kind of &quot;handle&quot; the rest - that it would take care of the complexity, or clean things up. And what I&#x27;ve come to see is that AI just reflects your approach. If I&#x27;m in &quot;throw code at the wall&quot; mode, AI will just help me do that faster. Which can help. But it won&#x27;t make the problem go away. It just accelerates whatever rhythm or method you&#x27;re already in.<p>If you&#x27;re designing systems, it can help you do that better. And if you&#x27;re caught in a whirlpool of iteration, it can pull you in faster - unless you consciously step out and take a broader view.<p>That&#x27;s the maturity I&#x27;ve been leaning into - stepping back, taking the time to think more expansively, seeing where the architecture needs to evolve to support the real model of what I&#x27;m trying to build. Because ultimately, building good software isn&#x27;t just hitting the feature, it&#x27;s about achieving a kind of mastery over the data and logic flow in the application.<p>There&#x27;s something subtle there - like crossing the threshold between &quot;everything technically works as a PoC&quot; to &quot;this is a robust, extensible system.&quot; The complexity isn&#x27;t in the features themselves, it&#x27;s in handling the state space, the transitions, the edges. It&#x27;s in aligning the implementation wi",
-      "url": "https://news.ycombinator.com/item?id=43691256",
-      "created_at": "2025-04-15T11:15:32Z",
-      "meta": {
-        "points": 20,
-        "num_comments": 15
-      }
-    },
-    {
-      "source": "hackernews",
-      "title": "10 Years, 10 Pricing Mistakes: What We Learned Building a SaaS Without VC Money",
-      "text": "Back in 2015 we launched our first SaaS with no VC and little experience. Most pricing choices came from gut feeling or advice we shouldn’t have taken. Looking back, what feels obvious today wasn’t obvious back then. We learned the hard way.<p>Tiered pricing.<p>On paper it looked fair. A team with 15 users paid $39 but adding one more jumped it to $119. Inside a tier customers were happy as cost per user dropped. But crossing a tier made them furious. People churned, demanded discounts or sent angry emails. Instead of rewarding growth the model punished it.<p>Per-user billing.<p>Finally revenue scaled with customers. But it attracted many solo users and tiny teams. Because Everhour syncs with project tools, even one freelancer could flood the system with hundreds of projects and tasks. They paid almost nothing but created huge load and were the loudest group: angry tweets, refund requests, endless tickets. Larger teams were calmer and more loyal.<p>To fix this we set a 5-seat minimum.<p>You could use fewer but still pay for 5. It filtered out freelancers, raised our average check and aligned us with the right customers. Some complained it was too expensive but those who valued the product stayed. Later we added a free plan for up to 5 users without integrations. This gave small teams a way to stick around and got us listed in “Top Free Tools” blogs. It worked more as marketing than monetization.<p>Flat-fee pricing in our Trello add-on.<p>$10&#x2F;month, unlimited users and projects. Out of 30,000+ active users only ~500 paid. Everyone else left the moment we asked for money. The product was too simple for upsells.<p>Grandfathering.<p>If someone signed up on old plan they could keep it forever. No forced upgrades, no surprise hikes. Many are still paying today. We tried nudging them to newer plans with extra features and loyalty discounts, but only a small percentage switched. If their plan worked fine, the barrier to paying more was too strong.<p>Discounts.<p>Volume",
-      "url": "https://news.ycombinator.com/item?id=45298374",
-      "created_at": "2025-09-19T05:56:58Z",
-      "meta": {
-        "points": 7,
-        "num_comments": 1
-      }
-    },
-    {
-      "source": "hackernews",
-      "title": "Ask HN: What are folks using for identity management?",
-      "text": "As I&#x27;m building prototypes or products for clients, I&#x27;m constantly concerned that the standard tools I&#x27;m using for auth (Devise for Rails, Passport for Node, etc) are just not enough over the long haul to keep user data secure.<p>Storing user data and handling most of the auth service seems risky as hell to me, but I don&#x27;t see quite as many strong opinions from the dev crowd about identity management as I do people sniping about where to put spec files in their codebase.<p>I guess I&#x27;m openly curious: Are folks using services like Firebase, Auth0, Okta to manage their user persistence, authentication, and authorization? Or are they just rolling their own or subscribing to open source projects and crossing fingers?<p>Personally, the Auth0 docs are not hitting the mark regarding the delivery vs complexity. For instance, it&#x27;s near to impossible for me to quickly get a ReactNative -&gt; Auth0 -&gt; API Server routine going, quickly. Okta seems easier, but I haven&#x27;t dug in. Firebase seems easiest, but then I don&#x27;t trust it because of the simplicity.<p>Fishing for opinions and experience on this subject...",
-      "url": "https://news.ycombinator.com/item?id=16700544",
-      "created_at": "2018-03-28T18:44:51Z",
+      "title": "Thoughts on work and business by a just-hired, fledgling entrepreneur",
+      "text": "I've been thinking about my situation lately and wondered if HN had any input into it.<p>About a year and a half ago, I quit my job as a .NET developer to do full-time freelancing. I was attracted by setting my own hours, controlling my workflow, and the potential money involved, but I was most attracted by the freedom to arrange my day in whatever order was convenient and viable. I got a job with a well-funded local corporation whose IT manager decided he was unhappy with my overall performance and therefore not required to pay me. This was interesting, and I learned some good things from it (and by the way, my performance was on the level for what it was; I made it clear to the dude that I was brand new to Ruby and Rails and apparently he felt that meant I should have significant progress implemented within four days).<p>This wasn't my long-term plan ... I've never been a fan of working for the man, and freelancing allowed more leeway, but at its core it was the same; it required a consistent amount of work to be performed indefinitely in order to supply for my person and my family. That's not what I want; I don't want to bondsman this way, I need to be free to do what I want without having to worry about where the money will come.<p>This is a thing that I quite hate: if you want to sustain yourself, you have to trade your whole life to do it. It's eight hours a day, almost completely absolutely and rigidly, five days a week, for forty-sixty years until one saves sufficiently amidst it all to retire. That kind of life is anathema to me; eight hours a day of work (8-12 and 1-~5:30), six-eight hours for every other waking activity (~5:31-12), and then you have to sleep if you don't expect to pass at work (and therefore get fired). That's really not a fair trade.<p>I've had various ideas to attain passive income and become a free person. I've written a music site called Rhythm Reborn; there's a private demo available if anyone's interested in looking at it. I know th",
+      "url": "https://news.ycombinator.com/item?id=519290",
+      "created_at": "2009-03-17T02:47:05Z",
       "meta": {
         "points": 6,
-        "num_comments": 1
+        "num_comments": 4
       }
     },
     {
       "source": "hackernews",
-      "title": "Show HN: Finterm.ai Bloomberg terminal for Claude Code",
-      "text": "Hi, my name is Kam, and today my cofounder Josh and I are shipping Finterm, a CLI that\ngives coding agents direct access to financial data: stock prices, options data, SEC\nfilings, and Ticker Deep Research, a filtered ticker news search. I’m a developer and have been a full-time trader for the past few years.Recently I have been using LLMs more and more in my trading and strategy.\nI always found it frustrating that Claude Code or GPT did not have direct access to actual financial information and had to rely on web search, so it couldn’t get me more\ngranular numbers for specific options pricing.<p>When making a trade I want to understand as much as possible about the stock.\nInstead of relying on analysts or interpretations of the data, I like to go directly to\nthe truth. So whenever I have a trade thesis, I break research into a few parts: company\nresearch, analyst sentiment, and market sentiment.<p>Last September I had a short thesis on Popmart Labubu&#x27;s parent company. I was betting the toy was a fad and that the stock would fall. I read through the SEC filings and an LLM analyze them too: how big a driver is Labubu, what&#x27;s the business model, what does the debt look like, and what looks strange enough to dig into. I compared the company to its peers on EPS and industry metrics. I asked GPT to do deep research that included around 50 queries and hundreds of pages to map every argument about the stock. Finally I looked at the options data: call&#x2F;put ratios, implied volatility, recent volume, to see how the real money was betting. I made 16% over the next month.<p>The flow was painful, fetching SEC data, copy pasting filing sections in to GPT, aggregating everything by hand, and juggle a dozen chat windows.<p>In the past few months, Josh and I spent more time trying to get agents to trade autonomously. The more we dug in, the more we realized that the problem you need to solve first is giving agents access to factual information in a token-efficient way.",
-      "url": "https://news.ycombinator.com/item?id=48896257",
-      "created_at": "2026-07-13T17:52:10Z",
+      "title": "When are Lyft and Uber going to add a “refund” button within their app?",
+      "text": "This morning - once again - I got charged 5usd for cancelling a ride even though I had good reasons to do so. This happens too many times because of Lyft&#x2F;Uber&#x27;s fault, not mine:<p>- I cancel a ride because the driver goes in the opposite direction\n- The app keeps showing 2&#x2F;4 mins and it&#x27;s been 10+min I have been waiting\n- Drivers calling me to ask to cancel the ride\n- ...<p>If I want to get a refund, I need to spend too much time: DM + email -&gt; https:&#x2F;&#x2F;twitter.com&#x2F;julienbarbier42&#x2F;status&#x2F;959105112223264768 + wait for the refund to show on my bank account. (note: when I do ask for refund I always get it, the customer support is nice with me, all the time).<p>When it comes to paying Lyft&#x2F;Uber, this is automatically done, they don&#x27;t have to send me a DM and email to ask me to pay them for the service I used. Why would we have to spend so much time to get reimbursed for a service that we did NOT use?<p>Please Lyft&#x2F;Uber, add a button &quot;refund&quot; WITHIN the app. You technically can EASILY do it. It should be as easy to get reimbursed than to be charged. Of course, you can review complains &#x2F; claims, but I should not have to spend that much more time asking for reimbursement, especially when I right, I am a customer for a long time, I already have a good track record, and all claims I made in the past were confirmed by your team.<p>Why is this not already done?",
+      "url": "https://news.ycombinator.com/item?id=16283917",
+      "created_at": "2018-02-01T17:48:49Z",
       "meta": {
-        "points": 6,
-        "num_comments": 0
+        "points": 41,
+        "num_comments": 34
       }
     },
     {
       "source": "stackexchange",
-      "title": "App keeps crashing after changing targetsdkversion using apk easy tool",
+      "title": "Paying for crawlers on AppEngine",
       "text": [
-        "java",
-        "android",
-        "flutter",
-        "apk"
+        "google-app-engine",
+        "web-crawler"
       ],
-      "url": "https://stackoverflow.com/q/69690527",
-      "created_at": "1635010497",
+      "url": "https://stackoverflow.com/q/19841229",
+      "created_at": "1383841543",
+      "meta": {
+        "site": "stackoverflow",
+        "score": -1,
+        "answers": 1,
+        "tags": [
+          "google-app-engine",
+          "web-crawler"
+        ]
+      }
+    },
+    {
+      "source": "stackexchange",
+      "title": "How to distribute an app?",
+      "text": [
+        "app-store",
+        "b2b"
+      ],
+      "url": "https://stackoverflow.com/q/17464085",
+      "created_at": "1372922330",
       "meta": {
         "site": "stackoverflow",
         "score": 0,
         "answers": 0,
         "tags": [
-          "java",
-          "android",
-          "flutter",
-          "apk"
+          "app-store",
+          "b2b"
         ]
       }
     },
     {
       "source": "stackexchange",
-      "title": "Safari Developer Tools keeps crashing on open",
+      "title": "How to put your android application on Android Market for free?",
       "text": [
-        "iphone",
-        "safari",
-        "safari-web-inspector"
+        "android",
+        "google-play"
       ],
-      "url": "https://stackoverflow.com/q/49956684",
-      "created_at": "1524320214",
+      "url": "https://stackoverflow.com/q/9998510",
+      "created_at": "1333474857",
       "meta": {
         "site": "stackoverflow",
-        "score": 10,
-        "answers": 3,
-        "tags": [
-          "iphone",
-          "safari",
-          "safari-web-inspector"
-        ]
-      }
-    },
-    {
-      "source": "stackexchange",
-      "title": "Safari Developer tools keep crashing when trying to inspect element",
-      "text": [
-        "angularjs",
-        "safari"
-      ],
-      "url": "https://stackoverflow.com/q/20993691",
-      "created_at": "1389178878",
-      "meta": {
-        "site": "stackoverflow",
-        "score": 3,
+        "score": 2,
         "answers": 1,
         "tags": [
-          "angularjs",
-          "safari"
+          "android",
+          "google-play"
         ]
       }
     },
     {
       "source": "stackexchange",
-      "title": "Debugging memory corruption",
+      "title": "What is the right design for UI apps backed by Cloud services like AWS",
       "text": [
-        "c++",
-        "debugging",
-        "memory"
+        "design",
+        "aws",
+        "cloud"
       ],
-      "url": "https://softwareengineering.com/q/252696",
-      "created_at": "1407465550",
+      "url": "https://softwareengineering.com/q/392188",
+      "created_at": "1558438957",
       "meta": {
         "site": "softwareengineering",
-        "score": 24,
-        "answers": 5,
+        "score": -2,
+        "answers": 1,
         "tags": [
-          "c++",
-          "debugging",
-          "memory"
+          "design",
+          "aws",
+          "cloud"
         ]
       }
     },
     {
       "source": "stackexchange",
-      "title": "Should I track my handled exceptions?",
+      "title": "API design with references to root object",
       "text": [
-        "programming-practices",
-        "exceptions",
-        "error-handling",
-        "reporting",
-        "analytics"
+        "c#",
+        "api-design",
+        "service-locator"
       ],
-      "url": "https://softwareengineering.com/q/386655",
-      "created_at": "1549358187",
+      "url": "https://softwareengineering.com/q/223126",
+      "created_at": "1388851942",
       "meta": {
         "site": "softwareengineering",
         "score": 0,
-        "answers": 2,
+        "answers": 4,
         "tags": [
-          "programming-practices",
-          "exceptions",
-          "error-handling",
-          "reporting",
-          "analytics"
+          "c#",
+          "api-design",
+          "service-locator"
         ]
       }
     },
     {
       "source": "stackexchange",
-      "title": "Alternatives to cron jobs or other ways of improving scheduled task performance",
+      "title": "How do you transition a program from in-development to release?",
       "text": [
-        "php",
-        "database",
-        "performance",
-        "scheduling",
-        "cron"
+        "development-process"
       ],
-      "url": "https://softwareengineering.com/q/295350",
-      "created_at": "1441308488",
+      "url": "https://softwareengineering.com/q/312183",
+      "created_at": "1457528130",
       "meta": {
         "site": "softwareengineering",
+        "score": 66,
+        "answers": 7,
+        "tags": [
+          "development-process"
+        ]
+      }
+    },
+    {
+      "source": "stackexchange",
+      "title": "Too much additional responsibility as a part-time employee",
+      "text": [
+        "software-industry",
+        "contractors",
+        "part-time"
+      ],
+      "url": "https://workplace.com/q/58055",
+      "created_at": "1447975819",
+      "meta": {
+        "site": "workplace",
+        "score": 1,
+        "answers": 8,
+        "tags": [
+          "software-industry",
+          "contractors",
+          "part-time"
+        ]
+      }
+    },
+    {
+      "source": "stackexchange",
+      "title": "Asking for things outside of contract - how to end working relationship as quickly as possible?",
+      "text": [
+        "management",
+        "united-states",
+        "contracts",
+        "contractors",
+        "non-profit"
+      ],
+      "url": "https://workplace.com/q/182146",
+      "created_at": "1642100034",
+      "meta": {
+        "site": "workplace",
+        "score": 14,
+        "answers": 5,
+        "tags": [
+          "management",
+          "united-states",
+          "contracts",
+          "contractors",
+          "non-profit"
+        ]
+      }
+    },
+    {
+      "source": "stackexchange",
+      "title": "How to ask for a monthly commission instead of per change fee?",
+      "text": [
+        "salary",
+        "freelancing",
+        "mexico"
+      ],
+      "url": "https://workplace.com/q/122627",
+      "created_at": "1542127005",
+      "meta": {
+        "site": "workplace",
+        "score": -2,
+        "answers": 2,
+        "tags": [
+          "salary",
+          "freelancing",
+          "mexico"
+        ]
+      }
+    },
+    {
+      "source": "stackexchange",
+      "title": "I'm changing my tax status from Single to Head of Household during the year. How do I adjust my allowances?",
+      "text": [
+        "united-states",
+        "withholding",
+        "form-w-4"
+      ],
+      "url": "https://money.com/q/96252",
+      "created_at": "1528504670",
+      "meta": {
+        "site": "money",
+        "score": 0,
+        "answers": 1,
+        "tags": [
+          "united-states",
+          "withholding",
+          "form-w-4"
+        ]
+      }
+    },
+    {
+      "source": "stackexchange",
+      "title": "Trying to better understand eToro’s business model",
+      "text": [
+        "cfd"
+      ],
+      "url": "https://money.com/q/137052",
+      "created_at": "1614391670",
+      "meta": {
+        "site": "money",
         "score": 3,
         "answers": 2,
         "tags": [
-          "php",
-          "database",
-          "performance",
-          "scheduling",
-          "cron"
+          "cfd"
         ]
       }
     },
     {
       "source": "github",
-      "title": "Maximize/Full Screen window within a zone (virtual monitor)",
-      "text": "Maximize window within the zone\r\n\r\nMaximizing the window currently maximizing it to the whole desktop. It would be useful if it has the ability to maximize within the zone\r\n",
-      "url": "https://github.com/microsoft/PowerToys/issues/279",
-      "created_at": "2019-09-06T23:27:46Z",
+      "title": "Improved subpixel text rendering for OLED (WRGB stripe, RGB triangular) -- Unfixable by ClearType Tuner (Over 100 upvotes in Feedback Hub)",
+      "text": "### Description of the new feature / enhancement\n\n# EDIT: January 24th, 2025:\n\n- Proposed: [Alternative PowerToy Method: \"Display Shaders PowerToy\"](https://github.com/microsoft/PowerToys/issues/25595#issuecomment-2571621204)\n- Proposed: [Free Open Source Coding Offer to Microsoft to contribute \"Display Shaders PowerToy\"](https://github.com/microsoft/PowerToys/issues/25595#issuecomment-2611345767)\n- Related: [Blur Busters Open Source Display Shaders v1.0.2 specifcation](https://blurbusters.com/osi#spec)\n(will include WOLED/QDOLED shader)\n\n# NOTE: I do paid work with display manufacturers. \n\nRepost of incorrectly-closed github item that someone else posted:\n\n> ClearType alters anti-aliasing assuming an RGB stripe subpixel configuration. More WOLED (WRGB stripe) and QD-OLED (RGB triangular) monitors are coming to market and have noticeable chromatic aberration/color fringing on edges of text. It would be nice if Windows had a built-in option to alter text rendering based on subpixel configuration of the monitor.\n> \n> ### Scenario when this would be used?\n> When using a WOLED or QD-OLED monitor with WRGB stripe or RGB triangular subpixel configuration to improve text clarity.\n> \n> ### Supporting information\n> https://www.youtube.com/watch?v=52eiLP3Zy-s\n> \n> https://youtu.be/k-6yc1dA--0?t=602\n> \n> https://youtu.be/PR-1tMih0fM?t=442\n\nIt is definitely a real problem caused by unresolvable ClearType limitations.  The earlier github item (#25568) was incorrectly closed by someone who thought it was a feature already built into windows; so creating new GitHub issue.\n\n# EDIT January 24th, 2025\n_____\n\n# Over 100 Upvotes in Feedback Hub for \"ClearType 2\"\n\nOkay, I have audited Feedback Hub, and whoo-boy, this is a `popular complaint by OLED owners`.  \n\nThis issue is so obscure (that the duplicate-item judges do not even understand these are duplicates).  I will flag by copy and pasting some of this comment in Feedback Hub.\n\nSearch Terms: \"`cleartype OLED`\", \"`cleartype WOLED`\", ",
+      "url": "https://github.com/microsoft/PowerToys/issues/25595",
+      "created_at": "2023-04-18T04:07:48Z",
       "meta": {
         "repo": "microsoft/PowerToys",
-        "comments": 189,
-        "reactions": 332
+        "comments": 354,
+        "reactions": 819
       }
     },
     {
       "source": "github",
-      "title": "Win11 taskbar with desktop toolbar '>>' browsable folders with cascading levels",
-      "text": "### Description of the new feature / enhancement\r\n\r\nI'm using the Windows desktop toolbar for \"browsable folders with cascading levels\" - a place on the taskbar from where I can browse the whole computer (preferably starting from Desktop/User folder - showing This PC, Control Panel, OneDrive(s), Sharepoint(s), Network, Recycle Bin, Libraries, User folder, etc.) only with moving the mouse (without clicking) - cascading further inside (including in ZIP files), then right-clicking and/or dragging files/folders, copy/cut/paste/delete/rename, etc.\r\n\r\nAdd the \">>\" symbol from the Win10 desktop toolbar somewhere on the Win11 taskbar/start menu (for example as tray icon - similarly to [TrayToolbar](https://github.com/rojarsmith/TrayToolbar)) - as tray icon, as some other kind of button, as right-click menu item, etc.\r\n\r\n### Scenario when this would be used?\r\n\r\nfast and convenient browsing and all other Explorer file/folder operations (drag & drop, right-click, etc.)\r\n\r\n### Supporting information\r\n\r\nSee [screenshot](https://www.eightforums.com/threads/i-dont-miss-start-menu-at-all-heres-why.5442/):\r\n![Browsable cascading folders](https://user-images.githubusercontent.com/97228894/154351043-acb0eec3-fb8c-4b62-af71-4af88fa376e6.png)\r\n\r\nThe most crucial item that prevents me from using Win11.",
-      "url": "https://github.com/microsoft/PowerToys/issues/16404",
-      "created_at": "2022-02-16T21:22:52Z",
+      "title": "Independent virtual desktops per monitor",
+      "text": "Yet another virtual desktop request. Currently switching virtual desktops switches windows on all monitors. It would be great to make this independent per monitor.\r\n\r\nEg. I always have Outlook on monitor 1, but want to switch between multiple sets of apps on monitor 2 and 3 without losing whats on monitor 1.\r\n\r\nBonus points if the virtual desktops are all shared so I can cycle through them on each monitor eg 5 virtual desktops, 3 monitors.\r\nStart with:\r\n1=1, 2=2, 3=3\r\nCycle 3 (to virtual 4):\r\n1=1, 2=2, 3=4\r\nCycle 2 (to virtual 5):\r\n1=1, 2=5, 3=3\r\nCycle 3 \"down\" (to virtual 2):\r\n1=1, 2=5, 3=2\r\n\r\n\r\n\r\n",
+      "url": "https://github.com/microsoft/PowerToys/issues/58",
+      "created_at": "2019-05-09T15:46:59Z",
       "meta": {
         "repo": "microsoft/PowerToys",
-        "comments": 13,
-        "reactions": 2
+        "comments": 132,
+        "reactions": 336
       }
     }
   ],
   "opportunities": [
     {
-      "theme": "AI Coding Agents Produce Unmaintainable Code",
-      "pain": "Developers using AI coding assistants like Cursor are losing architectural control and code quality as agents generate code faster than humans can review, creating technical debt and eroding deep understanding of their own codebases.",
+      "theme": "White-label SaaS Integration Layer",
+      "pain": "SaaS founders waste engineering hours building and maintaining native integrations; users hate leaving the product to configure Zapier and pay separate fees.",
       "evidence": [
-        "\"They are so proactive that they're stripping me of the habit of thinking deeply about problems.\"",
-        "\"Background agents still write bad code, and your IDE still writes slop without the right context.\"",
-        "\"AI just reflects your approach. If I'm in 'throw code at the wall' mode, AI will just help me do that faster.\""
+        "\"Would there be demand for a service like Zapier, but transparent and white label that works from inside your SaaS dashboard?\"",
+        "\"Instead of the end-user paying for Zapier, the SaaS company would pay a small $ fee per each 1000 actions on the integration platform.\"",
+        "\"Because the alternative ... is to spend several engineering hours integrating with many apps, and this process is repeated across thousands of SaaS companies.\""
       ],
       "sources": [
-        "hackernews",
-        "hackernews",
         "hackernews"
       ],
-      "url": "https://news.ycombinator.com/item?id=44743115",
-      "suggested_solution": "A WhatsApp/Slack bot that intercepts AI-generated PRs, runs them through a local rule engine (like Wispbit) and auto-comments with architectural violations, missing tests, and complexity scores before human review.",
-      "monetization": "$15/seat/mo for teams; $99/mo org plan with custom rule packs and SOC2 audit logs.",
+      "url": "https://news.ycombinator.com/item?id=21715996",
+      "suggested_solution": "A headless, white-label iPaaS SDK that embeds natively in a SaaS dashboard, letting end-users connect 3rd-party apps via OAuth without leaving the UI; billed per 1k actions to the SaaS vendor.",
+      "monetization": "Usage-based: $0.50–$1 per 1,000 successful integration actions; volume discounts at 1M+ actions/mo.",
       "score": 88.0,
-      "buy_intent": false,
+      "buy_intent": true,
+      "trend": "new",
+      "appearances": 1,
+      "market": {
+        "level": "medium",
+        "existing": [
+          "chatbotkit/cbk-whitelabel (★46)",
+          "BlondelSeumo/Social-Media-Marketing-Platform (★37)",
+          "themefisher/automark-astro (★28)",
+          "converthub-api/starter-kit (★7)",
+          "chukwudumebiughonu/SnapSite (★5)",
+          "andy-t-wang/chameleon (★4)"
+        ],
+        "links": [
+          "https://github.com/chatbotkit/cbk-whitelabel",
+          "https://github.com/BlondelSeumo/Social-Media-Marketing-Platform",
+          "https://github.com/themefisher/automark-astro",
+          "https://github.com/converthub-api/starter-kit",
+          "https://github.com/chukwudumebiughonu/SnapSite",
+          "https://github.com/andy-t-wang/chameleon"
+        ],
+        "hn_hits": 69,
+        "note": "'white label saas': 6 similar repo(s), 69 HN stories. Room to differentiate."
+      }
+    },
+    {
+      "theme": "Developer-First AppSec Scanner Consolidation",
+      "pain": "Security tools flood devs with false positives, hide pricing behind demos, and optimize for CISO buyers—not the engineers who must triage alerts daily.",
+      "evidence": [
+        "\"Most security tools we had to use made us feel dumb. They were super complex and riddled with false positives.\"",
+        "\"Their platform was behind the book a demo button. They had intransparent pricing models and honestly charged us way too much.\"",
+        "\"We think most of these platforms are built for the buyer at corporate companies, the CISO, not for the user, the developer.\""
+      ],
+      "sources": [
+        "hackernews"
+      ],
+      "url": "https://news.ycombinator.com/item?id=40236828",
+      "suggested_solution": "A unified, CLI-first security scanner (SAST, SCA, secrets, IaC, container) with auto-triage ML that suppresses low-confidence findings; transparent per-developer pricing.",
+      "monetization": "Per-seat SaaS: $29/dev/mo (includes all scanners); enterprise SSO/SBOM add-on at $49/dev/mo.",
+      "score": 85.0,
+      "buy_intent": true,
       "trend": "new",
       "appearances": 1,
       "market": {
         "level": "high",
         "existing": [
-          "zarazhangrui/beautiful-html-templates (★4096)",
-          "JimLiu/baoyu-design (★3077)",
-          "zubair-trabzada/ai-sales-team-claude (★971)",
-          "Orkas-AI/Orkas-VideoStudio (★521)",
-          "julianoczkowski/designer-skills (★492)",
-          "WoJiSama/skill-based-architecture (★491)"
+          "hp271/awesome-dev-first-security (★30)",
+          "Peternasarah/permi (★6)",
+          "dheeraj-jayaswal/From-Dev-To-Attacker (★2)",
+          "ExploitQ-Community/ExploitQ-CLI (★1)",
+          "api-evangelist/secure-code-warrior (★0)",
+          "tsun-dev/tsun (★0)"
         ],
         "links": [
-          "https://github.com/zarazhangrui/beautiful-html-templates",
-          "https://github.com/JimLiu/baoyu-design",
-          "https://github.com/zubair-trabzada/ai-sales-team-claude",
-          "https://github.com/Orkas-AI/Orkas-VideoStudio",
-          "https://github.com/julianoczkowski/designer-skills",
-          "https://github.com/WoJiSama/skill-based-architecture"
+          "https://github.com/hp271/awesome-dev-first-security",
+          "https://github.com/Peternasarah/permi",
+          "https://github.com/dheeraj-jayaswal/From-Dev-To-Attacker",
+          "https://github.com/ExploitQ-Community/ExploitQ-CLI",
+          "https://github.com/api-evangelist/secure-code-warrior",
+          "https://github.com/tsun-dev/tsun"
         ],
-        "hn_hits": 638,
-        "note": "'coding agents produce': 6 similar repo(s), 638 HN stories. Space looks crowded — differentiation needed."
+        "hn_hits": 440,
+        "note": "'developer first appsec': 6 similar repo(s), 440 HN stories. Space looks crowded — differentiation needed."
       }
     },
     {
-      "theme": "Meeting Overload from Unprepared Organizers",
-      "pain": "Knowledge workers spend 30-36 hours/week in meetings where 65% of organizers never prepare agendas, causing attendees to work nights/weekends to do actual work.",
+      "theme": "OLED/Subpixel Text Rendering Fix",
+      "pain": "Developers and knowledge workers on WOLED/QD-OLED monitors suffer chromatic fringing because Windows ClearType assumes RGB stripe; no OS-level fix exists.",
       "evidence": [
-        "\"I peaked at a week-crushing 36-hours of weekly meetings on a 40-hour work week\"",
-        "\"65% of meeting owners never prepare. Also, only ~30% of meeting attendees found the meetings they attended impactful\"",
-        "\"Lack of agendas, talking points, and objectives. Excessive participants, often unnecessary.\""
+        "\"ClearType alters anti-aliasing assuming an RGB stripe subpixel configuration. More WOLED (WRGB stripe) and QD-OLED (RGB triangular) monitors are coming to market and have noticeable chromatic aberration/color fringing on edges of text.\"",
+        "\"It would be nice if Windows had a built-in option to alter text rendering based on subpixel configuration of the monitor.\""
       ],
       "sources": [
-        "hackernews"
+        "github"
       ],
-      "url": "https://news.ycombinator.com/item?id=38927178",
-      "suggested_solution": "A WhatsApp/Calendar integration that requires organizers to attach a one-sentence objective + timed agenda before the invite sends; auto-declines invites missing prep and nudges attendees with pre-read summaries 10 min before start.",
-      "monetization": "Freemium: free for 5 meetings/week; $8/user/mo unlimited + analytics; $2k/yr enterprise with compliance exports.",
+      "url": "https://github.com/microsoft/PowerToys/issues/25595",
+      "suggested_solution": "A lightweight Windows system tray utility (PowerToy-style) that injects a DirectWrite/D2D shader to remap subpixel layouts per monitor, with auto-detection of WRGB/RGB-triangular panels.",
+      "monetization": "Freemium: free for 1 monitor; $19 one-time for unlimited monitors + per-monitor profiles.",
       "score": 82.0,
       "buy_intent": false,
       "trend": "new",
       "appearances": 1,
       "market": {
         "level": "low",
-        "existing": [],
-        "links": [],
-        "hn_hits": 0,
-        "note": "'meeting overload unprepared': 0 similar repo(s), 0 HN stories. Room to differentiate."
-      }
-    },
-    {
-      "theme": "Over-Complex Data & Auth Tooling for Indie Devs",
-      "pain": "Solo founders and small teams waste days evaluating and configuring heavyweight tools (Metabase, Auth0, Okta) that are overkill for simple MongoDB visualization or user auth, while lighter alternatives feel untrustworthy.",
-      "evidence": [
-        "\"I have tried Metabase, Redash, Google DataStudio - all pretty complex tools.\"",
-        "\"Auth0 docs are not hitting the mark regarding the delivery vs complexity. Near impossible to quickly get a ReactNative -> Auth0 -> API Server routine going.\"",
-        "\"Firebase seems easiest, but then I don't trust it because of the simplicity.\""
-      ],
-      "sources": [
-        "hackernews",
-        "hackernews"
-      ],
-      "url": "https://news.ycombinator.com/item?id=24038620",
-      "suggested_solution": "A zero-config, embeddable admin panel + auth scaffold shipped as an npm package: `npx create-admin-panel` spins up a local MongoDB UI + magic-link auth in 30 seconds, deployable to any VPS with one Docker command.",
-      "monetization": "Open-core: MIT core; $29/mo hosted version with backups, SSO, and audit logs; $199 one-time self-hosted license for teams >5.",
-      "score": 79.0,
-      "buy_intent": false,
-      "trend": "new",
-      "appearances": 1,
-      "market": {
-        "level": "high",
         "existing": [
-          "Lightning-Universe/lightning-flash (★1724)",
-          "ManojKumarPatnaik/Major-project-list (★242)",
-          "Aastha2104/Parkinson-Disease-Prediction (★194)",
-          "JayabharathP/The-Python-Mega-Course-Build-10-Real-World-Applications- (★182)",
-          "Masudbro94/python-hacked-mobile-phone- (★154)",
-          "jettbrains/-L- (★152)"
+          "Master-Antonio/Puretype (★78)",
+          "ASPRNG-PRGMR/kage (★0)"
         ],
         "links": [
-          "https://github.com/Lightning-Universe/lightning-flash",
-          "https://github.com/ManojKumarPatnaik/Major-project-list",
-          "https://github.com/Aastha2104/Parkinson-Disease-Prediction",
-          "https://github.com/JayabharathP/The-Python-Mega-Course-Build-10-Real-World-Applications-",
-          "https://github.com/Masudbro94/python-hacked-mobile-phone-",
-          "https://github.com/jettbrains/-L-"
+          "https://github.com/Master-Antonio/Puretype",
+          "https://github.com/ASPRNG-PRGMR/kage"
         ],
-        "hn_hits": 430,
-        "note": "'over complex data': 6 similar repo(s), 430 HN stories. Space looks crowded — differentiation needed."
+        "hn_hits": 0,
+        "note": "'oled subpixel text': 2 similar repo(s), 0 HN stories. Room to differentiate."
       }
     },
     {
-      "theme": "Context Switching Across Fragmented Knowledge Stores",
-      "pain": "Knowledge workers lose 15-20% of their time searching Slack, Jira, Drive, and Email for answers to repetitive colleague questions, because information is scattered and undocumented.",
+      "theme": "ML Active-Learning Data Curation",
+      "pain": "ML teams drown in unlabeled data; labeling everything is cost-prohibitive, yet random sampling wastes budget on low-value samples.",
       "evidence": [
-        "\"All knowledge workers spend 15% - 20% of their time searching and gathering information.\"",
-        "\"We lose track of where information resides, or worse, forget about the existence of some information within our tools altogether.\"",
-        "\"The process of referring to Jira, grabbing links, and formulating an apt response is time-consuming.\""
+        "\"Most companies that do machine learning at scale label only 1% of their data because it's too expensive to label all of it.\"",
+        "\"We talked with more than 250 ML teams ranging from small groups of 2-3 people to large teams at Apple and Google, and they all face the same problem: they have too much data to label.\""
       ],
       "sources": [
         "hackernews"
       ],
-      "url": "https://news.ycombinator.com/item?id=36858102",
-      "suggested_solution": "A WhatsApp/Slack bot that indexes connected workspaces (Notion, Linear, GitHub, Drive) nightly, then replies to any \"@bot how do I...\" with a cited answer + deep links, learning the team's tone from past replies.",
-      "monetization": "$10/user/mo; $99/mo team (up to 20); enterprise $15/user/mo with on-prem indexing and PII redaction.",
+      "url": "https://news.ycombinator.com/item?id=28116371",
+      "suggested_solution": "An active-learning SaaS that scores unlabeled datasets for model uncertainty/diversity, surfaces the top 1% highest-impact samples, and integrates with Label Studio/CVAT via API.",
+      "monetization": "Tiered by dataset size: $299/mo for 100k images, $999/mo for 1M; pay-as-you-go $0.001/image scored beyond quota.",
+      "score": 80.0,
+      "buy_intent": true,
+      "trend": "new",
+      "appearances": 1
+    },
+    {
+      "theme": "Solo SaaS Operational Overhead Automation",
+      "pain": "Solo founders burn $50–$100/mo on fragmented tools (helpdesk, email, auth, billing) and lack time to automate ops, leading to abandonment of profitable micro-SaaS.",
+      "evidence": [
+        "\"Burn - $60/mo not including incorporation fee... Helpscout ($40/mo! I'm paying way too much for this)\"",
+        "\"I do not wish to continue working on it anymore, I have a full time job and other projects I want to explore.\"",
+        "\"I was going to close it but then thought it's better to just give it away to someone who could grow it.\""
+      ],
+      "sources": [
+        "hackernews"
+      ],
+      "url": "https://news.ycombinator.com/item?id=25526708",
+      "suggested_solution": "A WhatsApp/Slack bot that consolidates support tickets, Stripe billing events, and uptime alerts into one chat thread; auto-replies to common queries via RAG on docs.",
+      "monetization": "Flat $29/mo per SaaS product (unlimited seats, 10k messages); white-label remove-branding add-on $19/mo.",
       "score": 78.0,
       "buy_intent": false,
       "trend": "new",
       "appearances": 1
     },
     {
-      "theme": "SaaS Pricing Models That Punish Growth",
-      "pain": "Bootstrapped SaaS founders repeatedly hit revenue ceilings because tiered/per-seat pricing creates cliff effects that anger expanding customers and attract low-value freelancers who generate disproportionate support load.",
+      "theme": "Freelance/Contractor Payment Escrow & Scope Guard",
+      "pain": "Non-technical clients get ghosted or overcharged by devs; devs face scope creep and unpaid invoices—no lightweight escrow + scope-lock tool exists for sub-$10k gigs.",
       "evidence": [
-        "\"A team with 15 users paid $39 but adding one more jumped it to $119. Crossing a tier made them furious.\"",
-        "\"Per-user billing attracted many solo users... They paid almost nothing but created huge load and were the loudest group.\"",
-        "\"To fix this we set a 5-seat minimum. It filtered out freelancers, raised our average check.\""
+        "\"He quoted 7 days work at a cost of $2k... delivered about 80%... my friend made the mistake of paying him the final 50%... After this, the developer stopped work.\"",
+        "\"Asking for things outside of contract - how to end working relationship as quickly as possible?\""
       ],
       "sources": [
-        "hackernews"
+        "hackernews",
+        "stackexchange"
       ],
-      "url": "https://news.ycombinator.com/item?id=45298374",
-      "suggested_solution": "An AI pricing simulator that ingests your Stripe/Chargebee history, models 12 pricing architectures (usage, hybrid, seat-minimums, value-metric), and outputs a migration plan with churn-risk scores per cohort.",
-      "monetization": "$499 one-time report; $199/mo subscription for quarterly re-runs + A/B test scaffolding.",
+      "url": "https://news.ycombinator.com/item?id=824656",
+      "suggested_solution": "A WhatsApp-first milestone escrow: client funds milestones, dev submits PR/link, bot verifies CI/tests pass, releases funds; scope changes require mutual WhatsApp approval.",
+      "monetization": "2.5% transaction fee (min $5, max $100 per milestone); free for milestones < $100.",
       "score": 75.0,
       "buy_intent": false,
       "trend": "new",

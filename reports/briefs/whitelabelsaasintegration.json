@@ -1,0 +1,54 @@
+{
+  "opportunity_theme": "White-label SaaS Integration Layer",
+  "name": "WhitelabelSaasIntegration",
+  "tagline": "Fix white-label saas integration layer with AI — no code, no consultants.",
+  "problem": "SaaS founders waste engineering hours building and maintaining native integrations; users hate leaving the product to configure Zapier and pay separate fees.",
+  "solution": "A headless, white-label iPaaS SDK that embeds natively in a SaaS dashboard, letting end-users connect 3rd-party apps via OAuth without leaving the UI; billed per 1k actions to the SaaS vendor.",
+  "features": [
+    "AI-powered white-label saas integration layer assistant",
+    "Instant WhatsApp / web chat interface",
+    "Auto-generated reports & summaries",
+    "Payment collection via payment link",
+    "Human handoff when needed"
+  ],
+  "mvp_scope": "Build a WhatsApp bot that takes a user's white-label saas integration layer description, runs it through an LLM, and returns a structured result with a payment link.",
+  "tech_stack": [
+    "Python",
+    "FastAPI",
+    "OpenAI-compatible LLM API",
+    "WhatsApp Business API",
+    "Stripe"
+  ],
+  "build_estimate_days": 7,
+  "competitors": [
+    {
+      "name": "Generic no-code tools (Zapier, Make)",
+      "gap": "No AI understanding of the actual problem"
+    },
+    {
+      "name": "Human consultants/agencies",
+      "gap": "Slow, expensive, not available 24/7"
+    }
+  ],
+  "landing_copy": {
+    "headline": "Stop suffering from white-label saas integration layer",
+    "subheadline": "A headless, white-label iPaaS SDK that embeds natively in a SaaS dashboard, letting end-users connect 3rd-party apps via OAuth without leaving the UI; billed per 1k actions to the SaaS vendor.",
+    "bullets": [
+      "Works on WhatsApp — no new apps",
+      "AI-powered, results in minutes",
+      "Pay only when it works"
+    ],
+    "cta": "Start on WhatsApp"
+  },
+  "whatsapp_bot": {
+    "flow": "User texts the bot a description of their problem -> bot asks 3 clarifying questions -> bot proposes A headless, white-label iPaaS SDK that embeds natively in a SaaS dashboard, letting end-users connect 3rd-party apps via OAuth without leaving the UI; billed per 1k actions to the SaaS vendor. and a price -> user confirms in chat -> bot delivers the result (report/automation) and collects payment via a payment link.",
+    "commands": [
+      "/start",
+      "/demo",
+      "/pricing",
+      "/status"
+    ],
+    "pricing": "Usage-based: $0.50–$1 per 1,000 successful integration actions; volume discounts at 1M+ actions/mo."
+  },
+  "pricing_model": "Usage-based: $0.50–$1 per 1,000 successful integration actions; volume discounts at 1M+ actions/mo."
+}

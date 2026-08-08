@@ -1,6 +1,7 @@
 theme,trend,occurrences,scans,avg_score,first_seen,last_seen,last7,prev7
-AI Coding Agents Produce Unmaintainable Code,new,1,1,88.0,2026-08-07T09:37:25+00:00,2026-08-07T09:37:25+00:00,1,0
-Meeting Overload from Unprepared Organizers,new,1,1,82.0,2026-08-07T09:37:25+00:00,2026-08-07T09:37:25+00:00,1,0
-Over-Complex Data & Auth Tooling for Indie Devs,new,1,1,79.0,2026-08-07T09:37:25+00:00,2026-08-07T09:37:25+00:00,1,0
-Context Switching Across Fragmented Knowledge Stores,new,1,1,78.0,2026-08-07T09:37:25+00:00,2026-08-07T09:37:25+00:00,1,0
-SaaS Pricing Models That Punish Growth,new,1,1,75.0,2026-08-07T09:37:25+00:00,2026-08-07T09:37:25+00:00,1,0
+White-label SaaS Integration Layer,new,1,1,88.0,2026-08-08T08:08:19+00:00,2026-08-08T08:08:19+00:00,1,0
+Developer-First AppSec Scanner Consolidation,new,1,1,85.0,2026-08-08T08:08:19+00:00,2026-08-08T08:08:19+00:00,1,0
+OLED/Subpixel Text Rendering Fix,new,1,1,82.0,2026-08-08T08:08:19+00:00,2026-08-08T08:08:19+00:00,1,0
+ML Active-Learning Data Curation,new,1,1,80.0,2026-08-08T08:08:19+00:00,2026-08-08T08:08:19+00:00,1,0
+Solo SaaS Operational Overhead Automation,new,1,1,78.0,2026-08-08T08:08:19+00:00,2026-08-08T08:08:19+00:00,1,0
+Freelance/Contractor Payment Escrow & Scope Guard,new,1,1,75.0,2026-08-08T08:08:19+00:00,2026-08-08T08:08:19+00:00,1,0

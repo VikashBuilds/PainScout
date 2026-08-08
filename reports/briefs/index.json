@@ -1,26 +1,26 @@
 [
   {
-    "name": "ArchGuard",
-    "slug": "archguard",
-    "tagline": "Enforce architectural intent while AI codes fast",
-    "theme": "AI Coding Agents Produce Unmaintainable Code",
-    "build_estimate_days": 21,
-    "pricing_model": "$15/mo per dev (Pro), $40/mo per seat (Team), free tier: 5 rules, 10 gates/day, local-only"
+    "name": "WhitelabelSaasIntegration",
+    "slug": "whitelabelsaasintegration",
+    "tagline": "Fix white-label saas integration layer with AI — no code, no consultants.",
+    "theme": "White-label SaaS Integration Layer",
+    "build_estimate_days": 7,
+    "pricing_model": "Usage-based: $0.50–$1 per 1,000 successful integration actions; volume discounts at 1M+ actions/mo."
   },
   {
-    "name": "AgendaGuard",
-    "slug": "agendaguard",
-    "tagline": "Stop unprepared meetings before they hit your calendar",
-    "theme": "Meeting Overload from Unprepared Organizers",
-    "build_estimate_days": 21,
-    "pricing_model": "$12/mo per user Pro, $10/user/mo Team (min 5 seats), freemium 10 checks/mo"
+    "name": "TriageAI",
+    "slug": "triageai",
+    "tagline": "Unify scanners, kill false positives, ship secure code faster",
+    "theme": "Developer-First AppSec Scanner Consolidation",
+    "build_estimate_days": 45,
+    "pricing_model": "$15/developer/month SaaS, 14-day free trial, no credit card required, cancel anytime. Unlimited repos, scans, and team members."
   },
   {
-    "name": "SoloStack",
-    "slug": "solostack",
-    "tagline": "Lightweight MongoDB dashboards & auth that just work for indie devs",
-    "theme": "Over-Complex Data & Auth Tooling for Indie Devs",
-    "build_estimate_days": 21,
-    "pricing_model": "Free self-hosted (MIT); $19/mo managed cloud with auto-backups, SSL, custom domain; $49/mo team (SSO, audit logs, priority support)"
+    "name": "SubpixelSync",
+    "slug": "subpixelsync",
+    "tagline": "Eliminate OLED text fringing with per-monitor subpixel rendering profiles",
+    "theme": "OLED/Subpixel Text Rendering Fix",
+    "build_estimate_days": 35,
+    "pricing_model": "Freemium: Free forever for 1 monitor. Pro $19 one-time (unlimited monitors, CLI, auto-update, profile export). Team $49/yr (shared profile repo, SSO)."
   }
 ]
